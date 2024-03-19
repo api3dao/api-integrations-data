@@ -1,0 +1,92 @@
+{
+  "oisFormat": "2.3.0",
+  "title": "TraderMade",
+  "version": "0.1.2",
+  "apiSpecifications": {
+    "components": {
+      "securitySchemes": {
+        "TraderMadeSecurityScheme1ApiKey": {
+          "in": "query",
+          "name": "api_key",
+          "type": "apiKey"
+        }
+      }
+    },
+    "paths": {
+      "/{path}": {
+        "get": {
+          "parameters": [
+            {
+              "in": "path",
+              "name": "path"
+            },
+            {
+              "in": "query",
+              "name": "currency"
+            }
+          ]
+        }
+      }
+    },
+    "servers": [
+      {
+        "url": "https://marketdata.tradermade.com/api/v1"
+      }
+    ],
+    "security": {
+      "TraderMadeSecurityScheme1ApiKey": []
+    }
+  },
+  "endpoints": [
+    {
+      "fixedOperationParameters": [],
+      "name": "feed",
+      "operation": {
+        "method": "get",
+        "path": "/{path}"
+      },
+      "parameters": [
+        {
+          "name": "name",
+          "required": true
+        },
+        {
+          "name": "path",
+          "operationParameter": {
+            "in": "path",
+            "name": "path"
+          },
+          "required": true
+        },
+        {
+          "name": "currency",
+          "operationParameter": {
+            "in": "query",
+            "name": "currency"
+          },
+          "required": true
+        }
+      ],
+      "reservedParameters": [
+        {
+          "name": "_type",
+          "fixed": "int256"
+        },
+        {
+          "name": "_times",
+          "fixed": "1000000000000000000"
+        }
+      ],
+      "preProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"WTI/USD\": {\n      path: \"live\",\n      parameters: { currency: \"OILUSD,XAGUSD,XAUUSD\" },\n    },\n    \"XAG/USD\": {\n      path: \"live\",\n      parameters: { currency: \"OILUSD,XAGUSD,XAUUSD\" },\n    },\n    \"XAU/USD\": {\n      path: \"live\",\n      parameters: { currency: \"OILUSD,XAGUSD,XAUUSD\" },\n    },\n    \"AUD/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"BRL/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"CAD/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"CHF/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"CNY/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"COP/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"EUR/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"GBP/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"INR/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"JPY/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"KRW/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"MXN/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"NGN/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"NZD/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"PHP/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"RUB/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"SEK/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"SGD/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"TRY/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"ZAR/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+        "timeoutMs": 5000
+      },
+      "postProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"WTI/USD\":\n      \"(response) => {\\n                const targetQuote = response.quotes.find((quote) => quote.instrument === 'OILUSD');\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"XAG/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"XAU/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"AUD/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"BRL/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"CAD/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"CHF/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"CNY/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"COP/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"EUR/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"GBP/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"INR/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"JPY/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"KRW/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"MXN/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"NGN/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"NZD/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"PHP/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"RUB/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"SEK/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"SGD/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"TRY/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"ZAR/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+        "timeoutMs": 5000
+      }
+    }
+  ]
+}

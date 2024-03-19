@@ -1,0 +1,51 @@
+{
+  "alias": "tradermade",
+  "name": "TraderMade",
+  "airnode": "0x8676eA8B6Ebe5b8FBbc25FF55192bADf39D7D61b",
+  "xpub": "xpub6D3cpUGh9VPptibZ24bT1n3oHBb83zwghhXEU2EhyADPeG8mvMS7BiDz1svQLPnGguAoXp7mo4x59rjNHdxcBRXNS47z69eeWx8tnsirzr8",
+  "supportedFeedsInBatches": {
+    "TraderMade": [
+      [
+        "AUD/USD",
+        "BRL/USD",
+        "CAD/USD",
+        "CHF/USD",
+        "CNY/USD",
+        "EUR/USD",
+        "GBP/USD",
+        "INR/USD",
+        "JPY/USD",
+        "KRW/USD",
+        "MXN/USD",
+        "NZD/USD",
+        "PHP/USD",
+        "SEK/USD",
+        "SGD/USD",
+        "TRY/USD",
+        "ZAR/USD",
+        "COP/USD",
+        "NGN/USD",
+        "RUB/USD"
+      ],
+      ["XAG/USD", "XAU/USD", "WTI/USD"]
+    ]
+  },
+  "deploymentLocations": ["aws"],
+  "homepageUrl": "https://tradermade.com",
+  "verifiedBaseUrl": "https://tradermade.com",
+  "signedApiUrl": "",
+  "productionSignedApiUrls": [
+    {
+      "url": "https://signed-api.nodary.io",
+      "name": "Nodary"
+    },
+    {
+      "url": "https://signed-api.api3.org",
+      "name": "API3"
+    }
+  ],
+  "stagingSignedApiUrl": {
+    "url": "https://signed-api.stage.nodary.io",
+    "name": "Staging"
+  }
+}

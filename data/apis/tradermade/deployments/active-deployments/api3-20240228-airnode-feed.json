@@ -1,0 +1,436 @@
+{
+  "nodeSettings": {
+    "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
+    "nodeVersion": "0.5.1",
+    "stage": "${STAGE}"
+  },
+  "templates": {
+    "0x9b8c129f62484aef617622caba20a58f51fdad30c39a32b1ee416b3be4a3f028": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AUD/USD"
+        }
+      ]
+    },
+    "0xd389a4e2ce2f31510a2134f3b455d44b696bc3158d5b562d27c509b2d3e63fb7": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BRL/USD"
+        }
+      ]
+    },
+    "0xe6df5fb43a0b3a65ac1b05e7e50fba03b475fe5b721693d469554278086fd2e4": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CAD/USD"
+        }
+      ]
+    },
+    "0x6f0c2b5c6420d1896e67e56539ccbec5e6aafee5c27f6eb8783b9731faa7205d": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CHF/USD"
+        }
+      ]
+    },
+    "0x249bd37c5f914601b8b2e93d5d781e139c1955b43bcf5c2904851bcf39f5c87b": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CNY/USD"
+        }
+      ]
+    },
+    "0xc2d6067309d72b3fb66be9b18af8a0b78d0012059d728bee5e9c0d2b6ace1249": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "EUR/USD"
+        }
+      ]
+    },
+    "0x9adb59b1ce4234a004b4e8ab5c02c4e84e0fe038914da9a689c544e2d5c66c07": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GBP/USD"
+        }
+      ]
+    },
+    "0x3dbfdc22f118c7b547e70f12985936e2840d633c379444b775a0ad4ccf7987c0": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "INR/USD"
+        }
+      ]
+    },
+    "0x70de01f0c45ad33974bef7e456dafdcf3bd3bf7352e39c14aaae0ea2409dae52": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "JPY/USD"
+        }
+      ]
+    },
+    "0xd08981367e56aad7f7ff6848cc34ccf3b332344be5cedb5f0cd2dd1b9206afe1": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KRW/USD"
+        }
+      ]
+    },
+    "0x09b0c7fc54140e31fe8dbee57e6cb4f795c18c2ba0071324c642e2a73b77c5c6": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MXN/USD"
+        }
+      ]
+    },
+    "0xc0b83e20caae132f69c10d43cb61a3214786543d4745e0a8cc8d072f03c25c03": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NZD/USD"
+        }
+      ]
+    },
+    "0xddbe83e93e80ac8c3bcabc370e2e87a5c4da18f8ccf790e69ef8d26261283da5": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PHP/USD"
+        }
+      ]
+    },
+    "0x413ff1ecc8070ab0b89837befe19fe0aac91714b32bfea2e47ce09c24934347b": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SEK/USD"
+        }
+      ]
+    },
+    "0x565fd4fee3e488f20bc8073867ee0cfd6cc478adc6b3618831890d9860216ec4": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SGD/USD"
+        }
+      ]
+    },
+    "0xbcb57194273307f3bff3ba29cbde2f5d02c14f6071c330ae7aafc20b24f26f11": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TRY/USD"
+        }
+      ]
+    },
+    "0xbe2cd05beda2f796f3a6b4e75e35fc52f44fe80d416e834f80cb4dfa15ad0fc3": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZAR/USD"
+        }
+      ]
+    },
+    "0x77ab10c7ae63ae9ab3905ef7cc606b4315295da1127ba38815b8d8523dbf6cf6": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "COP/USD"
+        }
+      ]
+    },
+    "0xb8776540f7e3fe641f9281afbf3d9f7066ad25e6a71abb4b6090e08418244c60": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NGN/USD"
+        }
+      ]
+    },
+    "0x515c41dba7e07ccbc90e9e4f2a9acb0d2ccaf3104217227aff3a5eb2f2ac6c1d": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RUB/USD"
+        }
+      ]
+    },
+    "0xe77e5111aec36ddb29f0b149ada0e1ae6363a2fa1bc8f270673a381e98f4aa1c": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XAG/USD"
+        }
+      ]
+    },
+    "0x881445ff4b7fc9569fd77a12451a96ecc81c13abba26c8c5c5642f72f692ce36": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XAU/USD"
+        }
+      ]
+    },
+    "0xb353415b3998a697a5f756837fe3899a7d3cd0ec411a59d4ed3b65197c335745": {
+      "endpointId": "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WTI/USD"
+        }
+      ]
+    }
+  },
+  "endpoints": {
+    "0xe89cc17eefaaf019b65a3a6b8a2885f9ec1811a736e137b745bef1a4a44f7d77": {
+      "endpointName": "feed",
+      "oisTitle": "TraderMade"
+    }
+  },
+  "triggers": {
+    "signedApiUpdates": [
+      {
+        "signedApiName": "Nodary",
+        "templateIds": [
+          "0x9b8c129f62484aef617622caba20a58f51fdad30c39a32b1ee416b3be4a3f028",
+          "0xd389a4e2ce2f31510a2134f3b455d44b696bc3158d5b562d27c509b2d3e63fb7",
+          "0xe6df5fb43a0b3a65ac1b05e7e50fba03b475fe5b721693d469554278086fd2e4",
+          "0x6f0c2b5c6420d1896e67e56539ccbec5e6aafee5c27f6eb8783b9731faa7205d",
+          "0x249bd37c5f914601b8b2e93d5d781e139c1955b43bcf5c2904851bcf39f5c87b",
+          "0xc2d6067309d72b3fb66be9b18af8a0b78d0012059d728bee5e9c0d2b6ace1249",
+          "0x9adb59b1ce4234a004b4e8ab5c02c4e84e0fe038914da9a689c544e2d5c66c07",
+          "0x3dbfdc22f118c7b547e70f12985936e2840d633c379444b775a0ad4ccf7987c0",
+          "0x70de01f0c45ad33974bef7e456dafdcf3bd3bf7352e39c14aaae0ea2409dae52",
+          "0xd08981367e56aad7f7ff6848cc34ccf3b332344be5cedb5f0cd2dd1b9206afe1",
+          "0x09b0c7fc54140e31fe8dbee57e6cb4f795c18c2ba0071324c642e2a73b77c5c6",
+          "0xc0b83e20caae132f69c10d43cb61a3214786543d4745e0a8cc8d072f03c25c03",
+          "0xddbe83e93e80ac8c3bcabc370e2e87a5c4da18f8ccf790e69ef8d26261283da5",
+          "0x413ff1ecc8070ab0b89837befe19fe0aac91714b32bfea2e47ce09c24934347b",
+          "0x565fd4fee3e488f20bc8073867ee0cfd6cc478adc6b3618831890d9860216ec4",
+          "0xbcb57194273307f3bff3ba29cbde2f5d02c14f6071c330ae7aafc20b24f26f11",
+          "0xbe2cd05beda2f796f3a6b4e75e35fc52f44fe80d416e834f80cb4dfa15ad0fc3",
+          "0x77ab10c7ae63ae9ab3905ef7cc606b4315295da1127ba38815b8d8523dbf6cf6",
+          "0xb8776540f7e3fe641f9281afbf3d9f7066ad25e6a71abb4b6090e08418244c60",
+          "0x515c41dba7e07ccbc90e9e4f2a9acb0d2ccaf3104217227aff3a5eb2f2ac6c1d"
+        ],
+        "fetchInterval": 5,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "API3",
+        "templateIds": [
+          "0x9b8c129f62484aef617622caba20a58f51fdad30c39a32b1ee416b3be4a3f028",
+          "0xd389a4e2ce2f31510a2134f3b455d44b696bc3158d5b562d27c509b2d3e63fb7",
+          "0xe6df5fb43a0b3a65ac1b05e7e50fba03b475fe5b721693d469554278086fd2e4",
+          "0x6f0c2b5c6420d1896e67e56539ccbec5e6aafee5c27f6eb8783b9731faa7205d",
+          "0x249bd37c5f914601b8b2e93d5d781e139c1955b43bcf5c2904851bcf39f5c87b",
+          "0xc2d6067309d72b3fb66be9b18af8a0b78d0012059d728bee5e9c0d2b6ace1249",
+          "0x9adb59b1ce4234a004b4e8ab5c02c4e84e0fe038914da9a689c544e2d5c66c07",
+          "0x3dbfdc22f118c7b547e70f12985936e2840d633c379444b775a0ad4ccf7987c0",
+          "0x70de01f0c45ad33974bef7e456dafdcf3bd3bf7352e39c14aaae0ea2409dae52",
+          "0xd08981367e56aad7f7ff6848cc34ccf3b332344be5cedb5f0cd2dd1b9206afe1",
+          "0x09b0c7fc54140e31fe8dbee57e6cb4f795c18c2ba0071324c642e2a73b77c5c6",
+          "0xc0b83e20caae132f69c10d43cb61a3214786543d4745e0a8cc8d072f03c25c03",
+          "0xddbe83e93e80ac8c3bcabc370e2e87a5c4da18f8ccf790e69ef8d26261283da5",
+          "0x413ff1ecc8070ab0b89837befe19fe0aac91714b32bfea2e47ce09c24934347b",
+          "0x565fd4fee3e488f20bc8073867ee0cfd6cc478adc6b3618831890d9860216ec4",
+          "0xbcb57194273307f3bff3ba29cbde2f5d02c14f6071c330ae7aafc20b24f26f11",
+          "0xbe2cd05beda2f796f3a6b4e75e35fc52f44fe80d416e834f80cb4dfa15ad0fc3",
+          "0x77ab10c7ae63ae9ab3905ef7cc606b4315295da1127ba38815b8d8523dbf6cf6",
+          "0xb8776540f7e3fe641f9281afbf3d9f7066ad25e6a71abb4b6090e08418244c60",
+          "0x515c41dba7e07ccbc90e9e4f2a9acb0d2ccaf3104217227aff3a5eb2f2ac6c1d"
+        ],
+        "fetchInterval": 5,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": [
+          "0xe77e5111aec36ddb29f0b149ada0e1ae6363a2fa1bc8f270673a381e98f4aa1c",
+          "0x881445ff4b7fc9569fd77a12451a96ecc81c13abba26c8c5c5642f72f692ce36",
+          "0xb353415b3998a697a5f756837fe3899a7d3cd0ec411a59d4ed3b65197c335745"
+        ],
+        "fetchInterval": 5,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "API3",
+        "templateIds": [
+          "0xe77e5111aec36ddb29f0b149ada0e1ae6363a2fa1bc8f270673a381e98f4aa1c",
+          "0x881445ff4b7fc9569fd77a12451a96ecc81c13abba26c8c5c5642f72f692ce36",
+          "0xb353415b3998a697a5f756837fe3899a7d3cd0ec411a59d4ed3b65197c335745"
+        ],
+        "fetchInterval": 5,
+        "updateDelay": 0
+      }
+    ]
+  },
+  "signedApis": [
+    {
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
+    },
+    {
+      "name": "API3",
+      "url": "https://signed-api.api3.org",
+      "authToken": "${AUTH_TOKEN_API3}"
+    }
+  ],
+  "ois": [
+    {
+      "oisFormat": "2.3.0",
+      "title": "TraderMade",
+      "version": "0.1.2",
+      "apiSpecifications": {
+        "components": {
+          "securitySchemes": {
+            "TraderMadeSecurityScheme1ApiKey": {
+              "in": "query",
+              "name": "api_key",
+              "type": "apiKey"
+            }
+          }
+        },
+        "paths": {
+          "/{path}": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "path",
+                  "name": "path"
+                },
+                {
+                  "in": "query",
+                  "name": "currency"
+                }
+              ]
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://marketdata.tradermade.com/api/v1"
+          }
+        ],
+        "security": {
+          "TraderMadeSecurityScheme1ApiKey": []
+        }
+      },
+      "endpoints": [
+        {
+          "fixedOperationParameters": [],
+          "name": "feed",
+          "operation": {
+            "method": "get",
+            "path": "/{path}"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "required": true
+            },
+            {
+              "name": "path",
+              "operationParameter": {
+                "in": "path",
+                "name": "path"
+              },
+              "required": true
+            },
+            {
+              "name": "currency",
+              "operationParameter": {
+                "in": "query",
+                "name": "currency"
+              },
+              "required": true
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "int256"
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ],
+          "preProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"WTI/USD\": {\n      path: \"live\",\n      parameters: { currency: \"OILUSD,XAGUSD,XAUUSD\" },\n    },\n    \"XAG/USD\": {\n      path: \"live\",\n      parameters: { currency: \"OILUSD,XAGUSD,XAUUSD\" },\n    },\n    \"XAU/USD\": {\n      path: \"live\",\n      parameters: { currency: \"OILUSD,XAGUSD,XAUUSD\" },\n    },\n    \"AUD/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"BRL/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"CAD/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"CHF/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"CNY/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"COP/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"EUR/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"GBP/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"INR/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"JPY/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"KRW/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"MXN/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"NGN/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"NZD/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"PHP/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"RUB/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"SEK/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"SGD/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"TRY/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n    \"ZAR/USD\": {\n      path: \"live\",\n      parameters: {\n        currency:\n          \"AUDUSD,BRLUSD,CADUSD,CHFUSD,CNYUSD,COPUSD,EURUSD,GBPUSD,INRUSD,JPYUSD,KRWUSD,MXNUSD,NGNUSD,NZDUSD,PHPUSD,RUBUSD,SEKUSD,SGDUSD,TRYUSD,ZARUSD\",\n      },\n    },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+            "timeoutMs": 5000
+          },
+          "postProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"WTI/USD\":\n      \"(response) => {\\n                const targetQuote = response.quotes.find((quote) => quote.instrument === 'OILUSD');\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"XAG/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"XAU/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"AUD/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"BRL/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"CAD/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"CHF/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"CNY/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"COP/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"EUR/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"GBP/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"INR/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"JPY/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"KRW/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"MXN/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"NGN/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"NZD/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"PHP/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"RUB/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"SEK/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"SGD/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"TRY/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n    \"ZAR/USD\":\n      \"(response) => {\\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\\n                return targetQuote.mid;\\n              }\\n              \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+            "timeoutMs": 5000
+          }
+        }
+      ]
+    }
+  ],
+  "apiCredentials": [
+    {
+      "oisTitle": "TraderMade",
+      "securitySchemeName": "TraderMadeSecurityScheme1ApiKey",
+      "securitySchemeValue": "${TRADERMADESECURITYSCHEME1APIKEY_VALUE}"
+    }
+  ]
+}

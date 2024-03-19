@@ -1,0 +1,428 @@
+{
+  "oisFormat": "2.3.0",
+  "title": "IEXCloud",
+  "version": "0.1.0",
+  "apiSpecifications": {
+    "components": {
+      "securitySchemes": {
+        "IEXCloudv2SecurityScheme1ApiKey": {
+          "in": "query",
+          "name": "token",
+          "type": "apiKey"
+        }
+      }
+    },
+    "paths": {
+      "/{path}": {
+        "get": {
+          "parameters": [
+            {
+              "in": "path",
+              "name": "path"
+            },
+            {
+              "in": "query",
+              "name": "symbols"
+            },
+            {
+              "in": "query",
+              "name": "next"
+            },
+            {
+              "in": "query",
+              "name": "cache"
+            },
+            {
+              "in": "query",
+              "name": "batchSeparator"
+            },
+            {
+              "in": "query",
+              "name": "updated"
+            },
+            {
+              "in": "query",
+              "name": "transform"
+            },
+            {
+              "in": "query",
+              "name": "token"
+            },
+            {
+              "in": "query",
+              "name": "to"
+            },
+            {
+              "in": "query",
+              "name": "subattribute"
+            },
+            {
+              "in": "query",
+              "name": "sort"
+            },
+            {
+              "in": "query",
+              "name": "schema"
+            },
+            {
+              "in": "query",
+              "name": "range"
+            },
+            {
+              "in": "query",
+              "name": "queryId"
+            },
+            {
+              "in": "query",
+              "name": "on"
+            },
+            {
+              "in": "query",
+              "name": "offset"
+            },
+            {
+              "in": "query",
+              "name": "limit"
+            },
+            {
+              "in": "query",
+              "name": "last"
+            },
+            {
+              "in": "query",
+              "name": "calender"
+            },
+            {
+              "in": "query",
+              "name": "callback"
+            },
+            {
+              "in": "query",
+              "name": "dateField"
+            },
+            {
+              "in": "query",
+              "name": "filter"
+            },
+            {
+              "in": "query",
+              "name": "first"
+            },
+            {
+              "in": "query",
+              "name": "format"
+            },
+            {
+              "in": "query",
+              "name": "forward"
+            },
+            {
+              "in": "query",
+              "name": "from"
+            },
+            {
+              "in": "query",
+              "name": "future"
+            },
+            {
+              "in": "query",
+              "name": "includeSystemRecordProperties"
+            },
+            {
+              "in": "query",
+              "name": "interval"
+            },
+            {
+              "in": "query",
+              "name": "cacheTTL"
+            }
+          ]
+        }
+      }
+    },
+    "servers": [
+      {
+        "url": "https://api3test.iex.cloud/v1"
+      }
+    ],
+    "security": {
+      "IEXCloudv2SecurityScheme1ApiKey": []
+    }
+  },
+  "endpoints": [
+    {
+      "fixedOperationParameters": [],
+      "name": "feed",
+      "operation": {
+        "method": "get",
+        "path": "/{path}"
+      },
+      "parameters": [
+        {
+          "name": "name",
+          "required": true
+        },
+        {
+          "name": "path",
+          "operationParameter": {
+            "in": "path",
+            "name": "path"
+          },
+          "required": true
+        },
+        {
+          "name": "symbols",
+          "operationParameter": {
+            "in": "query",
+            "name": "symbols"
+          },
+          "required": true
+        },
+        {
+          "name": "next",
+          "operationParameter": {
+            "in": "query",
+            "name": "next"
+          },
+          "required": false
+        },
+        {
+          "name": "cache",
+          "operationParameter": {
+            "in": "query",
+            "name": "cache"
+          },
+          "required": false
+        },
+        {
+          "name": "batchSeparator",
+          "operationParameter": {
+            "in": "query",
+            "name": "batchSeparator"
+          },
+          "required": false
+        },
+        {
+          "name": "updated",
+          "operationParameter": {
+            "in": "query",
+            "name": "updated"
+          },
+          "required": false
+        },
+        {
+          "name": "transform",
+          "operationParameter": {
+            "in": "query",
+            "name": "transform"
+          },
+          "required": false
+        },
+        {
+          "name": "token",
+          "operationParameter": {
+            "in": "query",
+            "name": "token"
+          },
+          "required": false
+        },
+        {
+          "name": "to",
+          "operationParameter": {
+            "in": "query",
+            "name": "to"
+          },
+          "required": false
+        },
+        {
+          "name": "subattribute",
+          "operationParameter": {
+            "in": "query",
+            "name": "subattribute"
+          },
+          "required": false
+        },
+        {
+          "name": "sort",
+          "operationParameter": {
+            "in": "query",
+            "name": "sort"
+          },
+          "required": false
+        },
+        {
+          "name": "schema",
+          "operationParameter": {
+            "in": "query",
+            "name": "schema"
+          },
+          "required": false
+        },
+        {
+          "name": "range",
+          "operationParameter": {
+            "in": "query",
+            "name": "range"
+          },
+          "required": false
+        },
+        {
+          "name": "queryId",
+          "operationParameter": {
+            "in": "query",
+            "name": "queryId"
+          },
+          "required": false
+        },
+        {
+          "name": "on",
+          "operationParameter": {
+            "in": "query",
+            "name": "on"
+          },
+          "required": false
+        },
+        {
+          "name": "offset",
+          "operationParameter": {
+            "in": "query",
+            "name": "offset"
+          },
+          "required": false
+        },
+        {
+          "name": "limit",
+          "operationParameter": {
+            "in": "query",
+            "name": "limit"
+          },
+          "required": false
+        },
+        {
+          "name": "last",
+          "operationParameter": {
+            "in": "query",
+            "name": "last"
+          },
+          "required": false
+        },
+        {
+          "name": "calender",
+          "operationParameter": {
+            "in": "query",
+            "name": "calender"
+          },
+          "required": false
+        },
+        {
+          "name": "callback",
+          "operationParameter": {
+            "in": "query",
+            "name": "callback"
+          },
+          "required": false
+        },
+        {
+          "name": "dateField",
+          "operationParameter": {
+            "in": "query",
+            "name": "dateField"
+          },
+          "required": false
+        },
+        {
+          "name": "filter",
+          "operationParameter": {
+            "in": "query",
+            "name": "filter"
+          },
+          "required": false
+        },
+        {
+          "name": "first",
+          "operationParameter": {
+            "in": "query",
+            "name": "first"
+          },
+          "required": false
+        },
+        {
+          "name": "format",
+          "operationParameter": {
+            "in": "query",
+            "name": "format"
+          },
+          "required": false
+        },
+        {
+          "name": "forward",
+          "operationParameter": {
+            "in": "query",
+            "name": "forward"
+          },
+          "required": false
+        },
+        {
+          "name": "from",
+          "operationParameter": {
+            "in": "query",
+            "name": "from"
+          },
+          "required": false
+        },
+        {
+          "name": "future",
+          "operationParameter": {
+            "in": "query",
+            "name": "future"
+          },
+          "required": false
+        },
+        {
+          "name": "includeSystemRecordProperties",
+          "operationParameter": {
+            "in": "query",
+            "name": "includeSystemRecordProperties"
+          },
+          "required": false
+        },
+        {
+          "name": "interval",
+          "operationParameter": {
+            "in": "query",
+            "name": "interval"
+          },
+          "required": false
+        },
+        {
+          "name": "cacheTTL",
+          "operationParameter": {
+            "in": "query",
+            "name": "cacheTTL"
+          },
+          "required": false
+        }
+      ],
+      "reservedParameters": [
+        {
+          "name": "_type",
+          "fixed": "int256"
+        },
+        {
+          "name": "_times",
+          "fixed": "1000000000000000000"
+        }
+      ],
+      "preProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"AUD/USD\": { path: \"fx/latest\", parameters: { symbols: \"AUDUSD\" } },\n    \"CAD/USD\": { path: \"fx/latest\", parameters: { symbols: \"CADUSD\" } },\n    \"CHF/USD\": { path: \"fx/latest\", parameters: { symbols: \"CHFUSD\" } },\n    \"EUR/USD\": { path: \"fx/latest\", parameters: { symbols: \"EURUSD\" } },\n    \"GBP/USD\": { path: \"fx/latest\", parameters: { symbols: \"GBPUSD\" } },\n    \"INR/USD\": { path: \"fx/latest\", parameters: { symbols: \"INRUSD\" } },\n    \"JPY/USD\": { path: \"fx/latest\", parameters: { symbols: \"JPYUSD\" } },\n    \"MXN/USD\": { path: \"fx/latest\", parameters: { symbols: \"MXNUSD\" } },\n    \"NZD/USD\": { path: \"fx/latest\", parameters: { symbols: \"NZDUSD\" } },\n    \"SEK/USD\": { path: \"fx/latest\", parameters: { symbols: \"SEKUSD\" } },\n    \"TRY/USD\": { path: \"fx/latest\", parameters: { symbols: \"TRYUSD\" } },\n    \"ZAR/USD\": { path: \"fx/latest\", parameters: { symbols: \"ZARUSD\" } },\n    \"AAPL/USD\": { path: \"data/CORE/QUOTE/AAPL\", parameters: {} },\n    \"AMZN/USD\": { path: \"data/CORE/QUOTE/AMZN\", parameters: {} },\n    \"ARKK/USD\": { path: \"data/CORE/QUOTE/ARKK\", parameters: {} },\n    \"BABA/USD\": { path: \"data/CORE/QUOTE/BABA\", parameters: {} },\n    \"COIN/USD\": { path: \"data/CORE/QUOTE/COIN\", parameters: {} },\n    \"DIS/USD\": { path: \"data/CORE/QUOTE/DIS\", parameters: {} },\n    \"GME/USD\": { path: \"data/CORE/QUOTE/GME\", parameters: {} },\n    \"GOOGL/USD\": { path: \"data/CORE/QUOTE/GOOGL\", parameters: {} },\n    \"INTC/USD\": { path: \"data/CORE/QUOTE/INTC\", parameters: {} },\n    \"JPM/USD\": { path: \"data/CORE/QUOTE/JPM\", parameters: {} },\n    \"META/USD\": { path: \"data/CORE/QUOTE/META\", parameters: {} },\n    \"MSFT/USD\": { path: \"data/CORE/QUOTE/MSFT\", parameters: {} },\n    \"NFLX/USD\": { path: \"data/CORE/QUOTE/NFLX\", parameters: {} },\n    \"NVDA/USD\": { path: \"data/CORE/QUOTE/NVDA\", parameters: {} },\n    \"PYPL/USD\": { path: \"data/CORE/QUOTE/PYPL\", parameters: {} },\n    \"QQQ/USD\": { path: \"data/CORE/QUOTE/QQQ\", parameters: {} },\n    \"SPY/USD\": { path: \"data/CORE/QUOTE/SPY\", parameters: {} },\n    \"TSLA/USD\": { path: \"data/CORE/QUOTE/TSLA\", parameters: {} },\n    \"TSM/USD\": { path: \"data/CORE/QUOTE/TSM\", parameters: {} },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+        "timeoutMs": 5000
+      },
+      "postProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"AUD/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"CAD/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"CHF/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"EUR/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"GBP/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"INR/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"JPY/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"MXN/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"NZD/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"SEK/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"TRY/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"ZAR/USD\":\n      \"(response) => {\\n                return response[0].rate\\n              }\\n              \",\n    \"AAPL/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"AMZN/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"ARKK/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"BABA/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"COIN/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"DIS/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"GME/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"GOOGL/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"INTC/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"JPM/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"META/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"MSFT/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"NFLX/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"NVDA/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"PYPL/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"QQQ/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"SPY/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"TSLA/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n    \"TSM/USD\":\n      \"(response) => {\\n                return response[0].latestPrice\\n              }\\n              \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+        "timeoutMs": 5000
+      }
+    }
+  ]
+}

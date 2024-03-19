@@ -1,0 +1,67 @@
+{
+  "alias": "finnhub",
+  "name": "Finnhub",
+  "airnode": "0x6DAcDcc7043eCc6c898E4409F3ef50Ee7bceb062",
+  "xpub": "xpub6D5daDufsGezKHrQiMuGmRwYPWRex2hFAtK3HhwckqE4twhoALFBf4TmYnxDQfC7iTeRoo9QqBBcu8AKAN2nijWaBG53sicAJw3Jiymi7ik",
+  "supportedFeedsInBatches": {
+    "Finnhub": [
+      ["AAPL/USD"],
+      ["AMZN/USD"],
+      ["ARKK/USD"],
+      ["COIN/USD"],
+      ["GME/USD"],
+      ["GOOGL/USD"],
+      ["JPM/USD"],
+      ["META/USD"],
+      ["MSFT/USD"],
+      ["NFLX/USD"],
+      ["NVDA/USD"],
+      ["SPY/USD"],
+      ["TSLA/USD"],
+      ["TSM/USD"],
+      ["QQQ/USD"],
+      ["PYPL/USD"],
+      ["BABA/USD"],
+      ["DIS/USD"],
+      ["INTC/USD"],
+      ["AUD/USD"],
+      ["BRL/USD"],
+      ["CAD/USD"],
+      ["CHF/USD"],
+      ["CNY/USD"],
+      ["COP/USD"],
+      ["EUR/USD"],
+      ["GBP/USD"],
+      ["INR/USD"],
+      ["JPY/USD"],
+      ["KRW/USD"],
+      ["MXN/USD"],
+      ["NGN/USD"],
+      ["NZD/USD"],
+      ["PHP/USD"],
+      ["SEK/USD"],
+      ["SGD/USD"],
+      ["TRY/USD"],
+      ["ZAR/USD"],
+      ["RUB/USD"]
+    ]
+  },
+  "deploymentLocations": ["aws"],
+  "homepageUrl": "https://finnhub.io",
+  "verifiedBaseUrl": "https://finnhub.io",
+  "signedApiUrl": "",
+  "productionSignedApiUrls": [
+    {
+      "url": "https://signed-api.nodary.io",
+      "name": "Nodary"
+    },
+    {
+      "url": "https://signed-api.api3.org",
+      "name": "API3"
+    }
+  ],
+  "stagingSignedApiUrl": {
+    "url": "https://signed-api.stage.nodary.io",
+    "name": "Staging"
+  }
+}

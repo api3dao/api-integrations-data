@@ -1,0 +1,80 @@
+{
+  "oisFormat": "2.3.0",
+  "title": "NewChangeFX-Forex",
+  "version": "0.1.0",
+  "apiSpecifications": {
+    "components": {
+      "securitySchemes": {
+        "NCFXForexSecurityScheme1ApiKey": {
+          "in": "header",
+          "name": "x-api-key",
+          "type": "apiKey"
+        }
+      }
+    },
+    "paths": {
+      "/{path}": {
+        "get": {
+          "parameters": [
+            {
+              "in": "path",
+              "name": "path"
+            }
+          ]
+        }
+      }
+    },
+    "servers": [
+      {
+        "url": "https://fiat.api.newchangefx.com"
+      }
+    ],
+    "security": {
+      "NCFXForexSecurityScheme1ApiKey": []
+    }
+  },
+  "endpoints": [
+    {
+      "fixedOperationParameters": [],
+      "name": "feed",
+      "operation": {
+        "method": "get",
+        "path": "/{path}"
+      },
+      "parameters": [
+        {
+          "name": "name",
+          "required": true
+        },
+        {
+          "name": "path",
+          "operationParameter": {
+            "in": "path",
+            "name": "path"
+          },
+          "required": true
+        }
+      ],
+      "reservedParameters": [
+        {
+          "name": "_type",
+          "fixed": "int256"
+        },
+        {
+          "name": "_times",
+          "fixed": "1000000000000000000"
+        }
+      ],
+      "preProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"AUD/USD\": { path: \"live/midrate/v1/rates/AUDUSD/SPT/D/O\", parameters: {} },\n    \"BRL/USD\": { path: \"live/midrate/v1/rates/BRLUSD/SPT/D/O\", parameters: {} },\n    \"CAD/USD\": { path: \"live/midrate/v1/rates/CADUSD/SPT/D/O\", parameters: {} },\n    \"CHF/USD\": { path: \"live/midrate/v1/rates/CHFUSD/SPT/D/O\", parameters: {} },\n    \"CNY/USD\": { path: \"live/midrate/v1/rates/CNYUSD/SPT/D/O\", parameters: {} },\n    \"COP/USD\": { path: \"live/midrate/v1/rates/COPUSD/SPT/D/O\", parameters: {} },\n    \"EUR/USD\": { path: \"live/midrate/v1/rates/EURUSD/SPT/D/O\", parameters: {} },\n    \"GBP/USD\": { path: \"live/midrate/v1/rates/GBPUSD/SPT/D/O\", parameters: {} },\n    \"INR/USD\": { path: \"live/midrate/v1/rates/INRUSD/SPT/D/O\", parameters: {} },\n    \"JPY/USD\": { path: \"live/midrate/v1/rates/JPYUSD/SPT/D/O\", parameters: {} },\n    \"KRW/USD\": { path: \"live/midrate/v1/rates/KRWUSD/SPT/D/O\", parameters: {} },\n    \"MXN/USD\": { path: \"live/midrate/v1/rates/MXNUSD/SPT/D/O\", parameters: {} },\n    \"NGN/USD\": { path: \"live/midrate/v1/rates/NGNUSD/SPT/D/O\", parameters: {} },\n    \"NZD/USD\": { path: \"live/midrate/v1/rates/NZDUSD/SPT/D/O\", parameters: {} },\n    \"PHP/USD\": { path: \"live/midrate/v1/rates/PHPUSD/SPT/D/O\", parameters: {} },\n    \"SEK/USD\": { path: \"live/midrate/v1/rates/SEKUSD/SPT/D/O\", parameters: {} },\n    \"SGD/USD\": { path: \"live/midrate/v1/rates/SGDUSD/SPT/D/O\", parameters: {} },\n    \"TRY/USD\": { path: \"live/midrate/v1/rates/TRYUSD/SPT/D/O\", parameters: {} },\n    \"ZAR/USD\": { path: \"live/midrate/v1/rates/ZARUSD/SPT/D/O\", parameters: {} },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+        "timeoutMs": 5000
+      },
+      "postProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"AUD/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"BRL/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"CAD/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"CHF/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"CNY/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"COP/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"EUR/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"GBP/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"INR/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"JPY/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"KRW/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"MXN/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"NGN/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"NZD/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"PHP/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"SEK/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"SGD/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"TRY/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n    \"ZAR/USD\":\n      \"(response) => {\\n              return response.m\\n            }\\n            \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+        "timeoutMs": 5000
+      }
+    }
+  ]
+}

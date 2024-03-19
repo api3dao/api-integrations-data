@@ -1,0 +1,59 @@
+{
+  "alias": "iexcloud",
+  "name": "IEXCloud",
+  "airnode": "0xb5c0536302F5b80771fEa849C3D47A3729E97aA0",
+  "xpub": "xpub6CkwEsLpGSh9Fb5m9E6FFareLYhhhBJAfac8cjgsBZQf19AhxnLkF9cWg523MV1UtiGAfUEPZnbCTum7zDgpgfM4hJiE1nvMu5r9d9srdA2",
+  "supportedFeedsInBatches": {
+    "IEXCloud": [
+      ["AAPL/USD"],
+      ["AMZN/USD"],
+      ["ARKK/USD"],
+      ["COIN/USD"],
+      ["GME/USD"],
+      ["GOOGL/USD"],
+      ["JPM/USD"],
+      ["META/USD"],
+      ["MSFT/USD"],
+      ["NFLX/USD"],
+      ["NVDA/USD"],
+      ["SPY/USD"],
+      ["TSLA/USD"],
+      ["TSM/USD"],
+      ["QQQ/USD"],
+      ["PYPL/USD"],
+      ["BABA/USD"],
+      ["DIS/USD"],
+      ["INTC/USD"],
+      ["AUD/USD"],
+      ["CAD/USD"],
+      ["CHF/USD"],
+      ["EUR/USD"],
+      ["GBP/USD"],
+      ["INR/USD"],
+      ["JPY/USD"],
+      ["MXN/USD"],
+      ["NZD/USD"],
+      ["SEK/USD"],
+      ["TRY/USD"],
+      ["ZAR/USD"]
+    ]
+  },
+  "deploymentLocations": ["aws"],
+  "homepageUrl": "https://iexcloud.io",
+  "verifiedBaseUrl": "https://iex.cloud",
+  "signedApiUrl": "",
+  "productionSignedApiUrls": [
+    {
+      "url": "https://signed-api.nodary.io",
+      "name": "Nodary"
+    },
+    {
+      "url": "https://signed-api.api3.org",
+      "name": "API3"
+    }
+  ],
+  "stagingSignedApiUrl": {
+    "url": "https://signed-api.stage.nodary.io",
+    "name": "Staging"
+  }
+}

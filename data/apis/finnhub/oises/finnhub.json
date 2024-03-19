@@ -1,0 +1,115 @@
+{
+  "oisFormat": "2.3.0",
+  "title": "Finnhub",
+  "version": "0.1.0",
+  "apiSpecifications": {
+    "components": {
+      "securitySchemes": {
+        "FinnhubSecurityScheme1ApiKey": {
+          "in": "query",
+          "name": "token",
+          "type": "apiKey"
+        }
+      }
+    },
+    "paths": {
+      "/{path}": {
+        "get": {
+          "parameters": [
+            {
+              "in": "path",
+              "name": "path"
+            },
+            {
+              "in": "query",
+              "name": "base"
+            },
+            {
+              "in": "query",
+              "name": "date"
+            },
+            {
+              "in": "query",
+              "name": "symbol"
+            }
+          ]
+        }
+      }
+    },
+    "servers": [
+      {
+        "url": "https://finnhub.io/api/v1"
+      }
+    ],
+    "security": {
+      "FinnhubSecurityScheme1ApiKey": []
+    }
+  },
+  "endpoints": [
+    {
+      "fixedOperationParameters": [],
+      "name": "feed",
+      "operation": {
+        "method": "get",
+        "path": "/{path}"
+      },
+      "parameters": [
+        {
+          "name": "name",
+          "required": true
+        },
+        {
+          "name": "path",
+          "operationParameter": {
+            "in": "path",
+            "name": "path"
+          },
+          "required": true
+        },
+        {
+          "name": "base",
+          "operationParameter": {
+            "in": "query",
+            "name": "base"
+          },
+          "required": true
+        },
+        {
+          "name": "date",
+          "operationParameter": {
+            "in": "query",
+            "name": "date"
+          }
+        },
+        {
+          "name": "symbol",
+          "operationParameter": {
+            "in": "query",
+            "name": "symbol"
+          },
+          "required": true
+        }
+      ],
+      "reservedParameters": [
+        {
+          "name": "_type",
+          "fixed": "int256"
+        },
+        {
+          "name": "_times",
+          "fixed": "1000000000000000000"
+        }
+      ],
+      "preProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"AUD/USD\": { path: \"forex/rates\", parameters: { base: \"AUD\" } },\n    \"BRL/USD\": { path: \"forex/rates\", parameters: { base: \"BRL\" } },\n    \"CAD/USD\": { path: \"forex/rates\", parameters: { base: \"CAD\" } },\n    \"CHF/USD\": { path: \"forex/rates\", parameters: { base: \"CHF\" } },\n    \"CNY/USD\": { path: \"forex/rates\", parameters: { base: \"CNY\" } },\n    \"COP/USD\": { path: \"forex/rates\", parameters: { base: \"COP\" } },\n    \"EUR/USD\": { path: \"forex/rates\", parameters: { base: \"EUR\" } },\n    \"GBP/USD\": { path: \"forex/rates\", parameters: { base: \"GBP\" } },\n    \"INR/USD\": { path: \"forex/rates\", parameters: { base: \"INR\" } },\n    \"JPY/USD\": { path: \"forex/rates\", parameters: { base: \"JPY\" } },\n    \"KRW/USD\": { path: \"forex/rates\", parameters: { base: \"KRW\" } },\n    \"MXN/USD\": { path: \"forex/rates\", parameters: { base: \"MXN\" } },\n    \"NGN/USD\": { path: \"forex/rates\", parameters: { base: \"NGN\" } },\n    \"NZD/USD\": { path: \"forex/rates\", parameters: { base: \"NZD\" } },\n    \"PHP/USD\": { path: \"forex/rates\", parameters: { base: \"PHP\" } },\n    \"RUB/USD\": { path: \"forex/rates\", parameters: { base: \"RUB\" } },\n    \"SEK/USD\": { path: \"forex/rates\", parameters: { base: \"SEK\" } },\n    \"SGD/USD\": { path: \"forex/rates\", parameters: { base: \"SGD\" } },\n    \"TRY/USD\": { path: \"forex/rates\", parameters: { base: \"TRY\" } },\n    \"ZAR/USD\": { path: \"forex/rates\", parameters: { base: \"ZAR\" } },\n    \"AAPL/USD\": { path: \"stock/bidask\", parameters: { symbol: \"AAPL\" } },\n    \"AMZN/USD\": { path: \"stock/bidask\", parameters: { symbol: \"AMZN\" } },\n    \"ARKK/USD\": { path: \"stock/bidask\", parameters: { symbol: \"ARKK\" } },\n    \"BABA/USD\": { path: \"stock/bidask\", parameters: { symbol: \"BABA\" } },\n    \"COIN/USD\": { path: \"stock/bidask\", parameters: { symbol: \"COIN\" } },\n    \"DIS/USD\": { path: \"stock/bidask\", parameters: { symbol: \"DIS\" } },\n    \"GME/USD\": { path: \"stock/bidask\", parameters: { symbol: \"GME\" } },\n    \"GOOGL/USD\": { path: \"stock/bidask\", parameters: { symbol: \"GOOGL\" } },\n    \"INTC/USD\": { path: \"stock/bidask\", parameters: { symbol: \"INTC\" } },\n    \"JPM/USD\": { path: \"stock/bidask\", parameters: { symbol: \"JPM\" } },\n    \"META/USD\": { path: \"stock/bidask\", parameters: { symbol: \"META\" } },\n    \"MSFT/USD\": { path: \"stock/bidask\", parameters: { symbol: \"MSFT\" } },\n    \"NFLX/USD\": { path: \"stock/bidask\", parameters: { symbol: \"NFLX\" } },\n    \"NVDA/USD\": { path: \"stock/bidask\", parameters: { symbol: \"NVDA\" } },\n    \"PYPL/USD\": { path: \"stock/bidask\", parameters: { symbol: \"PYPL\" } },\n    \"QQQ/USD\": { path: \"stock/bidask\", parameters: { symbol: \"QQQ\" } },\n    \"SPY/USD\": { path: \"stock/bidask\", parameters: { symbol: \"SPY\" } },\n    \"TSLA/USD\": { path: \"stock/bidask\", parameters: { symbol: \"TSLA\" } },\n    \"TSM/USD\": { path: \"stock/bidask\", parameters: { symbol: \"TSM\" } },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+        "timeoutMs": 5000
+      },
+      "postProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"AUD/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"BRL/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"CAD/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"CHF/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"CNY/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"COP/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"EUR/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"GBP/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"INR/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"JPY/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"KRW/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"MXN/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"NGN/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"NZD/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"PHP/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"RUB/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"SEK/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"SGD/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"TRY/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"ZAR/USD\":\n      \"(response) => {\\n                return response.quote.USD\\n              }\\n              \",\n    \"AAPL/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"AMZN/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"ARKK/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"BABA/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"COIN/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"DIS/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"GME/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"GOOGL/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"INTC/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"JPM/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"META/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"MSFT/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"NFLX/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"NVDA/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"PYPL/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"QQQ/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"SPY/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"TSLA/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n    \"TSM/USD\":\n      \"(response) => {\\n                return (response.a + response.b) / 2\\n              }\\n              \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+        "timeoutMs": 5000
+      }
+    }
+  ]
+}
