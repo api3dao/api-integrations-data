@@ -1,10 +1,10 @@
 {
-  "alias": "nodary",
-  "name": "Nodary",
-  "airnode": "0xc52EeA00154B4fF1EbbF8Ba39FDe37F1AC3B9Fd4",
-  "xpub": "xpub6Cd14fbNsTqhi7Urd3cyXHD1nfpDyFf2b5jLcNcwtcEiGzJpQ9UNDwNinYCEmoXgCEZyMZYmAPCaGCFBuCqMD8Pkz8zXWt4rgre8kQLFUMA",
+  "alias": "nodary-mock",
+  "name": "Nodary-Mock",
+  "airnode": "0x241364bbd08701330bdc810bAaA10cF8DF1710E5",
+  "xpub": "",
   "supportedFeedsInBatches": {
-    "Nodary": [
+    "Nodary-Mock": [
       ["AAPL/USD"],
       ["AMZN/USD"],
       ["ARKK/USD"],
