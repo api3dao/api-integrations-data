@@ -1,0 +1,9 @@
+{
+  "name": "KDA/USD",
+  "parameters": {
+    "ids": "kadena",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['kadena']['usd']\n            }"
+}

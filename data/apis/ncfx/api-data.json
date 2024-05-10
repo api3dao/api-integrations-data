@@ -21,9 +21,7 @@
       ["SEK/USD"],
       ["SGD/USD"],
       ["TRY/USD"],
-      ["ZAR/USD"],
-      ["COP/USD"],
-      ["NGN/USD"]
+      ["ZAR/USD"]
     ],
     "NewChangeFX-Crypto": [
       [
@@ -41,7 +39,6 @@
         "BAT/USD",
         "BNB/USD",
         "BTC/USD",
-        "BTT/USD",
         "CAKE/USD",
         "CELO/USD",
         "CHZ/USD",
@@ -65,7 +62,6 @@
         "GRT/USD",
         "HBAR/USD",
         "HNT/USD",
-        "HT/USD",
         "ICP/USD",
         "IMX/USD",
         "JOE/USD",
@@ -103,7 +99,6 @@
         "USDP/USD",
         "WBTC/USD",
         "XLM/USD",
-        "XMR/USD",
         "XRP/USD",
         "XTZ/USD",
         "YFI/USD",
@@ -114,7 +109,6 @@
         "ENS/USD",
         "BLUR/USD",
         "BAND/USD",
-        "RBN/USD",
         "UMA/USD",
         "APT/USD",
         "PEPE/USD",
@@ -128,7 +122,23 @@
         "PYTH/USD",
         "ASTR/USD",
         "TIA/USD",
-        "DYM/USD"
+        "DYM/USD",
+        "SEI/USD",
+        "AR/USD",
+        "STRK/USD",
+        "AXL/USD",
+        "ONDO/USD",
+        "MANTA/USD",
+        "RON/USD",
+        "XVS/USD",
+        "PENDLE/USD",
+        "TWT/USD",
+        "AERO/USD",
+        "ERN/USD",
+        "JUICE/USD",
+        "TAO/USD",
+        "PYUSD/USD",
+        "ORDI/USD"
       ]
     ]
   },

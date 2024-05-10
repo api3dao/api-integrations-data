@@ -1,0 +1,9 @@
+{
+  "name": "UNI/USD",
+  "parameters": {
+    "ids": "uniswap",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['uniswap']['usd']\n            }"
+}

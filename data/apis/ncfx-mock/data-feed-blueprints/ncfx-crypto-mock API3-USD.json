@@ -1,0 +1,8 @@
+{
+  "name": "API3/USD",
+  "parameters": {
+    "pairs": "API3-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['API3-USD'].rate\n            }\n            "
+}

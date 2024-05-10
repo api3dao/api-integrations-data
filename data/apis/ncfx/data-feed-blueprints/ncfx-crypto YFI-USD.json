@@ -1,0 +1,8 @@
+{
+  "name": "YFI/USD",
+  "parameters": {
+    "pairs": "YFI-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['YFI-USD'].rate\n            }\n            "
+}

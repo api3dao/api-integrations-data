@@ -1,0 +1,8 @@
+{
+  "name": "SHIB/USD",
+  "parameters": {
+    "pairs": "SHIB-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['SHIB-USD'].rate\n            }\n            "
+}

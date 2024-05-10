@@ -1,0 +1,8 @@
+{
+  "name": "AERO/USD",
+  "path": "live/midrate/v1/rates",
+  "parameters": {
+    "pairs": "AERO-USD"
+  },
+  "parser": "(response) => {\n          return response.rates['AERO-USD'].rate\n        }\n        "
+}

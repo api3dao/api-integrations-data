@@ -1,0 +1,9 @@
+{
+  "name": "XTZ/USD",
+  "parameters": {
+    "ids": "tezos",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['tezos']['usd']\n            }"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "BLUR/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/blur-blur",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

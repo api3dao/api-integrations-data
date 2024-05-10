@@ -1,0 +1,6 @@
+{
+  "name": "CHF/USD",
+  "parameters": {},
+  "path": "last/trade/forex/CHFUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

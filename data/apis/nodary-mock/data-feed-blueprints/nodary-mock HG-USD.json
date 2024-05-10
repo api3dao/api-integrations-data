@@ -1,0 +1,8 @@
+{
+  "name": "HG/USD",
+  "parameters": {
+    "name": "HG/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

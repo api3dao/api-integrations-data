@@ -1,0 +1,9 @@
+{
+  "name": "STX/USD",
+  "parameters": {
+    "ids": "blockstack",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['blockstack']['usd']\n            }"
+}

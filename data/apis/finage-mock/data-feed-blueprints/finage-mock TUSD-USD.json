@@ -1,0 +1,6 @@
+{
+  "name": "TUSD/USD",
+  "parameters": {},
+  "path": "last/crypto/TUSDUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

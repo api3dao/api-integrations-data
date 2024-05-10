@@ -1,0 +1,8 @@
+{
+  "name": "QCOM/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "QCOM/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

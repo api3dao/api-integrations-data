@@ -1,0 +1,8 @@
+{
+  "name": "TUSD/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/tusd-trueusd",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

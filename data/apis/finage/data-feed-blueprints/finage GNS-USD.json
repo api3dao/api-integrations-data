@@ -1,0 +1,6 @@
+{
+  "name": "GNS/USD",
+  "parameters": {},
+  "path": "last/crypto/GNSUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

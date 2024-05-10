@@ -1,0 +1,8 @@
+{
+  "name": "IMX/USD",
+  "parameters": {
+    "pairs": "IMX-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['IMX-USD'].rate\n            }\n            "
+}

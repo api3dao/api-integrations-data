@@ -1,0 +1,8 @@
+{
+  "name": "BNB/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/bnb-binance-coin",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

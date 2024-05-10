@@ -1,0 +1,8 @@
+{
+  "name": "WOO/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/woo-wootrade",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

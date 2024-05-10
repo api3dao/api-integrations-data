@@ -1,0 +1,9 @@
+{
+  "name": "ONDO/USD",
+  "parameters": {
+    "ids": "ondo-finance",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['ondo-finance']['usd']\n            }"
+}

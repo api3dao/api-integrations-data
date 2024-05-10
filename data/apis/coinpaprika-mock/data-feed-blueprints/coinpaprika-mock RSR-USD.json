@@ -1,0 +1,8 @@
+{
+  "name": "RSR/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/rsr-reserve-rights",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

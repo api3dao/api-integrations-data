@@ -1,0 +1,6 @@
+{
+  "name": "HBAR/USD",
+  "parameters": {},
+  "path": "last/crypto/HBARUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

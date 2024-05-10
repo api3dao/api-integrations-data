@@ -1,0 +1,8 @@
+{
+  "name": "PYUSD/USD",
+  "path": "live/midrate/v1/rates",
+  "parameters": {
+    "pairs": "PYUSD-USD"
+  },
+  "parser": "(response) => {\n          return response.rates['PYUSD-USD'].rate\n        }\n        "
+}

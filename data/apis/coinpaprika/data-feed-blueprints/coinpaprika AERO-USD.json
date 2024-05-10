@@ -1,0 +1,8 @@
+{
+  "name": "AERO/USD",
+  "path": "tickers/aero-aerodrome-finance",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

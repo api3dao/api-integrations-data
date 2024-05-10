@@ -1,0 +1,8 @@
+{
+  "name": "GNO/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/gno-gnosis",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

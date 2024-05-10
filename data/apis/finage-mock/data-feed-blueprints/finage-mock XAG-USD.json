@@ -1,0 +1,6 @@
+{
+  "name": "XAG/USD",
+  "parameters": {},
+  "path": "last/trade/forex/XAGUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

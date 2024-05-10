@@ -1,0 +1,8 @@
+{
+  "name": "RUNE/USD",
+  "parameters": {
+    "pairs": "RUNE-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['RUNE-USD'].rate\n            }\n            "
+}

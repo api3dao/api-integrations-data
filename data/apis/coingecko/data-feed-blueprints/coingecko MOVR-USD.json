@@ -1,0 +1,9 @@
+{
+  "name": "MOVR/USD",
+  "parameters": {
+    "ids": "moonriver",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['moonriver']['usd']\n            }"
+}

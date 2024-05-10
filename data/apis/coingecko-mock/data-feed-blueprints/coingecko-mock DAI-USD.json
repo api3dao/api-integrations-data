@@ -1,0 +1,9 @@
+{
+  "name": "DAI/USD",
+  "parameters": {
+    "ids": "dai",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['dai']['usd']\n            }"
+}

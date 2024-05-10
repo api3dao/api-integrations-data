@@ -1,0 +1,8 @@
+{
+  "name": "ENS/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/ens-ethereum-name-service",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

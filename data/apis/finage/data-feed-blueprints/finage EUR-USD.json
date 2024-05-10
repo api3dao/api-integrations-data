@@ -1,0 +1,6 @@
+{
+  "name": "EUR/USD",
+  "parameters": {},
+  "path": "last/trade/forex/EURUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

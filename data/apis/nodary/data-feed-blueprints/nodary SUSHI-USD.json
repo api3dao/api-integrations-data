@@ -1,0 +1,8 @@
+{
+  "name": "SUSHI/USD",
+  "parameters": {
+    "name": "SUSHI/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

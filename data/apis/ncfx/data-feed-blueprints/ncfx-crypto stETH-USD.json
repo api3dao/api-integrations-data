@@ -1,0 +1,8 @@
+{
+  "name": "stETH/USD",
+  "parameters": {
+    "pairs": "STETH-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['STETH-USD'].rate\n            }\n            "
+}

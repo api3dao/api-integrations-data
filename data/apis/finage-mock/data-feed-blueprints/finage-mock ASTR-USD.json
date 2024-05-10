@@ -1,0 +1,6 @@
+{
+  "name": "ASTR/USD",
+  "parameters": {},
+  "path": "last/crypto/ASTRUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

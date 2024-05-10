@@ -1,0 +1,8 @@
+{
+  "name": "TWT/USD",
+  "path": "live/midrate/v1/rates",
+  "parameters": {
+    "pairs": "TWT-USD"
+  },
+  "parser": "(response) => {\n          return response.rates['TWT-USD'].rate\n        }\n        "
+}

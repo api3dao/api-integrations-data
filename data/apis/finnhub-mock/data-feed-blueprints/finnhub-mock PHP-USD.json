@@ -1,0 +1,8 @@
+{
+  "name": "PHP/USD",
+  "parameters": {
+    "base": "PHP"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

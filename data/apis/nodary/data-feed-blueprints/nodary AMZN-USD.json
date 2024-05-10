@@ -1,0 +1,8 @@
+{
+  "name": "AMZN/USD",
+  "parameters": {
+    "name": "AMZN/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

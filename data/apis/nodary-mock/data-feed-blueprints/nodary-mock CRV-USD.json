@@ -1,0 +1,8 @@
+{
+  "name": "CRV/USD",
+  "parameters": {
+    "name": "CRV/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

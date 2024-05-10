@@ -1,0 +1,8 @@
+{
+  "name": "ARKK/USD",
+  "parameters": {
+    "symbol": "ARKK"
+  },
+  "path": "stock/bidask",
+  "parser": "(response) => {\n                return (response.a + response.b) / 2\n              }\n              "
+}

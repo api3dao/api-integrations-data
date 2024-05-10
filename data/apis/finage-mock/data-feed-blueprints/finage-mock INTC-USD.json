@@ -1,0 +1,6 @@
+{
+  "name": "INTC/USD",
+  "parameters": {},
+  "path": "last/trade/stock/INTC",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

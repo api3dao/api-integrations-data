@@ -1,0 +1,6 @@
+{
+  "name": "GLMR/USD",
+  "parameters": {},
+  "path": "last/crypto/GLMRUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

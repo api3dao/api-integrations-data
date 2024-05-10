@@ -1,0 +1,6 @@
+{
+  "name": "SEK/USD",
+  "parameters": {},
+  "path": "last/trade/forex/SEKUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

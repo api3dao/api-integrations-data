@@ -1,0 +1,9 @@
+{
+  "name": "ROSE/USD",
+  "parameters": {
+    "ids": "oasis-network",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['oasis-network']['usd']\n            }"
+}

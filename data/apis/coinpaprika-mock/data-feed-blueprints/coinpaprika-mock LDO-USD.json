@@ -1,0 +1,8 @@
+{
+  "name": "LDO/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/ldo-lido-dao",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

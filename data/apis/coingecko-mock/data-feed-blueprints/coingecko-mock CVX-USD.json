@@ -1,0 +1,9 @@
+{
+  "name": "CVX/USD",
+  "parameters": {
+    "ids": "convex-finance",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['convex-finance']['usd']\n            }"
+}

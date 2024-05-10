@@ -1,0 +1,8 @@
+{
+  "name": "XRP/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/xrp-xrp",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

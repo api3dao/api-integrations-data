@@ -1,0 +1,8 @@
+{
+  "name": "sFRAX/FRAX Exchange Rate",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "sFRAX/FRAX Exchange Rate"
+  },
+  "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+}

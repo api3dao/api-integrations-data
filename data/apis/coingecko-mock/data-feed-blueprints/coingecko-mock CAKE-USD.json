@@ -1,0 +1,9 @@
+{
+  "name": "CAKE/USD",
+  "parameters": {
+    "ids": "pancakeswap-token",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['pancakeswap-token']['usd']\n            }"
+}

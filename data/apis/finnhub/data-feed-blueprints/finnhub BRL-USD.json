@@ -1,0 +1,8 @@
+{
+  "name": "BRL/USD",
+  "parameters": {
+    "base": "BRL"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

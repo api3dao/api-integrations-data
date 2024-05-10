@@ -1,0 +1,9 @@
+{
+  "name": "COMP/USD",
+  "parameters": {
+    "ids": "compound-governance-token",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['compound-governance-token']['usd']\n            }"
+}

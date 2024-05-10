@@ -1,0 +1,8 @@
+{
+  "name": "AVAX/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/avax-avalanche",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

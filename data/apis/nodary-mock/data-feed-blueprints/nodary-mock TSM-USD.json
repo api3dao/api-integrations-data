@@ -1,0 +1,8 @@
+{
+  "name": "TSM/USD",
+  "parameters": {
+    "name": "TSM/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

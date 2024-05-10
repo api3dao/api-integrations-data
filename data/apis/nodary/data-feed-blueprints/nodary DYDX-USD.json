@@ -1,0 +1,8 @@
+{
+  "name": "DYDX/USD",
+  "parameters": {
+    "name": "DYDX/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

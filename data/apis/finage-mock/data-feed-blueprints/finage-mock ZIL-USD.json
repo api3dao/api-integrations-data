@@ -1,0 +1,6 @@
+{
+  "name": "ZIL/USD",
+  "parameters": {},
+  "path": "last/crypto/ZILUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

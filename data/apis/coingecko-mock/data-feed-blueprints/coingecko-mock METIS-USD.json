@@ -1,0 +1,9 @@
+{
+  "name": "METIS/USD",
+  "parameters": {
+    "ids": "metis-token",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['metis-token']['usd']\n            }"
+}

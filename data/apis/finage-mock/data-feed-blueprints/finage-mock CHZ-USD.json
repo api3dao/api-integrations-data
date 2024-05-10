@@ -1,0 +1,6 @@
+{
+  "name": "CHZ/USD",
+  "parameters": {},
+  "path": "last/crypto/CHZUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

@@ -22,10 +22,7 @@
         "SEK/USD",
         "SGD/USD",
         "TRY/USD",
-        "ZAR/USD",
-        "COP/USD",
-        "NGN/USD",
-        "RUB/USD"
+        "ZAR/USD"
       ],
       ["XAG/USD", "XAU/USD", "WTI/USD"]
     ]

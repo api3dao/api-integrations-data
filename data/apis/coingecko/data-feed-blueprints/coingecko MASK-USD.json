@@ -1,0 +1,9 @@
+{
+  "name": "MASK/USD",
+  "parameters": {
+    "ids": "mask-network",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['mask-network']['usd']\n            }"
+}

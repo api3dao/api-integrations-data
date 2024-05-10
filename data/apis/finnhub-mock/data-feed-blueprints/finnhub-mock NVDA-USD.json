@@ -1,0 +1,8 @@
+{
+  "name": "NVDA/USD",
+  "parameters": {
+    "symbol": "NVDA"
+  },
+  "path": "stock/bidask",
+  "parser": "(response) => {\n                return (response.a + response.b) / 2\n              }\n              "
+}

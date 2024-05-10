@@ -1,0 +1,6 @@
+{
+  "name": "LQTY/USD",
+  "parameters": {},
+  "path": "last/crypto/LQTYUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

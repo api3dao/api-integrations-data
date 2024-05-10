@@ -1,0 +1,8 @@
+{
+  "name": "HBAR/USD",
+  "parameters": {
+    "pairs": "HBAR-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['HBAR-USD'].rate\n            }\n            "
+}

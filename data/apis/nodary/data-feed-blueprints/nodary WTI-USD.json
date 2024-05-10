@@ -1,0 +1,8 @@
+{
+  "name": "WTI/USD",
+  "parameters": {
+    "name": "WTI/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

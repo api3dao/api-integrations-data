@@ -1,0 +1,9 @@
+{
+  "name": "GNS/USD",
+  "parameters": {
+    "ids": "gains-network",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['gains-network']['usd']\n            }"
+}

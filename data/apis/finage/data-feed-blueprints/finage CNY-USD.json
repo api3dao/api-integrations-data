@@ -1,0 +1,6 @@
+{
+  "name": "CNY/USD",
+  "parameters": {},
+  "path": "last/trade/forex/CNYUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

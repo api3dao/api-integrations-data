@@ -1,0 +1,8 @@
+{
+  "name": "UNI/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/uni-uniswap",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

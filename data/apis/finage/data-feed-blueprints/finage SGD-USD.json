@@ -1,0 +1,6 @@
+{
+  "name": "SGD/USD",
+  "parameters": {},
+  "path": "last/trade/forex/SGDUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

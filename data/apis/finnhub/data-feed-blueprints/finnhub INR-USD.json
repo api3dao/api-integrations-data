@@ -1,0 +1,8 @@
+{
+  "name": "INR/USD",
+  "parameters": {
+    "base": "INR"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

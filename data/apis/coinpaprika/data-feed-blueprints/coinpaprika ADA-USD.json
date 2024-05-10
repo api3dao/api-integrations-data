@@ -1,0 +1,8 @@
+{
+  "name": "ADA/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/ada-cardano",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

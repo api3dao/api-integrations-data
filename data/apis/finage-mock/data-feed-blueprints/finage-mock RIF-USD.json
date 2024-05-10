@@ -1,0 +1,6 @@
+{
+  "name": "RIF/USD",
+  "parameters": {},
+  "path": "last/crypto/RIFUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

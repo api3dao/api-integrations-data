@@ -1,0 +1,8 @@
+{
+  "name": "KSM/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/ksm-kusama",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

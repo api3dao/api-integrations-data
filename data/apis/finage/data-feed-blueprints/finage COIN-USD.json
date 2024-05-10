@@ -1,0 +1,6 @@
+{
+  "name": "COIN/USD",
+  "parameters": {},
+  "path": "last/trade/stock/COIN",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

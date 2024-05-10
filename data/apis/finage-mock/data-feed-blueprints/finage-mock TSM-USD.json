@@ -1,0 +1,6 @@
+{
+  "name": "TSM/USD",
+  "parameters": {},
+  "path": "last/trade/stock/TSM",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

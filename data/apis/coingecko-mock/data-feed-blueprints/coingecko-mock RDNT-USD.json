@@ -1,0 +1,9 @@
+{
+  "name": "RDNT/USD",
+  "parameters": {
+    "ids": "radiant-capital",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['radiant-capital']['usd']\n            }"
+}

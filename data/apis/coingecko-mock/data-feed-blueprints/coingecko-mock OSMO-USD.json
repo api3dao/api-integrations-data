@@ -1,0 +1,9 @@
+{
+  "name": "OSMO/USD",
+  "parameters": {
+    "ids": "osmosis",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['osmosis']['usd']\n            }"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "MKR/USD",
+  "parameters": {
+    "ids": "maker",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['maker']['usd']\n            }"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "GNS/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/gns-gains-network",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

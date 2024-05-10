@@ -1,0 +1,8 @@
+{
+  "name": "BTC/USD",
+  "parameters": {
+    "pairs": "BTC-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['BTC-USD'].rate\n            }\n            "
+}

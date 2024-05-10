@@ -1,0 +1,9 @@
+{
+  "name": "OP/USD",
+  "parameters": {
+    "ids": "optimism",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['optimism']['usd']\n            }"
+}

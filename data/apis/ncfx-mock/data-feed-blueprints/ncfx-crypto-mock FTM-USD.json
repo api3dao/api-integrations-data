@@ -1,0 +1,8 @@
+{
+  "name": "FTM/USD",
+  "parameters": {
+    "pairs": "FTM-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['FTM-USD'].rate\n            }\n            "
+}

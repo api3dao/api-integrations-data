@@ -1,0 +1,9 @@
+{
+  "name": "LTC/USD",
+  "parameters": {
+    "ids": "litecoin",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['litecoin']['usd']\n            }"
+}

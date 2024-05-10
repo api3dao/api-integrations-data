@@ -1,0 +1,8 @@
+{
+  "name": "RIF/USD",
+  "parameters": {
+    "pairs": "RIF-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['RIF-USD'].rate\n            }\n            "
+}

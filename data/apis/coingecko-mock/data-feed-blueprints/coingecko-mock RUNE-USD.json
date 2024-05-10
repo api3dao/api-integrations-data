@@ -1,0 +1,9 @@
+{
+  "name": "RUNE/USD",
+  "parameters": {
+    "ids": "thorchain",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['thorchain']['usd']\n            }"
+}

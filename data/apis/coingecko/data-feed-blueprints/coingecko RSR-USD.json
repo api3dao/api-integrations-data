@@ -1,0 +1,9 @@
+{
+  "name": "RSR/USD",
+  "parameters": {
+    "ids": "reserve-rights-token",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['reserve-rights-token']['usd']\n            }"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SNX/USD",
+  "parameters": {
+    "ids": "havven",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['havven']['usd']\n            }"
+}

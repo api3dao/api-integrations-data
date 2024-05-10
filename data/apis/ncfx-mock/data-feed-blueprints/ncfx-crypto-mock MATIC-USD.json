@@ -1,0 +1,8 @@
+{
+  "name": "MATIC/USD",
+  "parameters": {
+    "pairs": "MATIC-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['MATIC-USD'].rate\n            }\n            "
+}

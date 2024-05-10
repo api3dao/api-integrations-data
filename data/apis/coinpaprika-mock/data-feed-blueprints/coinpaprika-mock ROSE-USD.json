@@ -1,0 +1,8 @@
+{
+  "name": "ROSE/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/rose-oasis-network",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

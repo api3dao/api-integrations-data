@@ -1,0 +1,9 @@
+{
+  "name": "ASTR/USD",
+  "parameters": {
+    "ids": "astar",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['astar']['usd']\n            }"
+}

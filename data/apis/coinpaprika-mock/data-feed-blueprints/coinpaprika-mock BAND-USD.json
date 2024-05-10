@@ -1,0 +1,8 @@
+{
+  "name": "BAND/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/band-band-protocol",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

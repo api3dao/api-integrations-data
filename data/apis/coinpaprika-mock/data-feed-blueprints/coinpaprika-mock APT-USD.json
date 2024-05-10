@@ -1,0 +1,8 @@
+{
+  "name": "APT/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/apt-aptos",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

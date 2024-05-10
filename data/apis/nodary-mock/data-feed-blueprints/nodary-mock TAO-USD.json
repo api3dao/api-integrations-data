@@ -1,0 +1,8 @@
+{
+  "name": "TAO/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "TAO/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

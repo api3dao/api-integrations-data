@@ -1,0 +1,8 @@
+{
+  "name": "stETH/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/steth-lido-staked-ether",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

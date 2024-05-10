@@ -1,0 +1,9 @@
+{
+  "name": "AERO/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "aerodrome-finance",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['aerodrome-finance']['usd']\n        }\n        "
+}

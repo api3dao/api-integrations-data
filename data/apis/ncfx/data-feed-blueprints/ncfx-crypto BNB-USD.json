@@ -1,0 +1,8 @@
+{
+  "name": "BNB/USD",
+  "parameters": {
+    "pairs": "BNB-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['BNB-USD'].rate\n            }\n            "
+}

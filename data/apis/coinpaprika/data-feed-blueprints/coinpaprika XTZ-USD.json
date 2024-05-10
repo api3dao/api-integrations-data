@@ -1,0 +1,8 @@
+{
+  "name": "XTZ/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/xtz-tezos",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

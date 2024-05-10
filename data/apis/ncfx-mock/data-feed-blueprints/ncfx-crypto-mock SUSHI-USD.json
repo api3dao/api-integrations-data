@@ -1,0 +1,8 @@
+{
+  "name": "SUSHI/USD",
+  "parameters": {
+    "pairs": "SUSHI-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['SUSHI-USD'].rate\n            }\n            "
+}

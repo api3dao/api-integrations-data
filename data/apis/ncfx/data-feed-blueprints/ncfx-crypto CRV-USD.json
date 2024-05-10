@@ -1,0 +1,8 @@
+{
+  "name": "CRV/USD",
+  "parameters": {
+    "pairs": "CRV-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['CRV-USD'].rate\n            }\n            "
+}

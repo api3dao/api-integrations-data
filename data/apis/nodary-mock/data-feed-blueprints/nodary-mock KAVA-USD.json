@@ -1,0 +1,8 @@
+{
+  "name": "KAVA/USD",
+  "parameters": {
+    "name": "KAVA/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

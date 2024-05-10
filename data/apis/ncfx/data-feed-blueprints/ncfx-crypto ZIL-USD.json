@@ -1,0 +1,8 @@
+{
+  "name": "ZIL/USD",
+  "parameters": {
+    "pairs": "ZIL-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['ZIL-USD'].rate\n            }\n            "
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SEI/USD",
+  "parameters": {
+    "ids": "sei-network",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['sei-network']['usd']\n            }"
+}

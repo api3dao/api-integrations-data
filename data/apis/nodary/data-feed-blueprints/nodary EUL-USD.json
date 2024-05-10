@@ -1,0 +1,8 @@
+{
+  "name": "EUL/USD",
+  "parameters": {
+    "name": "EUL/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SAND/USD",
+  "parameters": {
+    "pairs": "SAND-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['SAND-USD'].rate\n            }\n            "
+}

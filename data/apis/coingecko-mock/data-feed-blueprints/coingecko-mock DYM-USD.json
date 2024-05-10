@@ -1,0 +1,9 @@
+{
+  "name": "DYM/USD",
+  "parameters": {
+    "ids": "dymension",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['dymension']['usd']\n            }"
+}

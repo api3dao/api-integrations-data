@@ -1,0 +1,6 @@
+{
+  "name": "NFLX/USD",
+  "parameters": {},
+  "path": "data/CORE/QUOTE/NFLX",
+  "parser": "(response) => {\n                return response[0].latestPrice\n              }\n              "
+}

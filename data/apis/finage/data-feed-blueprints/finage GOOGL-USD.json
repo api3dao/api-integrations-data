@@ -1,0 +1,6 @@
+{
+  "name": "GOOGL/USD",
+  "parameters": {},
+  "path": "last/trade/stock/GOOGL",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

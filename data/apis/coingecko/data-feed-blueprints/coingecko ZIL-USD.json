@@ -1,0 +1,9 @@
+{
+  "name": "ZIL/USD",
+  "parameters": {
+    "ids": "zilliqa",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['zilliqa']['usd']\n            }"
+}

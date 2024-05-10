@@ -1,0 +1,8 @@
+{
+  "name": "STG/USD",
+  "parameters": {
+    "pairs": "STG-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['STG-USD'].rate\n            }\n            "
+}

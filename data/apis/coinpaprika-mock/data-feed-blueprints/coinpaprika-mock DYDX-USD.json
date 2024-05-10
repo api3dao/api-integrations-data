@@ -1,0 +1,8 @@
+{
+  "name": "DYDX/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/dydx-dydx",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

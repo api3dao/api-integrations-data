@@ -1,0 +1,9 @@
+{
+  "name": "FTM/USD",
+  "parameters": {
+    "ids": "fantom",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['fantom']['usd']\n            }"
+}

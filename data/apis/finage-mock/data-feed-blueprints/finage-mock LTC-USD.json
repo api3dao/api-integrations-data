@@ -1,0 +1,6 @@
+{
+  "name": "LTC/USD",
+  "parameters": {},
+  "path": "last/crypto/LTCUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

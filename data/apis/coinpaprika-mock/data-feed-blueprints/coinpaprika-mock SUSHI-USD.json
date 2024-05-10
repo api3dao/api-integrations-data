@@ -1,0 +1,8 @@
+{
+  "name": "SUSHI/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/sushi-sushi",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

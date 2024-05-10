@@ -1,0 +1,8 @@
+{
+  "name": "ADA/USD",
+  "parameters": {
+    "name": "ADA/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

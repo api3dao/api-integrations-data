@@ -1,0 +1,6 @@
+{
+  "name": "QUICK/USD",
+  "parameters": {},
+  "path": "last/crypto/QUICKUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

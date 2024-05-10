@@ -1,0 +1,8 @@
+{
+  "name": "MANTA/USD",
+  "parameters": {
+    "pairs": "MANTA-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['MANTA-USD'].rate\n            }\n            "
+}

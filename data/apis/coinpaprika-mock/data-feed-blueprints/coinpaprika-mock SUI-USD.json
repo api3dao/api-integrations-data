@@ -1,0 +1,8 @@
+{
+  "name": "SUI/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/sui-sui",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "IMX/USD",
+  "parameters": {},
+  "path": "last/crypto/IMXUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

@@ -1,0 +1,9 @@
+{
+  "name": "RPL/USD",
+  "parameters": {
+    "ids": "rocket-pool",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['rocket-pool']['usd']\n            }"
+}

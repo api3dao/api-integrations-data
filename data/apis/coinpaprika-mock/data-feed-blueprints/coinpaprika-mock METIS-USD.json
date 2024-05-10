@@ -1,0 +1,8 @@
+{
+  "name": "METIS/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/metis-metis-token",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

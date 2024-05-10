@@ -1,0 +1,8 @@
+{
+  "name": "SATS/USD",
+  "path": "tickers/sats-sats-ordinals",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

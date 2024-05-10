@@ -1,0 +1,8 @@
+{
+  "name": "ETH/USD",
+  "parameters": {
+    "pairs": "ETH-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['ETH-USD'].rate\n            }\n            "
+}

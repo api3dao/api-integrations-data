@@ -1,0 +1,8 @@
+{
+  "name": "EUR/USD",
+  "parameters": {
+    "symbols": "EURUSD"
+  },
+  "path": "fx/latest",
+  "parser": "(response) => {\n                return response[0].rate\n              }\n              "
+}

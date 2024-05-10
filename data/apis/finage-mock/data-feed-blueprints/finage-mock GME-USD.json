@@ -1,0 +1,6 @@
+{
+  "name": "GME/USD",
+  "parameters": {},
+  "path": "last/trade/stock/GME",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

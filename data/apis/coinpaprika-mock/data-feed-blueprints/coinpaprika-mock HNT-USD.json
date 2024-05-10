@@ -1,0 +1,8 @@
+{
+  "name": "HNT/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/hnt-helium",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

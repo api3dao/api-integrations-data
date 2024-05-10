@@ -1,0 +1,6 @@
+{
+  "name": "SHIB/USD",
+  "parameters": {},
+  "path": "last/crypto/SHIBUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

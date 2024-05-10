@@ -1,0 +1,6 @@
+{
+  "name": "DIS/USD",
+  "parameters": {},
+  "path": "last/trade/stock/DIS",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

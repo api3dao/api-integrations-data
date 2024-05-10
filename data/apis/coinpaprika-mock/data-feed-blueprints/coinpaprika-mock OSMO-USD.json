@@ -1,0 +1,8 @@
+{
+  "name": "OSMO/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/osmo-osmosis",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

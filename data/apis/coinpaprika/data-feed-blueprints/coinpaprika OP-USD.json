@@ -1,0 +1,8 @@
+{
+  "name": "OP/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/op-optimism",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

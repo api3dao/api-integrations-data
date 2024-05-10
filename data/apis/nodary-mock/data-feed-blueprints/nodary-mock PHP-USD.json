@@ -1,0 +1,8 @@
+{
+  "name": "PHP/USD",
+  "parameters": {
+    "name": "PHP/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

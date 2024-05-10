@@ -1,0 +1,9 @@
+{
+  "name": "ezETH/USD",
+  "parameters": {
+    "ids": "renzo-restaked-eth",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['renzo-restaked-eth']['usd']\n            }"
+}

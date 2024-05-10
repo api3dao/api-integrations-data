@@ -1,0 +1,9 @@
+{
+  "name": "BAT/USD",
+  "parameters": {
+    "ids": "basic-attention-token",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['basic-attention-token']['usd']\n            }"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "NEAR/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/near-near-protocol",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

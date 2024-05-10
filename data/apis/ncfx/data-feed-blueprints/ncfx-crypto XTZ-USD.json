@@ -1,0 +1,8 @@
+{
+  "name": "XTZ/USD",
+  "parameters": {
+    "pairs": "XTZ-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['XTZ-USD'].rate\n            }\n            "
+}

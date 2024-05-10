@@ -1,0 +1,8 @@
+{
+  "name": "BAT/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/bat-basic-attention-token",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

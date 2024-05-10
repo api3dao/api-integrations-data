@@ -1,0 +1,8 @@
+{
+  "name": "INR/USD",
+  "parameters": {
+    "symbols": "INRUSD"
+  },
+  "path": "fx/latest",
+  "parser": "(response) => {\n                return response[0].rate\n              }\n              "
+}

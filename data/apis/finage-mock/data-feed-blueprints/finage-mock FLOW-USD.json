@@ -1,0 +1,6 @@
+{
+  "name": "FLOW/USD",
+  "parameters": {},
+  "path": "last/crypto/FLOWUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

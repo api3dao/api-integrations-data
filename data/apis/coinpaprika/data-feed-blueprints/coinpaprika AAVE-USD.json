@@ -1,0 +1,8 @@
+{
+  "name": "AAVE/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/aave-new",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "DOGE/USD",
+  "parameters": {
+    "ids": "dogecoin",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['dogecoin']['usd']\n            }"
+}

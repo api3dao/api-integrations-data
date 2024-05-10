@@ -1,0 +1,6 @@
+{
+  "name": "TRY/USD",
+  "parameters": {},
+  "path": "last/trade/forex/TRYUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

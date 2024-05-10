@@ -1,0 +1,6 @@
+{
+  "name": "AMZN/USD",
+  "parameters": {},
+  "path": "data/CORE/QUOTE/AMZN",
+  "parser": "(response) => {\n                return response[0].latestPrice\n              }\n              "
+}

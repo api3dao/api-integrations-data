@@ -1,0 +1,8 @@
+{
+  "name": "RIF/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/rif-rif-token",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

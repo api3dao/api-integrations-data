@@ -1,0 +1,9 @@
+{
+  "name": "BNB/USD",
+  "parameters": {
+    "ids": "binancecoin",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['binancecoin']['usd']\n            }"
+}

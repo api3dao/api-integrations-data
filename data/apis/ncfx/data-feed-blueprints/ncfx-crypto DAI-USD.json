@@ -1,0 +1,8 @@
+{
+  "name": "DAI/USD",
+  "parameters": {
+    "pairs": "DAI-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['DAI-USD'].rate\n            }\n            "
+}

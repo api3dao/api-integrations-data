@@ -1,0 +1,6 @@
+{
+  "name": "JPY/USD",
+  "parameters": {},
+  "path": "last/trade/forex/JPYUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

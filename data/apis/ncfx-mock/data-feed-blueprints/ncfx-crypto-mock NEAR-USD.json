@@ -1,0 +1,8 @@
+{
+  "name": "NEAR/USD",
+  "parameters": {
+    "pairs": "NEAR-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['NEAR-USD'].rate\n            }\n            "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SAND/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/sand-the-sandbox",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

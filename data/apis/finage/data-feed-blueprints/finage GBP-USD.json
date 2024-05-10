@@ -1,0 +1,6 @@
+{
+  "name": "GBP/USD",
+  "parameters": {},
+  "path": "last/trade/forex/GBPUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

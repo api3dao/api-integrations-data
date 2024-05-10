@@ -1,0 +1,9 @@
+{
+  "name": "PAXG/USD",
+  "parameters": {
+    "ids": "pax-gold",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['pax-gold']['usd']\n            }"
+}

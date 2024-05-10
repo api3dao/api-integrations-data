@@ -1,0 +1,9 @@
+{
+  "name": "UMA/USD",
+  "parameters": {
+    "ids": "uma",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['uma']['usd']\n            }"
+}

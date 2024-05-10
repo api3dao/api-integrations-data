@@ -1,0 +1,9 @@
+{
+  "name": "ANKR/USD",
+  "parameters": {
+    "ids": "ankr",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['ankr']['usd']\n            }"
+}

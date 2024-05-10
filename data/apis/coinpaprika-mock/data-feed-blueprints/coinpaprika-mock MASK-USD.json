@@ -1,0 +1,8 @@
+{
+  "name": "MASK/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/mask-mask-network",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

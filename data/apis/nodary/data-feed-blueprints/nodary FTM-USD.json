@@ -1,0 +1,8 @@
+{
+  "name": "FTM/USD",
+  "parameters": {
+    "name": "FTM/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SNX/USD",
+  "parameters": {
+    "name": "SNX/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

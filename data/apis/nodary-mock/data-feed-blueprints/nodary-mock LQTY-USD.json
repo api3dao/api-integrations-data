@@ -1,0 +1,8 @@
+{
+  "name": "LQTY/USD",
+  "parameters": {
+    "name": "LQTY/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

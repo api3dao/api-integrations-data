@@ -1,0 +1,9 @@
+{
+  "name": "TIA/USD",
+  "parameters": {
+    "ids": "celestia",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['celestia']['usd']\n            }"
+}

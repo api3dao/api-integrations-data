@@ -1,0 +1,6 @@
+{
+  "name": "API3/USD",
+  "parameters": {},
+  "path": "last/crypto/API3USD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

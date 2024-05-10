@@ -1,0 +1,9 @@
+{
+  "name": "USDe/USD",
+  "parameters": {
+    "ids": "ethena-usde",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['ethena-usde']['usd']\n            }"
+}

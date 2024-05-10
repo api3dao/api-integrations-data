@@ -1,0 +1,8 @@
+{
+  "name": "AAVE/USD",
+  "parameters": {
+    "name": "AAVE/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

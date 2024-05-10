@@ -1,0 +1,8 @@
+{
+  "name": "DYM/USD",
+  "parameters": {
+    "pairs": "DYM-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['DYM-USD'].rate\n            }\n            "
+}

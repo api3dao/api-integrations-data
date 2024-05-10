@@ -1,0 +1,8 @@
+{
+  "name": "USDe/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/usde-ethena-usde",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

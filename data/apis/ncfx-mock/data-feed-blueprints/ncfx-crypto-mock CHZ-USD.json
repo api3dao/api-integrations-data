@@ -1,0 +1,8 @@
+{
+  "name": "CHZ/USD",
+  "parameters": {
+    "pairs": "CHZ-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['CHZ-USD'].rate\n            }\n            "
+}

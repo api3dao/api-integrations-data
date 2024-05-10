@@ -1,0 +1,8 @@
+{
+  "name": "CNY/USD",
+  "parameters": {
+    "base": "CNY"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

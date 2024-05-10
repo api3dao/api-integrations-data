@@ -1,0 +1,8 @@
+{
+  "name": "TRY/USD",
+  "parameters": {
+    "base": "TRY"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "GME/USD",
+  "parameters": {
+    "symbol": "GME"
+  },
+  "path": "stock/bidask",
+  "parser": "(response) => {\n                return (response.a + response.b) / 2\n              }\n              "
+}

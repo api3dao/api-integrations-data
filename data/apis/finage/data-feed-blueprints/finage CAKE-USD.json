@@ -1,0 +1,6 @@
+{
+  "name": "CAKE/USD",
+  "parameters": {},
+  "path": "last/crypto/CAKEUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

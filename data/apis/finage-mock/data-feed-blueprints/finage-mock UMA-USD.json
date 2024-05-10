@@ -1,0 +1,6 @@
+{
+  "name": "UMA/USD",
+  "parameters": {},
+  "path": "last/crypto/UMAUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

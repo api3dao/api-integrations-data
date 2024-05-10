@@ -1,0 +1,9 @@
+{
+  "name": "LDO/USD",
+  "parameters": {
+    "ids": "lido-dao",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['lido-dao']['usd']\n            }"
+}

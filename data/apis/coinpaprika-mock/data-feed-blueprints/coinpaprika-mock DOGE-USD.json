@@ -1,0 +1,8 @@
+{
+  "name": "DOGE/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/doge-dogecoin",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

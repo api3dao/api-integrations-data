@@ -1,0 +1,8 @@
+{
+  "name": "RDNT/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/rdnt-radiant-capital",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

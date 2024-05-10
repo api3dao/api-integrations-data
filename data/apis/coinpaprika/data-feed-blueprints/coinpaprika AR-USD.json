@@ -1,0 +1,8 @@
+{
+  "name": "AR/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/ar-arweave",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

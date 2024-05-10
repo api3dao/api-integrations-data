@@ -1,0 +1,8 @@
+{
+  "name": "QUICK/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/quick-quickswap-v2",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

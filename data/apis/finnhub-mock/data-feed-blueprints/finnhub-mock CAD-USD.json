@@ -1,0 +1,8 @@
+{
+  "name": "CAD/USD",
+  "parameters": {
+    "base": "CAD"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

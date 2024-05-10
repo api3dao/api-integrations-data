@@ -1,0 +1,9 @@
+{
+  "name": "SAND/USD",
+  "parameters": {
+    "ids": "the-sandbox",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['the-sandbox']['usd']\n            }"
+}

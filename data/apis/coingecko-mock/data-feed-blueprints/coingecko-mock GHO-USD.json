@@ -1,0 +1,9 @@
+{
+  "name": "GHO/USD",
+  "parameters": {
+    "ids": "gho",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['gho']['usd']\n            }"
+}

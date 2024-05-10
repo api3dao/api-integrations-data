@@ -1,0 +1,8 @@
+{
+  "name": "ORDI/USD",
+  "path": "tickers/ordi-ordinals",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ICP/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/icp-internet-computer",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

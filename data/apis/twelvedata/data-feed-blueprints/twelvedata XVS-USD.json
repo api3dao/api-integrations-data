@@ -1,0 +1,9 @@
+{
+  "name": "XVS/USD",
+  "parameters": {
+    "symbol": "XVS/USD",
+    "dp": "11"
+  },
+  "path": "price",
+  "parser": "(response) => {\n            if(!Object.keys(response).includes('price')) {\n              throw Error('[Known Error] - TwelveData did not return any price value.');\n            }\n            return response.price;\n          }\n          "
+}

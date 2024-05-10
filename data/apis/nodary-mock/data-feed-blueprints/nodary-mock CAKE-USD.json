@@ -1,0 +1,8 @@
+{
+  "name": "CAKE/USD",
+  "parameters": {
+    "name": "CAKE/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

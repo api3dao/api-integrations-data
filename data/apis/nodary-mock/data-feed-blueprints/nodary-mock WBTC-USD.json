@@ -1,0 +1,8 @@
+{
+  "name": "WBTC/USD",
+  "parameters": {
+    "name": "WBTC/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

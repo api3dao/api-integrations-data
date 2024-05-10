@@ -1,0 +1,8 @@
+{
+  "name": "SNX/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/snx-synthetix-network-token",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MERL/USD",
+  "path": "last/crypto/MERLUSD",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.price\n        }\n        "
+}

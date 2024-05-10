@@ -1,0 +1,8 @@
+{
+  "name": "XLM/USD",
+  "parameters": {
+    "pairs": "XLM-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['XLM-USD'].rate\n            }\n            "
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DYM/USD",
+  "parameters": {},
+  "path": "last/crypto/DYMUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

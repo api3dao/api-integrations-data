@@ -1,0 +1,8 @@
+{
+  "name": "ONDO/USD",
+  "parameters": {
+    "pairs": "ONDO-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['ONDO-USD'].rate\n            }\n            "
+}

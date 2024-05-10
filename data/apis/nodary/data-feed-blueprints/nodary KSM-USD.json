@@ -1,0 +1,8 @@
+{
+  "name": "KSM/USD",
+  "parameters": {
+    "name": "KSM/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

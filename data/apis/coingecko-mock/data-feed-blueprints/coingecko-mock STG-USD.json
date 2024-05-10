@@ -1,0 +1,9 @@
+{
+  "name": "STG/USD",
+  "parameters": {
+    "ids": "stargate-finance",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['stargate-finance']['usd']\n            }"
+}

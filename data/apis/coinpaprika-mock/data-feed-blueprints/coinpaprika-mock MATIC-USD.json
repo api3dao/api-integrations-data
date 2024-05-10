@@ -1,0 +1,8 @@
+{
+  "name": "MATIC/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/matic-polygon",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WOO/USD",
+  "parameters": {
+    "ids": "woo-network",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['woo-network']['usd']\n            }"
+}

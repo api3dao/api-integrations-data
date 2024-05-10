@@ -1,0 +1,8 @@
+{
+  "name": "MOVR/USD",
+  "parameters": {
+    "name": "MOVR/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "CAKE/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/cake-pancakeswap",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

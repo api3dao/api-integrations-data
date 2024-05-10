@@ -1,0 +1,6 @@
+{
+  "name": "APE/USD",
+  "parameters": {},
+  "path": "last/crypto/APEUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

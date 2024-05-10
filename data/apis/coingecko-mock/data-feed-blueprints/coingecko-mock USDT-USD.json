@@ -1,0 +1,9 @@
+{
+  "name": "USDT/USD",
+  "parameters": {
+    "ids": "tether",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['tether']['usd']\n            }"
+}

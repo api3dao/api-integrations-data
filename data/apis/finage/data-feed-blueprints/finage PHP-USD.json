@@ -1,0 +1,6 @@
+{
+  "name": "PHP/USD",
+  "parameters": {},
+  "path": "last/trade/forex/PHPUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

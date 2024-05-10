@@ -1,0 +1,9 @@
+{
+  "name": "HBAR/USD",
+  "parameters": {
+    "ids": "hedera-hashgraph",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['hedera-hashgraph']['usd']\n            }"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "JPY/USD",
+  "parameters": {
+    "base": "JPY"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "CELO/USD",
+  "parameters": {
+    "pairs": "CELO-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['CELO-USD'].rate\n            }\n            "
+}

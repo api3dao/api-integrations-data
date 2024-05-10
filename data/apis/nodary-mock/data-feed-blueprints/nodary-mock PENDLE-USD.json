@@ -1,0 +1,8 @@
+{
+  "name": "PENDLE/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "PENDLE/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

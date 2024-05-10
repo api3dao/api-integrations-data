@@ -1,0 +1,8 @@
+{
+  "name": "KRW/USD",
+  "parameters": {
+    "currency": "KRWUSD"
+  },
+  "path": "live",
+  "parser": "(response) => {\n                const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/');\n                const targetQuote = response.quotes.find((quote) => quote.base_currency === baseCurrency && quote.quote_currency === quoteCurrency);\n                return targetQuote.mid;\n              }\n              "
+}

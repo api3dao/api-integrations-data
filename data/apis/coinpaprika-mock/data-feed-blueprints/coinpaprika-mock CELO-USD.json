@@ -1,0 +1,8 @@
+{
+  "name": "CELO/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/celo-celo",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

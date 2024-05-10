@@ -1,0 +1,9 @@
+{
+  "name": "RIF/USD",
+  "parameters": {
+    "ids": "rif-token",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['rif-token']['usd']\n            }"
+}

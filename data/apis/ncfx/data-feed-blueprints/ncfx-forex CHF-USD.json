@@ -1,0 +1,6 @@
+{
+  "name": "CHF/USD",
+  "parameters": {},
+  "path": "live/midrate/v1/rates/CHFUSD/SPT/D/O",
+  "parser": "(response) => {\n              return response.m\n            }\n            "
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MSFT/USD",
+  "parameters": {},
+  "path": "last/trade/stock/MSFT",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

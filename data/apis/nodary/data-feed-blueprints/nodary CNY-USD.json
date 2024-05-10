@@ -1,0 +1,8 @@
+{
+  "name": "CNY/USD",
+  "parameters": {
+    "name": "CNY/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

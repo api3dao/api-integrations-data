@@ -1,0 +1,8 @@
+{
+  "name": "KRW/USD",
+  "parameters": {
+    "base": "KRW"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

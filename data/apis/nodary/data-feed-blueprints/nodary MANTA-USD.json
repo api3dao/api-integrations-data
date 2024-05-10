@@ -1,0 +1,8 @@
+{
+  "name": "MANTA/USD",
+  "parameters": {
+    "name": "MANTA/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

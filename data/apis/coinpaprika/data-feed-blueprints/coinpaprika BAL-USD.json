@@ -1,0 +1,8 @@
+{
+  "name": "BAL/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/bal-balancer",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

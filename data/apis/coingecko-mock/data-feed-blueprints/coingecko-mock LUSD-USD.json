@@ -1,0 +1,9 @@
+{
+  "name": "LUSD/USD",
+  "parameters": {
+    "ids": "liquity-usd",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['liquity-usd']['usd']\n            }"
+}

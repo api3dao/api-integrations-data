@@ -1,0 +1,8 @@
+{
+  "name": "EUR/USD",
+  "parameters": {
+    "base": "EUR"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

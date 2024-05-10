@@ -35,7 +35,10 @@
       ["NZD/USD"],
       ["SEK/USD"],
       ["TRY/USD"],
-      ["ZAR/USD"]
+      ["ZAR/USD"],
+      ["AMD/USD"],
+      ["PLTR/USD"],
+      ["QCOM/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

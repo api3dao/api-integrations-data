@@ -1,0 +1,8 @@
+{
+  "name": "ZAR/USD",
+  "parameters": {
+    "base": "ZAR"
+  },
+  "path": "forex/rates",
+  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
+}

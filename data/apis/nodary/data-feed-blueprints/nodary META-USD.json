@@ -1,0 +1,8 @@
+{
+  "name": "META/USD",
+  "parameters": {
+    "name": "META/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

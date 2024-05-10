@@ -1,0 +1,8 @@
+{
+  "name": "TAO/USD",
+  "path": "trades.v2/spot_exchange_rate/tao/usd",
+  "parameters": {
+    "interval": "5m"
+  },
+  "parser": "(response) => {\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\n            if(validDataArray.length === 0) {\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\n            }\n            return validDataArray[0].price;\n          }\n          "
+}

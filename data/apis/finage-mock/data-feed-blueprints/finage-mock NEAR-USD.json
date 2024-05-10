@@ -1,0 +1,6 @@
+{
+  "name": "NEAR/USD",
+  "parameters": {},
+  "path": "last/crypto/NEARUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

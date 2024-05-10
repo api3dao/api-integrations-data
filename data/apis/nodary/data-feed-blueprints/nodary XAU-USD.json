@@ -1,0 +1,8 @@
+{
+  "name": "XAU/USD",
+  "parameters": {
+    "name": "XAU/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

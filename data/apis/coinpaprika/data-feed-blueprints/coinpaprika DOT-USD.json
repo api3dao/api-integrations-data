@@ -1,0 +1,8 @@
+{
+  "name": "DOT/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/dot-polkadot",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

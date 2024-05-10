@@ -1,0 +1,6 @@
+{
+  "name": "ZAR/USD",
+  "parameters": {},
+  "path": "last/trade/forex/ZARUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

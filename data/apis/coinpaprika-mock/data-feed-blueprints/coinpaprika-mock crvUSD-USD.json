@@ -1,0 +1,8 @@
+{
+  "name": "crvUSD/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/crvusd-curvefi-usd-stablecoin",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

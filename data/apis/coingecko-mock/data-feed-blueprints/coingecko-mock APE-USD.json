@@ -1,0 +1,9 @@
+{
+  "name": "APE/USD",
+  "parameters": {
+    "ids": "apecoin",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['apecoin']['usd']\n            }"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "MNT/USD",
+  "parameters": {
+    "ids": "mantle",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['mantle']['usd']\n            }"
+}

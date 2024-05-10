@@ -1,0 +1,9 @@
+{
+  "name": "stETH/USD",
+  "parameters": {
+    "ids": "staked-ether",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['staked-ether']['usd']\n            }"
+}

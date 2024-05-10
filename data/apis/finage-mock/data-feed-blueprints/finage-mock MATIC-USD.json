@@ -1,0 +1,6 @@
+{
+  "name": "MATIC/USD",
+  "parameters": {},
+  "path": "last/crypto/MATICUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

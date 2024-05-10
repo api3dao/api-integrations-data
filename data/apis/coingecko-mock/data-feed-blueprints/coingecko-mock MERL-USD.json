@@ -1,0 +1,9 @@
+{
+  "name": "MERL/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "merlin-chain",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['merlin-chain']['usd']\n        }\n        "
+}

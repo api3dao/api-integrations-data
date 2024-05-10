@@ -1,0 +1,8 @@
+{
+  "name": "LTC/USD",
+  "parameters": {
+    "pairs": "LTC-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['LTC-USD'].rate\n            }\n            "
+}

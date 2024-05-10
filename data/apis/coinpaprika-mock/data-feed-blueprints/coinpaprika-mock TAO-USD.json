@@ -1,0 +1,8 @@
+{
+  "name": "TAO/USD",
+  "path": "tickers/tao-bittensor",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

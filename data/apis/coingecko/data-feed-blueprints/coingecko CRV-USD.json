@@ -1,0 +1,9 @@
+{
+  "name": "CRV/USD",
+  "parameters": {
+    "ids": "curve-dao-token",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['curve-dao-token']['usd']\n            }"
+}

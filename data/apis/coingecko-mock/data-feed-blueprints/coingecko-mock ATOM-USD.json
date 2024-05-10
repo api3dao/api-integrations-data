@@ -1,0 +1,9 @@
+{
+  "name": "ATOM/USD",
+  "parameters": {
+    "ids": "cosmos",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['cosmos']['usd']\n            }"
+}

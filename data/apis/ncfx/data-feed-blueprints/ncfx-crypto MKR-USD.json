@@ -1,0 +1,8 @@
+{
+  "name": "MKR/USD",
+  "parameters": {
+    "pairs": "MKR-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['MKR-USD'].rate\n            }\n            "
+}

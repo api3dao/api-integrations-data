@@ -1,0 +1,9 @@
+{
+  "name": "WBTC/USD",
+  "parameters": {
+    "ids": "wrapped-bitcoin",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['wrapped-bitcoin']['usd']\n            }"
+}

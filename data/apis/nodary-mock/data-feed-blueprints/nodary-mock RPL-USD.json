@@ -1,0 +1,8 @@
+{
+  "name": "RPL/USD",
+  "parameters": {
+    "name": "RPL/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

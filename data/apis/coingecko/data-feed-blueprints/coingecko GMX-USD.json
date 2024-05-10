@@ -1,0 +1,9 @@
+{
+  "name": "GMX/USD",
+  "parameters": {
+    "ids": "gmx",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['gmx']['usd']\n            }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "OSMO/USD",
+  "parameters": {},
+  "path": "last/crypto/OSMOUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

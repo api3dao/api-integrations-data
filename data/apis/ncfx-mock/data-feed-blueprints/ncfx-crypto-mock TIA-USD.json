@@ -1,0 +1,8 @@
+{
+  "name": "TIA/USD",
+  "parameters": {
+    "pairs": "TIA-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['TIA-USD'].rate\n            }\n            "
+}

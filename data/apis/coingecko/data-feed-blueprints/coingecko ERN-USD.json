@@ -1,0 +1,9 @@
+{
+  "name": "ERN/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "ethernity-chain",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['ethernity-chain']['usd']\n        }\n        "
+}

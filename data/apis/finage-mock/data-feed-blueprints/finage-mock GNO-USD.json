@@ -1,0 +1,6 @@
+{
+  "name": "GNO/USD",
+  "parameters": {},
+  "path": "last/crypto/GNOUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

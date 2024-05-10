@@ -1,0 +1,6 @@
+{
+  "name": "MXN/USD",
+  "parameters": {},
+  "path": "live/midrate/v1/rates/MXNUSD/SPT/D/O",
+  "parser": "(response) => {\n              return response.m\n            }\n            "
+}

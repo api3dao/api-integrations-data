@@ -1,0 +1,6 @@
+{
+  "name": "ICP/USD",
+  "parameters": {},
+  "path": "last/crypto/ICPUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

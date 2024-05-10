@@ -1,0 +1,8 @@
+{
+  "name": "OSMO/USD",
+  "parameters": {
+    "pairs": "OSMO-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['OSMO-USD'].rate\n            }\n            "
+}

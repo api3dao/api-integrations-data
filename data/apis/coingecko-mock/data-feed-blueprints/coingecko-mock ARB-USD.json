@@ -1,0 +1,9 @@
+{
+  "name": "ARB/USD",
+  "parameters": {
+    "ids": "arbitrum",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['arbitrum']['usd']\n            }"
+}

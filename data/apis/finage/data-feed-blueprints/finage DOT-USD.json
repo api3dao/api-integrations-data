@@ -1,0 +1,6 @@
+{
+  "name": "DOT/USD",
+  "parameters": {},
+  "path": "last/crypto/DOTUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

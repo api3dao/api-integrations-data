@@ -1,0 +1,6 @@
+{
+  "name": "MNT/USD",
+  "parameters": {},
+  "path": "last/crypto/MNTUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SGD/USD",
+  "parameters": {
+    "name": "SGD/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

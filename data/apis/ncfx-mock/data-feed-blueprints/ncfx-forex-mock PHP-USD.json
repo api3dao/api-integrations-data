@@ -1,0 +1,6 @@
+{
+  "name": "PHP/USD",
+  "parameters": {},
+  "path": "live/midrate/v1/rates/PHPUSD/SPT/D/O",
+  "parser": "(response) => {\n              return response.m\n            }\n            "
+}

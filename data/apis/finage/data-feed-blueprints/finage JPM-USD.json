@@ -1,0 +1,6 @@
+{
+  "name": "JPM/USD",
+  "parameters": {},
+  "path": "last/trade/stock/JPM",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

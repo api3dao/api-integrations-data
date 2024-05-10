@@ -1,0 +1,9 @@
+{
+  "name": "CRO/USD",
+  "parameters": {
+    "ids": "crypto-com-chain",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['crypto-com-chain']['usd']\n            }"
+}

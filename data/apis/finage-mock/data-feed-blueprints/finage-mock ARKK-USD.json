@@ -1,0 +1,6 @@
+{
+  "name": "ARKK/USD",
+  "parameters": {},
+  "path": "last/trade/stock/ARKK",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

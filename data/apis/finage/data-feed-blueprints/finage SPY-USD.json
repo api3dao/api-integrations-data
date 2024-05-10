@@ -1,0 +1,6 @@
+{
+  "name": "SPY/USD",
+  "parameters": {},
+  "path": "last/trade/stock/SPY",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

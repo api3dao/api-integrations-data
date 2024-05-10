@@ -1,0 +1,8 @@
+{
+  "name": "STG/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/stg-stargatetoken",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

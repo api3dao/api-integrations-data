@@ -1,0 +1,6 @@
+{
+  "name": "NZD/USD",
+  "parameters": {},
+  "path": "last/trade/forex/NZDUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

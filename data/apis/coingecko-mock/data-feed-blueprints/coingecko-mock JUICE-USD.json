@@ -1,0 +1,9 @@
+{
+  "name": "JUICE/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "juice-finance",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['juice-finance']['usd']\n        }\n        "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ezETH/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/ezeth-renzo-restaked-eth",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

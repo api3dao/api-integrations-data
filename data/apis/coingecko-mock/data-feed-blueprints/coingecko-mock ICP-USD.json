@@ -1,0 +1,9 @@
+{
+  "name": "ICP/USD",
+  "parameters": {
+    "ids": "internet-computer",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['internet-computer']['usd']\n            }"
+}

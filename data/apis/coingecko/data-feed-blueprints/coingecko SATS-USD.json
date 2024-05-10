@@ -1,0 +1,9 @@
+{
+  "name": "SATS/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "sats-ordinals",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['sats-ordinals']['usd']\n        }\n        "
+}

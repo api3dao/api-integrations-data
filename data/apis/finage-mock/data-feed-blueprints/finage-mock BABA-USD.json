@@ -1,0 +1,6 @@
+{
+  "name": "BABA/USD",
+  "parameters": {},
+  "path": "last/trade/stock/BABA",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

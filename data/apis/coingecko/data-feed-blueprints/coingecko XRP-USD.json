@@ -1,0 +1,9 @@
+{
+  "name": "XRP/USD",
+  "parameters": {
+    "ids": "ripple",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['ripple']['usd']\n            }"
+}

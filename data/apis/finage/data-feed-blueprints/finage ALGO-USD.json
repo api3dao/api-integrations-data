@@ -1,0 +1,6 @@
+{
+  "name": "ALGO/USD",
+  "parameters": {},
+  "path": "last/crypto/ALGOUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

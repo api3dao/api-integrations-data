@@ -1,0 +1,9 @@
+{
+  "name": "API3/USD",
+  "parameters": {
+    "event": "Quote",
+    "symbol": "API3/USD"
+  },
+  "path": "rest/events.json",
+  "parser": "(response) => {\n            const bidPrice = response.Quote['API3/USD'].bidPrice;\n            const askPrice = response.Quote['API3/USD'].askPrice;\n            const result = (bidPrice + askPrice) / 2;\n            if(result === \"NaN\" || result === NaN) {\n              throw Error('[Known Error] - dxFeed returns NaN for one of the target values bidPrice or askPrice.');\n            }\n            return result;\n          }\n          "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MERL/USD",
+  "path": "tickers/merl-merlin-chain",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

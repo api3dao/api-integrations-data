@@ -1,0 +1,8 @@
+{
+  "name": "GMX/USD",
+  "parameters": {
+    "name": "GMX/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

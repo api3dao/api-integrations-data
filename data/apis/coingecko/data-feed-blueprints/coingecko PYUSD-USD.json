@@ -1,0 +1,9 @@
+{
+  "name": "PYUSD/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "paypal-usd",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['paypal-usd']['usd']\n        }\n        "
+}

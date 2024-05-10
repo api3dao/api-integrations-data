@@ -1,0 +1,8 @@
+{
+  "name": "AMD/USD",
+  "path": "stock/bidask",
+  "parameters": {
+    "symbol": "AMD"
+  },
+  "parser": "(response) => {\n          return (response.a + response.b) / 2\n        }\n        "
+}

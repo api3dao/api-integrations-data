@@ -1,0 +1,6 @@
+{
+  "name": "KAVA/USD",
+  "parameters": {},
+  "path": "last/crypto/KAVAUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

@@ -1,0 +1,9 @@
+{
+  "name": "TAO/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "bittensor",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['bittensor']['usd']\n        }\n        "
+}

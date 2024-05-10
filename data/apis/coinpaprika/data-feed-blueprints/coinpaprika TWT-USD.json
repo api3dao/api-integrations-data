@@ -1,0 +1,8 @@
+{
+  "name": "TWT/USD",
+  "path": "tickers/twt-trust-wallet-token",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

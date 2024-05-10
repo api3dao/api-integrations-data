@@ -1,0 +1,8 @@
+{
+  "name": "CHF/USD",
+  "parameters": {
+    "symbols": "CHFUSD"
+  },
+  "path": "fx/latest",
+  "parser": "(response) => {\n                return response[0].rate\n              }\n              "
+}

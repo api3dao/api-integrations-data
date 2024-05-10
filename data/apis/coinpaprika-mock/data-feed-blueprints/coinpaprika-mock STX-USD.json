@@ -1,0 +1,8 @@
+{
+  "name": "STX/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/stx-stacks",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

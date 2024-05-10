@@ -1,0 +1,8 @@
+{
+  "name": "LINK/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/link-chainlink",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

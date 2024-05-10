@@ -1,0 +1,8 @@
+{
+  "name": "XLM/USD",
+  "parameters": {
+    "name": "XLM/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

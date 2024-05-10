@@ -1,0 +1,8 @@
+{
+  "name": "ZIL/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/zil-zilliqa",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ORDI/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "ordinals",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['ordinals']['usd']\n        }\n        "
+}

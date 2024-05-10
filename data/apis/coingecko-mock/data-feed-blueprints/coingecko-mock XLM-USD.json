@@ -1,0 +1,9 @@
+{
+  "name": "XLM/USD",
+  "parameters": {
+    "ids": "stellar",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['stellar']['usd']\n            }"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "CHZ/USD",
+  "parameters": {
+    "ids": "chiliz",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['chiliz']['usd']\n            }"
+}

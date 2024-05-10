@@ -1,0 +1,8 @@
+{
+  "name": "OSMO/USD",
+  "parameters": {
+    "name": "OSMO/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

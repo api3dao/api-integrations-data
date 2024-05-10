@@ -1,0 +1,8 @@
+{
+  "name": "CHZ/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/chz-chiliz",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

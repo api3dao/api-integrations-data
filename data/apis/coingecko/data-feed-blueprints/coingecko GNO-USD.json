@@ -1,0 +1,9 @@
+{
+  "name": "GNO/USD",
+  "parameters": {
+    "ids": "gnosis",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['gnosis']['usd']\n            }"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ENS/USD",
+  "parameters": {
+    "ids": "ethereum-name-service",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['ethereum-name-service']['usd']\n            }"
+}

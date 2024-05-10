@@ -1,0 +1,6 @@
+{
+  "name": "TAO/USD",
+  "path": "last/crypto/TAOUSD",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.price\n        }\n        "
+}

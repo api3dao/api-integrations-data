@@ -1,0 +1,9 @@
+{
+  "name": "crvUSD/USD",
+  "parameters": {
+    "ids": "crvusd",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['crvusd']['usd']\n            }"
+}

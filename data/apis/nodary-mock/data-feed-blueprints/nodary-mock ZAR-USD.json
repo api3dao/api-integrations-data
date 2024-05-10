@@ -1,0 +1,8 @@
+{
+  "name": "ZAR/USD",
+  "parameters": {
+    "name": "ZAR/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

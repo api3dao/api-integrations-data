@@ -1,0 +1,8 @@
+{
+  "name": "QCOM/USD",
+  "path": "stock/bidask",
+  "parameters": {
+    "symbol": "QCOM"
+  },
+  "parser": "(response) => {\n          return (response.a + response.b) / 2\n        }\n        "
+}

@@ -1,0 +1,6 @@
+{
+  "name": "QQQ/USD",
+  "parameters": {},
+  "path": "last/trade/stock/QQQ",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

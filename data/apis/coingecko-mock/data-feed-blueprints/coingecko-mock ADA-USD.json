@@ -1,0 +1,9 @@
+{
+  "name": "ADA/USD",
+  "parameters": {
+    "ids": "cardano",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['cardano']['usd']\n            }"
+}

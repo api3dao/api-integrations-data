@@ -1,0 +1,9 @@
+{
+  "name": "SHIB/USD",
+  "parameters": {
+    "ids": "shiba-inu",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['shiba-inu']['usd']\n            }"
+}

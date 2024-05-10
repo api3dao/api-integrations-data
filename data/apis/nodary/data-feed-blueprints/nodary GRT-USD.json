@@ -1,0 +1,8 @@
+{
+  "name": "GRT/USD",
+  "parameters": {
+    "name": "GRT/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

@@ -1,0 +1,9 @@
+{
+  "name": "FXS/USD",
+  "parameters": {
+    "ids": "frax-share",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['frax-share']['usd']\n            }"
+}

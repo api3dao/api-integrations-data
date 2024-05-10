@@ -1,0 +1,9 @@
+{
+  "name": "LINK/USD",
+  "parameters": {
+    "ids": "chainlink",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['chainlink']['usd']\n            }"
+}

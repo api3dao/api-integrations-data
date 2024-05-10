@@ -1,0 +1,9 @@
+{
+  "name": "FIL/USD",
+  "parameters": {
+    "ids": "filecoin",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['filecoin']['usd']\n            }"
+}

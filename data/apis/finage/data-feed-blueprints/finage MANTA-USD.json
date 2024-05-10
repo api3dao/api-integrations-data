@@ -1,0 +1,6 @@
+{
+  "name": "MANTA/USD",
+  "parameters": {},
+  "path": "last/crypto/MANTAUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

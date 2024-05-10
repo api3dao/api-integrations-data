@@ -1,0 +1,9 @@
+{
+  "name": "IMX/USD",
+  "parameters": {
+    "ids": "immutable-x",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['immutable-x']['usd']\n            }"
+}

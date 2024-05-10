@@ -1,0 +1,8 @@
+{
+  "name": "CRO/USD",
+  "parameters": {
+    "name": "CRO/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}
