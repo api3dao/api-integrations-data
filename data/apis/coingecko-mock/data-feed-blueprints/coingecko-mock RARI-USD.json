@@ -1,0 +1,9 @@
+{
+  "name": "RARI/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "rarible",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['rarible']['usd']\n        }\n        "
+}

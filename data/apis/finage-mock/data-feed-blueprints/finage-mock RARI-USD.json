@@ -1,0 +1,6 @@
+{
+  "name": "RARI/USD",
+  "path": "last/crypto/RARIUSD",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.price\n        }\n        "
+}

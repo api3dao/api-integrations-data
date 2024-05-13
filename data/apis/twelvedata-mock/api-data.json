@@ -163,7 +163,10 @@
       ["TAO/USD"],
       ["AMD/USD"],
       ["PLTR/USD"],
-      ["QCOM/USD"]
+      ["QCOM/USD"],
+      ["INJ/USD"],
+      ["NEON/USD"],
+      ["RARI/USD"]
     ]
   },
   "deploymentLocations": ["local"],

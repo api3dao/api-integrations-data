@@ -116,7 +116,9 @@
       ["ERN/USD"],
       ["TAO/USD"],
       ["ORDI/USD"],
-      ["SATS/USD"]
+      ["SATS/USD"],
+      ["INJ/USD"],
+      ["RARI/USD"]
     ]
   },
   "deploymentLocations": ["local"],

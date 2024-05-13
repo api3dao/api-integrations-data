@@ -170,7 +170,10 @@
       ["SATS/USD"],
       ["AMD/USD"],
       ["PLTR/USD"],
-      ["QCOM/USD"]
+      ["QCOM/USD"],
+      ["NEON/USD"],
+      ["INJ/USD"],
+      ["RARI/USD"]
     ]
   },
   "deploymentLocations": ["local"],

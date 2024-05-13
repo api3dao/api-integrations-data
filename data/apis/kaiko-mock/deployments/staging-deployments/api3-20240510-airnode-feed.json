@@ -1,0 +1,1855 @@
+{
+  "nodeSettings": {
+    "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
+    "nodeVersion": "1.0.0",
+    "stage": "${STAGE}"
+  },
+  "templates": {
+    "0xc21caab20363de657550b2641db4b6219812ed4ebc81737e0ee30e65c2a60800": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AAVE/USD"
+        }
+      ]
+    },
+    "0x1f7c5ca910aa03d5506cffa0992bf562cde899b09760a0efb29affa4d6c530dc": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ADA/USD"
+        }
+      ]
+    },
+    "0x90ee2e79abacb92341c078d2007e1cbd82dc700b79467548447f470cb192030d": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ALGO/USD"
+        }
+      ]
+    },
+    "0x9cd114048a5a624ec0bfd0d0d48fd5e987e14e7b1cfc722a3099bdeb8430803c": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ANKR/USD"
+        }
+      ]
+    },
+    "0x07550cc8655aa0a134a7ee101367a5843961c32adcad1614fe2875bcae866c66": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "APE/USD"
+        }
+      ]
+    },
+    "0x981a7d61f7f4810b554984bd1636c333f1e8dc2ea26b3d21fc0d537bd8e9af28": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "API3/USD"
+        }
+      ]
+    },
+    "0x9e3cb95fc93174487b4c7f1ac27ce477c999aa2bcdcbef753a2c024414b96dd3": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ARB/USD"
+        }
+      ]
+    },
+    "0x3d44825b45bd875e08e69d8f0c2d27b3cd137b7957833fc0a2c714c4f9df200c": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ATOM/USD"
+        }
+      ]
+    },
+    "0x4a5bfb66564864d657f6581755bdb6ac8eaa913a79cea87fbf6e383df51cd510": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AVAX/USD"
+        }
+      ]
+    },
+    "0xe1f85cce5a5648aa87bf20eec73d025586d5076ddb9f630b527c2e52773f9216": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AXS/USD"
+        }
+      ]
+    },
+    "0xa5f179dae1ca076355c1994a141e280e34a46a657fbbacba2d6952a1530e8147": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAL/USD"
+        }
+      ]
+    },
+    "0x7029301bf1f01523b9e0e296fdf2023c0c0e2f811ac0a79f012dfc2c0dedb464": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAT/USD"
+        }
+      ]
+    },
+    "0x5e3ebb23720e096a2502a4a4b791e34fc7fb4b60d7343c4d473ca57c6df5d4ca": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BNB/USD"
+        }
+      ]
+    },
+    "0xf73146b414006fc3a54d9eb326a1e788280012ad1250133857271471affc4d18": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BTC/USD"
+        }
+      ]
+    },
+    "0x6c8f37568dea0b927e139f10c38d2e6b3821e04f07f77972d7a695683eaf81f8": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CAKE/USD"
+        }
+      ]
+    },
+    "0x1f30e38d97a6815eedbf5c28d6828fbd2664a864bbd9ff5d7d41da41a10a5653": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CELO/USD"
+        }
+      ]
+    },
+    "0x909d75dfaf11700dcf852645afb81836211888cb0e2b68a474bae7f3ffb70ec1": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CHZ/USD"
+        }
+      ]
+    },
+    "0xadb25d24e27eccedab771da4de82c08db68bc3b0d879797a9e199be33f745dd6": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "COMP/USD"
+        }
+      ]
+    },
+    "0x10fe8589d7655c6ae33324b47e653dbb23c793fe4d68a6aaff19667bdc342a94": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CRO/USD"
+        }
+      ]
+    },
+    "0xd916ddebea74c9c69984ca5c772831da2b81af71584690123c7493df02bba894": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CRV/USD"
+        }
+      ]
+    },
+    "0xf2a3cf402447074afa967389780113f5239e3ea9244dc0adcef2d8647126d0da": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CVX/USD"
+        }
+      ]
+    },
+    "0xb6574af3986f1ebe8ae7e2142ac56ad7216ff1ccf887ead0eacbffd700bc0e25": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DAI/USD"
+        }
+      ]
+    },
+    "0x46fa049e01431d8167488cc1f382571833d9551bf2f326b21dfc2da643630caa": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DOGE/USD"
+        }
+      ]
+    },
+    "0x6bb7828ab1c600ef62fe130609138d7e3d14ba1060e8f8e2af5d5636ca6d96a3": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DOT/USD"
+        }
+      ]
+    },
+    "0x0970b1e622f50950bf55b3375a849cdd8f8ecbb0ff47d4bde3cbfb225dfcc607": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ETH/USD"
+        }
+      ]
+    },
+    "0x3f73319573e71b7f79368a664b483ef6742272068300ca4cee81c6a78789188a": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "EUL/USD"
+        }
+      ]
+    },
+    "0x67cfae6667c8c1c8dfc865bfe642d4a8fee86c3ffa5755f9d57a2329d0b77124": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FIL/USD"
+        }
+      ]
+    },
+    "0xacd007a1cd8b4cac1b8fb6211ce5c63e712a32f023b8f0eccf01c284cba02e4e": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FLOW/USD"
+        }
+      ]
+    },
+    "0xab12fb1fa31d5d6580ed9399da82c22e1e65d7d6104e88775337deb7016c3b5e": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FXS/USD"
+        }
+      ]
+    },
+    "0xf0204935ebe8db93658aa0234c825b699e2ede8d99517c85520897e0985f1002": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FTM/USD"
+        }
+      ]
+    },
+    "0x0fdff09cb203bed2509967373ec5a85e453c26821bc1801aa67dc51af2e10f5f": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GLMR/USD"
+        }
+      ]
+    },
+    "0x3838b7d421b306d85a8b7db65187b3f9b8da861e67d58441c73e843750831841": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GMX/USD"
+        }
+      ]
+    },
+    "0x5066d1c204311eb3c0d751908e6d0b4f78a8e2bdd0b4b43c14cd36aaac0c5430": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GNO/USD"
+        }
+      ]
+    },
+    "0x9b667d5b1adcc423190d9276206b52b13f2c7c3ab16c7aa6f94abe66a5730fbf": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GRT/USD"
+        }
+      ]
+    },
+    "0xfc7a8c8d86de88f34b135096bc513d265ad2e27e7077ed646d3ec41f13ccf5a4": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HBAR/USD"
+        }
+      ]
+    },
+    "0x39f0b537b7f0e54876eb1772701145f7e8cbd32e2bae09e12e12d1678b4a5d0c": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HNT/USD"
+        }
+      ]
+    },
+    "0xee28642a82b8d67a90d14bacb2826df772bde9c9cc373a32ee201a72992cd392": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ICP/USD"
+        }
+      ]
+    },
+    "0xec33e24e3f78e23aace72824f268af630939d1e6376c2f952c9e7290ebe9ba50": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "IMX/USD"
+        }
+      ]
+    },
+    "0xd0c0b227f52b02890ec96865532456128bc8e347eb7c6c9441d66bad614df0ad": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "JOE/USD"
+        }
+      ]
+    },
+    "0xffb9e3fa6962b9e17701efdd964c23aedbae5d44c233624d8f394759d7a80faf": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KDA/USD"
+        }
+      ]
+    },
+    "0xcce4216a0142ac901517f4acbf01e50dbad3b40b7ef45a74ab2c869b134ab65b": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KSM/USD"
+        }
+      ]
+    },
+    "0xcfadc031b0ff18c37ad8f954710a17b10838181e91ecfeb985e4d60ccfb1107d": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LDO/USD"
+        }
+      ]
+    },
+    "0x81fb5abe95bf18630cf2f45224c7b9509571a88303dfb8f471a12f0454d32eab": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LINK/USD"
+        }
+      ]
+    },
+    "0x4a11df3baaf7f811b1fe58a9ee82cee47221f2e77f09126a43faf9145d5f1b74": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LQTY/USD"
+        }
+      ]
+    },
+    "0x30027151dc4588e333f84e4c93da5451a31b00cbe017a4769f42aed3ac581ff8": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LTC/USD"
+        }
+      ]
+    },
+    "0x4443732285afdbedc409d06fc36aeeded000ec8015606771c363d93ca734cf43": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MANA/USD"
+        }
+      ]
+    },
+    "0x6a895870ea84c772651ca95f3a1d4e72485a451c367c9990fdc3892789806bd6": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MKR/USD"
+        }
+      ]
+    },
+    "0x1d0ce72c1eb0554e8bd2ab55b3cb2f5afd2c9520db4c08a2a13f76c7c57a4dec": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MATIC/USD"
+        }
+      ]
+    },
+    "0x946ca1989a0bf5bc39bb067cf25aad2fef886c9490ad0fa8c56b18c7e53d795b": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MOVR/USD"
+        }
+      ]
+    },
+    "0xb9aa64186d4af71e52b0205c527a2a0a8fbaf88da70bf8f22438d859d1d8ed61": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NEAR/USD"
+        }
+      ]
+    },
+    "0x2668cf1709276cbe7e6a2fba773095f5e375c2bb7f50e925c57f940d533adb6b": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OKB/USD"
+        }
+      ]
+    },
+    "0x617aba1b804cdb0d8ded64f15f345e66f51c317ea31b8db6ed5f2f9b6a3d75b4": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OP/USD"
+        }
+      ]
+    },
+    "0xe283d76cfaaf79d68181b6ba25ebec73b8ac04862dacd7f50681f7f3e9214c16": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PAXG/USD"
+        }
+      ]
+    },
+    "0x9dcf335aab3f6cdc25d081b7a128e6efc51ee2592a2f8c51155434ed3b190a4c": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ROSE/USD"
+        }
+      ]
+    },
+    "0x198e37e2f25d747340119fb12b55c48122309810c497a8bf21f2cee5fabb86f9": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RPL/USD"
+        }
+      ]
+    },
+    "0x50de80ae0b1fb609004cc1a73306c9c2ddd479ff572cb999e55f3998ab47b88a": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RSR/USD"
+        }
+      ]
+    },
+    "0x1a5646b7b38bf4d6ed71f5e72a11b6ca740fc712533cd38a2cec58ef41e5e46b": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RUNE/USD"
+        }
+      ]
+    },
+    "0xe5c5845c00c2b089357ff4f16a936e947128041f98b56b58d1e8f932f40dbdb6": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SAND/USD"
+        }
+      ]
+    },
+    "0x5daf6f6de29d11a04e0ccf2e195773b15f2738d21f38e2eae1491de95bfb2dfd": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SHIB/USD"
+        }
+      ]
+    },
+    "0x6684a753184f64f9826c3af1603793b76edd8e0ea0fca7dd6ae81a423b642f61": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SNX/USD"
+        }
+      ]
+    },
+    "0xea6d18c078a7d35f759de5ac7788c3ababc695dee6a6d04f205a3d9484a96de7": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SOL/USD"
+        }
+      ]
+    },
+    "0x852f63994874dbc358ab2d4d032838d4065f2b966ba70bfcb8ca3e2f97cfae3a": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "stETH/USD"
+        }
+      ]
+    },
+    "0x2a847c230a686da81b9cebd0bab333a3fecf378efe5182c36f5fc8ca23fc2d70": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STG/USD"
+        }
+      ]
+    },
+    "0x56c8344cfc3b43540d693dbd1e3570144c10399ba9672a07b4634620f86911df": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STX/USD"
+        }
+      ]
+    },
+    "0x7f4b83a3ca2bbc2d2aac4c5010e5fbd5a2d612c3d46db4ea15f1a8f240edca38": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SUSHI/USD"
+        }
+      ]
+    },
+    "0x329a7624dd97a49961144cbda2fc6c02405b3bead9b2dea9169d6d505ad75849": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TUSD/USD"
+        }
+      ]
+    },
+    "0x9335489e2122ccdaf680a95bc603b71a15df9f11c4ed5f6ea8a6e18f41e49947": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "UNI/USD"
+        }
+      ]
+    },
+    "0x4c02a8654d22efb5a1fe395ac72d52ba6cceb101151802feaf274ccb9786728a": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDT/USD"
+        }
+      ]
+    },
+    "0xbb15bec10bbb7a7ce3cd453192e2b62463ac9c3e9f2843d91624f7bbd69d32d1": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDC/USD"
+        }
+      ]
+    },
+    "0x497f9319ec1b2496806e19b28dd2944d5f1a9ae27ef98ce5095f2124216ecc0d": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDP/USD"
+        }
+      ]
+    },
+    "0x51ed80a0bcb9e40fad69f8a1d9c046f8648d2172d6124230317901237513b98c": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XLM/USD"
+        }
+      ]
+    },
+    "0x9219be8387398f0600624fef760f4d38dcfdf92caebd084fe1b755664987657f": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XRP/USD"
+        }
+      ]
+    },
+    "0x652607909eda35cf0ac7edd1d6d1f088d7220bfef1df8028e559dbcf6dcca3ef": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XTZ/USD"
+        }
+      ]
+    },
+    "0x3e8aec0de4aa0951e62673e5efe4887daf13ac138d525603d1940f16bc2a8454": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "YFI/USD"
+        }
+      ]
+    },
+    "0xffbe9e9231464a83bdccf611226a21a0b32321dd811bfbc76602ead445ba227a": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZIL/USD"
+        }
+      ]
+    },
+    "0x30a3139231b07766c6850cd23d35f0368d2fdadb6361ec4eaf7f4b94865713c8": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZRX/USD"
+        }
+      ]
+    },
+    "0x8b7008cb9f1feca39f491d02e604b31718f1db43ff3a801e15182a487db4c926": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RNDR/USD"
+        }
+      ]
+    },
+    "0xbdbef175389f2cdf88351a59cc714c909777644884de83558ca8462daf9fd652": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MASK/USD"
+        }
+      ]
+    },
+    "0x5f4440638d4c179394a074c05ef8881408f0711c895c55af85bc0faf97bd06e8": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ENS/USD"
+        }
+      ]
+    },
+    "0xcfbacc836d8b42ab68aa17ffe4cdfdda710b2e21aa647f184d3d680e00dc7c24": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BLUR/USD"
+        }
+      ]
+    },
+    "0xfb841dc795b445294ee1468396356b2ed786bdc4ab5fd8b5d3618c6ac1415c34": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAND/USD"
+        }
+      ]
+    },
+    "0x4ca214602ef594dc5930eb51f1ac91d6f5951531d776231e418960803a4d2b60": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "UMA/USD"
+        }
+      ]
+    },
+    "0x463fe358d085bb6c55a796514fd9fd40052473ebebba8de1e6cf713d0a2bb1a6": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "APT/USD"
+        }
+      ]
+    },
+    "0x036ab3c759b21c87d57b6f2fa6510661987b33bef55142827adbe8c8a8ff0052": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PEPE/USD"
+        }
+      ]
+    },
+    "0x13fe9f7c69bb0bdcf149e038183fbf29a5339cb3e1460d405afe7035e729b37a": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OSMO/USD"
+        }
+      ]
+    },
+    "0x9bbbd59b3c2959794b834b00561bfda1697d996e86804f9559d341d4e12374aa": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SUI/USD"
+        }
+      ]
+    },
+    "0xa4b1ae6851711f6060ed249629bb607b1ce728f225164632b3530de5f91d82d6": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GNS/USD"
+        }
+      ]
+    },
+    "0x2d2e82d5b3318c19269d057c68b5b1f5f22f95c640220658c01eed3d15d9af59": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MNT/USD"
+        }
+      ]
+    },
+    "0x07914ac31e7b4af85a056adb87b2cfff61db40b99353f94953a5b29dacda34ef": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KAVA/USD"
+        }
+      ]
+    },
+    "0x00c806d53fcf27e9ab6e58de04c446ea0f6e7b2cb1a1e922b181de424bb34998": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RIF/USD"
+        }
+      ]
+    },
+    "0x49fff50f45d012f2d82df14062f91b13b23e0910763e666aa3e4ef2a202182af": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RDNT/USD"
+        }
+      ]
+    },
+    "0x424b0838d4f998c423b45394832d97f21969a6b27b3562b59854419d9efa4a54": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WOO/USD"
+        }
+      ]
+    },
+    "0x2ec64f49b89aca505cbbd6a008aa00c6d6ca1a9275e2864eac144412a6d20b75": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PYTH/USD"
+        }
+      ]
+    },
+    "0x502b9e883095849e29a633e5d66e19a657536d6a28aca22ca02c3f9d2340c3bb": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ASTR/USD"
+        }
+      ]
+    },
+    "0x95a8dbd51dc1e36c953149bcdc489daa0ca5df81ecf39f708348ae5a75b375bd": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DYM/USD"
+        }
+      ]
+    },
+    "0x40bea510f74b075772f7c7a152152bdec7a42aa2dfa7bd74713cbd89d5c39fe3": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TIA/USD"
+        }
+      ]
+    },
+    "0xa842a12ba8ce3a24f94e42fabc45985df44b8f35deb799bb0ba99c62ec0255c0": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDe/USD"
+        }
+      ]
+    },
+    "0xb58ef2c408ad01d01abad254ce625997cab972d2b68d451051dd414689d022a2": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SEI/USD"
+        }
+      ]
+    },
+    "0xbd8943b793cfedd51d864b8055f2ff88275b6a5f0b11cedbc2332033d0fc86de": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AR/USD"
+        }
+      ]
+    },
+    "0xa33439a0a6e1fd80be1ae0f4751c8b5da7488e297153ef127fad0ac05b599ab9": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STRK/USD"
+        }
+      ]
+    },
+    "0x61b84c30d1494bac77c73528ecc8b76ced38ce152cd02d597f5613d5e4b9b188": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AXL/USD"
+        }
+      ]
+    },
+    "0x114243a4739c2813b12606bbe6ca3b41bd440a2d0192036d89d343a9bbb0c97d": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ONDO/USD"
+        }
+      ]
+    },
+    "0xd4e7877f60a5ba2e45d4822042f9516882d5ba3c1f9c8713bd76d51c36fc7d31": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MANTA/USD"
+        }
+      ]
+    },
+    "0xc1243d1f8f86da5481d79cbffd0d32a6ccd3f01274391c37d51809b6e383295c": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RON/USD"
+        }
+      ]
+    },
+    "0x624cbd405e2a9b68a645c6c0d21587bec57b29a7f42931a18554ae81c0b122ab": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XVS/USD"
+        }
+      ]
+    },
+    "0x3c31f08280536ec8b91bd8037a118b13c517acc2adcd5428edc927a76c54edd3": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PENDLE/USD"
+        }
+      ]
+    },
+    "0x51d535e1ac6f7c0df5f1a75d1c9df0873c7622f80492f1c359bcfdefc330b0c8": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TWT/USD"
+        }
+      ]
+    },
+    "0x0349ac01ebd5f0fa49fa9685a34216043ed892b46e54ac6e26a28fa97b55b448": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AERO/USD"
+        }
+      ]
+    },
+    "0x4481e7581786d47dd034d22eb93824cffc82786e4731dbc4e2d298bfbb51ecd8": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ERN/USD"
+        }
+      ]
+    },
+    "0xcc3fb2f9cb74743626eff1175d5176a2bdcf74d2b8980204033449fe3c6181f2": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TAO/USD"
+        }
+      ]
+    },
+    "0xe3dd40847765b4350ff1327a68a2c2172f4b3717be948e07c1663f3135c0a46d": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ORDI/USD"
+        }
+      ]
+    },
+    "0x55519f330f84200e3d6c7bdff73df5db2817f7cc1f65c8f15d0b7695fd5cbde7": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SATS/USD"
+        }
+      ]
+    },
+    "0x0f8ae48bf7a6eb35aade9f7ba01dc37a1561f77fd88ee92097474ec7ebcf1960": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "INJ/USD"
+        }
+      ]
+    },
+    "0x859d77dcee9941d61012090a76d69436471981ab425d3d1c6d244c0c1d4f7303": {
+      "endpointId": "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RARI/USD"
+        }
+      ]
+    }
+  },
+  "endpoints": {
+    "0x95f002e64cb01a4e3947d98e18aafa5adedd6a293da32ba8178077b82d644fbe": {
+      "endpointName": "feed",
+      "oisTitle": "Kaiko"
+    }
+  },
+  "triggers": {
+    "signedApiUpdates": [
+      {
+        "templateIds": ["0xc21caab20363de657550b2641db4b6219812ed4ebc81737e0ee30e65c2a60800"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x1f7c5ca910aa03d5506cffa0992bf562cde899b09760a0efb29affa4d6c530dc"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x90ee2e79abacb92341c078d2007e1cbd82dc700b79467548447f470cb192030d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9cd114048a5a624ec0bfd0d0d48fd5e987e14e7b1cfc722a3099bdeb8430803c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x07550cc8655aa0a134a7ee101367a5843961c32adcad1614fe2875bcae866c66"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x981a7d61f7f4810b554984bd1636c333f1e8dc2ea26b3d21fc0d537bd8e9af28"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9e3cb95fc93174487b4c7f1ac27ce477c999aa2bcdcbef753a2c024414b96dd3"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3d44825b45bd875e08e69d8f0c2d27b3cd137b7957833fc0a2c714c4f9df200c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4a5bfb66564864d657f6581755bdb6ac8eaa913a79cea87fbf6e383df51cd510"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xe1f85cce5a5648aa87bf20eec73d025586d5076ddb9f630b527c2e52773f9216"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa5f179dae1ca076355c1994a141e280e34a46a657fbbacba2d6952a1530e8147"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7029301bf1f01523b9e0e296fdf2023c0c0e2f811ac0a79f012dfc2c0dedb464"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x5e3ebb23720e096a2502a4a4b791e34fc7fb4b60d7343c4d473ca57c6df5d4ca"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf73146b414006fc3a54d9eb326a1e788280012ad1250133857271471affc4d18"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x6c8f37568dea0b927e139f10c38d2e6b3821e04f07f77972d7a695683eaf81f8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x1f30e38d97a6815eedbf5c28d6828fbd2664a864bbd9ff5d7d41da41a10a5653"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x909d75dfaf11700dcf852645afb81836211888cb0e2b68a474bae7f3ffb70ec1"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xadb25d24e27eccedab771da4de82c08db68bc3b0d879797a9e199be33f745dd6"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x10fe8589d7655c6ae33324b47e653dbb23c793fe4d68a6aaff19667bdc342a94"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd916ddebea74c9c69984ca5c772831da2b81af71584690123c7493df02bba894"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf2a3cf402447074afa967389780113f5239e3ea9244dc0adcef2d8647126d0da"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb6574af3986f1ebe8ae7e2142ac56ad7216ff1ccf887ead0eacbffd700bc0e25"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x46fa049e01431d8167488cc1f382571833d9551bf2f326b21dfc2da643630caa"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x6bb7828ab1c600ef62fe130609138d7e3d14ba1060e8f8e2af5d5636ca6d96a3"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0970b1e622f50950bf55b3375a849cdd8f8ecbb0ff47d4bde3cbfb225dfcc607"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3f73319573e71b7f79368a664b483ef6742272068300ca4cee81c6a78789188a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x67cfae6667c8c1c8dfc865bfe642d4a8fee86c3ffa5755f9d57a2329d0b77124"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xacd007a1cd8b4cac1b8fb6211ce5c63e712a32f023b8f0eccf01c284cba02e4e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xab12fb1fa31d5d6580ed9399da82c22e1e65d7d6104e88775337deb7016c3b5e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf0204935ebe8db93658aa0234c825b699e2ede8d99517c85520897e0985f1002"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0fdff09cb203bed2509967373ec5a85e453c26821bc1801aa67dc51af2e10f5f"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3838b7d421b306d85a8b7db65187b3f9b8da861e67d58441c73e843750831841"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x5066d1c204311eb3c0d751908e6d0b4f78a8e2bdd0b4b43c14cd36aaac0c5430"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9b667d5b1adcc423190d9276206b52b13f2c7c3ab16c7aa6f94abe66a5730fbf"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xfc7a8c8d86de88f34b135096bc513d265ad2e27e7077ed646d3ec41f13ccf5a4"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x39f0b537b7f0e54876eb1772701145f7e8cbd32e2bae09e12e12d1678b4a5d0c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xee28642a82b8d67a90d14bacb2826df772bde9c9cc373a32ee201a72992cd392"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xec33e24e3f78e23aace72824f268af630939d1e6376c2f952c9e7290ebe9ba50"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd0c0b227f52b02890ec96865532456128bc8e347eb7c6c9441d66bad614df0ad"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xffb9e3fa6962b9e17701efdd964c23aedbae5d44c233624d8f394759d7a80faf"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xcce4216a0142ac901517f4acbf01e50dbad3b40b7ef45a74ab2c869b134ab65b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xcfadc031b0ff18c37ad8f954710a17b10838181e91ecfeb985e4d60ccfb1107d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x81fb5abe95bf18630cf2f45224c7b9509571a88303dfb8f471a12f0454d32eab"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4a11df3baaf7f811b1fe58a9ee82cee47221f2e77f09126a43faf9145d5f1b74"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x30027151dc4588e333f84e4c93da5451a31b00cbe017a4769f42aed3ac581ff8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4443732285afdbedc409d06fc36aeeded000ec8015606771c363d93ca734cf43"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x6a895870ea84c772651ca95f3a1d4e72485a451c367c9990fdc3892789806bd6"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x1d0ce72c1eb0554e8bd2ab55b3cb2f5afd2c9520db4c08a2a13f76c7c57a4dec"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x946ca1989a0bf5bc39bb067cf25aad2fef886c9490ad0fa8c56b18c7e53d795b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb9aa64186d4af71e52b0205c527a2a0a8fbaf88da70bf8f22438d859d1d8ed61"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x2668cf1709276cbe7e6a2fba773095f5e375c2bb7f50e925c57f940d533adb6b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x617aba1b804cdb0d8ded64f15f345e66f51c317ea31b8db6ed5f2f9b6a3d75b4"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xe283d76cfaaf79d68181b6ba25ebec73b8ac04862dacd7f50681f7f3e9214c16"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9dcf335aab3f6cdc25d081b7a128e6efc51ee2592a2f8c51155434ed3b190a4c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x198e37e2f25d747340119fb12b55c48122309810c497a8bf21f2cee5fabb86f9"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x50de80ae0b1fb609004cc1a73306c9c2ddd479ff572cb999e55f3998ab47b88a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x1a5646b7b38bf4d6ed71f5e72a11b6ca740fc712533cd38a2cec58ef41e5e46b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xe5c5845c00c2b089357ff4f16a936e947128041f98b56b58d1e8f932f40dbdb6"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x5daf6f6de29d11a04e0ccf2e195773b15f2738d21f38e2eae1491de95bfb2dfd"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x6684a753184f64f9826c3af1603793b76edd8e0ea0fca7dd6ae81a423b642f61"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xea6d18c078a7d35f759de5ac7788c3ababc695dee6a6d04f205a3d9484a96de7"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x852f63994874dbc358ab2d4d032838d4065f2b966ba70bfcb8ca3e2f97cfae3a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x2a847c230a686da81b9cebd0bab333a3fecf378efe5182c36f5fc8ca23fc2d70"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x56c8344cfc3b43540d693dbd1e3570144c10399ba9672a07b4634620f86911df"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7f4b83a3ca2bbc2d2aac4c5010e5fbd5a2d612c3d46db4ea15f1a8f240edca38"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x329a7624dd97a49961144cbda2fc6c02405b3bead9b2dea9169d6d505ad75849"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9335489e2122ccdaf680a95bc603b71a15df9f11c4ed5f6ea8a6e18f41e49947"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4c02a8654d22efb5a1fe395ac72d52ba6cceb101151802feaf274ccb9786728a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xbb15bec10bbb7a7ce3cd453192e2b62463ac9c3e9f2843d91624f7bbd69d32d1"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x497f9319ec1b2496806e19b28dd2944d5f1a9ae27ef98ce5095f2124216ecc0d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x51ed80a0bcb9e40fad69f8a1d9c046f8648d2172d6124230317901237513b98c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9219be8387398f0600624fef760f4d38dcfdf92caebd084fe1b755664987657f"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x652607909eda35cf0ac7edd1d6d1f088d7220bfef1df8028e559dbcf6dcca3ef"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3e8aec0de4aa0951e62673e5efe4887daf13ac138d525603d1940f16bc2a8454"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xffbe9e9231464a83bdccf611226a21a0b32321dd811bfbc76602ead445ba227a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x30a3139231b07766c6850cd23d35f0368d2fdadb6361ec4eaf7f4b94865713c8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x8b7008cb9f1feca39f491d02e604b31718f1db43ff3a801e15182a487db4c926"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xbdbef175389f2cdf88351a59cc714c909777644884de83558ca8462daf9fd652"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x5f4440638d4c179394a074c05ef8881408f0711c895c55af85bc0faf97bd06e8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xcfbacc836d8b42ab68aa17ffe4cdfdda710b2e21aa647f184d3d680e00dc7c24"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xfb841dc795b445294ee1468396356b2ed786bdc4ab5fd8b5d3618c6ac1415c34"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4ca214602ef594dc5930eb51f1ac91d6f5951531d776231e418960803a4d2b60"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x463fe358d085bb6c55a796514fd9fd40052473ebebba8de1e6cf713d0a2bb1a6"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x036ab3c759b21c87d57b6f2fa6510661987b33bef55142827adbe8c8a8ff0052"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x13fe9f7c69bb0bdcf149e038183fbf29a5339cb3e1460d405afe7035e729b37a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9bbbd59b3c2959794b834b00561bfda1697d996e86804f9559d341d4e12374aa"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa4b1ae6851711f6060ed249629bb607b1ce728f225164632b3530de5f91d82d6"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x2d2e82d5b3318c19269d057c68b5b1f5f22f95c640220658c01eed3d15d9af59"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x07914ac31e7b4af85a056adb87b2cfff61db40b99353f94953a5b29dacda34ef"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x00c806d53fcf27e9ab6e58de04c446ea0f6e7b2cb1a1e922b181de424bb34998"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x49fff50f45d012f2d82df14062f91b13b23e0910763e666aa3e4ef2a202182af"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x424b0838d4f998c423b45394832d97f21969a6b27b3562b59854419d9efa4a54"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x2ec64f49b89aca505cbbd6a008aa00c6d6ca1a9275e2864eac144412a6d20b75"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x502b9e883095849e29a633e5d66e19a657536d6a28aca22ca02c3f9d2340c3bb"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x95a8dbd51dc1e36c953149bcdc489daa0ca5df81ecf39f708348ae5a75b375bd"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x40bea510f74b075772f7c7a152152bdec7a42aa2dfa7bd74713cbd89d5c39fe3"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa842a12ba8ce3a24f94e42fabc45985df44b8f35deb799bb0ba99c62ec0255c0"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb58ef2c408ad01d01abad254ce625997cab972d2b68d451051dd414689d022a2"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xbd8943b793cfedd51d864b8055f2ff88275b6a5f0b11cedbc2332033d0fc86de"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa33439a0a6e1fd80be1ae0f4751c8b5da7488e297153ef127fad0ac05b599ab9"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x61b84c30d1494bac77c73528ecc8b76ced38ce152cd02d597f5613d5e4b9b188"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x114243a4739c2813b12606bbe6ca3b41bd440a2d0192036d89d343a9bbb0c97d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd4e7877f60a5ba2e45d4822042f9516882d5ba3c1f9c8713bd76d51c36fc7d31"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc1243d1f8f86da5481d79cbffd0d32a6ccd3f01274391c37d51809b6e383295c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x624cbd405e2a9b68a645c6c0d21587bec57b29a7f42931a18554ae81c0b122ab"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3c31f08280536ec8b91bd8037a118b13c517acc2adcd5428edc927a76c54edd3"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x51d535e1ac6f7c0df5f1a75d1c9df0873c7622f80492f1c359bcfdefc330b0c8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0349ac01ebd5f0fa49fa9685a34216043ed892b46e54ac6e26a28fa97b55b448"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4481e7581786d47dd034d22eb93824cffc82786e4731dbc4e2d298bfbb51ecd8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xcc3fb2f9cb74743626eff1175d5176a2bdcf74d2b8980204033449fe3c6181f2"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xe3dd40847765b4350ff1327a68a2c2172f4b3717be948e07c1663f3135c0a46d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x55519f330f84200e3d6c7bdff73df5db2817f7cc1f65c8f15d0b7695fd5cbde7"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0f8ae48bf7a6eb35aade9f7ba01dc37a1561f77fd88ee92097474ec7ebcf1960"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x859d77dcee9941d61012090a76d69436471981ab425d3d1c6d244c0c1d4f7303"],
+        "fetchInterval": 60
+      }
+    ]
+  },
+  "signedApis": [
+    {
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
+    }
+  ],
+  "ois": [
+    {
+      "oisFormat": "2.3.0",
+      "title": "Kaiko",
+      "version": "0.1.0",
+      "apiSpecifications": {
+        "components": {
+          "securitySchemes": {
+            "KaikoSecurityScheme1ApiKey": {
+              "in": "header",
+              "name": "X-Api-Key",
+              "type": "apiKey"
+            }
+          }
+        },
+        "paths": {
+          "/{path}": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "path",
+                  "name": "path"
+                },
+                {
+                  "in": "query",
+                  "name": "outliers_min_data"
+                },
+                {
+                  "in": "query",
+                  "name": "start_time"
+                },
+                {
+                  "in": "query",
+                  "name": "sort"
+                },
+                {
+                  "in": "query",
+                  "name": "end_time"
+                },
+                {
+                  "in": "query",
+                  "name": "outliers_threshold"
+                },
+                {
+                  "in": "query",
+                  "name": "include_exchanges"
+                },
+                {
+                  "in": "query",
+                  "name": "page_size"
+                },
+                {
+                  "in": "query",
+                  "name": "sources"
+                },
+                {
+                  "in": "query",
+                  "name": "outliers_strategy"
+                },
+                {
+                  "in": "query",
+                  "name": "interval"
+                },
+                {
+                  "in": "query",
+                  "name": "extrapolate_missing_values"
+                },
+                {
+                  "in": "query",
+                  "name": "exclude_exchanges"
+                }
+              ]
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://us.market-api.kaiko.io/v2/data"
+          }
+        ],
+        "security": {
+          "KaikoSecurityScheme1ApiKey": []
+        }
+      },
+      "endpoints": [
+        {
+          "fixedOperationParameters": [],
+          "name": "feed",
+          "operation": {
+            "method": "get",
+            "path": "/{path}"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "required": true
+            },
+            {
+              "name": "path",
+              "operationParameter": {
+                "in": "path",
+                "name": "path"
+              },
+              "required": true
+            },
+            {
+              "name": "outliers_min_data",
+              "operationParameter": {
+                "in": "query",
+                "name": "outliers_min_data"
+              },
+              "required": false
+            },
+            {
+              "name": "start_time",
+              "operationParameter": {
+                "in": "query",
+                "name": "start_time"
+              },
+              "required": false
+            },
+            {
+              "name": "sort",
+              "operationParameter": {
+                "in": "query",
+                "name": "sort"
+              },
+              "required": false
+            },
+            {
+              "name": "end_time",
+              "operationParameter": {
+                "in": "query",
+                "name": "end_time"
+              },
+              "required": false
+            },
+            {
+              "name": "outliers_threshold",
+              "operationParameter": {
+                "in": "query",
+                "name": "outliers_threshold"
+              },
+              "required": false
+            },
+            {
+              "name": "include_exchanges",
+              "operationParameter": {
+                "in": "query",
+                "name": "include_exchanges"
+              },
+              "required": false
+            },
+            {
+              "name": "page_size",
+              "operationParameter": {
+                "in": "query",
+                "name": "page_size"
+              },
+              "required": false
+            },
+            {
+              "name": "sources",
+              "operationParameter": {
+                "in": "query",
+                "name": "sources"
+              },
+              "required": false
+            },
+            {
+              "name": "outliers_strategy",
+              "operationParameter": {
+                "in": "query",
+                "name": "outliers_strategy"
+              },
+              "required": false
+            },
+            {
+              "name": "interval",
+              "operationParameter": {
+                "in": "query",
+                "name": "interval"
+              },
+              "required": true
+            },
+            {
+              "name": "extrapolate_missing_values",
+              "operationParameter": {
+                "in": "query",
+                "name": "extrapolate_missing_values"
+              },
+              "required": false
+            },
+            {
+              "name": "exclude_exchanges",
+              "operationParameter": {
+                "in": "query",
+                "name": "exclude_exchanges"
+              },
+              "required": false
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "int256"
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ],
+          "preProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"AAVE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/aave/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ADA/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ada/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ALGO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/algo/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ANKR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ankr/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"APE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ape/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"API3/USD\": {\n      path: \"trades.v2/spot_exchange_rate/api3/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ARB/USD\": {\n      path: \"trades.v2/spot_exchange_rate/arb/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ATOM/USD\": {\n      path: \"trades.v2/spot_exchange_rate/atom/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"AVAX/USD\": {\n      path: \"trades.v2/spot_exchange_rate/avax/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"AXS/USD\": {\n      path: \"trades.v2/spot_exchange_rate/axs/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"BAL/USD\": {\n      path: \"trades.v2/spot_exchange_rate/bal/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"BAT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/bat/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"BNB/USD\": {\n      path: \"trades.v2/spot_exchange_rate/bnb/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"BTC/USD\": {\n      path: \"trades.v2/spot_exchange_rate/btc/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"CAKE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/cake/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"CELO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/celo/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"CHZ/USD\": {\n      path: \"trades.v2/spot_exchange_rate/chz/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"COMP/USD\": {\n      path: \"trades.v2/spot_exchange_rate/comp/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"CRO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/cro/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"CRV/USD\": {\n      path: \"trades.v2/spot_exchange_rate/crv/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"CVX/USD\": {\n      path: \"trades.v2/spot_exchange_rate/cvx/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"DAI/USD\": {\n      path: \"trades.v2/spot_exchange_rate/dai/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"DOGE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/doge/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"DOT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/dot/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ETH/USD\": {\n      path: \"trades.v2/spot_exchange_rate/eth/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"EUL/USD\": {\n      path: \"trades.v2/spot_exchange_rate/eul/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"FIL/USD\": {\n      path: \"trades.v2/spot_exchange_rate/fil/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"FLOW/USD\": {\n      path: \"trades.v2/spot_exchange_rate/flow/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"FXS/USD\": {\n      path: \"trades.v2/spot_exchange_rate/fxs/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"FTM/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ftm/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"GLMR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/glmr/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"GMX/USD\": {\n      path: \"trades.v2/spot_exchange_rate/gmx/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"GNO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/gno/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"GRT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/grt/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"HBAR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/hbar/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"HNT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/hnt/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ICP/USD\": {\n      path: \"trades.v2/spot_exchange_rate/icp/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"IMX/USD\": {\n      path: \"trades.v2/spot_exchange_rate/imx/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"JOE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/joe/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"KDA/USD\": {\n      path: \"trades.v2/spot_exchange_rate/kda/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"KSM/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ksm/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"LDO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ldo/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"LINK/USD\": {\n      path: \"trades.v2/spot_exchange_rate/link/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"LQTY/USD\": {\n      path: \"trades.v2/spot_exchange_rate/lqty/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"LTC/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ltc/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"MANA/USD\": {\n      path: \"trades.v2/spot_exchange_rate/mana/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"MKR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/mkr/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"MATIC/USD\": {\n      path: \"trades.v2/spot_exchange_rate/matic/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"MOVR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/movr/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"NEAR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/near/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"OKB/USD\": {\n      path: \"trades.v2/spot_exchange_rate/okb/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"OP/USD\": {\n      path: \"trades.v2/spot_exchange_rate/op/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"PAXG/USD\": {\n      path: \"trades.v2/spot_exchange_rate/paxg/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ROSE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/rose/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"RPL/USD\": {\n      path: \"trades.v2/spot_exchange_rate/rpl/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"RSR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/rsr/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"RUNE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/rune/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"SAND/USD\": {\n      path: \"trades.v2/spot_exchange_rate/sand/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"SHIB/USD\": {\n      path: \"trades.v2/spot_exchange_rate/shib/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"SNX/USD\": {\n      path: \"trades.v2/spot_exchange_rate/snx/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"SOL/USD\": {\n      path: \"trades.v2/spot_exchange_rate/sol/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"stETH/USD\": {\n      path: \"trades.v2/spot_exchange_rate/steth/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"STG/USD\": {\n      path: \"trades.v2/spot_exchange_rate/stg/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"STX/USD\": {\n      path: \"trades.v2/spot_exchange_rate/stx/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"SUSHI/USD\": {\n      path: \"trades.v2/spot_exchange_rate/sushi/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"TUSD/USD\": {\n      path: \"trades.v2/spot_exchange_rate/tusd/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"UNI/USD\": {\n      path: \"trades.v2/spot_exchange_rate/uni/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"USDT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/usdt/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"USDC/USD\": {\n      path: \"trades.v2/spot_exchange_rate/usdc/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"USDP/USD\": {\n      path: \"trades.v2/spot_exchange_rate/usdp/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"XLM/USD\": {\n      path: \"trades.v2/spot_exchange_rate/xlm/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"XRP/USD\": {\n      path: \"trades.v2/spot_exchange_rate/xrp/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"XTZ/USD\": {\n      path: \"trades.v2/spot_exchange_rate/xtz/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"YFI/USD\": {\n      path: \"trades.v2/spot_exchange_rate/yfi/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ZIL/USD\": {\n      path: \"trades.v2/spot_exchange_rate/zil/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ZRX/USD\": {\n      path: \"trades.v2/spot_exchange_rate/zrx/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"RNDR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/rndr/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"MASK/USD\": {\n      path: \"trades.v2/spot_exchange_rate/mask/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ENS/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ens/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"BLUR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/blur/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"BAND/USD\": {\n      path: \"trades.v2/spot_exchange_rate/band/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"UMA/USD\": {\n      path: \"trades.v2/spot_exchange_rate/uma/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"APT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/apt/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"PEPE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/pepe/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"OSMO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/osmo/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"SUI/USD\": {\n      path: \"trades.v2/spot_exchange_rate/sui/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"GNS/USD\": {\n      path: \"trades.v2/spot_exchange_rate/gns/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"MNT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/mnt/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"KAVA/USD\": {\n      path: \"trades.v2/spot_exchange_rate/kava/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"RIF/USD\": {\n      path: \"trades.v2/spot_exchange_rate/rif/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"RDNT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/rdnt/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"WOO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/woo/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"PYTH/USD\": {\n      path: \"trades.v2/spot_exchange_rate/pyth/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ASTR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/astr/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"DYM/USD\": {\n      path: \"trades.v2/spot_exchange_rate/dym/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"TIA/USD\": {\n      path: \"trades.v2/spot_exchange_rate/tia/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"USDe/USD\": {\n      path: \"trades.v2/spot_exchange_rate/usde/usd\",\n      parameters: { interval: \"1d\" },\n    },\n    \"SEI/USD\": {\n      path: \"trades.v2/spot_exchange_rate/sei/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"AR/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ar/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"STRK/USD\": {\n      path: \"trades.v2/spot_exchange_rate/strk/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"AXL/USD\": {\n      path: \"trades.v2/spot_exchange_rate/axl/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"ONDO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ondo/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"MANTA/USD\": {\n      path: \"trades.v2/spot_exchange_rate/manta/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"RON/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ron/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"XVS/USD\": {\n      path: \"trades.v2/spot_exchange_rate/xvs/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"PENDLE/USD\": {\n      path: \"trades.v2/spot_exchange_rate/pendle/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"TWT/USD\": {\n      path: \"trades.v2/spot_exchange_rate/twt/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"AERO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/aero/usd\",\n      parameters: { interval: \"5m\" },\n    },\n    \"ERN/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ern/usd\",\n      parameters: { interval: \"5m\" },\n    },\n    \"TAO/USD\": {\n      path: \"trades.v2/spot_exchange_rate/tao/usd\",\n      parameters: { interval: \"5m\" },\n    },\n    \"ORDI/USD\": {\n      path: \"trades.v2/spot_exchange_rate/ordi/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"SATS/USD\": {\n      path: \"trades.v2/spot_exchange_rate/sats/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"INJ/USD\": {\n      path: \"trades.v2/spot_exchange_rate/inj/usd\",\n      parameters: { interval: \"1m\" },\n    },\n    \"RARI/USD\": {\n      path: \"trades.v2/spot_exchange_rate/rari/usd\",\n      parameters: { interval: \"1m\" },\n    },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+            "timeoutMs": 5000
+          },
+          "postProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"AAVE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ADA/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ALGO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ANKR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"APE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"API3/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ARB/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ATOM/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"AVAX/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"AXS/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"BAL/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"BAT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"BNB/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"BTC/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"CAKE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"CELO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"CHZ/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"COMP/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"CRO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"CRV/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"CVX/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"DAI/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"DOGE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"DOT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ETH/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"EUL/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"FIL/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"FLOW/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"FXS/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"FTM/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"GLMR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"GMX/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"GNO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"GRT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"HBAR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"HNT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ICP/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"IMX/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"JOE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"KDA/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"KSM/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"LDO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"LINK/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"LQTY/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"LTC/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"MANA/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"MKR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"MATIC/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"MOVR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"NEAR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"OKB/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"OP/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"PAXG/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ROSE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"RPL/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"RSR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"RUNE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"SAND/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"SHIB/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"SNX/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"SOL/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"stETH/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"STG/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"STX/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"SUSHI/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"TUSD/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"UNI/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"USDT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"USDC/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"USDP/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"XLM/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"XRP/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"XTZ/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"YFI/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ZIL/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ZRX/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"RNDR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"MASK/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ENS/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"BLUR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"BAND/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"UMA/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"APT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"PEPE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"OSMO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"SUI/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"GNS/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"MNT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"KAVA/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"RIF/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"RDNT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"WOO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"PYTH/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ASTR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"DYM/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"TIA/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"USDe/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"SEI/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"AR/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"STRK/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"AXL/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ONDO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"MANTA/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"RON/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"XVS/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"PENDLE/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"TWT/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"AERO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ERN/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"TAO/USD\":\n      \"(response) => {\\n            const validDataArray = response.data.filter((obj => obj.price !== null ));\\n            if(validDataArray.length === 0) {\\n              throw Error('[Known Error] - Kaiko returns null as price for the feed.');\\n            }\\n            return validDataArray[0].price;\\n          }\\n          \",\n    \"ORDI/USD\":\n      \"(response) => {\\n          const validDataArray = response.data.filter((obj) => obj.price !== null)\\n          if (validDataArray.length === 0) {\\n            throw Error('[Known Error] - Kaiko returns null as price for the feed.')\\n          }\\n          return validDataArray[0].price\\n        }\\n        \",\n    \"SATS/USD\":\n      \"(response) => {\\n          const validDataArray = response.data.filter((obj) => obj.price !== null)\\n          if (validDataArray.length === 0) {\\n            throw Error('[Known Error] - Kaiko returns null as price for the feed.')\\n          }\\n          return validDataArray[0].price\\n        }\\n        \",\n    \"INJ/USD\":\n      \"(response) => {\\n          const validDataArray = response.data.filter((obj) => obj.price !== null)\\n          if (validDataArray.length === 0) {\\n            throw Error('[Known Error] - Kaiko returns null as price for the feed.')\\n          }\\n          return validDataArray[0].price\\n        }\\n        \",\n    \"RARI/USD\":\n      \"(response) => {\\n          const validDataArray = response.data.filter((obj) => obj.price !== null)\\n          if (validDataArray.length === 0) {\\n            throw Error('[Known Error] - Kaiko returns null as price for the feed.')\\n          }\\n          return validDataArray[0].price\\n        }\\n        \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+            "timeoutMs": 5000
+          }
+        }
+      ]
+    }
+  ],
+  "apiCredentials": [
+    {
+      "oisTitle": "Kaiko",
+      "securitySchemeName": "KaikoSecurityScheme1ApiKey",
+      "securitySchemeValue": "${KAIKOSECURITYSCHEME1APIKEY_VALUE}"
+    }
+  ]
+}

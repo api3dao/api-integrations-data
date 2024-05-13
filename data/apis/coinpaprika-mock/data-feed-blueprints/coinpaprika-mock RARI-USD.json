@@ -1,0 +1,8 @@
+{
+  "name": "RARI/USD",
+  "path": "tickers/rari-rarible",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

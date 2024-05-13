@@ -1,0 +1,9 @@
+{
+  "name": "MODE/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "mode",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['mode']['usd']\n        }\n        "
+}

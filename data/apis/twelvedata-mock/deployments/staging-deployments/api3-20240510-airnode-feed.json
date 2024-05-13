@@ -1,0 +1,2495 @@
+{
+  "nodeSettings": {
+    "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
+    "nodeVersion": "1.0.0",
+    "stage": "${STAGE}"
+  },
+  "templates": {
+    "0x04200606c1a69f4292011d641e6aa8a08ad40a6a1a36c574e4169ae640f09e3f": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AAPL/USD"
+        }
+      ]
+    },
+    "0xb6f55f9b5280056873ecd2a956bb561f454fba9f062bad251f966b6bae6ff237": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AMZN/USD"
+        }
+      ]
+    },
+    "0xcebdb9cfedf9cd822f239ebf5769bd7936b76e3f4408d65ce36ffbb5cb7d5e1a": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ARKK/USD"
+        }
+      ]
+    },
+    "0x4ff29486d6595bf15ef30f8692be5356cd2328f903fe4ad899486881c9351843": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "COIN/USD"
+        }
+      ]
+    },
+    "0x1bea7d8632e5f89100eab91c2f2b8b4abd9c1cea8cbc3668a942d6e51d56df4e": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GME/USD"
+        }
+      ]
+    },
+    "0x305f546bf871af63424c2d68a8c90b7584ae1afc10d218162cf85d213297fe80": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GOOGL/USD"
+        }
+      ]
+    },
+    "0xea0cf37e48d2178604bf52e8d4ae3cdf7841c0c3b64ad63b901c788612cbc6b1": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "JPM/USD"
+        }
+      ]
+    },
+    "0xb1c50c183f46eb443565311b738dbeb6b199f6b1bc9066cd3cad12878aab7d6a": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "META/USD"
+        }
+      ]
+    },
+    "0xf3f737e10780d6c18239bfdd067a31e191c61c06a8e162a2d3a750ee151c6c93": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MSFT/USD"
+        }
+      ]
+    },
+    "0x0769be0ffea35834dcd963efe6d8a76f2cc97d8af7350e402b01795d1a0cc70b": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NFLX/USD"
+        }
+      ]
+    },
+    "0xac0f42b2cb7193c319cc53bbc5c2917762dcd81ac239c1e76ef56e192a1e750c": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NVDA/USD"
+        }
+      ]
+    },
+    "0x66c116d01d04f039b0c4a8b3957e1f3cf3f1fea58c6a7d65cd007c4bb0a96fa9": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SPY/USD"
+        }
+      ]
+    },
+    "0x958db2a59753bf774eea50360c2c9efd539bd332e5bada55efe30a3f0a788309": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TSLA/USD"
+        }
+      ]
+    },
+    "0x816a95ad111ca8815a0473da981a47d0e7ef5da23479670336a5fa76059b185a": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TSM/USD"
+        }
+      ]
+    },
+    "0x4cc5c8b516bc7ec59b65ac612b6afd5ac2765d2d49628a4736d35329dd4f1274": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "QQQ/USD"
+        }
+      ]
+    },
+    "0xd5937d3ecaa653a78e629dcbc476ede5b54b0ba64c3232ccd6451fb0f797fe23": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BABA/USD"
+        }
+      ]
+    },
+    "0x6432eccedbdb47b55a80912d7419da1fd2c4bc678796ab26edde1edee0824fc9": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PYPL/USD"
+        }
+      ]
+    },
+    "0x7af54085c7dc89d6d672466faa15a2304a1cead2e418f1f260f0bcd8935b8861": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DIS/USD"
+        }
+      ]
+    },
+    "0x2e351094de08a71a5675672f130f231827dadee731c57eb2fd148365605c4902": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "INTC/USD"
+        }
+      ]
+    },
+    "0x95e02e75d142d16f18f7eac8f4a9b061bbd8bdc040bd467bde9c6975400f219d": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AUD/USD"
+        }
+      ]
+    },
+    "0xcd24fb60ec29797ac626c7142a8e60ff2f95cf0d41fafd50e7e68e5688e6c077": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BRL/USD"
+        }
+      ]
+    },
+    "0x816328f32bb7bff188e30461a9e341387dbc3b72b9c2064410f9ebba5c6bd969": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CAD/USD"
+        }
+      ]
+    },
+    "0xd30a9e054e880929fc5d77accb928cc1105610d369f7769f17ba652fb73d0c1f": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CHF/USD"
+        }
+      ]
+    },
+    "0x8e977bd0c8b67c6d80f7b24acd2f82158a2669614a66b0ca6b25daefdc08222f": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CNY/USD"
+        }
+      ]
+    },
+    "0xff75396a60a376b37c508fb6cd8d2bab7800cd5752ac736608c8d0d73f60f590": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "EUR/USD"
+        }
+      ]
+    },
+    "0x4fdbd07f15db0a7188a8b55507cd334957c1574b627b4c6a1b20f49e2f782a70": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GBP/USD"
+        }
+      ]
+    },
+    "0xc0f54f135c30e6bc230bd089a460c387fd5714e20345c956515498c9cf51fa0a": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "INR/USD"
+        }
+      ]
+    },
+    "0x3fb5d95aae655268a38cb077e5e6b927f59e0c31eeb6c5def0a06b0bff3ebd3d": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KRW/USD"
+        }
+      ]
+    },
+    "0x89f7c78fe32a90fcd7f780b098f7daa6dba90811696bd8f41d2fd584d7138168": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MXN/USD"
+        }
+      ]
+    },
+    "0xf0ac29832a571cef845b450280bd4d9fcfb7344580954fa69ccb6147344a0d2d": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NZD/USD"
+        }
+      ]
+    },
+    "0x212e9c937eb96558f19e3df286e76eb90a445364a5d232209e7b9d3e092f5948": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PHP/USD"
+        }
+      ]
+    },
+    "0x6fbb2857b59e58700f1f6092facf9f3d026dfda350f6bd27a907f1cb36bd0c60": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SEK/USD"
+        }
+      ]
+    },
+    "0x25034d9abb090d649aa11c7908e902e8aee398fe37058fc55a09e850c4244e4d": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SGD/USD"
+        }
+      ]
+    },
+    "0x08203ad55820c80f0c9a40be0f3b22333421b8bcaea4f90ca65b888bc1eb329c": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TRY/USD"
+        }
+      ]
+    },
+    "0x36496309908256274248c9836ad5b7c179399b7657ed2e3a6799840fbb975c52": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZAR/USD"
+        }
+      ]
+    },
+    "0x8a955899d7b720ff183f33485c3b61edb46e0f28023183b59d7f937de69673cd": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AAVE/USD"
+        }
+      ]
+    },
+    "0x2473c8c4a189c4208127e0276ef5d1ec247e8078d9bf4dadb85c9080aa1ba898": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ADA/USD"
+        }
+      ]
+    },
+    "0xda8f138cd11efdd234c61543a2e2e516d2620c78383184890f0032272af4065a": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ALGO/USD"
+        }
+      ]
+    },
+    "0xfce28ea781537e150247aa29f1f6c8aa4488dcdb50eb0ff577e09612d502b0cc": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ANKR/USD"
+        }
+      ]
+    },
+    "0x358cea5bd1012fdd2511b9f625451e4b98598a45a8731bedb79ab2e10b8338b8": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "APE/USD"
+        }
+      ]
+    },
+    "0x8bf6732e62c63940c06b3a6961b79c959036783914fa816651232af867f177f1": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "API3/USD"
+        }
+      ]
+    },
+    "0x026d801d33dde310f34cf6eb95b99bcba0f623bc6238470fad5fd589b8230e83": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ARB/USD"
+        }
+      ]
+    },
+    "0xf16ae10c7df48055e9179478f7d737a67aabedbabea75ad7fd63b19bce3bd6ad": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ATOM/USD"
+        }
+      ]
+    },
+    "0xc4c314818b9ce2635c6f8d5cefce5821b79a82d688df6cc3f3949db1ae6c5d8e": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AVAX/USD"
+        }
+      ]
+    },
+    "0x766e2625dd5382e1839182ac9804830279bbac088a9d5d10a6193f9773766e8c": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AXS/USD"
+        }
+      ]
+    },
+    "0x238f8e54be10c748a916afa9b4034440e26b02880048f32cd1767c61915763fb": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAL/USD"
+        }
+      ]
+    },
+    "0x918714e79602f487937d9ded972d2a05ee1d691dd00a5e30f428da9610bea66b": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAT/USD"
+        }
+      ]
+    },
+    "0xead201e6a6b042dd9962f323ac55e663b8c7e971a8d328b21f7ca69da2dce22c": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BNB/USD"
+        }
+      ]
+    },
+    "0x7e0b75781f9a40f7ed8b2596e48bfd7e15d6da55f19578115ff2a55b213e17a9": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BTC/USD"
+        }
+      ]
+    },
+    "0x426842badd92c9ce23287b41b269a5e25f9bc988e4846e9221e4764dcc59baad": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CAKE/USD"
+        }
+      ]
+    },
+    "0xefb45b6d0970ecd27ab3b92c7cb6e0966ac05c2f0bdd4ba571e0384483a3d489": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CELO/USD"
+        }
+      ]
+    },
+    "0x05d122c6665c3cbe715b4c352c338acf462e625aa79fc4768461ef39ff84019e": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CHZ/USD"
+        }
+      ]
+    },
+    "0x8f88b4e0f6f3ee0d12948992fb22df1a9840bada009a9be0bec568f4246389fe": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "COMP/USD"
+        }
+      ]
+    },
+    "0x8fbe470a6833b0a00d860b2e6c4ee3d9fe60f10fcc5aa6fefc1f777ded8812a9": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CRO/USD"
+        }
+      ]
+    },
+    "0xef26a37c6c44cc6cc668beea3c75be85d8380322e14255f761344b93bad70666": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CRV/USD"
+        }
+      ]
+    },
+    "0x07c20ae4f907a0d96a0ccfdd809bb86a415b3d5ed154f25071cbbf557c134f9b": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CVX/USD"
+        }
+      ]
+    },
+    "0x91b67d57088ab28b204c6ef3f0360f4bda753e2649b775440aa6bc09bb92ba8d": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DAI/USD"
+        }
+      ]
+    },
+    "0x38026a37966b69af51884e63bfee1b2916faa18d90e1dd1757535c82d1af3291": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DOGE/USD"
+        }
+      ]
+    },
+    "0x4763171a2809d31516a2d5544e8967469876fc28ef75754798afeba41518ae99": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DYDX/USD"
+        }
+      ]
+    },
+    "0x046e65143918e48adc0a77bada55931622531819be4a7473d80b7f906b813105": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ETH/USD"
+        }
+      ]
+    },
+    "0xd334eaf3209b369637d7747242df46e61b683358d463dca7bdf12f25cff75086": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FIL/USD"
+        }
+      ]
+    },
+    "0x926ce6b669268e9f93450fa99d8c6396fe34b43e7785e6ee686bc0090b60a6d8": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FLOW/USD"
+        }
+      ]
+    },
+    "0x48b3e39cc8780886246f54521a058f0d9e36b2b601128c5adddde85e14508033": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FXS/USD"
+        }
+      ]
+    },
+    "0x11c9642ec43c68e7cf4ea76701ef0427f41eab8a9e05c15ce0f171085b06d585": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FTM/USD"
+        }
+      ]
+    },
+    "0x486403da46d0dc66e43425e473ab0bf7b8d71acd9ca41efbbcb92e11a39b2c24": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GLMR/USD"
+        }
+      ]
+    },
+    "0x0cc5772343881c840e28f30a6cb4b15476fe2d58fb1aa150078cc7ba9c7c147c": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GNO/USD"
+        }
+      ]
+    },
+    "0x15fbd852190b2d5b6fd76af287a6d3aed2a416dff63c0b60fac4349b96bb0b48": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GRT/USD"
+        }
+      ]
+    },
+    "0x96e3ceaaf92c2970a471adec4f4e962472af5428d6b13ed436445166266927f5": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HBAR/USD"
+        }
+      ]
+    },
+    "0x533ca1288f1fa7045e496626ddb5f4c393c3f96ea8810d2b574d40c6a8d8b629": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HNT/USD"
+        }
+      ]
+    },
+    "0xb3669178e9e1516b814ebac5bb661a083e755f21de0e3ca9157add3a437a91df": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ICP/USD"
+        }
+      ]
+    },
+    "0x34613ca06a2617d83262de04407719e24f3ca223dfd63901744efc97db0de064": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "JOE/USD"
+        }
+      ]
+    },
+    "0xa2261cea8e3093aa0dbb5289642f6d8b393a922e2a1e46a3d0f2fae47ae96bf7": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KDA/USD"
+        }
+      ]
+    },
+    "0x905d57855537d8236048b65c905e40ab4c7997488c15dcde963c038b3cb7a88e": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KSM/USD"
+        }
+      ]
+    },
+    "0xab91925a7d7c8f780003bfb2989023cccd7ffd6ad2aeee661058b465546bc1a2": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LDO/USD"
+        }
+      ]
+    },
+    "0x9510351a41e893c5fa50888c6f2d2e9e035236fce9fcb4afc6a9d7cd0132de23": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LINK/USD"
+        }
+      ]
+    },
+    "0xf4eba3187616ce709ee0afe53c980e9f31fed23be09bc6405ecf1c2b46d6935a": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LQTY/USD"
+        }
+      ]
+    },
+    "0x1bc1564dbdb9a12234cd035cdd67e7331f50ba84899e2d7feed1db07af7de660": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LTC/USD"
+        }
+      ]
+    },
+    "0x92b5d726bbc78dbe6f94690d46552e581d776194c85e12ff6769d31e9d6f82bd": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MANA/USD"
+        }
+      ]
+    },
+    "0x8944904fa5ee8a2f8c9c60c4b6f365fe28a90e6bca8194e0c0597ce874f81777": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MKR/USD"
+        }
+      ]
+    },
+    "0x1a51387ff04e70b5f51f40a622261916d041994591ae9341d3ad6b9283f89ac2": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MATIC/USD"
+        }
+      ]
+    },
+    "0xb45c05636ec271d47fc3287f5fe0bf6aff2dfe0757d4ad70e7cb8f424cb8920e": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "METIS/USD"
+        }
+      ]
+    },
+    "0xc6219e02f076f421c81a3c4b66f3ef2d2ad8f8920b45478c06e1b8d285cdd4a7": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MOVR/USD"
+        }
+      ]
+    },
+    "0x59a33a0c69f55e5ec573ceee67ef5b4908d0638b9b17a79de8a70550af7aeb2a": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NEAR/USD"
+        }
+      ]
+    },
+    "0xa7f108c429f685f0a7821f70ed5dae9e9d7355794fc58e3377eee3d0ae8aec6b": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OKB/USD"
+        }
+      ]
+    },
+    "0x0fd6ccc32d91012b199055ccad8d082f5fd7383723f5de3e3bfc53e324e964c3": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OP/USD"
+        }
+      ]
+    },
+    "0x592b98b842929ad9dc2b7bd2bb88cc9b0669adb2c6f9479ec6b538b9358af905": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PAXG/USD"
+        }
+      ]
+    },
+    "0x960a186705c1ced82b14ddcc1486d7ed5e5a19e88c0ea9b6950d17f1058b6b58": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "QUICK/USD"
+        }
+      ]
+    },
+    "0x2ea30676aa4c1dcae86ff727d04abc2dbb9bd0155959e644ade4563401786013": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ROSE/USD"
+        }
+      ]
+    },
+    "0x19c2321e98403fae15872cad96301cba6543bf21056ea0957116d25eaffa19b7": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RSR/USD"
+        }
+      ]
+    },
+    "0x637fa5e21d92ba133e0b1db6620940f5a9b23aa069b21cc7290b2297bb236678": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RUNE/USD"
+        }
+      ]
+    },
+    "0x32da7ea952d191ac6eb1a182807bde622cb4ef243d9f304e1046fe8b1b97f157": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SAND/USD"
+        }
+      ]
+    },
+    "0xa44b225f0f312f026ae823f4da0e43bb96617c10dc50c5f65cb98983b744d563": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SHIB/USD"
+        }
+      ]
+    },
+    "0x51fc69a24d6c3871ab6526e38854e79eb61ef1e916bfe697bc6b099135c509ac": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SNX/USD"
+        }
+      ]
+    },
+    "0xc9bab876cde827b80815e339c8934d2b1b3d4beab593011e74f6ab2d7c25b6cf": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SOL/USD"
+        }
+      ]
+    },
+    "0x4c8e66c94d4cb6ffc8e6ba6ac2272075a7054afddef5b36280cf67985942c282": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STX/USD"
+        }
+      ]
+    },
+    "0xc3a378fa4f04c1632acf07546f76f011463c31dab2ee70ef005b161edacd2abf": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SUSHI/USD"
+        }
+      ]
+    },
+    "0x0adc4fb745e73740a1179e778741efcef876ecfb8751d5ff186f6fb707336c90": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TUSD/USD"
+        }
+      ]
+    },
+    "0x148387efe96f4eff0d0c1f67004510f1d8866ad249634bebb77348a8d0d0a4cd": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDT/USD"
+        }
+      ]
+    },
+    "0xa0c97e19c507de6b5b48bc0c39e274b0ac99bdc195b987b925649a1fa545440d": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDC/USD"
+        }
+      ]
+    },
+    "0xb1c473aeb67c8b75019f2dcfbbe7bb0ad95ba128fadb1cdcd8b29431adb8b1d1": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDP/USD"
+        }
+      ]
+    },
+    "0x58b199b58cf40a5077c880eebc0f350884a9e97e44b192de07efc43387a153f6": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WBTC/USD"
+        }
+      ]
+    },
+    "0x767fa3707ccaed13fa18873260ff026645ef709b9cd91cbc56652c8bcb39711f": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XLM/USD"
+        }
+      ]
+    },
+    "0xd65969b8cbb0f71a9cd02590f6b1701b94718dc9f1569a9dbbb6fc8a079045fe": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XRP/USD"
+        }
+      ]
+    },
+    "0x853e68b5ae12180b60072bc281319b21a00be3fa15ec5053d49ec607fcc850bc": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XTZ/USD"
+        }
+      ]
+    },
+    "0x73171d5341e611729b0556b1166f4b3af134b200151d4d9f20159fb7a86da71b": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "YFI/USD"
+        }
+      ]
+    },
+    "0x57a0655025b96628aaf360ed0642d82a90b64cf6da5e036f1f1acedc0d055603": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZIL/USD"
+        }
+      ]
+    },
+    "0x3472c219e78d05af52ac9d2f201bef50369e99847e179ddab0927ff4ab11ba23": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZRX/USD"
+        }
+      ]
+    },
+    "0xc11a4009284aee5fdd57a929d9675f906927e8f5a679cc9e0ab1d352ff110ed7": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RNDR/USD"
+        }
+      ]
+    },
+    "0xba2c33d812c5f3068973077fb52519ac6f11624e00a4adf552071ab67ddd94ef": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MASK/USD"
+        }
+      ]
+    },
+    "0xbfabdb4a90c28358d9d347c1a12b5634f523dd87d08fb374c252defcd5da4ec3": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAND/USD"
+        }
+      ]
+    },
+    "0x7a8fb277136175f0bab528d88b73c0f8c7185a61d34450915eb340f4def97c6d": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "UMA/USD"
+        }
+      ]
+    },
+    "0xd1c27fae4de8c3fa465b1c1742514544925e958bd84d4023f360a9c0abf53d55": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "APT/USD"
+        }
+      ]
+    },
+    "0x246c409f5d39a58849f6baad5afcdce773caf5bdaea06f337d6d35ac173f2272": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BLUR/USD"
+        }
+      ]
+    },
+    "0xa2faeb6efcfa49d4cd0927e5e61896c71dd57a51b0e69d99bcec81513d9b4568": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DOT/USD"
+        }
+      ]
+    },
+    "0x7593446a47877c1a2597d61143dfc299c965f0b6fb9e2fbbd27e5eb7826ac228": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ENS/USD"
+        }
+      ]
+    },
+    "0xd154d0cc69c1bf72e33350f634d4603ff9a016c0e950cb5b0ba990a09dadcec7": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "EUL/USD"
+        }
+      ]
+    },
+    "0x7505e6133e9ebc853593e97f8079013a4a803ec1baf28d2b43973d55f8657ac0": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GMX/USD"
+        }
+      ]
+    },
+    "0x21e53e1285d99b91eda456e6ccb490f8c024c9efc33cbacc20ae8866256f3974": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "IMX/USD"
+        }
+      ]
+    },
+    "0x25f9cc12420136974a2f9683914a392fd4febb82d6063e422d82af7a5df50ca7": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RPL/USD"
+        }
+      ]
+    },
+    "0x6da979fd55ce73b9e09f31783601d1f4e191c150e14ed4ca74e711d7815263b2": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "stETH/USD"
+        }
+      ]
+    },
+    "0xe8280d93fc68421b0b8cb2dfd19fccfce7cef278870609b6569b1cf71d507886": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STG/USD"
+        }
+      ]
+    },
+    "0xfc417e6667132089147cacb9287d5bcc25e5eb3b7929a2414e79e3873316a95d": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "UNI/USD"
+        }
+      ]
+    },
+    "0x7bf60bf90d6f64a36386f24b536509bc85dd6a34356c60d377f5ad34af744ffe": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OSMO/USD"
+        }
+      ]
+    },
+    "0xd5ddfb136a77ad421ff4c53094a61eb243eaa97a3e0b44bfd6a1735ff8612fb0": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PEPE/USD"
+        }
+      ]
+    },
+    "0xdb62dc5c6dd76fab3f96a738fd77d158ec120b3a72677533e9021ffddc9c6958": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SUI/USD"
+        }
+      ]
+    },
+    "0x072be8f321dcf3aca36805e6d107d4cf90b94f2d2fa74210ffed371c4ae36989": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GNS/USD"
+        }
+      ]
+    },
+    "0xc0c70380b6a4ce15a97bc3cbcc6612d30cf5d43d48a9dcec720d3ee8ebada26b": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FRAX/USD"
+        }
+      ]
+    },
+    "0xf929c3e05a4c6f0668b0fc8ca29f672ec7dffeca5e53126bd67e42c75fbd93dc": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LUSD/USD"
+        }
+      ]
+    },
+    "0xb71b6cf8185479d9f9c496a0ca0a546e875fe84cd26bb65c2708cefc1ea93a33": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MNT/USD"
+        }
+      ]
+    },
+    "0x26a1714737bf5bd2b7a2e4eedbdf2a6ae0630531836896febabd8d82323b8c7f": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KAVA/USD"
+        }
+      ]
+    },
+    "0x602ffc0ec374e70e1a090b9a80a351bcc36833f7ac7f386fc3ce0bb9213096e8": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RIF/USD"
+        }
+      ]
+    },
+    "0xf0d8fbacfe56682b0d6166553c1dce9bd447aced74892dec226ceaece75df130": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RDNT/USD"
+        }
+      ]
+    },
+    "0xfe58900bdb4c7ede11803a1aa5e82ef6276f41bbddb19ed1037143fcccaa0893": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GHO/USD"
+        }
+      ]
+    },
+    "0x3aa6c7991f31e8a4f4e97e23da5896f300f8c291d8cc82973a56658c02af9b0c": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "crvUSD/USD"
+        }
+      ]
+    },
+    "0x174bd80b61ec8451784391df43c8c4ffc4ae82216a65cc15107bfdf4c29f6ca1": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "EURe/USD"
+        }
+      ]
+    },
+    "0xdd67e4bf2b15a231e88bdeaf21f8d3a56834b77f9a3131d08f205c1a56d62110": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WOO/USD"
+        }
+      ]
+    },
+    "0xfdcfbc25bc7a06410df65a523f96373c99573de88dad318642bcb9f96141eafc": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PYTH/USD"
+        }
+      ]
+    },
+    "0x8f734f15aff7a23248d90abd133326e756d567a74cf580c1bdffd183ba24b03e": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ASTR/USD"
+        }
+      ]
+    },
+    "0x308c377a35ab8ecb17c48fa3aa9728a0671db438ec33d9c429d19901e39a5d3b": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TIA/USD"
+        }
+      ]
+    },
+    "0x0f2a30ef26e6ab75a1b1af23907fd0ec552fca5ff53482961f110f5c60ccf4bc": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DYM/USD"
+        }
+      ]
+    },
+    "0xc04826b7a78ac18f09fe75418f430259631f2036fd93331e188173a682c49800": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SEI/USD"
+        }
+      ]
+    },
+    "0x885618d6abc2294e5f205e643e18a4e4db2129430d304c8eae4b8c313f20c899": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AR/USD"
+        }
+      ]
+    },
+    "0x4df9729ebe6219680f7393da367a68085a6c5edea78cd5cd6a8b0dfbcb3a1be8": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STRK/USD"
+        }
+      ]
+    },
+    "0xa07d49028178b37f58bf5f4fad8dc2f31e3a2f274903cfb802062c1113aad0ec": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AXL/USD"
+        }
+      ]
+    },
+    "0xba7da8a785eea8e649b2ae76832b1368cc5592578c33ce9212a4d918d8fdfbea": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ONDO/USD"
+        }
+      ]
+    },
+    "0xc9a2fa834ab12ffd1500b36f9510151e8164897d9ad4027c7bdd94ad5042b2d5": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MANTA/USD"
+        }
+      ]
+    },
+    "0x5eeaed46bc7d9d7fda6986e1d910955f3df45150f980052f54fa98119e3634ee": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RON/USD"
+        }
+      ]
+    },
+    "0x61ac51d8553408766d4300159c7595439573bec942e6bb2af9d5a575b5a5c561": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XVS/USD"
+        }
+      ]
+    },
+    "0x4ee5f08478ae40b1aebccbb054d218316c5b3141ea9208b73cd32de00cea8536": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WTI/USD"
+        }
+      ]
+    },
+    "0xec8680462b795341b0b578aee4b0c0b1a8efb7653b62d7bb94acfbd16d4b40f1": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XAG/USD"
+        }
+      ]
+    },
+    "0xb82c77de8422c406a59bd7704255db2dbb33d1250db29a0b0ae596c5cdb6626e": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XAU/USD"
+        }
+      ]
+    },
+    "0xe6c11dabda534f90918fe93d6d5fcbeb7b362856f74edf1e4616db50e4cbbd23": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TWT/USD"
+        }
+      ]
+    },
+    "0x507577cb9db589c00bd77676a5e5cfb4c25d025bd8c466d2a681541c876291f4": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AERO/USD"
+        }
+      ]
+    },
+    "0x0291c192891d4e2ed03266729ca2835e2a7a23d6dd3d87f1a1b1c96425779919": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "JUICE/USD"
+        }
+      ]
+    },
+    "0x7457d51f5530af9bcfdae15939f574c779d8abdede2ad2f370023bf875d3bcea": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ERN/USD"
+        }
+      ]
+    },
+    "0x9314d2b629719823559cacb9d12cf14e266750d7ba69807c4ae5329910bc21b5": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TAO/USD"
+        }
+      ]
+    },
+    "0x79c157b52031881d7cbc40b8d1ccd16395eeff67e1ff4987e5a323df82ad6e70": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AMD/USD"
+        }
+      ]
+    },
+    "0x59390e9cc1867b33e85b6f53b0edabfbc02fc7d008f3c7707f49b59eddac6fdc": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PLTR/USD"
+        }
+      ]
+    },
+    "0x3c4d84fbf49dd865766fb38bb19ab99424d1ab2532a431cb836e778e554305fb": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "QCOM/USD"
+        }
+      ]
+    },
+    "0xe4dc82052f2c4f8a81b9ef4f41c14c980452491d08d725f3346a4aecfe88a4aa": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "INJ/USD"
+        }
+      ]
+    },
+    "0xcab109f0b8fe084c020c6e628dbcbbd80a6c55b5a16cb875f2030c0fb9d093f4": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NEON/USD"
+        }
+      ]
+    },
+    "0xc4f22fda5c6ecd2621fa9c98b5afc05560f005375cde2c5543caa0a7a19e03eb": {
+      "endpointId": "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RARI/USD"
+        }
+      ]
+    }
+  },
+  "endpoints": {
+    "0xfea15cb33e43bf48eb0b128fdb890d158c524ad4d2bed2f03995d7a6eacced6a": {
+      "endpointName": "feed",
+      "oisTitle": "TwelveData"
+    }
+  },
+  "triggers": {
+    "signedApiUpdates": [
+      {
+        "templateIds": ["0x04200606c1a69f4292011d641e6aa8a08ad40a6a1a36c574e4169ae640f09e3f"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb6f55f9b5280056873ecd2a956bb561f454fba9f062bad251f966b6bae6ff237"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xcebdb9cfedf9cd822f239ebf5769bd7936b76e3f4408d65ce36ffbb5cb7d5e1a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4ff29486d6595bf15ef30f8692be5356cd2328f903fe4ad899486881c9351843"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x1bea7d8632e5f89100eab91c2f2b8b4abd9c1cea8cbc3668a942d6e51d56df4e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x305f546bf871af63424c2d68a8c90b7584ae1afc10d218162cf85d213297fe80"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xea0cf37e48d2178604bf52e8d4ae3cdf7841c0c3b64ad63b901c788612cbc6b1"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb1c50c183f46eb443565311b738dbeb6b199f6b1bc9066cd3cad12878aab7d6a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf3f737e10780d6c18239bfdd067a31e191c61c06a8e162a2d3a750ee151c6c93"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0769be0ffea35834dcd963efe6d8a76f2cc97d8af7350e402b01795d1a0cc70b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xac0f42b2cb7193c319cc53bbc5c2917762dcd81ac239c1e76ef56e192a1e750c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x66c116d01d04f039b0c4a8b3957e1f3cf3f1fea58c6a7d65cd007c4bb0a96fa9"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x958db2a59753bf774eea50360c2c9efd539bd332e5bada55efe30a3f0a788309"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x816a95ad111ca8815a0473da981a47d0e7ef5da23479670336a5fa76059b185a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4cc5c8b516bc7ec59b65ac612b6afd5ac2765d2d49628a4736d35329dd4f1274"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd5937d3ecaa653a78e629dcbc476ede5b54b0ba64c3232ccd6451fb0f797fe23"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x6432eccedbdb47b55a80912d7419da1fd2c4bc678796ab26edde1edee0824fc9"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7af54085c7dc89d6d672466faa15a2304a1cead2e418f1f260f0bcd8935b8861"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x2e351094de08a71a5675672f130f231827dadee731c57eb2fd148365605c4902"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x95e02e75d142d16f18f7eac8f4a9b061bbd8bdc040bd467bde9c6975400f219d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xcd24fb60ec29797ac626c7142a8e60ff2f95cf0d41fafd50e7e68e5688e6c077"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x816328f32bb7bff188e30461a9e341387dbc3b72b9c2064410f9ebba5c6bd969"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd30a9e054e880929fc5d77accb928cc1105610d369f7769f17ba652fb73d0c1f"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x8e977bd0c8b67c6d80f7b24acd2f82158a2669614a66b0ca6b25daefdc08222f"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xff75396a60a376b37c508fb6cd8d2bab7800cd5752ac736608c8d0d73f60f590"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4fdbd07f15db0a7188a8b55507cd334957c1574b627b4c6a1b20f49e2f782a70"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc0f54f135c30e6bc230bd089a460c387fd5714e20345c956515498c9cf51fa0a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3fb5d95aae655268a38cb077e5e6b927f59e0c31eeb6c5def0a06b0bff3ebd3d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x89f7c78fe32a90fcd7f780b098f7daa6dba90811696bd8f41d2fd584d7138168"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf0ac29832a571cef845b450280bd4d9fcfb7344580954fa69ccb6147344a0d2d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x212e9c937eb96558f19e3df286e76eb90a445364a5d232209e7b9d3e092f5948"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x6fbb2857b59e58700f1f6092facf9f3d026dfda350f6bd27a907f1cb36bd0c60"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x25034d9abb090d649aa11c7908e902e8aee398fe37058fc55a09e850c4244e4d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x08203ad55820c80f0c9a40be0f3b22333421b8bcaea4f90ca65b888bc1eb329c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x36496309908256274248c9836ad5b7c179399b7657ed2e3a6799840fbb975c52"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x8a955899d7b720ff183f33485c3b61edb46e0f28023183b59d7f937de69673cd"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x2473c8c4a189c4208127e0276ef5d1ec247e8078d9bf4dadb85c9080aa1ba898"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xda8f138cd11efdd234c61543a2e2e516d2620c78383184890f0032272af4065a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xfce28ea781537e150247aa29f1f6c8aa4488dcdb50eb0ff577e09612d502b0cc"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x358cea5bd1012fdd2511b9f625451e4b98598a45a8731bedb79ab2e10b8338b8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x8bf6732e62c63940c06b3a6961b79c959036783914fa816651232af867f177f1"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x026d801d33dde310f34cf6eb95b99bcba0f623bc6238470fad5fd589b8230e83"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf16ae10c7df48055e9179478f7d737a67aabedbabea75ad7fd63b19bce3bd6ad"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc4c314818b9ce2635c6f8d5cefce5821b79a82d688df6cc3f3949db1ae6c5d8e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x766e2625dd5382e1839182ac9804830279bbac088a9d5d10a6193f9773766e8c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x238f8e54be10c748a916afa9b4034440e26b02880048f32cd1767c61915763fb"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x918714e79602f487937d9ded972d2a05ee1d691dd00a5e30f428da9610bea66b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xead201e6a6b042dd9962f323ac55e663b8c7e971a8d328b21f7ca69da2dce22c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7e0b75781f9a40f7ed8b2596e48bfd7e15d6da55f19578115ff2a55b213e17a9"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x426842badd92c9ce23287b41b269a5e25f9bc988e4846e9221e4764dcc59baad"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xefb45b6d0970ecd27ab3b92c7cb6e0966ac05c2f0bdd4ba571e0384483a3d489"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x05d122c6665c3cbe715b4c352c338acf462e625aa79fc4768461ef39ff84019e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x8f88b4e0f6f3ee0d12948992fb22df1a9840bada009a9be0bec568f4246389fe"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x8fbe470a6833b0a00d860b2e6c4ee3d9fe60f10fcc5aa6fefc1f777ded8812a9"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xef26a37c6c44cc6cc668beea3c75be85d8380322e14255f761344b93bad70666"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x07c20ae4f907a0d96a0ccfdd809bb86a415b3d5ed154f25071cbbf557c134f9b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x91b67d57088ab28b204c6ef3f0360f4bda753e2649b775440aa6bc09bb92ba8d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x38026a37966b69af51884e63bfee1b2916faa18d90e1dd1757535c82d1af3291"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4763171a2809d31516a2d5544e8967469876fc28ef75754798afeba41518ae99"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x046e65143918e48adc0a77bada55931622531819be4a7473d80b7f906b813105"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd334eaf3209b369637d7747242df46e61b683358d463dca7bdf12f25cff75086"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x926ce6b669268e9f93450fa99d8c6396fe34b43e7785e6ee686bc0090b60a6d8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x48b3e39cc8780886246f54521a058f0d9e36b2b601128c5adddde85e14508033"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x11c9642ec43c68e7cf4ea76701ef0427f41eab8a9e05c15ce0f171085b06d585"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x486403da46d0dc66e43425e473ab0bf7b8d71acd9ca41efbbcb92e11a39b2c24"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0cc5772343881c840e28f30a6cb4b15476fe2d58fb1aa150078cc7ba9c7c147c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x15fbd852190b2d5b6fd76af287a6d3aed2a416dff63c0b60fac4349b96bb0b48"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x96e3ceaaf92c2970a471adec4f4e962472af5428d6b13ed436445166266927f5"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x533ca1288f1fa7045e496626ddb5f4c393c3f96ea8810d2b574d40c6a8d8b629"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb3669178e9e1516b814ebac5bb661a083e755f21de0e3ca9157add3a437a91df"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x34613ca06a2617d83262de04407719e24f3ca223dfd63901744efc97db0de064"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa2261cea8e3093aa0dbb5289642f6d8b393a922e2a1e46a3d0f2fae47ae96bf7"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x905d57855537d8236048b65c905e40ab4c7997488c15dcde963c038b3cb7a88e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xab91925a7d7c8f780003bfb2989023cccd7ffd6ad2aeee661058b465546bc1a2"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9510351a41e893c5fa50888c6f2d2e9e035236fce9fcb4afc6a9d7cd0132de23"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf4eba3187616ce709ee0afe53c980e9f31fed23be09bc6405ecf1c2b46d6935a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x1bc1564dbdb9a12234cd035cdd67e7331f50ba84899e2d7feed1db07af7de660"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x92b5d726bbc78dbe6f94690d46552e581d776194c85e12ff6769d31e9d6f82bd"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x8944904fa5ee8a2f8c9c60c4b6f365fe28a90e6bca8194e0c0597ce874f81777"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x1a51387ff04e70b5f51f40a622261916d041994591ae9341d3ad6b9283f89ac2"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb45c05636ec271d47fc3287f5fe0bf6aff2dfe0757d4ad70e7cb8f424cb8920e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc6219e02f076f421c81a3c4b66f3ef2d2ad8f8920b45478c06e1b8d285cdd4a7"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x59a33a0c69f55e5ec573ceee67ef5b4908d0638b9b17a79de8a70550af7aeb2a"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa7f108c429f685f0a7821f70ed5dae9e9d7355794fc58e3377eee3d0ae8aec6b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0fd6ccc32d91012b199055ccad8d082f5fd7383723f5de3e3bfc53e324e964c3"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x592b98b842929ad9dc2b7bd2bb88cc9b0669adb2c6f9479ec6b538b9358af905"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x960a186705c1ced82b14ddcc1486d7ed5e5a19e88c0ea9b6950d17f1058b6b58"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x2ea30676aa4c1dcae86ff727d04abc2dbb9bd0155959e644ade4563401786013"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x19c2321e98403fae15872cad96301cba6543bf21056ea0957116d25eaffa19b7"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x637fa5e21d92ba133e0b1db6620940f5a9b23aa069b21cc7290b2297bb236678"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x32da7ea952d191ac6eb1a182807bde622cb4ef243d9f304e1046fe8b1b97f157"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa44b225f0f312f026ae823f4da0e43bb96617c10dc50c5f65cb98983b744d563"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x51fc69a24d6c3871ab6526e38854e79eb61ef1e916bfe697bc6b099135c509ac"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc9bab876cde827b80815e339c8934d2b1b3d4beab593011e74f6ab2d7c25b6cf"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4c8e66c94d4cb6ffc8e6ba6ac2272075a7054afddef5b36280cf67985942c282"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc3a378fa4f04c1632acf07546f76f011463c31dab2ee70ef005b161edacd2abf"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0adc4fb745e73740a1179e778741efcef876ecfb8751d5ff186f6fb707336c90"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x148387efe96f4eff0d0c1f67004510f1d8866ad249634bebb77348a8d0d0a4cd"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa0c97e19c507de6b5b48bc0c39e274b0ac99bdc195b987b925649a1fa545440d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb1c473aeb67c8b75019f2dcfbbe7bb0ad95ba128fadb1cdcd8b29431adb8b1d1"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x58b199b58cf40a5077c880eebc0f350884a9e97e44b192de07efc43387a153f6"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x767fa3707ccaed13fa18873260ff026645ef709b9cd91cbc56652c8bcb39711f"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd65969b8cbb0f71a9cd02590f6b1701b94718dc9f1569a9dbbb6fc8a079045fe"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x853e68b5ae12180b60072bc281319b21a00be3fa15ec5053d49ec607fcc850bc"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x73171d5341e611729b0556b1166f4b3af134b200151d4d9f20159fb7a86da71b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x57a0655025b96628aaf360ed0642d82a90b64cf6da5e036f1f1acedc0d055603"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3472c219e78d05af52ac9d2f201bef50369e99847e179ddab0927ff4ab11ba23"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc11a4009284aee5fdd57a929d9675f906927e8f5a679cc9e0ab1d352ff110ed7"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xba2c33d812c5f3068973077fb52519ac6f11624e00a4adf552071ab67ddd94ef"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xbfabdb4a90c28358d9d347c1a12b5634f523dd87d08fb374c252defcd5da4ec3"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7a8fb277136175f0bab528d88b73c0f8c7185a61d34450915eb340f4def97c6d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd1c27fae4de8c3fa465b1c1742514544925e958bd84d4023f360a9c0abf53d55"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x246c409f5d39a58849f6baad5afcdce773caf5bdaea06f337d6d35ac173f2272"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa2faeb6efcfa49d4cd0927e5e61896c71dd57a51b0e69d99bcec81513d9b4568"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7593446a47877c1a2597d61143dfc299c965f0b6fb9e2fbbd27e5eb7826ac228"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd154d0cc69c1bf72e33350f634d4603ff9a016c0e950cb5b0ba990a09dadcec7"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7505e6133e9ebc853593e97f8079013a4a803ec1baf28d2b43973d55f8657ac0"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x21e53e1285d99b91eda456e6ccb490f8c024c9efc33cbacc20ae8866256f3974"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x25f9cc12420136974a2f9683914a392fd4febb82d6063e422d82af7a5df50ca7"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x6da979fd55ce73b9e09f31783601d1f4e191c150e14ed4ca74e711d7815263b2"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xe8280d93fc68421b0b8cb2dfd19fccfce7cef278870609b6569b1cf71d507886"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xfc417e6667132089147cacb9287d5bcc25e5eb3b7929a2414e79e3873316a95d"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7bf60bf90d6f64a36386f24b536509bc85dd6a34356c60d377f5ad34af744ffe"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xd5ddfb136a77ad421ff4c53094a61eb243eaa97a3e0b44bfd6a1735ff8612fb0"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xdb62dc5c6dd76fab3f96a738fd77d158ec120b3a72677533e9021ffddc9c6958"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x072be8f321dcf3aca36805e6d107d4cf90b94f2d2fa74210ffed371c4ae36989"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc0c70380b6a4ce15a97bc3cbcc6612d30cf5d43d48a9dcec720d3ee8ebada26b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf929c3e05a4c6f0668b0fc8ca29f672ec7dffeca5e53126bd67e42c75fbd93dc"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb71b6cf8185479d9f9c496a0ca0a546e875fe84cd26bb65c2708cefc1ea93a33"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x26a1714737bf5bd2b7a2e4eedbdf2a6ae0630531836896febabd8d82323b8c7f"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x602ffc0ec374e70e1a090b9a80a351bcc36833f7ac7f386fc3ce0bb9213096e8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xf0d8fbacfe56682b0d6166553c1dce9bd447aced74892dec226ceaece75df130"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xfe58900bdb4c7ede11803a1aa5e82ef6276f41bbddb19ed1037143fcccaa0893"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3aa6c7991f31e8a4f4e97e23da5896f300f8c291d8cc82973a56658c02af9b0c"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x174bd80b61ec8451784391df43c8c4ffc4ae82216a65cc15107bfdf4c29f6ca1"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xdd67e4bf2b15a231e88bdeaf21f8d3a56834b77f9a3131d08f205c1a56d62110"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xfdcfbc25bc7a06410df65a523f96373c99573de88dad318642bcb9f96141eafc"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x8f734f15aff7a23248d90abd133326e756d567a74cf580c1bdffd183ba24b03e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x308c377a35ab8ecb17c48fa3aa9728a0671db438ec33d9c429d19901e39a5d3b"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0f2a30ef26e6ab75a1b1af23907fd0ec552fca5ff53482961f110f5c60ccf4bc"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc04826b7a78ac18f09fe75418f430259631f2036fd93331e188173a682c49800"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x885618d6abc2294e5f205e643e18a4e4db2129430d304c8eae4b8c313f20c899"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4df9729ebe6219680f7393da367a68085a6c5edea78cd5cd6a8b0dfbcb3a1be8"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xa07d49028178b37f58bf5f4fad8dc2f31e3a2f274903cfb802062c1113aad0ec"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xba7da8a785eea8e649b2ae76832b1368cc5592578c33ce9212a4d918d8fdfbea"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc9a2fa834ab12ffd1500b36f9510151e8164897d9ad4027c7bdd94ad5042b2d5"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x5eeaed46bc7d9d7fda6986e1d910955f3df45150f980052f54fa98119e3634ee"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x61ac51d8553408766d4300159c7595439573bec942e6bb2af9d5a575b5a5c561"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x4ee5f08478ae40b1aebccbb054d218316c5b3141ea9208b73cd32de00cea8536"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xec8680462b795341b0b578aee4b0c0b1a8efb7653b62d7bb94acfbd16d4b40f1"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xb82c77de8422c406a59bd7704255db2dbb33d1250db29a0b0ae596c5cdb6626e"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xe6c11dabda534f90918fe93d6d5fcbeb7b362856f74edf1e4616db50e4cbbd23"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x507577cb9db589c00bd77676a5e5cfb4c25d025bd8c466d2a681541c876291f4"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x0291c192891d4e2ed03266729ca2835e2a7a23d6dd3d87f1a1b1c96425779919"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x7457d51f5530af9bcfdae15939f574c779d8abdede2ad2f370023bf875d3bcea"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x9314d2b629719823559cacb9d12cf14e266750d7ba69807c4ae5329910bc21b5"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x79c157b52031881d7cbc40b8d1ccd16395eeff67e1ff4987e5a323df82ad6e70"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x59390e9cc1867b33e85b6f53b0edabfbc02fc7d008f3c7707f49b59eddac6fdc"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0x3c4d84fbf49dd865766fb38bb19ab99424d1ab2532a431cb836e778e554305fb"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xe4dc82052f2c4f8a81b9ef4f41c14c980452491d08d725f3346a4aecfe88a4aa"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xcab109f0b8fe084c020c6e628dbcbbd80a6c55b5a16cb875f2030c0fb9d093f4"],
+        "fetchInterval": 60
+      },
+      {
+        "templateIds": ["0xc4f22fda5c6ecd2621fa9c98b5afc05560f005375cde2c5543caa0a7a19e03eb"],
+        "fetchInterval": 60
+      }
+    ]
+  },
+  "signedApis": [
+    {
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
+    }
+  ],
+  "ois": [
+    {
+      "oisFormat": "2.3.0",
+      "title": "TwelveData",
+      "version": "0.1.0",
+      "apiSpecifications": {
+        "components": {
+          "securitySchemes": {
+            "TwelvedataSecurityScheme1ApiKey": {
+              "in": "query",
+              "name": "apikey",
+              "type": "apiKey"
+            }
+          }
+        },
+        "paths": {
+          "/{path}": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "path",
+                  "name": "path"
+                },
+                {
+                  "in": "query",
+                  "name": "country"
+                },
+                {
+                  "in": "query",
+                  "name": "mic_code"
+                },
+                {
+                  "in": "query",
+                  "name": "exchange"
+                },
+                {
+                  "in": "query",
+                  "name": "symbol"
+                },
+                {
+                  "in": "query",
+                  "name": "format"
+                },
+                {
+                  "in": "query",
+                  "name": "delimiter"
+                },
+                {
+                  "in": "query",
+                  "name": "apikey"
+                },
+                {
+                  "in": "query",
+                  "name": "prepost"
+                },
+                {
+                  "in": "query",
+                  "name": "dp"
+                },
+                {
+                  "in": "query",
+                  "name": "type"
+                }
+              ]
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.twelvedata.com"
+          }
+        ],
+        "security": {
+          "TwelvedataSecurityScheme1ApiKey": []
+        }
+      },
+      "endpoints": [
+        {
+          "fixedOperationParameters": [],
+          "name": "feed",
+          "operation": {
+            "method": "get",
+            "path": "/{path}"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "required": true
+            },
+            {
+              "name": "path",
+              "operationParameter": {
+                "in": "path",
+                "name": "path"
+              },
+              "required": true
+            },
+            {
+              "name": "country",
+              "operationParameter": {
+                "in": "query",
+                "name": "country"
+              }
+            },
+            {
+              "name": "mic_code",
+              "operationParameter": {
+                "in": "query",
+                "name": "mic_code"
+              }
+            },
+            {
+              "name": "exchange",
+              "operationParameter": {
+                "in": "query",
+                "name": "exchange"
+              }
+            },
+            {
+              "name": "symbol",
+              "operationParameter": {
+                "in": "query",
+                "name": "symbol"
+              },
+              "required": true
+            },
+            {
+              "name": "format",
+              "operationParameter": {
+                "in": "query",
+                "name": "format"
+              }
+            },
+            {
+              "name": "delimiter",
+              "operationParameter": {
+                "in": "query",
+                "name": "delimiter"
+              }
+            },
+            {
+              "name": "apikey",
+              "operationParameter": {
+                "in": "query",
+                "name": "apikey"
+              }
+            },
+            {
+              "name": "prepost",
+              "operationParameter": {
+                "in": "query",
+                "name": "prepost"
+              }
+            },
+            {
+              "name": "dp",
+              "operationParameter": {
+                "in": "query",
+                "name": "dp"
+              },
+              "required": true
+            },
+            {
+              "name": "type",
+              "operationParameter": {
+                "in": "query",
+                "name": "type"
+              }
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "int256"
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ],
+          "preProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"AAPL/USD\": { path: \"price\", parameters: { symbol: \"AAPL\", dp: \"11\" } },\n    \"AMZN/USD\": { path: \"price\", parameters: { symbol: \"AMZN\", dp: \"11\" } },\n    \"ARKK/USD\": { path: \"price\", parameters: { symbol: \"ARKK\", dp: \"11\" } },\n    \"COIN/USD\": { path: \"price\", parameters: { symbol: \"COIN\", dp: \"11\" } },\n    \"GME/USD\": { path: \"price\", parameters: { symbol: \"GME\", dp: \"11\" } },\n    \"GOOGL/USD\": { path: \"price\", parameters: { symbol: \"GOOGL\", dp: \"11\" } },\n    \"JPM/USD\": { path: \"price\", parameters: { symbol: \"JPM\", dp: \"11\" } },\n    \"META/USD\": { path: \"price\", parameters: { symbol: \"META\", dp: \"11\" } },\n    \"MSFT/USD\": { path: \"price\", parameters: { symbol: \"MSFT\", dp: \"11\" } },\n    \"NFLX/USD\": { path: \"price\", parameters: { symbol: \"NFLX\", dp: \"11\" } },\n    \"NVDA/USD\": { path: \"price\", parameters: { symbol: \"NVDA\", dp: \"11\" } },\n    \"SPY/USD\": { path: \"price\", parameters: { symbol: \"SPY\", dp: \"11\" } },\n    \"TSLA/USD\": { path: \"price\", parameters: { symbol: \"TSLA\", dp: \"11\" } },\n    \"TSM/USD\": { path: \"price\", parameters: { symbol: \"TSM\", dp: \"11\" } },\n    \"QQQ/USD\": { path: \"price\", parameters: { symbol: \"QQQ\", dp: \"11\" } },\n    \"BABA/USD\": { path: \"price\", parameters: { symbol: \"BABA\", dp: \"11\" } },\n    \"PYPL/USD\": { path: \"price\", parameters: { symbol: \"PYPL\", dp: \"11\" } },\n    \"DIS/USD\": { path: \"price\", parameters: { symbol: \"DIS\", dp: \"11\" } },\n    \"INTC/USD\": { path: \"price\", parameters: { symbol: \"INTC\", dp: \"11\" } },\n    \"AUD/USD\": { path: \"price\", parameters: { symbol: \"AUD/USD\", dp: \"11\" } },\n    \"BRL/USD\": { path: \"price\", parameters: { symbol: \"BRL/USD\", dp: \"11\" } },\n    \"CAD/USD\": { path: \"price\", parameters: { symbol: \"CAD/USD\", dp: \"11\" } },\n    \"CHF/USD\": { path: \"price\", parameters: { symbol: \"CHF/USD\", dp: \"11\" } },\n    \"CNY/USD\": { path: \"price\", parameters: { symbol: \"CNY/USD\", dp: \"11\" } },\n    \"EUR/USD\": { path: \"price\", parameters: { symbol: \"EUR/USD\", dp: \"11\" } },\n    \"GBP/USD\": { path: \"price\", parameters: { symbol: \"GBP/USD\", dp: \"11\" } },\n    \"INR/USD\": { path: \"price\", parameters: { symbol: \"INR/USD\", dp: \"11\" } },\n    \"KRW/USD\": { path: \"price\", parameters: { symbol: \"KRW/USD\", dp: \"11\" } },\n    \"MXN/USD\": { path: \"price\", parameters: { symbol: \"MXN/USD\", dp: \"11\" } },\n    \"NZD/USD\": { path: \"price\", parameters: { symbol: \"NZD/USD\", dp: \"11\" } },\n    \"PHP/USD\": { path: \"price\", parameters: { symbol: \"PHP/USD\", dp: \"11\" } },\n    \"SEK/USD\": { path: \"price\", parameters: { symbol: \"SEK/USD\", dp: \"11\" } },\n    \"SGD/USD\": { path: \"price\", parameters: { symbol: \"SGD/USD\", dp: \"11\" } },\n    \"TRY/USD\": { path: \"price\", parameters: { symbol: \"TRY/USD\", dp: \"11\" } },\n    \"ZAR/USD\": { path: \"price\", parameters: { symbol: \"ZAR/USD\", dp: \"11\" } },\n    \"AAVE/USD\": { path: \"price\", parameters: { symbol: \"AAVE/USD\", dp: \"11\" } },\n    \"ADA/USD\": { path: \"price\", parameters: { symbol: \"ADA/USD\", dp: \"11\" } },\n    \"ALGO/USD\": { path: \"price\", parameters: { symbol: \"ALGO/USD\", dp: \"11\" } },\n    \"ANKR/USD\": { path: \"price\", parameters: { symbol: \"ANKR/USD\", dp: \"11\" } },\n    \"APE/USD\": { path: \"price\", parameters: { symbol: \"APE/USD\", dp: \"11\" } },\n    \"API3/USD\": { path: \"price\", parameters: { symbol: \"API3/USD\", dp: \"11\" } },\n    \"ARB/USD\": { path: \"price\", parameters: { symbol: \"ARB/USD\", dp: \"11\" } },\n    \"ATOM/USD\": { path: \"price\", parameters: { symbol: \"ATOM/USD\", dp: \"11\" } },\n    \"AVAX/USD\": { path: \"price\", parameters: { symbol: \"AVAX/USD\", dp: \"11\" } },\n    \"AXS/USD\": { path: \"price\", parameters: { symbol: \"AXS/USD\", dp: \"11\" } },\n    \"BAL/USD\": { path: \"price\", parameters: { symbol: \"BAL/USD\", dp: \"11\" } },\n    \"BAT/USD\": { path: \"price\", parameters: { symbol: \"BAT/USD\", dp: \"11\" } },\n    \"BNB/USD\": { path: \"price\", parameters: { symbol: \"BNB/USD\", dp: \"11\" } },\n    \"BTC/USD\": { path: \"price\", parameters: { symbol: \"BTC/USD\", dp: \"11\" } },\n    \"CAKE/USD\": { path: \"price\", parameters: { symbol: \"CAKE/USD\", dp: \"11\" } },\n    \"CELO/USD\": { path: \"price\", parameters: { symbol: \"CELO/USD\", dp: \"11\" } },\n    \"CHZ/USD\": { path: \"price\", parameters: { symbol: \"CHZ/USD\", dp: \"11\" } },\n    \"COMP/USD\": { path: \"price\", parameters: { symbol: \"COMP/USD\", dp: \"11\" } },\n    \"CRO/USD\": { path: \"price\", parameters: { symbol: \"CRO/USD\", dp: \"11\" } },\n    \"CRV/USD\": { path: \"price\", parameters: { symbol: \"CRV/USD\", dp: \"11\" } },\n    \"CVX/USD\": { path: \"price\", parameters: { symbol: \"CVX/USD\", dp: \"11\" } },\n    \"DAI/USD\": { path: \"price\", parameters: { symbol: \"DAI/USD\", dp: \"11\" } },\n    \"DOGE/USD\": { path: \"price\", parameters: { symbol: \"DOGE/USD\", dp: \"11\" } },\n    \"DYDX/USD\": { path: \"price\", parameters: { symbol: \"DYDX/USD\", dp: \"11\" } },\n    \"ETH/USD\": { path: \"price\", parameters: { symbol: \"ETH/USD\", dp: \"11\" } },\n    \"FIL/USD\": { path: \"price\", parameters: { symbol: \"FIL/USD\", dp: \"11\" } },\n    \"FLOW/USD\": { path: \"price\", parameters: { symbol: \"FLOW/USD\", dp: \"11\" } },\n    \"FXS/USD\": { path: \"price\", parameters: { symbol: \"FXS/USD\", dp: \"11\" } },\n    \"FTM/USD\": { path: \"price\", parameters: { symbol: \"FTM/USD\", dp: \"11\" } },\n    \"GLMR/USD\": { path: \"price\", parameters: { symbol: \"GLMR/USD\", dp: \"11\" } },\n    \"GNO/USD\": { path: \"price\", parameters: { symbol: \"GNO/USD\", dp: \"11\" } },\n    \"GRT/USD\": { path: \"price\", parameters: { symbol: \"GRT/USD\", dp: \"11\" } },\n    \"HBAR/USD\": { path: \"price\", parameters: { symbol: \"HBAR/USD\", dp: \"11\" } },\n    \"HNT/USD\": { path: \"price\", parameters: { symbol: \"HNT/USD\", dp: \"11\" } },\n    \"ICP/USD\": { path: \"price\", parameters: { symbol: \"ICP/USD\", dp: \"11\" } },\n    \"JOE/USD\": { path: \"price\", parameters: { symbol: \"JOE/USD\", dp: \"11\" } },\n    \"KDA/USD\": { path: \"price\", parameters: { symbol: \"KDA/USD\", dp: \"11\" } },\n    \"KSM/USD\": { path: \"price\", parameters: { symbol: \"KSM/USD\", dp: \"11\" } },\n    \"LDO/USD\": { path: \"price\", parameters: { symbol: \"LDO/USD\", dp: \"11\" } },\n    \"LINK/USD\": { path: \"price\", parameters: { symbol: \"LINK/USD\", dp: \"11\" } },\n    \"LQTY/USD\": { path: \"price\", parameters: { symbol: \"LQTY/USD\", dp: \"11\" } },\n    \"LTC/USD\": { path: \"price\", parameters: { symbol: \"LTC/USD\", dp: \"11\" } },\n    \"MANA/USD\": { path: \"price\", parameters: { symbol: \"MANA/USD\", dp: \"11\" } },\n    \"MKR/USD\": { path: \"price\", parameters: { symbol: \"MKR/USD\", dp: \"11\" } },\n    \"MATIC/USD\": {\n      path: \"price\",\n      parameters: { symbol: \"MATIC/USD\", dp: \"11\" },\n    },\n    \"METIS/USD\": {\n      path: \"price\",\n      parameters: { symbol: \"METIS/USD\", dp: \"11\" },\n    },\n    \"MOVR/USD\": { path: \"price\", parameters: { symbol: \"MOVR/USD\", dp: \"11\" } },\n    \"NEAR/USD\": { path: \"price\", parameters: { symbol: \"NEAR/USD\", dp: \"11\" } },\n    \"OKB/USD\": { path: \"price\", parameters: { symbol: \"OKB/USD\", dp: \"11\" } },\n    \"OP/USD\": { path: \"price\", parameters: { symbol: \"OP/USD\", dp: \"11\" } },\n    \"PAXG/USD\": { path: \"price\", parameters: { symbol: \"PAXG/USD\", dp: \"11\" } },\n    \"QUICK/USD\": {\n      path: \"price\",\n      parameters: { symbol: \"QUICK/USD\", dp: \"11\" },\n    },\n    \"ROSE/USD\": { path: \"price\", parameters: { symbol: \"ROSE/USD\", dp: \"11\" } },\n    \"RSR/USD\": { path: \"price\", parameters: { symbol: \"RSR/USD\", dp: \"11\" } },\n    \"RUNE/USD\": { path: \"price\", parameters: { symbol: \"RUNE/USD\", dp: \"11\" } },\n    \"SAND/USD\": { path: \"price\", parameters: { symbol: \"SAND/USD\", dp: \"11\" } },\n    \"SHIB/USD\": { path: \"price\", parameters: { symbol: \"SHIB/USD\", dp: \"11\" } },\n    \"SNX/USD\": { path: \"price\", parameters: { symbol: \"SNX/USD\", dp: \"11\" } },\n    \"SOL/USD\": { path: \"price\", parameters: { symbol: \"SOL/USD\", dp: \"11\" } },\n    \"STX/USD\": { path: \"price\", parameters: { symbol: \"STX/USD\", dp: \"11\" } },\n    \"SUSHI/USD\": {\n      path: \"price\",\n      parameters: { symbol: \"SUSHI/USD\", dp: \"11\" },\n    },\n    \"TUSD/USD\": { path: \"price\", parameters: { symbol: \"TUSD/USD\", dp: \"11\" } },\n    \"USDT/USD\": { path: \"price\", parameters: { symbol: \"USDT/USD\", dp: \"11\" } },\n    \"USDC/USD\": { path: \"price\", parameters: { symbol: \"USDC/USD\", dp: \"11\" } },\n    \"USDP/USD\": { path: \"price\", parameters: { symbol: \"USDP/USD\", dp: \"11\" } },\n    \"WBTC/USD\": { path: \"price\", parameters: { symbol: \"WBTC/USD\", dp: \"11\" } },\n    \"XLM/USD\": { path: \"price\", parameters: { symbol: \"XLM/USD\", dp: \"11\" } },\n    \"XRP/USD\": { path: \"price\", parameters: { symbol: \"XRP/USD\", dp: \"11\" } },\n    \"XTZ/USD\": { path: \"price\", parameters: { symbol: \"XTZ/USD\", dp: \"11\" } },\n    \"YFI/USD\": { path: \"price\", parameters: { symbol: \"YFI/USD\", dp: \"11\" } },\n    \"ZIL/USD\": { path: \"price\", parameters: { symbol: \"ZIL/USD\", dp: \"11\" } },\n    \"ZRX/USD\": { path: \"price\", parameters: { symbol: \"ZRX/USD\", dp: \"11\" } },\n    \"RNDR/USD\": { path: \"price\", parameters: { symbol: \"RNDR/USD\", dp: \"11\" } },\n    \"MASK/USD\": { path: \"price\", parameters: { symbol: \"MASK/USD\", dp: \"11\" } },\n    \"BAND/USD\": { path: \"price\", parameters: { symbol: \"BAND/USD\", dp: \"11\" } },\n    \"UMA/USD\": { path: \"price\", parameters: { symbol: \"UMA/USD\", dp: \"11\" } },\n    \"APT/USD\": { path: \"price\", parameters: { symbol: \"APT/USD\", dp: \"11\" } },\n    \"BLUR/USD\": { path: \"price\", parameters: { symbol: \"BLUR/USD\", dp: \"11\" } },\n    \"DOT/USD\": { path: \"price\", parameters: { symbol: \"DOT/USD\", dp: \"11\" } },\n    \"ENS/USD\": { path: \"price\", parameters: { symbol: \"ENS/USD\", dp: \"11\" } },\n    \"EUL/USD\": { path: \"price\", parameters: { symbol: \"EUL/USD\", dp: \"11\" } },\n    \"GMX/USD\": { path: \"price\", parameters: { symbol: \"GMX/USD\", dp: \"11\" } },\n    \"IMX/USD\": { path: \"price\", parameters: { symbol: \"IMX/USD\", dp: \"11\" } },\n    \"RPL/USD\": { path: \"price\", parameters: { symbol: \"RPL/USD\", dp: \"11\" } },\n    \"stETH/USD\": {\n      path: \"price\",\n      parameters: { symbol: \"STETH/USD\", dp: \"11\" },\n    },\n    \"STG/USD\": { path: \"price\", parameters: { symbol: \"STG/USD\", dp: \"11\" } },\n    \"UNI/USD\": { path: \"price\", parameters: { symbol: \"UNI/USD\", dp: \"11\" } },\n    \"OSMO/USD\": { path: \"price\", parameters: { symbol: \"OSMO/USD\", dp: \"11\" } },\n    \"PEPE/USD\": { path: \"price\", parameters: { symbol: \"PEPE/USD\", dp: \"11\" } },\n    \"SUI/USD\": { path: \"price\", parameters: { symbol: \"SUI/USD\", dp: \"11\" } },\n    \"GNS/USD\": { path: \"price\", parameters: { symbol: \"GNS/USD\", dp: \"11\" } },\n    \"FRAX/USD\": { path: \"price\", parameters: { symbol: \"FRAX/USD\", dp: \"11\" } },\n    \"LUSD/USD\": { path: \"price\", parameters: { symbol: \"LUSD/USD\", dp: \"11\" } },\n    \"MNT/USD\": { path: \"price\", parameters: { symbol: \"MNT/USD\", dp: \"11\" } },\n    \"KAVA/USD\": { path: \"price\", parameters: { symbol: \"KAVA/USD\", dp: \"11\" } },\n    \"RIF/USD\": { path: \"price\", parameters: { symbol: \"RIF/USD\", dp: \"11\" } },\n    \"RDNT/USD\": { path: \"price\", parameters: { symbol: \"RDNT/USD\", dp: \"11\" } },\n    \"GHO/USD\": { path: \"price\", parameters: { symbol: \"GHO/USD\", dp: \"11\" } },\n    \"crvUSD/USD\": {\n      path: \"price\",\n      parameters: { symbol: \"CRVUSD/USD\", dp: \"11\" },\n    },\n    \"EURe/USD\": { path: \"price\", parameters: { symbol: \"EURE/USD\", dp: \"11\" } },\n    \"WOO/USD\": { path: \"price\", parameters: { symbol: \"WOO/USD\", dp: \"11\" } },\n    \"PYTH/USD\": { path: \"price\", parameters: { symbol: \"PYTH/USD\", dp: \"11\" } },\n    \"ASTR/USD\": { path: \"price\", parameters: { symbol: \"ASTR/USD\", dp: \"11\" } },\n    \"TIA/USD\": { path: \"price\", parameters: { symbol: \"TIA/USD\", dp: \"11\" } },\n    \"DYM/USD\": { path: \"price\", parameters: { symbol: \"DYM/USD\", dp: \"11\" } },\n    \"SEI/USD\": { path: \"price\", parameters: { symbol: \"SEI/USD\", dp: \"11\" } },\n    \"AR/USD\": { path: \"price\", parameters: { symbol: \"AR/USD\", dp: \"11\" } },\n    \"STRK/USD\": { path: \"price\", parameters: { symbol: \"STRK/USD\", dp: \"11\" } },\n    \"AXL/USD\": { path: \"price\", parameters: { symbol: \"AXL/USD\", dp: \"11\" } },\n    \"ONDO/USD\": { path: \"price\", parameters: { symbol: \"ONDO/USD\", dp: \"11\" } },\n    \"MANTA/USD\": {\n      path: \"price\",\n      parameters: { symbol: \"MANTA/USD\", dp: \"11\" },\n    },\n    \"RON/USD\": { path: \"price\", parameters: { symbol: \"RON/USD\", dp: \"11\" } },\n    \"XVS/USD\": { path: \"price\", parameters: { symbol: \"XVS/USD\", dp: \"11\" } },\n    \"WTI/USD\": { path: \"price\", parameters: { symbol: \"WTI/USD\", dp: \"11\" } },\n    \"XAG/USD\": { path: \"price\", parameters: { symbol: \"XAG/USD\", dp: \"11\" } },\n    \"XAU/USD\": { path: \"price\", parameters: { symbol: \"XAU/USD\", dp: \"11\" } },\n    \"TWT/USD\": { path: \"price\", parameters: { symbol: \"TWT/USD\", dp: \"11\" } },\n    \"AERO/USD\": { path: \"price\", parameters: { symbol: \"AERO/USD\", dp: \"11\" } },\n    \"JUICE/USD\": {\n      path: \"price\",\n      parameters: { symbol: \"JUICE/USD\", dp: \"11\" },\n    },\n    \"ERN/USD\": { path: \"price\", parameters: { symbol: \"ERN/USD\", dp: \"11\" } },\n    \"TAO/USD\": { path: \"price\", parameters: { symbol: \"TAO/USD\", dp: \"11\" } },\n    \"AMD/USD\": { path: \"price\", parameters: { symbol: \"AMD\", dp: \"11\" } },\n    \"PLTR/USD\": { path: \"price\", parameters: { symbol: \"PLTR\", dp: \"11\" } },\n    \"QCOM/USD\": { path: \"price\", parameters: { symbol: \"QCOM\", dp: \"11\" } },\n    \"INJ/USD\": { path: \"price\", parameters: { symbol: \"INJ/USD\", dp: \"11\" } },\n    \"NEON/USD\": { path: \"price\", parameters: { symbol: \"NEON/USD\", dp: \"11\" } },\n    \"RARI/USD\": { path: \"price\", parameters: { symbol: \"RARI/USD\", dp: \"11\" } },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+            "timeoutMs": 5000
+          },
+          "postProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"AAPL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AMZN/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ARKK/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"COIN/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GME/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GOOGL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"JPM/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"META/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MSFT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"NFLX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"NVDA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SPY/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"TSLA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"TSM/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"QQQ/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"BABA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"PYPL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"DIS/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"INTC/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AUD/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"BRL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CAD/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CHF/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CNY/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"EUR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GBP/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"INR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"KRW/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MXN/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"NZD/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"PHP/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SEK/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SGD/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"TRY/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ZAR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AAVE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ADA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ALGO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ANKR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"APE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"API3/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ARB/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ATOM/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AVAX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AXS/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"BAL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"BAT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"BNB/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"BTC/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CAKE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CELO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CHZ/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"COMP/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CRO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CRV/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"CVX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"DAI/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"DOGE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"DYDX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ETH/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"FIL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"FLOW/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"FXS/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"FTM/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GLMR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GNO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GRT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"HBAR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"HNT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ICP/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"JOE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"KDA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"KSM/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"LDO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"LINK/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"LQTY/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"LTC/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MANA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MKR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MATIC/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"METIS/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MOVR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"NEAR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"OKB/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"OP/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"PAXG/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"QUICK/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ROSE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"RSR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"RUNE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SAND/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SHIB/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SNX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SOL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"STX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SUSHI/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"TUSD/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"USDT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"USDC/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"USDP/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"WBTC/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"XLM/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"XRP/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"XTZ/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"YFI/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ZIL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ZRX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"RNDR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MASK/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"BAND/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"UMA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"APT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"BLUR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"DOT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ENS/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"EUL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GMX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"IMX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"RPL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"stETH/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"STG/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"UNI/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"OSMO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"PEPE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SUI/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GNS/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"FRAX/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"LUSD/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MNT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"KAVA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"RIF/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"RDNT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"GHO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"crvUSD/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"EURe/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"WOO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"PYTH/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ASTR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"TIA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"DYM/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"SEI/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AR/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"STRK/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AXL/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ONDO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"MANTA/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"RON/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"XVS/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"WTI/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"XAG/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"XAU/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"TWT/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AERO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"JUICE/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"ERN/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"TAO/USD\":\n      \"(response) => {\\n            if(!Object.keys(response).includes('price')) {\\n              throw Error('[Known Error] - TwelveData did not return any price value.');\\n            }\\n            return response.price;\\n          }\\n          \",\n    \"AMD/USD\":\n      \"(response) => {\\n          if (!Object.keys(response).includes('price')) {\\n            throw Error('[Known Error] - TwelveData did not return any price value.')\\n          }\\n          return response.price\\n        }\\n        \",\n    \"PLTR/USD\":\n      \"(response) => {\\n          if (!Object.keys(response).includes('price')) {\\n            throw Error('[Known Error] - TwelveData did not return any price value.')\\n          }\\n          return response.price\\n        }\\n        \",\n    \"QCOM/USD\":\n      \"(response) => {\\n          if (!Object.keys(response).includes('price')) {\\n            throw Error('[Known Error] - TwelveData did not return any price value.')\\n          }\\n          return response.price\\n        }\\n        \",\n    \"INJ/USD\":\n      \"(response) => {\\n          if (!Object.keys(response).includes('price')) {\\n            throw Error('[Known Error] - TwelveData did not return any price value.')\\n          }\\n          return response.price\\n        }\\n        \",\n    \"NEON/USD\":\n      \"(response) => {\\n          if (!Object.keys(response).includes('price')) {\\n            throw Error('[Known Error] - TwelveData did not return any price value.')\\n          }\\n          return response.price\\n        }\\n        \",\n    \"RARI/USD\":\n      \"(response) => {\\n          if (!Object.keys(response).includes('price')) {\\n            throw Error('[Known Error] - TwelveData did not return any price value.')\\n          }\\n          return response.price\\n        }\\n        \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+            "timeoutMs": 5000
+          }
+        }
+      ]
+    }
+  ],
+  "apiCredentials": [
+    {
+      "oisTitle": "TwelveData",
+      "securitySchemeName": "TwelvedataSecurityScheme1ApiKey",
+      "securitySchemeValue": "${TWELVEDATASECURITYSCHEME1APIKEY_VALUE}"
+    }
+  ]
+}

@@ -130,7 +130,11 @@
       ["PYUSD/USD"],
       ["MERL/USD"],
       ["ORDI/USD"],
-      ["SATS/USD"]
+      ["SATS/USD"],
+      ["NEON/USD"],
+      ["INJ/USD"],
+      ["RARI/USD"],
+      ["MODE/USD"]
     ]
   },
   "deploymentLocations": ["local"],

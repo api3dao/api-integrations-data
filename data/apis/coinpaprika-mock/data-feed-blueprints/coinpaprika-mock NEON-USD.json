@@ -1,0 +1,8 @@
+{
+  "name": "NEON/USD",
+  "path": "tickers/neon-neon-evm",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}
