@@ -166,7 +166,8 @@
       ["QCOM/USD"],
       ["INJ/USD"],
       ["NEON/USD"],
-      ["RARI/USD"]
+      ["RARI/USD"],
+      ["MODE/USD"]
     ]
   },
   "deploymentLocations": ["local"],
