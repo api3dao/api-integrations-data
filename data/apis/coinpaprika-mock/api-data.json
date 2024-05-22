@@ -134,7 +134,11 @@
       ["NEON/USD"],
       ["INJ/USD"],
       ["RARI/USD"],
-      ["MODE/USD"]
+      ["MODE/USD"],
+      ["CORE/USD"],
+      ["DEGEN/USD"],
+      ["ENA/USD"],
+      ["FDUSD/USD"]
     ]
   },
   "deploymentLocations": ["local"],

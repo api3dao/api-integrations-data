@@ -140,7 +140,9 @@
         "PYUSD/USD",
         "ORDI/USD",
         "INJ/USD",
-        "MODE/USD"
+        "MODE/USD",
+        "RARI/USD",
+        "DEGEN/USD"
       ]
     ]
   },

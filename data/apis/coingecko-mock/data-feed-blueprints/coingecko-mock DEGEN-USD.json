@@ -1,0 +1,9 @@
+{
+  "name": "DEGEN/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "degen-base",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['degen-base']['usd']\n        }\n        "
+}

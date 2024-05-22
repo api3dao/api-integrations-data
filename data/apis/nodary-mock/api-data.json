@@ -199,7 +199,16 @@
       ["AMD/USD"],
       ["PLTR/USD"],
       ["QCOM/USD"],
-      ["sFRAX/FRAX Exchange Rate"]
+      ["sFRAX/FRAX Exchange Rate"],
+      ["INJ/USD"],
+      ["MODE/USD"],
+      ["NEON/USD"],
+      ["RARI/USD"],
+      ["spETH/ETH Exchange Rate"],
+      ["CORE/USD"],
+      ["DEGEN/USD"],
+      ["ENA/USD"],
+      ["FDUSD/USD"]
     ]
   },
   "deploymentLocations": ["local"],

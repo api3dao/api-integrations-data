@@ -118,7 +118,11 @@
       ["ORDI/USD"],
       ["SATS/USD"],
       ["INJ/USD"],
-      ["RARI/USD"]
+      ["RARI/USD"],
+      ["CORE/USD"],
+      ["DEGEN/USD"],
+      ["ENA/USD"],
+      ["FDUSD/USD"]
     ]
   },
   "deploymentLocations": ["local"],

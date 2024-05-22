@@ -1,0 +1,8 @@
+{
+  "name": "ENA/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "ENA/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}
