@@ -1,0 +1,8 @@
+{
+  "name": "DEGEN/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "DEGEN/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

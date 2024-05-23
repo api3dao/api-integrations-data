@@ -1,0 +1,8 @@
+{
+  "name": "spETH/ETH Exchange Rate",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "spETH/ETH Exchange Rate"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}
