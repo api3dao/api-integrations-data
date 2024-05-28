@@ -1,8 +1,0 @@
-{
-  "name": "WLD/USD",
-  "path": "live/midrate/v1/rates",
-  "parameters": {
-    "pairs": "WLD-USD"
-  },
-  "parser": "(response) => {\n          return response.rates['WLD-USD'].rate\n        }\n        "
-}
