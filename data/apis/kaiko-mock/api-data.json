@@ -122,7 +122,8 @@
       ["CORE/USD"],
       ["DEGEN/USD"],
       ["ENA/USD"],
-      ["FDUSD/USD"]
+      ["FDUSD/USD"],
+      ["WLD/USD"]
     ]
   },
   "deploymentLocations": ["local"],

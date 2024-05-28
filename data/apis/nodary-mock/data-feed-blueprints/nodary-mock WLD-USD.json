@@ -1,0 +1,8 @@
+{
+  "name": "WLD/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "WLD/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}
