@@ -1,0 +1,9 @@
+{
+  "name": "WLD/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "worldcoin-wld",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['worldcoin-wld']['usd']\n        }\n        "
+}

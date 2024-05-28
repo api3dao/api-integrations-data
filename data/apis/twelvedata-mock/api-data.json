@@ -167,7 +167,10 @@
       ["INJ/USD"],
       ["NEON/USD"],
       ["RARI/USD"],
-      ["MODE/USD"]
+      ["MODE/USD"],
+      ["ENA/USD"],
+      ["FDUSD/USD"],
+      ["WLD/USD"]
     ]
   },
   "deploymentLocations": ["local"],
