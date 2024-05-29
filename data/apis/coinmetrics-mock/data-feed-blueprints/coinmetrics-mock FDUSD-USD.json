@@ -1,0 +1,12 @@
+{
+  "name": "FDUSD/USD",
+  "path": "v4/timeseries/asset-metrics",
+  "parameters": {
+    "assets": "fdusd",
+    "metrics": "ReferenceRate",
+    "frequency": "1s",
+    "limit_per_asset": "1",
+    "page_size": "2000"
+  },
+  "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'fdusd').ReferenceRate\n        }\n        "
+}
