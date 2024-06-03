@@ -1,0 +1,9 @@
+{
+  "name": "ETHFI/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "ether-fi",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['ether-fi']['usd']\n        }\n        "
+}

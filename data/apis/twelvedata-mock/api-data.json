@@ -170,7 +170,9 @@
       ["MODE/USD"],
       ["ENA/USD"],
       ["FDUSD/USD"],
-      ["WLD/USD"]
+      ["WLD/USD"],
+      ["UBER/USD"],
+      ["NKE/USD"]
     ]
   },
   "deploymentLocations": ["local"],

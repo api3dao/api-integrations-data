@@ -1,0 +1,8 @@
+{
+  "name": "solvBTC/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "solvBTC/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

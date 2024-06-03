@@ -209,7 +209,15 @@
       ["DEGEN/USD"],
       ["ENA/USD"],
       ["FDUSD/USD"],
-      ["WLD/USD"]
+      ["WLD/USD"],
+      ["solvBTC/USD"],
+      ["UBER/USD"],
+      ["NKE/USD"],
+      ["ETHFI/USD"],
+      ["SAFE/USD"],
+      ["wBETH/ETH Exchange Rate"],
+      ["BNBx/BNB Exchange Rate"],
+      ["slisBNB/BNB Exchange Rate"]
     ]
   },
   "deploymentLocations": ["local"],

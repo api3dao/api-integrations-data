@@ -139,7 +139,10 @@
       ["DEGEN/USD"],
       ["ENA/USD"],
       ["FDUSD/USD"],
-      ["WLD/USD"]
+      ["WLD/USD"],
+      ["solvBTC/USD"],
+      ["ETHFI/USD"],
+      ["SAFE/USD"]
     ]
   },
   "deploymentLocations": ["local"],

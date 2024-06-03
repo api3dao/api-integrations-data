@@ -145,7 +145,8 @@
         "DEGEN/USD",
         "CORE/USD",
         "FDUSD/USD",
-        "WLD/USD"
+        "WLD/USD",
+        "SAFE/USD"
       ]
     ]
   },
