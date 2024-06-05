@@ -1,0 +1,8 @@
+{
+  "name": "slisBNB/BNB Exchange Rate",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "slisBNB/BNB Exchange Rate"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

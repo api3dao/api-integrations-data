@@ -208,7 +208,15 @@
       ["CORE/USD"],
       ["DEGEN/USD"],
       ["ENA/USD"],
-      ["FDUSD/USD"]
+      ["FDUSD/USD"],
+      ["WLD/USD"],
+      ["UBER/USD"],
+      ["NKE/USD"],
+      ["ETHFI/USD"],
+      ["SAFE/USD"],
+      ["wBETH/ETH Exchange Rate"],
+      ["BNBx/BNB Exchange Rate"],
+      ["slisBNB/BNB Exchange Rate"]
     ]
   },
   "deploymentLocations": ["aws"],
