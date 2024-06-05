@@ -146,7 +146,8 @@
         "CORE/USD",
         "FDUSD/USD",
         "WLD/USD",
-        "SAFE/USD"
+        "SAFE/USD",
+        "QUICK/USD"
       ]
     ]
   },
