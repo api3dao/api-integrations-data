@@ -1,9 +1,9 @@
 {
   "name": "QUICK/USD",
   "parameters": {
-    "ids": "quick",
+    "ids": "quickswap",
     "vs_currencies": "usd"
   },
   "path": "simple/price",
-  "parser": "(response) => {\n              return response['quick']['usd']\n            }"
+  "parser": "(response) => {\n              return response['quickswap']['usd']\n            }"
 }
