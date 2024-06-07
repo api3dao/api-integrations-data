@@ -43,7 +43,9 @@
       ["ZAR/USD"],
       ["AMD/USD"],
       ["PLTR/USD"],
-      ["QCOM/USD"]
+      ["QCOM/USD"],
+      ["HKD/USD"],
+      ["NOK/USD"]
     ]
   },
   "deploymentLocations": ["local"],

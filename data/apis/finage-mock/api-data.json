@@ -180,7 +180,11 @@
       ["FDUSD/USD"],
       ["WLD/USD"],
       ["ETHFI/USD"],
-      ["SAFE/USD"]
+      ["SAFE/USD"],
+      ["HKD/USD"],
+      ["NOK/USD"],
+      ["TAIKO/USD"],
+      ["W/USD"]
     ]
   },
   "deploymentLocations": ["local"],

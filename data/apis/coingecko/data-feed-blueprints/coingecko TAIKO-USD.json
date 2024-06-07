@@ -1,0 +1,9 @@
+{
+  "name": "TAIKO/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "taiko",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['taiko']['usd']\n        }\n        "
+}

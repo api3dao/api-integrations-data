@@ -1,0 +1,6 @@
+{
+  "name": "HKD/USD",
+  "path": "last/trade/forex/HKDUSD",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.price\n        }\n        "
+}

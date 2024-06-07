@@ -113,7 +113,9 @@
       ["ASTR/USD"],
       ["WTI/USD"],
       ["XAG/USD"],
-      ["XAU/USD"]
+      ["XAU/USD"],
+      ["NKE/USD"],
+      ["UBER/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

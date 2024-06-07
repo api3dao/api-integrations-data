@@ -1,0 +1,8 @@
+{
+  "name": "HKD/USD",
+  "path": "forex/rates",
+  "parameters": {
+    "base": "HKD"
+  },
+  "parser": "(response) => {\n          return response.quote.USD\n        }\n        "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "HKD/USD",
+  "path": "live",
+  "parameters": {
+    "currency": "HKDUSD"
+  },
+  "parser": "(response) => {\n          const [baseCurrency, quoteCurrency] = endpointParameters.name.split('/')\n          const targetQuote = response.quotes.find(\n            (quote) =>\n              quote.base_currency === baseCurrency &&\n              quote.quote_currency === quoteCurrency,\n          )\n          return targetQuote.mid\n        }\n        "
+}

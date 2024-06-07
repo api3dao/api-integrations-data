@@ -1,0 +1,8 @@
+{
+  "name": "RARI/USD",
+  "path": "trades.v2/spot_exchange_rate/rari/usd",
+  "parameters": {
+    "interval": "1m"
+  },
+  "parser": "(response) => {\n          const validDataArray = response.data.filter((obj) => obj.price !== null)\n          if (validDataArray.length === 0) {\n            throw Error('[Known Error] - Kaiko returns null as price for the feed.')\n          }\n          return validDataArray[0].price\n        }\n        "
+}

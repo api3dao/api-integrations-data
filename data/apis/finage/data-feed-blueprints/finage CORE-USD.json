@@ -1,0 +1,6 @@
+{
+  "name": "CORE/USD",
+  "path": "last/crypto/COREUSD",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.price\n        }\n        "
+}

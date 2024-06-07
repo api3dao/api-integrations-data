@@ -1,8 +1,0 @@
-{
-  "name": "solvBTC/USD",
-  "path": "tickers/solvbtc-solv-protocol-solvbtc",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-}

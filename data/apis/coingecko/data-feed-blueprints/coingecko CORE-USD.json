@@ -1,0 +1,9 @@
+{
+  "name": "CORE/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "coredaoorg",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['coredaoorg']['usd']\n        }\n        "
+}

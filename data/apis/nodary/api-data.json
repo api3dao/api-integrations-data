@@ -216,7 +216,11 @@
       ["SAFE/USD"],
       ["wBETH/ETH Exchange Rate"],
       ["BNBx/BNB Exchange Rate"],
-      ["slisBNB/BNB Exchange Rate"]
+      ["slisBNB/BNB Exchange Rate"],
+      ["HKD/USD"],
+      ["NOK/USD"],
+      ["TAIKO/USD"],
+      ["W/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

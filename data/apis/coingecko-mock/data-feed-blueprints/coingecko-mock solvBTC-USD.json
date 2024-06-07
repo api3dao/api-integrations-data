@@ -1,9 +1,0 @@
-{
-  "name": "solvBTC/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "solv-btc",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['solv-btc']['usd']\n        }\n        "
-}

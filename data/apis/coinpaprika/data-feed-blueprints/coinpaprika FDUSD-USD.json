@@ -1,0 +1,8 @@
+{
+  "name": "FDUSD/USD",
+  "path": "tickers/fdusd-first-digital-usd",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

@@ -171,7 +171,9 @@
       ["FDUSD/USD"],
       ["WLD/USD"],
       ["UBER/USD"],
-      ["NKE/USD"]
+      ["NKE/USD"],
+      ["HKD/USD"],
+      ["NOK/USD"]
     ]
   },
   "deploymentLocations": ["local"],

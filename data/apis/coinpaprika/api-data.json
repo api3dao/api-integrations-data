@@ -130,7 +130,20 @@
       ["PYUSD/USD"],
       ["MERL/USD"],
       ["ORDI/USD"],
-      ["SATS/USD"]
+      ["SATS/USD"],
+      ["CORE/USD"],
+      ["DEGEN/USD"],
+      ["ENA/USD"],
+      ["ETHFI/USD"],
+      ["FDUSD/USD"],
+      ["INJ/USD"],
+      ["MODE/USD"],
+      ["NEON/USD"],
+      ["RARI/USD"],
+      ["SAFE/USD"],
+      ["TAIKO/USD"],
+      ["W/USD"],
+      ["WLD/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

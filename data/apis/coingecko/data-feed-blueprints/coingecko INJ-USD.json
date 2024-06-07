@@ -1,0 +1,9 @@
+{
+  "name": "INJ/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "injective-protocol",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['injective-protocol']['usd']\n        }\n        "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "HKD/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "HKD/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

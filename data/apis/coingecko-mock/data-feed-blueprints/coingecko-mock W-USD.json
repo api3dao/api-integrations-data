@@ -1,0 +1,9 @@
+{
+  "name": "W/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "wormhole",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['wormhole']['usd']\n        }\n        "
+}

@@ -1,0 +1,9 @@
+{
+  "name": "NEON/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "neon",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['neon']['usd']\n        }\n        "
+}

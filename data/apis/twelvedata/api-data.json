@@ -162,7 +162,18 @@
       ["TAO/USD"],
       ["AMD/USD"],
       ["PLTR/USD"],
-      ["QCOM/USD"]
+      ["QCOM/USD"],
+      ["ENA/USD"],
+      ["FDUSD/USD"],
+      ["HKD/USD"],
+      ["INJ/USD"],
+      ["MODE/USD"],
+      ["NEON/USD"],
+      ["NKE/USD"],
+      ["NOK/USD"],
+      ["RARI/USD"],
+      ["UBER/USD"],
+      ["WLD/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

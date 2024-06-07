@@ -140,9 +140,10 @@
       ["ENA/USD"],
       ["FDUSD/USD"],
       ["WLD/USD"],
-      ["solvBTC/USD"],
       ["ETHFI/USD"],
-      ["SAFE/USD"]
+      ["SAFE/USD"],
+      ["TAIKO/USD"],
+      ["W/USD"]
     ]
   },
   "deploymentLocations": ["local"],

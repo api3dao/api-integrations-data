@@ -1,0 +1,8 @@
+{
+  "name": "TAIKO/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "TAIKO/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}
