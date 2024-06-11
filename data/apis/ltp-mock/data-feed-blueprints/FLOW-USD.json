@@ -1,0 +1,8 @@
+{
+  "name": "FLOW/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "FLOW"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'FLOW').price\n        }\n        "
+}

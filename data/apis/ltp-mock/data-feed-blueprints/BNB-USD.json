@@ -1,0 +1,8 @@
+{
+  "name": "BNB/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "BNB"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'BNB').price\n        }\n        "
+}

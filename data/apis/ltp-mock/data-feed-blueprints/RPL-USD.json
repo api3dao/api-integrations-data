@@ -1,0 +1,8 @@
+{
+  "name": "RPL/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "RPL"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'RPL').price\n        }\n        "
+}

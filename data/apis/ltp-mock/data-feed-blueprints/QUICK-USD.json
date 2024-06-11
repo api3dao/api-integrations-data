@@ -1,0 +1,8 @@
+{
+  "name": "QUICK/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "QUICK"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'QUICK').price\n        }\n        "
+}

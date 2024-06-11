@@ -1,0 +1,8 @@
+{
+  "name": "RUNE/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "RUNE"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'RUNE').price\n        }\n        "
+}

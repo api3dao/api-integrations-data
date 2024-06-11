@@ -1,0 +1,8 @@
+{
+  "name": "GLMR/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "GLMR"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'GLMR').price\n        }\n        "
+}

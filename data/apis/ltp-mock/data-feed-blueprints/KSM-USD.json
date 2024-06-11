@@ -1,0 +1,8 @@
+{
+  "name": "KSM/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "KSM"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'KSM').price\n        }\n        "
+}

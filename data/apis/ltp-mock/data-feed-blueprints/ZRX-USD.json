@@ -1,0 +1,8 @@
+{
+  "name": "ZRX/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "ZRX"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ZRX').price\n        }\n        "
+}

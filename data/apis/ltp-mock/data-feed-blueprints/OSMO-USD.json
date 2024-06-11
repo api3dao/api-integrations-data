@@ -1,0 +1,8 @@
+{
+  "name": "OSMO/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "OSMO"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'OSMO').price\n        }\n        "
+}

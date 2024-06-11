@@ -1,0 +1,8 @@
+{
+  "name": "AERO/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "AERO"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'AERO').price\n        }\n        "
+}

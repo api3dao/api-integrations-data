@@ -1,0 +1,8 @@
+{
+  "name": "XVS/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "XVS"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'XVS').price\n        }\n        "
+}

@@ -1,0 +1,8 @@
+{
+  "name": "FTM/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "FTM"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'FTM').price\n        }\n        "
+}

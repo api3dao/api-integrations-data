@@ -1,0 +1,8 @@
+{
+  "name": "WBTC/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "WBTC"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'WBTC').price\n        }\n        "
+}

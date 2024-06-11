@@ -1,0 +1,8 @@
+{
+  "name": "CRV/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "CRV"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'CRV').price\n        }\n        "
+}

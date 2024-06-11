@@ -1,0 +1,8 @@
+{
+  "name": "PYTH/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "PYTH"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'PYTH').price\n        }\n        "
+}

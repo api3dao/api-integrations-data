@@ -1,0 +1,8 @@
+{
+  "name": "CHZ/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "CHZ"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'CHZ').price\n        }\n        "
+}

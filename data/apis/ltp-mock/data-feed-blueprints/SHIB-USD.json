@@ -1,0 +1,8 @@
+{
+  "name": "SHIB/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "SHIB"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'SHIB').price\n        }\n        "
+}

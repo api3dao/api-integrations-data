@@ -1,0 +1,1504 @@
+{
+  "nodeSettings": {
+    "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
+    "nodeVersion": "1.0.0",
+    "stage": "${STAGE}"
+  },
+  "templates": {
+    "0x5d3730c521d56f9fd03df664c91d693e3f321f79e80182eb69e14f1b0eb6168d": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AAVE/USD"
+        }
+      ]
+    },
+    "0x43a973142f75a8dc67a91fc449e847a11594e09b443daf97450669a56e88fc16": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ADA/USD"
+        }
+      ]
+    },
+    "0x78de73bbb64a1c9420d0c82e9f53066a8b56287bd2b450f939501c98d7847bdc": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ALGO/USD"
+        }
+      ]
+    },
+    "0x7e8344fff37ce63dddf1aa2fc24fa29a23137db2b165939ff02e9f4f780736f0": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ANKR/USD"
+        }
+      ]
+    },
+    "0xcbf748587f5b4e34db4f9303a0643150c0209c6f779d3165c48b333398404735": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "APE/USD"
+        }
+      ]
+    },
+    "0x80d22774be63d5a68d379ee714204c554f9b08989180643c75bca562326f1894": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "API3/USD"
+        }
+      ]
+    },
+    "0x7ebe98cf9d443e07267205922e3febde93e5226bbf45e96e911e9efad52447f4": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ARB/USD"
+        }
+      ]
+    },
+    "0x6cefdd65840adcb0152d41ed41c28862c23478cb67c10faa9a2cb1d7e8e92066": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ATOM/USD"
+        }
+      ]
+    },
+    "0x13e5d13f15ef38ce19c5c3c29184b2d5942118963aa16b7fde611c4e8506caab": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AVAX/USD"
+        }
+      ]
+    },
+    "0xbde5d280c27b7060e8c77c1e027e459ad0c2101cd8c8a4c4422f1f459c581936": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AXS/USD"
+        }
+      ]
+    },
+    "0x61ce35dc156b13ca642685854e58da6470400a1593d8cdab66111b855cdf4f12": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAL/USD"
+        }
+      ]
+    },
+    "0xaa78db2fbe56e07e38008fb8d691468fab45fdb7090f317467eee62a48633c8f": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAT/USD"
+        }
+      ]
+    },
+    "0x32f01d6d267fb8e04a86de59c5079991f4e7c5e39e3f4daa30b35ad56150c6b1": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BNB/USD"
+        }
+      ]
+    },
+    "0x707ef81cb1cfd67d15ee813029fec1242658de4f8ffd9fabd6e6428c03c4b426": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BTC/USD"
+        }
+      ]
+    },
+    "0xfc5b5dc7b94cf5c2006f296485422b8cfbfe150d449baac201cde2adf2deb582": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CAKE/USD"
+        }
+      ]
+    },
+    "0xc55d51caaf80215476b1575be74cebb8e9076f2230b7df09213d43bbaa580e98": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CELO/USD"
+        }
+      ]
+    },
+    "0x28a3ac7e53249d2a3314b633cea9a73697467e2fc0d071e8ab784d2fbb31f04e": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CHZ/USD"
+        }
+      ]
+    },
+    "0xc0e9cb99d389e068c1bd3cd54a1e2b78bf76d3d618b2c105edf4a6282c0f48cc": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "COMP/USD"
+        }
+      ]
+    },
+    "0x8a620bc652d990d16dbc3a369b04c231b8ad2eb3e7cc69b9ea500d00d80f1ced": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CRO/USD"
+        }
+      ]
+    },
+    "0xc05b4d0416af172195b56eff3a978af9b991a11811a1450efaaff1fd363eb191": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CRV/USD"
+        }
+      ]
+    },
+    "0x8efe890845e8ee9d315e87950b57cad7b658956f5a9d64a47f2bb3e6c54512bc": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CVX/USD"
+        }
+      ]
+    },
+    "0x2c8464fea92a15afeddd214bc629e6d79cf8b24e27ddad8bd240f38e22b975c6": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DAI/USD"
+        }
+      ]
+    },
+    "0xaea818fa33ae52cf6207fd277ee5ded804880d30a5a07dbad043e88df2389f8e": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DOGE/USD"
+        }
+      ]
+    },
+    "0xd16895c2dd67247bfb27f60e9898cdae00b7e8e0d388648c02f6b8ec5bd0e962": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DOT/USD"
+        }
+      ]
+    },
+    "0x13c259f8a7827c1f4ce1f124921911b36d12c64179f74e304458341989968be5": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DYDX/USD"
+        }
+      ]
+    },
+    "0xf84660d4366716b28f0ed94deba94a7b66fabe56f3b7933894958b9f3ff6d697": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ETH/USD"
+        }
+      ]
+    },
+    "0x9ec9070236fa41962ba7713b800fe8491382a6bd43451f53b6bdd0a6bf999277": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FIL/USD"
+        }
+      ]
+    },
+    "0x2243f4edb4728457a2370960cf004e9bda25815798205dfd294f815b4dadea61": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FLOW/USD"
+        }
+      ]
+    },
+    "0x9e086a425ab55bd4f65fba2f2e60490b2a3bfad1aca741c774e5a7fc86fb8a4f": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FXS/USD"
+        }
+      ]
+    },
+    "0x9f993c66c97cd5d4eea4d9c4e4ecc23ce02e5712e4d8254b5e01b599479300d7": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FTM/USD"
+        }
+      ]
+    },
+    "0x17db4c082fa7031684219c5df0dde06a33c1767f783f730c67cfbcb193c4377e": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GLMR/USD"
+        }
+      ]
+    },
+    "0x4b4e5d7ef99aaa77325ee686bd6a5274820417badae8958c48cf62b4db6d4691": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GMX/USD"
+        }
+      ]
+    },
+    "0x7e10fd73fc71271a7d2c5d9aa94c11c43678d03971866969f0c387e5d169e6ad": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GNO/USD"
+        }
+      ]
+    },
+    "0xfad1e28541ea68576225b7a70ccf969a50bfc07012cd576dce77a7a7424fce65": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GRT/USD"
+        }
+      ]
+    },
+    "0x066f285823376d6318c9bb0ea0a380a30122c86aa16bedc3031d60dabe1b7dca": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HBAR/USD"
+        }
+      ]
+    },
+    "0x1596db4939ebfa7788dc4996f460727b6a449489b7579110c3e48d13a83f2e9d": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HNT/USD"
+        }
+      ]
+    },
+    "0x988dd9382425668073f9aaab8412beb39251678a005e109650ad24e8822e4a25": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ICP/USD"
+        }
+      ]
+    },
+    "0x782efa38eba05744f1b571c0486cc1501b435ebfeecd0ac891ca2cb4a48875c6": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "IMX/USD"
+        }
+      ]
+    },
+    "0x2abd62538841d82dfd38bed4773d5d11640b2ed3031693277e5d74ee0fcbd1b7": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "JOE/USD"
+        }
+      ]
+    },
+    "0xebe6420d0ce8f8470e0326f18a8294f9896f49ce58b44cc9f3380f1bf13b7be9": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KSM/USD"
+        }
+      ]
+    },
+    "0xc71421ef4468a01c00f8c33b9f818daf05b4f92aa742ea9ec34ec1ad72e9b368": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LDO/USD"
+        }
+      ]
+    },
+    "0x5fe3d11e9327913bac97766c9b21ea9b16fc0256e0292123872dbc35bd7739c6": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LINK/USD"
+        }
+      ]
+    },
+    "0xb2336c774fa163a1dc2a75cee42ba64fb2205f8f7182f70e0e940010c5bce9a0": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LQTY/USD"
+        }
+      ]
+    },
+    "0xca3f146d0a2ec1724bdcbaab5819c3f478d202f62857dd0f6eaa4b36c5b01ca2": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LTC/USD"
+        }
+      ]
+    },
+    "0x1ef035a03d9b2af13ecbbe3779aafebec3192bd644d560f1729a7e297eccdb29": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MANA/USD"
+        }
+      ]
+    },
+    "0x686d382f8d711a7c1c2654e865b3126811de62b4879610ec8612e1a133b97f50": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MKR/USD"
+        }
+      ]
+    },
+    "0x16773319555a0a51c82f9e5bf6712a9e841af7268559099f3198d7bc38881c23": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MATIC/USD"
+        }
+      ]
+    },
+    "0x067b86a7c7a641cd6fc53434599719e68bd9ba89a04673c5eb4e2d01721e1b00": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "METIS/USD"
+        }
+      ]
+    },
+    "0xb169f57aa62517b7a4776b39a7416b0a26c7aeae6191f57f3c6c90f56e7a0998": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NEAR/USD"
+        }
+      ]
+    },
+    "0xe3df4e2ffda83e8a2059c4cd9a0bc66019d1d1c1965fa2f66d815ec9e009aa39": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OKB/USD"
+        }
+      ]
+    },
+    "0xdbba157c614ab78b54d119400398ec135930cbb43c27087b68d08fb5512d9e21": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OP/USD"
+        }
+      ]
+    },
+    "0x216fd5223eb23ecb3624801bd63328eac8093fbc24f4c911bf6105162a3c59d1": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PAXG/USD"
+        }
+      ]
+    },
+    "0x5d9d7bcb7c2444110783e34cadc8ac272e325f329a7e1a01e279f0eabec961b0": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "QUICK/USD"
+        }
+      ]
+    },
+    "0xb104f599300ed3053914999046178c24afb79c15a58bab877f4395c23a034dbe": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ROSE/USD"
+        }
+      ]
+    },
+    "0xb82eb3e681cde224644ebf6591a6fb1c1043ad3a883de53f99cf79c71bd06d88": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RPL/USD"
+        }
+      ]
+    },
+    "0xf863dc71cae5eb1ba7a8ec6a8c10a9dfd19e1094bfcca6a32be8f185997ebfc7": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RSR/USD"
+        }
+      ]
+    },
+    "0xb974cb1aa1af9374732196dfea6bfc6c5a83339b679b48c68a7d736a455aa743": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RUNE/USD"
+        }
+      ]
+    },
+    "0xeb0a7df3525fd18a502e7112d232bb6421f6201eb4601ac8a5c256b913e895ad": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SAND/USD"
+        }
+      ]
+    },
+    "0x7e9c57e60a7ff4ba162579e08fdcaba8dc6adcd3bee5be8be4062c77e656519b": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SHIB/USD"
+        }
+      ]
+    },
+    "0x75c3de64ff78356ad0a4776428d03651e94c4a920ad3da9d2c87350d01411473": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SNX/USD"
+        }
+      ]
+    },
+    "0x49fff188b08b0df27af64792c69448b6537b8c9de0d5c742b4d24a9eca3be548": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SOL/USD"
+        }
+      ]
+    },
+    "0x371cf47e12c8e4bcbfb723bc926e723377f280196f16531b9976660af564ed9c": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STG/USD"
+        }
+      ]
+    },
+    "0x55e5ba98a75c592585fb666b79186a1c6826e704b3039deaf0b538f02a2ad653": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STX/USD"
+        }
+      ]
+    },
+    "0x229b3ff4ba76ca542deb89047f967d63fd8cbd262453ad4323498d7021980819": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SUSHI/USD"
+        }
+      ]
+    },
+    "0xf9dc1d218352fe18ff523a0ece0d14319c5462b85660074e9803b9f2b7e865e0": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TUSD/USD"
+        }
+      ]
+    },
+    "0xbc2461e76e5237f95a70ab94e1ce8aeb7898902894df77e7c63b809c4864f681": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "UNI/USD"
+        }
+      ]
+    },
+    "0x2b8884eb0fa8f0be371681ef50e08942a2ed566664bf68c437647c381f66bc19": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDC/USD"
+        }
+      ]
+    },
+    "0xc3ee6c41f910befe072feb94d5e4dc6195f6ac64de7eea2ee397959de3d7249a": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDP/USD"
+        }
+      ]
+    },
+    "0x329b3cb2a4a34d4e747b573a39c560374b37e6021337a74bc3094f9592d1a915": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WBTC/USD"
+        }
+      ]
+    },
+    "0xe77ce86c3339f4cfd403e5725135c1f361d2db9c65ad87d4f4448d1231065d71": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XLM/USD"
+        }
+      ]
+    },
+    "0x565eb2139f8e1cf829757653e705599d5216b43010c0a68a8e47575f4153542c": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XRP/USD"
+        }
+      ]
+    },
+    "0xeff65755fe36594ecb95b2031ebb1b835f278b22ee9bb42365e4b10d21fa9dfd": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XTZ/USD"
+        }
+      ]
+    },
+    "0x357b9fa807642458cd35f14349a6fae1d8d8df4d18f84afaafaa401903033557": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "YFI/USD"
+        }
+      ]
+    },
+    "0xb33a9818540708e1ee69ddbb59c684a40e6bf0a846a68b5512d6973eb449ea92": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZIL/USD"
+        }
+      ]
+    },
+    "0x73cfaf53ccc1bc65c6672acaed068adc4082690791740cc96a6a3eb861f4d491": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZRX/USD"
+        }
+      ]
+    },
+    "0x4f2f33da3c12db701a2eeba70b99efb4a2fcf03b3c08d15f607ca95dde0a71df": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RNDR/USD"
+        }
+      ]
+    },
+    "0x5f196b324e794dee44393ae9129cc113d8af63fcfd7cd7a70ef98e6fd27dd1cc": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MASK/USD"
+        }
+      ]
+    },
+    "0x78ed7fa4e4afcabbfd91ef3a97fe184cae7ae7853b9e9e2bce862e73721c36a3": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ENS/USD"
+        }
+      ]
+    },
+    "0xe7003622bf0dd8f17679ed48860a16a00adae93a388b29f7f3ab0dafcafce286": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BLUR/USD"
+        }
+      ]
+    },
+    "0x08335d3fd2d5f5f57d0c6838ae3bbfa5ab587f7a3947b34374fbebe7da025bbb": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAND/USD"
+        }
+      ]
+    },
+    "0xca045c64ac712e4b26f25e0a0b29bf43ab89bc7eefb3c6f2f17260a099e81877": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "UMA/USD"
+        }
+      ]
+    },
+    "0x74e41677293056daf9db16b7f74c5f8b26697d23d568a773c1e880a1ecdc9d15": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "APT/USD"
+        }
+      ]
+    },
+    "0x76e0c57ab796d8c5c9bc37b0dd6689f42502538a4c127b053ed5d80454258153": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PEPE/USD"
+        }
+      ]
+    },
+    "0xaf3033ef374e0341ef27d8a22e49701bfce442f2958c05ee3e4bd539d304be99": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OSMO/USD"
+        }
+      ]
+    },
+    "0xfd409f27e68221ad66b4b50771ba8a64d13df22bc21d64cd9dcb33c4c79fcff2": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SUI/USD"
+        }
+      ]
+    },
+    "0x8da10d8aa10c86fb92a7fcebd15c3492f97a73a7ba042239a79b8e5b2f0ac2de": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GNS/USD"
+        }
+      ]
+    },
+    "0x0f668c13592b8845bcb708c416b600b08a8095d6493af7ce3f9a2fff7e40f49d": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MNT/USD"
+        }
+      ]
+    },
+    "0x8970dc568f9ec321a5c4c25b89123ec7597676269d5b4b2a04f50bb6ebba552f": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KAVA/USD"
+        }
+      ]
+    },
+    "0x1eb07b1fa8fa06c038e5471d1ca37d926f1ea813b54702c284d99dd5b2b36384": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RDNT/USD"
+        }
+      ]
+    },
+    "0xb6981549c4ea8ae6448a16cc7afb21cdd0202ae83d3dfe92d85042e2247629dc": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FRAX/USD"
+        }
+      ]
+    },
+    "0x97a35bf22fadb0303d1443b5383aa6a1d49bae1457de7b2c5262338bd32959cc": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LUSD/USD"
+        }
+      ]
+    },
+    "0xad05dd7a2e9144b1634e18b26ee86d1ba881b74ac6bd4fe4ac18112fac834361": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WOO/USD"
+        }
+      ]
+    },
+    "0xbffc037244359511c0456a6a0d52df030a37abb457adf1266cade362cd6de43e": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PYTH/USD"
+        }
+      ]
+    },
+    "0xcc038952e9bec1325f7055983ae79fb66b0161488402a47c94f666b4166d549c": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ASTR/USD"
+        }
+      ]
+    },
+    "0x4c6ed230dc9180b4a5a7dc2f881acfe8d189e8c518a0ba87b48bd7787741784d": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TIA/USD"
+        }
+      ]
+    },
+    "0x33956cb4d49a8f3f538071867798a9367d18c9eaecef5151ef58693e50aadb68": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DYM/USD"
+        }
+      ]
+    },
+    "0x7f01f9d76f3acec19d78b3d5633aa9130dccc9fcc80438decc04cbd957d82078": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SEI/USD"
+        }
+      ]
+    },
+    "0xad3f18df5417eb1a62579e8c8fc5d9f7aef7ff4daae6851db2c259a7f6151939": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AR/USD"
+        }
+      ]
+    },
+    "0x0c5b5ce7f41d51488404599115822659be15f0e0dea68afc9fd066910c8589f5": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STRK/USD"
+        }
+      ]
+    },
+    "0xba02ceccd1ad4050f4e975f309408b814e90323bd20119023047e1ea510d083d": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AXL/USD"
+        }
+      ]
+    },
+    "0xf82e6237ff668461242bc0fd90ab186e853f767cbacb363eeb2b5d4856c1fb0e": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ONDO/USD"
+        }
+      ]
+    },
+    "0x59c10d2dc1cb25ded6b4e749beb69a56cbd9c3687b3767323582eab130f0e020": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MANTA/USD"
+        }
+      ]
+    },
+    "0xce50d0d51bb09bb0419c3d5d9b4b39647574a5524f115dbc8728f32e4c3aec37": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RON/USD"
+        }
+      ]
+    },
+    "0x8e4203ad117772202e6d4d602c5584ced4d410078ad793b34d5afbf7fe4e7d2a": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XVS/USD"
+        }
+      ]
+    },
+    "0x79d64c434582b4bdf64af19d2cf6e4652e444b56ed8ba811baa838130fe49f7c": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PENDLE/USD"
+        }
+      ]
+    },
+    "0x3e332edcfb9ba938f6b8e4287ef58c9eb5bac055edd935529b352f516a9ff947": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TWT/USD"
+        }
+      ]
+    },
+    "0xcc53bf790812c729936004dd41de1a1089c60295f870254436810fc2418b8f1a": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AERO/USD"
+        }
+      ]
+    },
+    "0x61c38f646dddf5596921997c130004315c4d6412d400db73472a746157276ab5": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ERN/USD"
+        }
+      ]
+    },
+    "0xd5962e4f20f18ca60a5ad8185f7ec6e87e9d9742d10b90ebd83a37e5ec9f4ac2": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TAO/USD"
+        }
+      ]
+    },
+    "0x2081483dcd1314a28430e5d9629ec0644384ddb18ed778d8a6185fd3f0b9c637": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PYUSD/USD"
+        }
+      ]
+    },
+    "0x036f8c3885528e18089964d064c234e260d636b41bf8a39c4a630d74134892c7": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MERL/USD"
+        }
+      ]
+    },
+    "0xc111e5d11b6e0e5447f274c12e9f92d001b920ccb805f53d5d4723846ced9e15": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ORDI/USD"
+        }
+      ]
+    },
+    "0x2f50ce0bf7b65c5a56d601429da5a276b910d045340e10e642b03213ff15d32c": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SATS/USD"
+        }
+      ]
+    },
+    "0xd857eb367a0175a70967a0707059f4dde3fd0c5fbe2c30dff7eb285e60b2c435": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "INJ/USD"
+        }
+      ]
+    },
+    "0xcfe96d0ea6c09657b4fb75a14973d28181db94f0fe9182e77831020460d39b02": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MODE/USD"
+        }
+      ]
+    },
+    "0x3c8c8d34c733d3620bfdb2fe09d929b8fc9f4645cc2d4bed52a486c6f6776ec9": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NEON/USD"
+        }
+      ]
+    },
+    "0x20c529ff6babf3d7bc316f1e920e0f599b01102ad131f71d0e0b7b9f5bf6b76a": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CORE/USD"
+        }
+      ]
+    },
+    "0x885971c784e0f2c4df099c1030f795d2d9da56e3629eb5f908008f453782b702": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DEGEN/USD"
+        }
+      ]
+    },
+    "0x5c6f51a76e03af29be26605a9a2d03573192557ea82ee322f3aafe8349810021": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ENA/USD"
+        }
+      ]
+    },
+    "0xa4ca59b3b2f346c01c7fbb6c13eb5f0d51e29a935927c497cf6383ba11fe09db": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FDUSD/USD"
+        }
+      ]
+    },
+    "0xcbf9db52dcb104a507ed7d8fc2d0683a61dd4475907902fbb968d08ac8ef27f8": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WLD/USD"
+        }
+      ]
+    },
+    "0x4129b56068d4ff3bacde6db4a83ce2bb31e7fd481160af358383deee29967413": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ETHFI/USD"
+        }
+      ]
+    },
+    "0xf20dcb902a427984ed6f0359954fb1f7dad283a6cb31b89f4e6c489d74a8c743": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SAFE/USD"
+        }
+      ]
+    },
+    "0x3e6de0dd7928e4e30c71fcf904c17d727717c44314e03d4ecc79001f3af02be8": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TAIKO/USD"
+        }
+      ]
+    },
+    "0x616553fa648d3ed1ffcbe6918b5de11e54102eb25d15259b0a554c50e9e69402": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "W/USD"
+        }
+      ]
+    },
+    "0x57e222ffde6a826b112856d8080f22802472027494e395a5fe4d8d757e76ea91": {
+      "endpointId": "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "stETH/USD"
+        }
+      ]
+    }
+  },
+  "endpoints": {
+    "0x03b54c4cb23eda53dbc6f8cc4c849e29176649d431b3b4b1a38d12dcb9285c82": {
+      "endpointName": "feed",
+      "oisTitle": "LTP"
+    }
+  },
+  "triggers": {
+    "signedApiUpdates": [
+      {
+        "templateIds": [
+          "0x5d3730c521d56f9fd03df664c91d693e3f321f79e80182eb69e14f1b0eb6168d",
+          "0x43a973142f75a8dc67a91fc449e847a11594e09b443daf97450669a56e88fc16",
+          "0x78de73bbb64a1c9420d0c82e9f53066a8b56287bd2b450f939501c98d7847bdc",
+          "0x7e8344fff37ce63dddf1aa2fc24fa29a23137db2b165939ff02e9f4f780736f0",
+          "0xcbf748587f5b4e34db4f9303a0643150c0209c6f779d3165c48b333398404735",
+          "0x80d22774be63d5a68d379ee714204c554f9b08989180643c75bca562326f1894",
+          "0x7ebe98cf9d443e07267205922e3febde93e5226bbf45e96e911e9efad52447f4",
+          "0x6cefdd65840adcb0152d41ed41c28862c23478cb67c10faa9a2cb1d7e8e92066",
+          "0x13e5d13f15ef38ce19c5c3c29184b2d5942118963aa16b7fde611c4e8506caab",
+          "0xbde5d280c27b7060e8c77c1e027e459ad0c2101cd8c8a4c4422f1f459c581936",
+          "0x61ce35dc156b13ca642685854e58da6470400a1593d8cdab66111b855cdf4f12",
+          "0xaa78db2fbe56e07e38008fb8d691468fab45fdb7090f317467eee62a48633c8f",
+          "0x32f01d6d267fb8e04a86de59c5079991f4e7c5e39e3f4daa30b35ad56150c6b1",
+          "0x707ef81cb1cfd67d15ee813029fec1242658de4f8ffd9fabd6e6428c03c4b426",
+          "0xfc5b5dc7b94cf5c2006f296485422b8cfbfe150d449baac201cde2adf2deb582",
+          "0xc55d51caaf80215476b1575be74cebb8e9076f2230b7df09213d43bbaa580e98",
+          "0x28a3ac7e53249d2a3314b633cea9a73697467e2fc0d071e8ab784d2fbb31f04e",
+          "0xc0e9cb99d389e068c1bd3cd54a1e2b78bf76d3d618b2c105edf4a6282c0f48cc",
+          "0x8a620bc652d990d16dbc3a369b04c231b8ad2eb3e7cc69b9ea500d00d80f1ced",
+          "0xc05b4d0416af172195b56eff3a978af9b991a11811a1450efaaff1fd363eb191",
+          "0x8efe890845e8ee9d315e87950b57cad7b658956f5a9d64a47f2bb3e6c54512bc",
+          "0x2c8464fea92a15afeddd214bc629e6d79cf8b24e27ddad8bd240f38e22b975c6",
+          "0xaea818fa33ae52cf6207fd277ee5ded804880d30a5a07dbad043e88df2389f8e",
+          "0xd16895c2dd67247bfb27f60e9898cdae00b7e8e0d388648c02f6b8ec5bd0e962",
+          "0x13c259f8a7827c1f4ce1f124921911b36d12c64179f74e304458341989968be5",
+          "0xf84660d4366716b28f0ed94deba94a7b66fabe56f3b7933894958b9f3ff6d697",
+          "0x9ec9070236fa41962ba7713b800fe8491382a6bd43451f53b6bdd0a6bf999277",
+          "0x2243f4edb4728457a2370960cf004e9bda25815798205dfd294f815b4dadea61",
+          "0x9e086a425ab55bd4f65fba2f2e60490b2a3bfad1aca741c774e5a7fc86fb8a4f",
+          "0x9f993c66c97cd5d4eea4d9c4e4ecc23ce02e5712e4d8254b5e01b599479300d7",
+          "0x17db4c082fa7031684219c5df0dde06a33c1767f783f730c67cfbcb193c4377e",
+          "0x4b4e5d7ef99aaa77325ee686bd6a5274820417badae8958c48cf62b4db6d4691",
+          "0x7e10fd73fc71271a7d2c5d9aa94c11c43678d03971866969f0c387e5d169e6ad",
+          "0xfad1e28541ea68576225b7a70ccf969a50bfc07012cd576dce77a7a7424fce65",
+          "0x066f285823376d6318c9bb0ea0a380a30122c86aa16bedc3031d60dabe1b7dca",
+          "0x1596db4939ebfa7788dc4996f460727b6a449489b7579110c3e48d13a83f2e9d",
+          "0x988dd9382425668073f9aaab8412beb39251678a005e109650ad24e8822e4a25",
+          "0x782efa38eba05744f1b571c0486cc1501b435ebfeecd0ac891ca2cb4a48875c6",
+          "0x2abd62538841d82dfd38bed4773d5d11640b2ed3031693277e5d74ee0fcbd1b7",
+          "0xebe6420d0ce8f8470e0326f18a8294f9896f49ce58b44cc9f3380f1bf13b7be9",
+          "0xc71421ef4468a01c00f8c33b9f818daf05b4f92aa742ea9ec34ec1ad72e9b368",
+          "0x5fe3d11e9327913bac97766c9b21ea9b16fc0256e0292123872dbc35bd7739c6",
+          "0xb2336c774fa163a1dc2a75cee42ba64fb2205f8f7182f70e0e940010c5bce9a0",
+          "0xca3f146d0a2ec1724bdcbaab5819c3f478d202f62857dd0f6eaa4b36c5b01ca2",
+          "0x1ef035a03d9b2af13ecbbe3779aafebec3192bd644d560f1729a7e297eccdb29",
+          "0x686d382f8d711a7c1c2654e865b3126811de62b4879610ec8612e1a133b97f50",
+          "0x16773319555a0a51c82f9e5bf6712a9e841af7268559099f3198d7bc38881c23",
+          "0x067b86a7c7a641cd6fc53434599719e68bd9ba89a04673c5eb4e2d01721e1b00",
+          "0xb169f57aa62517b7a4776b39a7416b0a26c7aeae6191f57f3c6c90f56e7a0998",
+          "0xe3df4e2ffda83e8a2059c4cd9a0bc66019d1d1c1965fa2f66d815ec9e009aa39",
+          "0xdbba157c614ab78b54d119400398ec135930cbb43c27087b68d08fb5512d9e21",
+          "0x216fd5223eb23ecb3624801bd63328eac8093fbc24f4c911bf6105162a3c59d1",
+          "0x5d9d7bcb7c2444110783e34cadc8ac272e325f329a7e1a01e279f0eabec961b0",
+          "0xb104f599300ed3053914999046178c24afb79c15a58bab877f4395c23a034dbe",
+          "0xb82eb3e681cde224644ebf6591a6fb1c1043ad3a883de53f99cf79c71bd06d88",
+          "0xf863dc71cae5eb1ba7a8ec6a8c10a9dfd19e1094bfcca6a32be8f185997ebfc7",
+          "0xb974cb1aa1af9374732196dfea6bfc6c5a83339b679b48c68a7d736a455aa743",
+          "0xeb0a7df3525fd18a502e7112d232bb6421f6201eb4601ac8a5c256b913e895ad",
+          "0x7e9c57e60a7ff4ba162579e08fdcaba8dc6adcd3bee5be8be4062c77e656519b",
+          "0x75c3de64ff78356ad0a4776428d03651e94c4a920ad3da9d2c87350d01411473",
+          "0x49fff188b08b0df27af64792c69448b6537b8c9de0d5c742b4d24a9eca3be548",
+          "0x371cf47e12c8e4bcbfb723bc926e723377f280196f16531b9976660af564ed9c",
+          "0x55e5ba98a75c592585fb666b79186a1c6826e704b3039deaf0b538f02a2ad653",
+          "0x229b3ff4ba76ca542deb89047f967d63fd8cbd262453ad4323498d7021980819",
+          "0xf9dc1d218352fe18ff523a0ece0d14319c5462b85660074e9803b9f2b7e865e0",
+          "0xbc2461e76e5237f95a70ab94e1ce8aeb7898902894df77e7c63b809c4864f681",
+          "0x2b8884eb0fa8f0be371681ef50e08942a2ed566664bf68c437647c381f66bc19",
+          "0xc3ee6c41f910befe072feb94d5e4dc6195f6ac64de7eea2ee397959de3d7249a",
+          "0x329b3cb2a4a34d4e747b573a39c560374b37e6021337a74bc3094f9592d1a915",
+          "0xe77ce86c3339f4cfd403e5725135c1f361d2db9c65ad87d4f4448d1231065d71",
+          "0x565eb2139f8e1cf829757653e705599d5216b43010c0a68a8e47575f4153542c",
+          "0xeff65755fe36594ecb95b2031ebb1b835f278b22ee9bb42365e4b10d21fa9dfd",
+          "0x357b9fa807642458cd35f14349a6fae1d8d8df4d18f84afaafaa401903033557",
+          "0xb33a9818540708e1ee69ddbb59c684a40e6bf0a846a68b5512d6973eb449ea92",
+          "0x73cfaf53ccc1bc65c6672acaed068adc4082690791740cc96a6a3eb861f4d491",
+          "0x4f2f33da3c12db701a2eeba70b99efb4a2fcf03b3c08d15f607ca95dde0a71df",
+          "0x5f196b324e794dee44393ae9129cc113d8af63fcfd7cd7a70ef98e6fd27dd1cc",
+          "0x78ed7fa4e4afcabbfd91ef3a97fe184cae7ae7853b9e9e2bce862e73721c36a3",
+          "0xe7003622bf0dd8f17679ed48860a16a00adae93a388b29f7f3ab0dafcafce286",
+          "0x08335d3fd2d5f5f57d0c6838ae3bbfa5ab587f7a3947b34374fbebe7da025bbb",
+          "0xca045c64ac712e4b26f25e0a0b29bf43ab89bc7eefb3c6f2f17260a099e81877",
+          "0x74e41677293056daf9db16b7f74c5f8b26697d23d568a773c1e880a1ecdc9d15",
+          "0x76e0c57ab796d8c5c9bc37b0dd6689f42502538a4c127b053ed5d80454258153",
+          "0xaf3033ef374e0341ef27d8a22e49701bfce442f2958c05ee3e4bd539d304be99",
+          "0xfd409f27e68221ad66b4b50771ba8a64d13df22bc21d64cd9dcb33c4c79fcff2",
+          "0x8da10d8aa10c86fb92a7fcebd15c3492f97a73a7ba042239a79b8e5b2f0ac2de",
+          "0x0f668c13592b8845bcb708c416b600b08a8095d6493af7ce3f9a2fff7e40f49d",
+          "0x8970dc568f9ec321a5c4c25b89123ec7597676269d5b4b2a04f50bb6ebba552f",
+          "0x1eb07b1fa8fa06c038e5471d1ca37d926f1ea813b54702c284d99dd5b2b36384",
+          "0xb6981549c4ea8ae6448a16cc7afb21cdd0202ae83d3dfe92d85042e2247629dc",
+          "0x97a35bf22fadb0303d1443b5383aa6a1d49bae1457de7b2c5262338bd32959cc",
+          "0xad05dd7a2e9144b1634e18b26ee86d1ba881b74ac6bd4fe4ac18112fac834361",
+          "0xbffc037244359511c0456a6a0d52df030a37abb457adf1266cade362cd6de43e",
+          "0xcc038952e9bec1325f7055983ae79fb66b0161488402a47c94f666b4166d549c",
+          "0x4c6ed230dc9180b4a5a7dc2f881acfe8d189e8c518a0ba87b48bd7787741784d",
+          "0x33956cb4d49a8f3f538071867798a9367d18c9eaecef5151ef58693e50aadb68",
+          "0x7f01f9d76f3acec19d78b3d5633aa9130dccc9fcc80438decc04cbd957d82078",
+          "0xad3f18df5417eb1a62579e8c8fc5d9f7aef7ff4daae6851db2c259a7f6151939",
+          "0x0c5b5ce7f41d51488404599115822659be15f0e0dea68afc9fd066910c8589f5",
+          "0xba02ceccd1ad4050f4e975f309408b814e90323bd20119023047e1ea510d083d",
+          "0xf82e6237ff668461242bc0fd90ab186e853f767cbacb363eeb2b5d4856c1fb0e",
+          "0x59c10d2dc1cb25ded6b4e749beb69a56cbd9c3687b3767323582eab130f0e020",
+          "0xce50d0d51bb09bb0419c3d5d9b4b39647574a5524f115dbc8728f32e4c3aec37",
+          "0x8e4203ad117772202e6d4d602c5584ced4d410078ad793b34d5afbf7fe4e7d2a",
+          "0x79d64c434582b4bdf64af19d2cf6e4652e444b56ed8ba811baa838130fe49f7c",
+          "0x3e332edcfb9ba938f6b8e4287ef58c9eb5bac055edd935529b352f516a9ff947",
+          "0xcc53bf790812c729936004dd41de1a1089c60295f870254436810fc2418b8f1a",
+          "0x61c38f646dddf5596921997c130004315c4d6412d400db73472a746157276ab5",
+          "0xd5962e4f20f18ca60a5ad8185f7ec6e87e9d9742d10b90ebd83a37e5ec9f4ac2",
+          "0x2081483dcd1314a28430e5d9629ec0644384ddb18ed778d8a6185fd3f0b9c637",
+          "0x036f8c3885528e18089964d064c234e260d636b41bf8a39c4a630d74134892c7",
+          "0xc111e5d11b6e0e5447f274c12e9f92d001b920ccb805f53d5d4723846ced9e15",
+          "0x2f50ce0bf7b65c5a56d601429da5a276b910d045340e10e642b03213ff15d32c",
+          "0xd857eb367a0175a70967a0707059f4dde3fd0c5fbe2c30dff7eb285e60b2c435",
+          "0xcfe96d0ea6c09657b4fb75a14973d28181db94f0fe9182e77831020460d39b02",
+          "0x3c8c8d34c733d3620bfdb2fe09d929b8fc9f4645cc2d4bed52a486c6f6776ec9",
+          "0x20c529ff6babf3d7bc316f1e920e0f599b01102ad131f71d0e0b7b9f5bf6b76a",
+          "0x885971c784e0f2c4df099c1030f795d2d9da56e3629eb5f908008f453782b702",
+          "0x5c6f51a76e03af29be26605a9a2d03573192557ea82ee322f3aafe8349810021",
+          "0xa4ca59b3b2f346c01c7fbb6c13eb5f0d51e29a935927c497cf6383ba11fe09db",
+          "0xcbf9db52dcb104a507ed7d8fc2d0683a61dd4475907902fbb968d08ac8ef27f8",
+          "0x4129b56068d4ff3bacde6db4a83ce2bb31e7fd481160af358383deee29967413",
+          "0xf20dcb902a427984ed6f0359954fb1f7dad283a6cb31b89f4e6c489d74a8c743",
+          "0x3e6de0dd7928e4e30c71fcf904c17d727717c44314e03d4ecc79001f3af02be8",
+          "0x616553fa648d3ed1ffcbe6918b5de11e54102eb25d15259b0a554c50e9e69402",
+          "0x57e222ffde6a826b112856d8080f22802472027494e395a5fe4d8d757e76ea91"
+        ],
+        "fetchInterval": 60
+      }
+    ]
+  },
+  "signedApis": [
+    {
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
+    }
+  ],
+  "ois": [
+    {
+      "oisFormat": "2.3.0",
+      "title": "LTP",
+      "version": "0.1.0",
+      "apiSpecifications": {
+        "components": {
+          "securitySchemes": {}
+        },
+        "paths": {
+          "/{path}": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "path",
+                  "name": "path"
+                },
+                {
+                  "in": "query",
+                  "name": "symbols"
+                }
+              ]
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api3-oracle.liquiditytech.com"
+          }
+        ],
+        "security": {}
+      },
+      "endpoints": [
+        {
+          "fixedOperationParameters": [],
+          "name": "feed",
+          "operation": {
+            "method": "get",
+            "path": "/{path}"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "required": true
+            },
+            {
+              "name": "path",
+              "operationParameter": {
+                "in": "path",
+                "name": "path"
+              },
+              "required": true
+            },
+            {
+              "name": "symbols",
+              "operationParameter": {
+                "in": "query",
+                "name": "symbols"
+              },
+              "required": true
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "int256"
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ],
+          "preProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"AAVE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ADA/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ALGO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ANKR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"APE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"API3/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ARB/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ATOM/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"AVAX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"AXS/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"BAL/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"BAT/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"BNB/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"BTC/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"CAKE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"CELO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"CHZ/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"COMP/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"CRO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"CRV/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"CVX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"DAI/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"DOGE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"DOT/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"DYDX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ETH/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"FIL/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"FLOW/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"FXS/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"FTM/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"GLMR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"GMX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"GNO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"GRT/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"HBAR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"HNT/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ICP/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"IMX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"JOE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"KSM/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"LDO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"LINK/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"LQTY/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"LTC/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"MANA/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"MKR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"MATIC/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"METIS/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"NEAR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"OKB/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"OP/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"PAXG/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"QUICK/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ROSE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"RPL/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"RSR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"RUNE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SAND/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SHIB/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SNX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SOL/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"STG/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"STX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SUSHI/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"TUSD/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"UNI/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"USDC/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"USDP/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"WBTC/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"XLM/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"XRP/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"XTZ/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"YFI/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ZIL/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ZRX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"RNDR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"MASK/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ENS/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"BLUR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"BAND/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"UMA/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"APT/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"PEPE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"OSMO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SUI/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"GNS/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"MNT/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"KAVA/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"RDNT/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"FRAX/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"LUSD/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"WOO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"PYTH/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ASTR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"TIA/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"DYM/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SEI/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"AR/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"STRK/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"AXL/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ONDO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"MANTA/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"RON/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"XVS/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"PENDLE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"TWT/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"AERO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ERN/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"TAO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"PYUSD/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"MERL/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ORDI/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SATS/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"INJ/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"MODE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"NEON/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"CORE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"DEGEN/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ENA/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"FDUSD/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"WLD/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"ETHFI/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"SAFE/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"TAIKO/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"W/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n    \"stETH/USD\": {\n      path: \"api/v1/ticker/price\",\n      parameters: {\n        symbols:\n          \"AAVE,ADA,ALGO,ANKR,APE,API3,ARB,ATOM,AVAX,AXS,BAL,BAT,BNB,BTC,CAKE,CELO,CHZ,COMP,CRO,CRV,CVX,DAI,DOGE,DOT,DYDX,ETH,FIL,FLOW,FXS,FTM,GLMR,GMX,GNO,GRT,HBAR,HNT,ICP,IMX,JOE,KSM,LDO,LINK,LQTY,LTC,MANA,MKR,MATIC,METIS,NEAR,OKB,OP,PAXG,QUICK,ROSE,RPL,RSR,RUNE,SAND,SHIB,SNX,SOL,STG,STX,SUSHI,TUSD,UNI,USDC,USDP,WBTC,XLM,XRP,XTZ,YFI,ZIL,ZRX,RNDR,MASK,ENS,BLUR,BAND,UMA,APT,PEPE,OSMO,SUI,GNS,MNT,KAVA,RDNT,FRAX,LUSD,WOO,PYTH,ASTR,TIA,DYM,SEI,AR,STRK,AXL,ONDO,MANTA,RON,XVS,PENDLE,TWT,AERO,ERN,TAO,PYUSD,MERL,ORDI,SATS,INJ,MODE,NEON,CORE,DEGEN,ENA,FDUSD,WLD,ETHFI,SAFE,TAIKO,W,STETH\",\n      },\n    },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+            "timeoutMs": 5000
+          },
+          "postProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"AAVE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'AAVE').price\\n        }\\n        \",\n    \"ADA/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ADA').price\\n        }\\n        \",\n    \"ALGO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ALGO').price\\n        }\\n        \",\n    \"ANKR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ANKR').price\\n        }\\n        \",\n    \"APE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'APE').price\\n        }\\n        \",\n    \"API3/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'API3').price\\n        }\\n        \",\n    \"ARB/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ARB').price\\n        }\\n        \",\n    \"ATOM/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ATOM').price\\n        }\\n        \",\n    \"AVAX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'AVAX').price\\n        }\\n        \",\n    \"AXS/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'AXS').price\\n        }\\n        \",\n    \"BAL/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'BAL').price\\n        }\\n        \",\n    \"BAT/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'BAT').price\\n        }\\n        \",\n    \"BNB/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'BNB').price\\n        }\\n        \",\n    \"BTC/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'BTC').price\\n        }\\n        \",\n    \"CAKE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'CAKE').price\\n        }\\n        \",\n    \"CELO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'CELO').price\\n        }\\n        \",\n    \"CHZ/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'CHZ').price\\n        }\\n        \",\n    \"COMP/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'COMP').price\\n        }\\n        \",\n    \"CRO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'CRO').price\\n        }\\n        \",\n    \"CRV/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'CRV').price\\n        }\\n        \",\n    \"CVX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'CVX').price\\n        }\\n        \",\n    \"DAI/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'DAI').price\\n        }\\n        \",\n    \"DOGE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'DOGE').price\\n        }\\n        \",\n    \"DOT/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'DOT').price\\n        }\\n        \",\n    \"DYDX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'DYDX').price\\n        }\\n        \",\n    \"ETH/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ETH').price\\n        }\\n        \",\n    \"FIL/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'FIL').price\\n        }\\n        \",\n    \"FLOW/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'FLOW').price\\n        }\\n        \",\n    \"FXS/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'FXS').price\\n        }\\n        \",\n    \"FTM/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'FTM').price\\n        }\\n        \",\n    \"GLMR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'GLMR').price\\n        }\\n        \",\n    \"GMX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'GMX').price\\n        }\\n        \",\n    \"GNO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'GNO').price\\n        }\\n        \",\n    \"GRT/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'GRT').price\\n        }\\n        \",\n    \"HBAR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'HBAR').price\\n        }\\n        \",\n    \"HNT/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'HNT').price\\n        }\\n        \",\n    \"ICP/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ICP').price\\n        }\\n        \",\n    \"IMX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'IMX').price\\n        }\\n        \",\n    \"JOE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'JOE').price\\n        }\\n        \",\n    \"KSM/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'KSM').price\\n        }\\n        \",\n    \"LDO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'LDO').price\\n        }\\n        \",\n    \"LINK/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'LINK').price\\n        }\\n        \",\n    \"LQTY/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'LQTY').price\\n        }\\n        \",\n    \"LTC/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'LTC').price\\n        }\\n        \",\n    \"MANA/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'MANA').price\\n        }\\n        \",\n    \"MKR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'MKR').price\\n        }\\n        \",\n    \"MATIC/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'MATIC').price\\n        }\\n        \",\n    \"METIS/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'METIS').price\\n        }\\n        \",\n    \"NEAR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'NEAR').price\\n        }\\n        \",\n    \"OKB/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'OKB').price\\n        }\\n        \",\n    \"OP/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'OP').price\\n        }\\n        \",\n    \"PAXG/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'PAXG').price\\n        }\\n        \",\n    \"QUICK/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'QUICK').price\\n        }\\n        \",\n    \"ROSE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ROSE').price\\n        }\\n        \",\n    \"RPL/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'RPL').price\\n        }\\n        \",\n    \"RSR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'RSR').price\\n        }\\n        \",\n    \"RUNE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'RUNE').price\\n        }\\n        \",\n    \"SAND/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SAND').price\\n        }\\n        \",\n    \"SHIB/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SHIB').price\\n        }\\n        \",\n    \"SNX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SNX').price\\n        }\\n        \",\n    \"SOL/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SOL').price\\n        }\\n        \",\n    \"STG/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'STG').price\\n        }\\n        \",\n    \"STX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'STX').price\\n        }\\n        \",\n    \"SUSHI/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SUSHI').price\\n        }\\n        \",\n    \"TUSD/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'TUSD').price\\n        }\\n        \",\n    \"UNI/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'UNI').price\\n        }\\n        \",\n    \"USDC/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'USDC').price\\n        }\\n        \",\n    \"USDP/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'USDP').price\\n        }\\n        \",\n    \"WBTC/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'WBTC').price\\n        }\\n        \",\n    \"XLM/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'XLM').price\\n        }\\n        \",\n    \"XRP/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'XRP').price\\n        }\\n        \",\n    \"XTZ/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'XTZ').price\\n        }\\n        \",\n    \"YFI/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'YFI').price\\n        }\\n        \",\n    \"ZIL/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ZIL').price\\n        }\\n        \",\n    \"ZRX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ZRX').price\\n        }\\n        \",\n    \"RNDR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'RNDR').price\\n        }\\n        \",\n    \"MASK/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'MASK').price\\n        }\\n        \",\n    \"ENS/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ENS').price\\n        }\\n        \",\n    \"BLUR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'BLUR').price\\n        }\\n        \",\n    \"BAND/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'BAND').price\\n        }\\n        \",\n    \"UMA/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'UMA').price\\n        }\\n        \",\n    \"APT/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'APT').price\\n        }\\n        \",\n    \"PEPE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'PEPE').price\\n        }\\n        \",\n    \"OSMO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'OSMO').price\\n        }\\n        \",\n    \"SUI/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SUI').price\\n        }\\n        \",\n    \"GNS/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'GNS').price\\n        }\\n        \",\n    \"MNT/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'MNT').price\\n        }\\n        \",\n    \"KAVA/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'KAVA').price\\n        }\\n        \",\n    \"RDNT/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'RDNT').price\\n        }\\n        \",\n    \"FRAX/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'FRAX').price\\n        }\\n        \",\n    \"LUSD/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'LUSD').price\\n        }\\n        \",\n    \"WOO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'WOO').price\\n        }\\n        \",\n    \"PYTH/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'PYTH').price\\n        }\\n        \",\n    \"ASTR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ASTR').price\\n        }\\n        \",\n    \"TIA/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'TIA').price\\n        }\\n        \",\n    \"DYM/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'DYM').price\\n        }\\n        \",\n    \"SEI/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SEI').price\\n        }\\n        \",\n    \"AR/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'AR').price\\n        }\\n        \",\n    \"STRK/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'STRK').price\\n        }\\n        \",\n    \"AXL/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'AXL').price\\n        }\\n        \",\n    \"ONDO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ONDO').price\\n        }\\n        \",\n    \"MANTA/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'MANTA').price\\n        }\\n        \",\n    \"RON/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'RON').price\\n        }\\n        \",\n    \"XVS/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'XVS').price\\n        }\\n        \",\n    \"PENDLE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'PENDLE').price\\n        }\\n        \",\n    \"TWT/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'TWT').price\\n        }\\n        \",\n    \"AERO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'AERO').price\\n        }\\n        \",\n    \"ERN/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ERN').price\\n        }\\n        \",\n    \"TAO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'TAO').price\\n        }\\n        \",\n    \"PYUSD/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'PYUSD').price\\n        }\\n        \",\n    \"MERL/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'MERL').price\\n        }\\n        \",\n    \"ORDI/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ORDI').price\\n        }\\n        \",\n    \"SATS/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SATS').price\\n        }\\n        \",\n    \"INJ/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'INJ').price\\n        }\\n        \",\n    \"MODE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'MODE').price\\n        }\\n        \",\n    \"NEON/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'NEON').price\\n        }\\n        \",\n    \"CORE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'CORE').price\\n        }\\n        \",\n    \"DEGEN/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'DEGEN').price\\n        }\\n        \",\n    \"ENA/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ENA').price\\n        }\\n        \",\n    \"FDUSD/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'FDUSD').price\\n        }\\n        \",\n    \"WLD/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'WLD').price\\n        }\\n        \",\n    \"ETHFI/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'ETHFI').price\\n        }\\n        \",\n    \"SAFE/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'SAFE').price\\n        }\\n        \",\n    \"TAIKO/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'TAIKO').price\\n        }\\n        \",\n    \"W/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'W').price\\n        }\\n        \",\n    \"stETH/USD\":\n      \"(response) => {\\n          return response.find((d) => d.symbol === 'STETH').price\\n        }\\n        \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+            "timeoutMs": 5000
+          }
+        }
+      ]
+    }
+  ],
+  "apiCredentials": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "USDC/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "USDC"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'USDC').price\n        }\n        "
+}

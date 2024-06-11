@@ -1,0 +1,8 @@
+{
+  "name": "ASTR/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "ASTR"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ASTR').price\n        }\n        "
+}

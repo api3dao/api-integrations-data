@@ -1,0 +1,8 @@
+{
+  "name": "TAIKO/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "TAIKO"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'TAIKO').price\n        }\n        "
+}

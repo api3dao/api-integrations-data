@@ -1,0 +1,8 @@
+{
+  "name": "TWT/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "TWT"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'TWT').price\n        }\n        "
+}

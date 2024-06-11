@@ -1,0 +1,8 @@
+{
+  "name": "ERN/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "ERN"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ERN').price\n        }\n        "
+}

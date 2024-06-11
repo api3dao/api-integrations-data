@@ -1,0 +1,8 @@
+{
+  "name": "ZIL/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "ZIL"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ZIL').price\n        }\n        "
+}

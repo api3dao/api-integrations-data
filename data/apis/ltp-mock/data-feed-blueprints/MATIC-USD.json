@@ -1,0 +1,8 @@
+{
+  "name": "MATIC/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "MATIC"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'MATIC').price\n        }\n        "
+}

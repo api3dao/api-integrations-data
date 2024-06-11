@@ -1,0 +1,8 @@
+{
+  "name": "XRP/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "XRP"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'XRP').price\n        }\n        "
+}

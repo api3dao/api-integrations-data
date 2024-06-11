@@ -1,0 +1,8 @@
+{
+  "name": "WOO/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "WOO"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'WOO').price\n        }\n        "
+}

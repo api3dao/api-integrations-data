@@ -1,0 +1,8 @@
+{
+  "name": "RDNT/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "RDNT"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'RDNT').price\n        }\n        "
+}

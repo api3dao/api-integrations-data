@@ -1,0 +1,8 @@
+{
+  "name": "TAO/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "TAO"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'TAO').price\n        }\n        "
+}

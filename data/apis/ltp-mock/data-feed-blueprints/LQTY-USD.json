@@ -1,0 +1,8 @@
+{
+  "name": "LQTY/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "LQTY"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'LQTY').price\n        }\n        "
+}

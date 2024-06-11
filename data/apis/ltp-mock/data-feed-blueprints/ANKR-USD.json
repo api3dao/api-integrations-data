@@ -1,0 +1,8 @@
+{
+  "name": "ANKR/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "ANKR"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ANKR').price\n        }\n        "
+}

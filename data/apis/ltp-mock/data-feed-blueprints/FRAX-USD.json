@@ -1,0 +1,8 @@
+{
+  "name": "FRAX/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "FRAX"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'FRAX').price\n        }\n        "
+}

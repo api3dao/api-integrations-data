@@ -1,0 +1,8 @@
+{
+  "name": "PYUSD/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "PYUSD"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'PYUSD').price\n        }\n        "
+}

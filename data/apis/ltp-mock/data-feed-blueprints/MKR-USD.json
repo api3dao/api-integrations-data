@@ -1,0 +1,8 @@
+{
+  "name": "MKR/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "MKR"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'MKR').price\n        }\n        "
+}

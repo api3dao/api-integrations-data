@@ -1,0 +1,8 @@
+{
+  "name": "APT/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "APT"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'APT').price\n        }\n        "
+}

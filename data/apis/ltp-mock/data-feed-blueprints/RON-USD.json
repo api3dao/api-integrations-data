@@ -1,0 +1,8 @@
+{
+  "name": "RON/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "RON"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'RON').price\n        }\n        "
+}

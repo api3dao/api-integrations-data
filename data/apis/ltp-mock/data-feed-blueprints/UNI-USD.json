@@ -1,0 +1,8 @@
+{
+  "name": "UNI/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "UNI"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'UNI').price\n        }\n        "
+}

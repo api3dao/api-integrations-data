@@ -1,0 +1,8 @@
+{
+  "name": "DEGEN/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "DEGEN"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'DEGEN').price\n        }\n        "
+}

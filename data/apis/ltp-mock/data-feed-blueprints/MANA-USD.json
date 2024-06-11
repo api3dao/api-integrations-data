@@ -1,0 +1,8 @@
+{
+  "name": "MANA/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "MANA"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'MANA').price\n        }\n        "
+}

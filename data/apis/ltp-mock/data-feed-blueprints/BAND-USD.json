@@ -1,0 +1,8 @@
+{
+  "name": "BAND/USD",
+  "path": "api/v1/ticker/price",
+  "parameters": {
+    "symbols": "BAND"
+  },
+  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'BAND').price\n        }\n        "
+}
