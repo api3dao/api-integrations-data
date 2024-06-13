@@ -1,0 +1,18 @@
+{
+  "alias": "ankr-mock",
+  "name": "Ankr-Mock",
+  "airnode": "0x2eBAe534e166b3D940a53511aD479C3e1de2A1af",
+  "xpub": "",
+  "supportedFeedsInBatches": {
+    "Ankr": [["SOMETHING Exchange Rate"], ["SOMETHINGELSE Exchange Rate"]]
+  },
+  "deploymentLocations": ["local"],
+  "homepageUrl": "",
+  "verifiedBaseUrl": "",
+  "signedApiUrl": "",
+  "productionSignedApiUrls": [],
+  "stagingSignedApiUrl": {
+    "name": "Nodary",
+    "url": "https://signed-api.nodary.io"
+  }
+}
