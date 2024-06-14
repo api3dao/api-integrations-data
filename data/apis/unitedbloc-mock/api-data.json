@@ -1,0 +1,18 @@
+{
+  "alias": "unitedbloc-mock",
+  "name": "UnitedBloc-Mock",
+  "airnode": "0x8c52d520B535E3063c7C44aB9Cc547794d19da1A",
+  "xpub": "",
+  "supportedFeedsInBatches": {
+    "UnitedBloc": [["SOMETHING Exchange Rate"]]
+  },
+  "deploymentLocations": ["local"],
+  "homepageUrl": "",
+  "verifiedBaseUrl": "",
+  "signedApiUrl": "",
+  "productionSignedApiUrls": [],
+  "stagingSignedApiUrl": {
+    "name": "Nodary",
+    "url": "https://signed-api.nodary.io"
+  }
+}

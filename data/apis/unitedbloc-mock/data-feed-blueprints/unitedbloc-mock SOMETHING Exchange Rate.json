@@ -1,0 +1,12 @@
+{
+  "name": "SOMETHING Exchange Rate",
+  "path": "/",
+  "parameters": {
+    "dAPIName": "SOMETHING Exchange Rate",
+    "multicallData": "0x0000todo",
+    "returnTypes": "todo",
+    "chainId": "1",
+    "returnFormat": "todo"
+  },
+  "parser": "(response) => {\n          return response\n        }\n        "
+}
