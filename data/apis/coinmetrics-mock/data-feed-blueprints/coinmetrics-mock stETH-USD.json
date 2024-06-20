@@ -1,5 +1,5 @@
 {
-  "name": "STETH/USD",
+  "name": "stETH/USD",
   "path": "v4/timeseries/asset-metrics",
   "parameters": {
     "assets": "steth",

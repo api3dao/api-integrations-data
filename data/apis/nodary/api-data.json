@@ -220,7 +220,8 @@
       ["HKD/USD"],
       ["NOK/USD"],
       ["TAIKO/USD"],
-      ["W/USD"]
+      ["W/USD"],
+      ["weETHs/ETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["aws"],
