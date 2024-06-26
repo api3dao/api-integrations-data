@@ -221,7 +221,8 @@
       ["NOK/USD"],
       ["TAIKO/USD"],
       ["W/USD"],
-      ["weETHs/ETH Exchange Rate"]
+      ["weETHs/ETH Exchange Rate"],
+      ["BLAST/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

@@ -1,0 +1,8 @@
+{
+  "name": "BLAST/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "BLAST/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

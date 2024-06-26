@@ -221,7 +221,8 @@
       ["W/USD"],
       ["HKD/USD"],
       ["NOK/USD"],
-      ["weETHs/ETH Exchange Rate"]
+      ["weETHs/ETH Exchange Rate"],
+      ["BLAST/USD"]
     ]
   },
   "deploymentLocations": ["local"],
