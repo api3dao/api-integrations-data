@@ -1,6 +1,0 @@
-{
-  "name": "TSLA/USD",
-  "parameters": {},
-  "path": "last/trade/stock/TSLA",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

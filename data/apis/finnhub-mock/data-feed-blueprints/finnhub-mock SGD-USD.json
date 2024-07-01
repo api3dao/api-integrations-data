@@ -1,8 +1,0 @@
-{
-  "name": "SGD/USD",
-  "parameters": {
-    "base": "SGD"
-  },
-  "path": "forex/rates",
-  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
-}

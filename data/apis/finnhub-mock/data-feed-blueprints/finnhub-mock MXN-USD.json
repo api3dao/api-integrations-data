@@ -1,8 +1,0 @@
-{
-  "name": "MXN/USD",
-  "parameters": {
-    "base": "MXN"
-  },
-  "path": "forex/rates",
-  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
-}

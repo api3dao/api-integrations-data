@@ -1,8 +1,0 @@
-{
-  "name": "NOK/USD",
-  "path": "forex/rates",
-  "parameters": {
-    "base": "NOK"
-  },
-  "parser": "(response) => {\n          return response.quote.USD\n        }\n        "
-}

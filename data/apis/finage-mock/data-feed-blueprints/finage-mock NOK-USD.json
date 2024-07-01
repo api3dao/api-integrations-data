@@ -1,6 +1,0 @@
-{
-  "name": "NOK/USD",
-  "path": "last/trade/forex/NOKUSD",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

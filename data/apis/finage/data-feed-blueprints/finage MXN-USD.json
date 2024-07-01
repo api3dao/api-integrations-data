@@ -1,6 +1,0 @@
-{
-  "name": "MXN/USD",
-  "parameters": {},
-  "path": "last/trade/forex/MXNUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

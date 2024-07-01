@@ -1,6 +1,0 @@
-{
-  "name": "META/USD",
-  "parameters": {},
-  "path": "last/trade/stock/META",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

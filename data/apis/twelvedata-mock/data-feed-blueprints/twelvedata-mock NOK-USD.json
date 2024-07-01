@@ -1,9 +1,0 @@
-{
-  "name": "NOK/USD",
-  "path": "price",
-  "parameters": {
-    "symbol": "NOK/USD",
-    "dp": "11"
-  },
-  "parser": "(response) => {\n          if (!Object.keys(response).includes('price')) {\n            throw Error('[Known Error] - TwelveData did not return any price value.')\n          }\n          return response.price\n        }\n        "
-}

@@ -1,6 +1,0 @@
-{
-  "name": "AAPL/USD",
-  "parameters": {},
-  "path": "last/trade/stock/AAPL",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

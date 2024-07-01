@@ -1,6 +1,0 @@
-{
-  "name": "PLTR/USD",
-  "path": "last/trade/stock/PLTR",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

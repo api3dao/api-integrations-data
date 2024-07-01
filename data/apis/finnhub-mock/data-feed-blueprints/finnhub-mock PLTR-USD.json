@@ -1,8 +1,0 @@
-{
-  "name": "PLTR/USD",
-  "path": "stock/bidask",
-  "parameters": {
-    "symbol": "PLTR"
-  },
-  "parser": "(response) => {\n          return (response.a + response.b) / 2\n        }\n        "
-}

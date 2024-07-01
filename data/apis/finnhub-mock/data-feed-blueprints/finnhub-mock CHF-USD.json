@@ -1,8 +1,0 @@
-{
-  "name": "CHF/USD",
-  "parameters": {
-    "base": "CHF"
-  },
-  "path": "forex/rates",
-  "parser": "(response) => {\n                return response.quote.USD\n              }\n              "
-}

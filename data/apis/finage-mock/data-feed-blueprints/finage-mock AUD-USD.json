@@ -1,6 +1,0 @@
-{
-  "name": "AUD/USD",
-  "parameters": {},
-  "path": "last/trade/forex/AUDUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

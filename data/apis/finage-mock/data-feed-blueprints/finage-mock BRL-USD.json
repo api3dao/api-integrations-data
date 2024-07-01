@@ -1,6 +1,0 @@
-{
-  "name": "BRL/USD",
-  "parameters": {},
-  "path": "last/trade/forex/BRLUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

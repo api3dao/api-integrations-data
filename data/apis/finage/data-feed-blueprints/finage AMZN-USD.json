@@ -1,6 +1,0 @@
-{
-  "name": "AMZN/USD",
-  "parameters": {},
-  "path": "last/trade/stock/AMZN",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

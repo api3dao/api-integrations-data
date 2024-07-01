@@ -1,6 +1,0 @@
-{
-  "name": "CAD/USD",
-  "parameters": {},
-  "path": "live/midrate/v1/rates/CADUSD/SPT/D/O",
-  "parser": "(response) => {\n              return response.m\n            }\n            "
-}

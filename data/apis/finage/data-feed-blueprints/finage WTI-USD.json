@@ -1,6 +1,0 @@
-{
-  "name": "WTI/USD",
-  "parameters": {},
-  "path": "last/trade/forex/WTIUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}
