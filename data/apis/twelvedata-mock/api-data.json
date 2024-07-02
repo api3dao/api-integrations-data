@@ -128,7 +128,8 @@
       ["MODE/USD"],
       ["ENA/USD"],
       ["FDUSD/USD"],
-      ["WLD/USD"]
+      ["WLD/USD"],
+      ["BLAST/USD"]
     ]
   },
   "deploymentLocations": ["local"],

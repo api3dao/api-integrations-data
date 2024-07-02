@@ -143,7 +143,8 @@
       ["ETHFI/USD"],
       ["SAFE/USD"],
       ["TAIKO/USD"],
-      ["W/USD"]
+      ["W/USD"],
+      ["BLAST/USD"]
     ]
   },
   "deploymentLocations": ["local"],
