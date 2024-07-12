@@ -5,22 +5,22 @@
   "apiSpecifications": {
     "components": {
       "securitySchemes": {
-        "ETHEREUM_RPC_URL": {
+        "RPC_ETHEREUM_URL": {
           "in": "query",
           "name": "",
           "type": "apiKey"
         },
-        "BINANCE_SMART_CHAIN_RPC_URL": {
+        "RPC_BSC_URL": {
           "in": "query",
           "name": "",
           "type": "apiKey"
         },
-        "MANTLE_RPC_URL": {
+        "RPC_MANTLE_URL": {
           "in": "query",
           "name": "",
           "type": "apiKey"
         },
-        "AVALANCHE_RPC_URL": {
+        "RPC_AVALANCHE_URL": {
           "in": "query",
           "name": "",
           "type": "apiKey"
@@ -73,10 +73,10 @@
       }
     ],
     "security": {
-      "ETHEREUM_RPC_URL": [],
-      "BINANCE_SMART_CHAIN_RPC_URL": [],
-      "MANTLE_RPC_URL": [],
-      "AVALANCHE_RPC_URL": []
+      "RPC_ETHEREUM_URL": [],
+      "RPC_BSC_URL": [],
+      "RPC_MANTLE_URL": [],
+      "RPC_AVALANCHE_URL": []
     }
   },
   "endpoints": [

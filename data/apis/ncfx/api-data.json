@@ -128,7 +128,10 @@
         "QUICK/USD",
         "RARI/USD",
         "SAFE/USD",
-        "WLD/USD"
+        "WLD/USD",
+        "BLAST/USD",
+        "ZRO/USD",
+        "ZK/USD"
       ]
     ]
   },

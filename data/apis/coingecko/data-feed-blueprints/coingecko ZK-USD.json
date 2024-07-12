@@ -1,0 +1,9 @@
+{
+  "name": "ZK/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "zksync",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['zksync']['usd']\n        }\n        "
+}

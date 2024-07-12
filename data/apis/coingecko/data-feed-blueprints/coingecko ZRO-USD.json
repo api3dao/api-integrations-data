@@ -1,0 +1,9 @@
+{
+  "name": "ZRO/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "layerzero",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['layerzero']['usd']\n        }\n        "
+}

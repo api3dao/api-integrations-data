@@ -128,7 +128,10 @@
       ["MODE/USD"],
       ["NEON/USD"],
       ["RARI/USD"],
-      ["WLD/USD"]
+      ["WLD/USD"],
+      ["BLAST/USD"],
+      ["ZRO/USD"],
+      ["ZK/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

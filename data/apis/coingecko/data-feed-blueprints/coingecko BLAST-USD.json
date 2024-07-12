@@ -1,0 +1,9 @@
+{
+  "name": "BLAST/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "blast",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['blast']['usd']\n        }\n        "
+}
