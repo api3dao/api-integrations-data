@@ -129,7 +129,9 @@
       ["ENA/USD"],
       ["FDUSD/USD"],
       ["WLD/USD"],
-      ["BLAST/USD"]
+      ["BLAST/USD"],
+      ["ZRO/USD"],
+      ["ZK/USD"]
     ]
   },
   "deploymentLocations": ["local"],

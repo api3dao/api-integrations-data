@@ -144,7 +144,9 @@
       ["SAFE/USD"],
       ["TAIKO/USD"],
       ["W/USD"],
-      ["BLAST/USD"]
+      ["BLAST/USD"],
+      ["ZRO/USD"],
+      ["ZK/USD"]
     ]
   },
   "deploymentLocations": ["local"],

@@ -129,7 +129,9 @@
         "SAFE/USD",
         "TAIKO/USD",
         "W/USD",
-        "stETH/USD"
+        "stETH/USD",
+        "ZRO/USD",
+        "ZK/USD"
       ]
     ]
   },
