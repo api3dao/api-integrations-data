@@ -222,7 +222,8 @@
       ["TAIKO/USD"],
       ["W/USD"],
       ["weETHs/ETH Exchange Rate"],
-      ["BLAST/USD"]
+      ["BLAST/USD"],
+      ["inETH/ETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["aws"],
