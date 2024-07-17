@@ -1,6 +1,7 @@
 {
   "alias": "ltp-mock",
   "name": "LTP-Mock",
+  "providerType": "rest",
   "airnode": "0x9122637B9695DE429f4FA55e2D29b2cD0354d1a5",
   "xpub": "",
   "supportedFeedsInBatches": {

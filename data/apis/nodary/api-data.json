@@ -1,6 +1,7 @@
 {
   "alias": "nodary",
   "name": "Nodary",
+  "providerType": "rest",
   "airnode": "0xc52EeA00154B4fF1EbbF8Ba39FDe37F1AC3B9Fd4",
   "xpub": "xpub6Cd14fbNsTqhi7Urd3cyXHD1nfpDyFf2b5jLcNcwtcEiGzJpQ9UNDwNinYCEmoXgCEZyMZYmAPCaGCFBuCqMD8Pkz8zXWt4rgre8kQLFUMA",
   "supportedFeedsInBatches": {

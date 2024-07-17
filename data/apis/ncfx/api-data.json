@@ -1,6 +1,7 @@
 {
   "alias": "ncfx",
   "name": "NewChangeFX",
+  "providerType": "rest",
   "airnode": "0xbC6471E88d8aFe936A45bEB8bd20a210EBEF6822",
   "xpub": "xpub6D1KuAee1Ubp3LcU76tUvrtjdoKFcU87CCBVKxYZCz3ejDRuRyYN9znp6TGv9rnTSujP7LfSirz5enf4EsUi58KbKBngsiwb8SDwZZ6pukB",
   "supportedFeedsInBatches": {

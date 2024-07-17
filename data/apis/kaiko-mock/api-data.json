@@ -1,6 +1,7 @@
 {
   "alias": "kaiko-mock",
   "name": "Kaiko-Mock",
+  "providerType": "rest",
   "airnode": "0x14E5203C158766ECD51E7FB46d9449434a48D9FE",
   "xpub": "",
   "supportedFeedsInBatches": {

@@ -1,6 +1,7 @@
 {
   "alias": "coinpaprika",
   "name": "Coinpaprika",
+  "providerType": "rest",
   "airnode": "0xC9B494D3c6eA3fD42779Df9A136Db10374c98D80",
   "xpub": "xpub6D5v1hEMboS7g4TPs6PUNvChbPof3yvmuTQtPgaVtdz6PorVwy8DfUvdowKWYbMRvvoq4Qt3L2WBGJQDwKevuyrHJVUJAGapo2FkatVG9Ch",
   "supportedFeedsInBatches": {

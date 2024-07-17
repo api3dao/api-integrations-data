@@ -1,6 +1,7 @@
 {
   "alias": "twelvedata",
   "name": "TwelveData",
+  "providerType": "rest",
   "airnode": "0x31C7db0e12e002E071ca0FF243ec4788a8AD189F",
   "xpub": "xpub6Cr7xJmbfHSLJqEqU9ycin3kSxbn5t29p743yq2M9FPbQQ65cU5rf2vt97WF3moA9GVCaojKQxrNNkwVBMur9p9buAquXJKLDw8gr53znYJ",
   "supportedFeedsInBatches": {

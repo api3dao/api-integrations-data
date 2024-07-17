@@ -1,6 +1,7 @@
 {
   "alias": "kaiko",
   "name": "Kaiko",
+  "providerType": "rest",
   "airnode": "0x5791Fb78D4e37A9D0f0003199D1AE1A8C04C8d89",
   "xpub": "xpub6Cd14fbNsTqhi7Urd3cyXHD1nfpDyFf2b5jLcNcwtcEiGzJpQ9UNDwNinYCEmoXgCEZyMZYmAPCaGCFBuCqMD8Pkz8zXWt4rgre8kQLFUMA",
   "supportedFeedsInBatches": {

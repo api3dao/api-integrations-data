@@ -1,6 +1,7 @@
 {
   "alias": "dxfeed-mock",
   "name": "dxFeed-Mock",
+  "providerType": "rest",
   "airnode": "0xC479695045E1730bDE7697c6eD9442cB4A6Da6a0",
   "xpub": "",
   "supportedFeedsInBatches": {

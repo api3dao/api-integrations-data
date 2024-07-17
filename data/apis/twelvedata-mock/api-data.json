@@ -1,6 +1,7 @@
 {
   "alias": "twelvedata-mock",
   "name": "TwelveData-Mock",
+  "providerType": "rest",
   "airnode": "0x3dE057f4F0C6b9fc75321C3e8b477277DD615d42",
   "xpub": "",
   "supportedFeedsInBatches": {

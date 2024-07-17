@@ -1,6 +1,7 @@
 {
   "alias": "coingecko-mock",
   "name": "CoinGecko-Mock",
+  "providerType": "rest",
   "airnode": "0x887cA5E7D4d6CcE427949561CD149983F39c9F02",
   "xpub": "",
   "supportedFeedsInBatches": {

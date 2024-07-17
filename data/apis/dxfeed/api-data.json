@@ -1,6 +1,7 @@
 {
   "alias": "dxfeed",
   "name": "dxFeed",
+  "providerType": "rest",
   "airnode": "0x11030d4f8eB06F958E763C6f8b165D7CDd98DB6C",
   "xpub": "xpub6DSE1Hr6hCmAXb9tapwx14DFth2qUQb8XKr5gAX7G9PcSUoszk3Wnx7zoxedVzun4vVt4ZzYZk27FcPz19bWuLA3kXYBBK3vjgYADFUCQDa",
   "supportedFeedsInBatches": {
