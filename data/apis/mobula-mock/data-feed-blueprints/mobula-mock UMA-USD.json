@@ -1,0 +1,8 @@
+{
+  "name": "UMA/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "UMA"
+  },
+  "parser": "(response) => { return response.data[\"UMA\"].price; }"
+}

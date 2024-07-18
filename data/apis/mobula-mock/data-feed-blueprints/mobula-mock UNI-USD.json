@@ -1,0 +1,8 @@
+{
+  "name": "UNI/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "UNI"
+  },
+  "parser": "(response) => { return response.data[\"UNI\"].price; }"
+}

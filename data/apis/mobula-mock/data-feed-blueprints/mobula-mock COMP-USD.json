@@ -1,0 +1,8 @@
+{
+  "name": "COMP/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "COMP"
+  },
+  "parser": "(response) => { return response.data[\"COMP\"].price; }"
+}

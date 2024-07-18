@@ -1,0 +1,8 @@
+{
+  "name": "LINK/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "LINK"
+  },
+  "parser": "(response) => { return response.data[\"LINK\"].price; }"
+}

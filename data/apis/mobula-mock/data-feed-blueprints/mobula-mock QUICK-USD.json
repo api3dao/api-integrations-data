@@ -1,0 +1,8 @@
+{
+  "name": "QUICK/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "QUICK"
+  },
+  "parser": "(response) => { return response.data[\"QUICK\"].price; }"
+}

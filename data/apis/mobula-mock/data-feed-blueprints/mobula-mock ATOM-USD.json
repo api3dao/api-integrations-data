@@ -1,0 +1,8 @@
+{
+  "name": "ATOM/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "ATOM"
+  },
+  "parser": "(response) => { return response.data[\"ATOM\"].price; }"
+}

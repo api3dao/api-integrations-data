@@ -1,0 +1,8 @@
+{
+  "name": "AR/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "AR"
+  },
+  "parser": "(response) => { return response.data[\"AR\"].price; }"
+}

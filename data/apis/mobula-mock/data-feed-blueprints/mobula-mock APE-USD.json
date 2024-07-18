@@ -1,0 +1,8 @@
+{
+  "name": "APE/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "APE"
+  },
+  "parser": "(response) => { return response.data[\"APE\"].price; }"
+}

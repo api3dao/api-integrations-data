@@ -1,0 +1,8 @@
+{
+  "name": "SNX/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "SNX"
+  },
+  "parser": "(response) => { return response.data[\"SNX\"].price; }"
+}

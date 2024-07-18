@@ -1,0 +1,8 @@
+{
+  "name": "YFI/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "YFI"
+  },
+  "parser": "(response) => { return response.data[\"YFI\"].price; }"
+}

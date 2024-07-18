@@ -1,0 +1,8 @@
+{
+  "name": "XVS/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "XVS"
+  },
+  "parser": "(response) => { return response.data[\"XVS\"].price; }"
+}

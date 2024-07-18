@@ -1,0 +1,8 @@
+{
+  "name": "STG/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "STG"
+  },
+  "parser": "(response) => { return response.data[\"STG\"].price; }"
+}

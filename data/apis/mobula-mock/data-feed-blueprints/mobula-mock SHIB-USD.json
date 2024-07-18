@@ -1,0 +1,8 @@
+{
+  "name": "SHIB/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "SHIB"
+  },
+  "parser": "(response) => { return response.data[\"SHIB\"].price; }"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ARB/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "ARB"
+  },
+  "parser": "(response) => { return response.data[\"ARB\"].price; }"
+}

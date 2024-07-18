@@ -1,0 +1,8 @@
+{
+  "name": "SATS/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "SATS"
+  },
+  "parser": "(response) => { return response.data[\"SATS\"].price; }"
+}

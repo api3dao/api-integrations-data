@@ -1,0 +1,8 @@
+{
+  "name": "RON/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "RON"
+  },
+  "parser": "(response) => { return response.data[\"RON\"].price; }"
+}

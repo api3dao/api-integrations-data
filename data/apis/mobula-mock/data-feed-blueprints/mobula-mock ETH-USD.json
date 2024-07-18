@@ -1,0 +1,8 @@
+{
+  "name": "ETH/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "ETH"
+  },
+  "parser": "(response) => { return response.data[\"ETH\"].price; }"
+}

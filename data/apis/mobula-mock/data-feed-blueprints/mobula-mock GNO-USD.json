@@ -1,0 +1,8 @@
+{
+  "name": "GNO/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "GNO"
+  },
+  "parser": "(response) => { return response.data[\"GNO\"].price; }"
+}

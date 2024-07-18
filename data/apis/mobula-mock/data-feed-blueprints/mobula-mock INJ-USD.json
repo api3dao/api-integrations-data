@@ -1,0 +1,8 @@
+{
+  "name": "INJ/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "INJ"
+  },
+  "parser": "(response) => { return response.data[\"INJ\"].price; }"
+}

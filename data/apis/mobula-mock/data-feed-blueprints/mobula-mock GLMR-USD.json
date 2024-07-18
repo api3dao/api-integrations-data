@@ -1,0 +1,8 @@
+{
+  "name": "GLMR/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "GLMR"
+  },
+  "parser": "(response) => { return response.data[\"GLMR\"].price; }"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "HNT/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "HNT"
+  },
+  "parser": "(response) => { return response.data[\"HNT\"].price; }"
+}

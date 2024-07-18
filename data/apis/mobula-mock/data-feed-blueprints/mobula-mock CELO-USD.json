@@ -1,0 +1,8 @@
+{
+  "name": "CELO/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "CELO"
+  },
+  "parser": "(response) => { return response.data[\"CELO\"].price; }"
+}

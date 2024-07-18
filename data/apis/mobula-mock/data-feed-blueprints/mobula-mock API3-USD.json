@@ -1,0 +1,8 @@
+{
+  "name": "API3/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "API3"
+  },
+  "parser": "(response) => { return response.data[\"API3\"].price; }"
+}

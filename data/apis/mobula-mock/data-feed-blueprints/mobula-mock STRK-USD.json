@@ -1,0 +1,8 @@
+{
+  "name": "STRK/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "STRK"
+  },
+  "parser": "(response) => { return response.data[\"STRK\"].price; }"
+}

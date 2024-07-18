@@ -1,0 +1,8 @@
+{
+  "name": "FLOW/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "FLOW"
+  },
+  "parser": "(response) => { return response.data[\"FLOW\"].price; }"
+}

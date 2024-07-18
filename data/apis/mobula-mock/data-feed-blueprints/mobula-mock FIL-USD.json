@@ -1,0 +1,8 @@
+{
+  "name": "FIL/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "FIL"
+  },
+  "parser": "(response) => { return response.data[\"FIL\"].price; }"
+}

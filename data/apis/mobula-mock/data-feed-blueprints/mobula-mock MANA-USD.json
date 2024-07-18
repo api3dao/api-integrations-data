@@ -1,0 +1,8 @@
+{
+  "name": "MANA/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "MANA"
+  },
+  "parser": "(response) => { return response.data[\"MANA\"].price; }"
+}

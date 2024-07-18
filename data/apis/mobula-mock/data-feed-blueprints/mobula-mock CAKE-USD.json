@@ -1,0 +1,8 @@
+{
+  "name": "CAKE/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "CAKE"
+  },
+  "parser": "(response) => { return response.data[\"CAKE\"].price; }"
+}

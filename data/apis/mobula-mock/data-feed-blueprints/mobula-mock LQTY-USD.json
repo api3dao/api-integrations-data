@@ -1,0 +1,8 @@
+{
+  "name": "LQTY/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "LQTY"
+  },
+  "parser": "(response) => { return response.data[\"LQTY\"].price; }"
+}

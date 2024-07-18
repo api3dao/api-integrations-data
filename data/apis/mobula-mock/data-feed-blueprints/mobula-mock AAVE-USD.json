@@ -1,0 +1,8 @@
+{
+  "name": "AAVE/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "AAVE"
+  },
+  "parser": "(response) => { return response.data[\"AAVE\"].price; }"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "HBAR/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "HBAR"
+  },
+  "parser": "(response) => { return response.data[\"HBAR\"].price; }"
+}

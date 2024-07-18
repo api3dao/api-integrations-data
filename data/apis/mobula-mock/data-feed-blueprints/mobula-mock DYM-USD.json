@@ -1,0 +1,8 @@
+{
+  "name": "DYM/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "DYM"
+  },
+  "parser": "(response) => { return response.data[\"DYM\"].price; }"
+}

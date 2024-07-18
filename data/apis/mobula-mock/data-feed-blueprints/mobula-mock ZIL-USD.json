@@ -1,0 +1,8 @@
+{
+  "name": "ZIL/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "ZIL"
+  },
+  "parser": "(response) => { return response.data[\"ZIL\"].price; }"
+}

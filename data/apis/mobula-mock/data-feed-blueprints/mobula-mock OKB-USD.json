@@ -1,0 +1,8 @@
+{
+  "name": "OKB/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "OKB"
+  },
+  "parser": "(response) => { return response.data[\"OKB\"].price; }"
+}

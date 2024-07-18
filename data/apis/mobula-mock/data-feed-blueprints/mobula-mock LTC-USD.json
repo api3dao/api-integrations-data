@@ -1,0 +1,8 @@
+{
+  "name": "LTC/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "LTC"
+  },
+  "parser": "(response) => { return response.data[\"LTC\"].price; }"
+}

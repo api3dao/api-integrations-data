@@ -1,0 +1,8 @@
+{
+  "name": "IMX/USD",
+  "path": "1/market/multi-data",
+  "parameters": {
+    "symbols": "IMX"
+  },
+  "parser": "(response) => { return response.data[\"IMX\"].price; }"
+}
