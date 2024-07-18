@@ -1,0 +1,10 @@
+{
+  "name": "ZIL/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "ZIL-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"ZIL-USD\"].VALUE }"
+}

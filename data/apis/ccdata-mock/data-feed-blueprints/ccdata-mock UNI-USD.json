@@ -1,0 +1,10 @@
+{
+  "name": "UNI/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "UNI-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"UNI-USD\"].VALUE }"
+}

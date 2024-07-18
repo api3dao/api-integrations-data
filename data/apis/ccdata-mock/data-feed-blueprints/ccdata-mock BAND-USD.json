@@ -1,0 +1,10 @@
+{
+  "name": "BAND/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "BAND-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"BAND-USD\"].VALUE }"
+}

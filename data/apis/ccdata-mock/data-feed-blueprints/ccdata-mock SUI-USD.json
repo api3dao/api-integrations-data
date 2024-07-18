@@ -1,0 +1,10 @@
+{
+  "name": "SUI/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "SUI-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"SUI-USD\"].VALUE }"
+}

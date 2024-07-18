@@ -1357,7 +1357,7 @@
         "components": {
           "securitySchemes": {
             "MobulaSecurityScheme1ApiKey": {
-              "in": "query",
+              "in": "header",
               "name": "Authorization",
               "type": "apiKey"
             }

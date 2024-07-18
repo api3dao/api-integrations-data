@@ -1,0 +1,10 @@
+{
+  "name": "SAND/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "SAND-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"SAND-USD\"].VALUE }"
+}

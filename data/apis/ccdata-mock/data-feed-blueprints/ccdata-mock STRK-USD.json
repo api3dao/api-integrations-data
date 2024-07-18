@@ -1,0 +1,10 @@
+{
+  "name": "STRK/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "STRK-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"STRK-USD\"].VALUE }"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "GLMR/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "GLMR-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"GLMR-USD\"].VALUE }"
+}

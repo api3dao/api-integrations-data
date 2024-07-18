@@ -1,0 +1,10 @@
+{
+  "name": "GMX/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "GMX-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"GMX-USD\"].VALUE }"
+}

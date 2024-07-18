@@ -1,0 +1,10 @@
+{
+  "name": "AVAX/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "AVAX-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"AVAX-USD\"].VALUE }"
+}

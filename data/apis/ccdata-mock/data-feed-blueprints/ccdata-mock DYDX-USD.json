@@ -1,0 +1,10 @@
+{
+  "name": "DYDX/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "DYDX-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"DYDX-USD\"].VALUE }"
+}

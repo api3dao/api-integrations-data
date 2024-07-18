@@ -1,0 +1,10 @@
+{
+  "name": "KSM/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "KSM-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"KSM-USD\"].VALUE }"
+}

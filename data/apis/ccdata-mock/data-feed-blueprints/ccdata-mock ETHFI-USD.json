@@ -1,0 +1,10 @@
+{
+  "name": "ETHFI/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "ETHFI-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"ETHFI-USD\"].VALUE }"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "BTC/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "BTC-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"BTC-USD\"].VALUE }"
+}

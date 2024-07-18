@@ -1,0 +1,10 @@
+{
+  "name": "INJ/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "INJ-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"INJ-USD\"].VALUE }"
+}

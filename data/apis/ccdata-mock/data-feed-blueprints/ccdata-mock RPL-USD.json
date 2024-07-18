@@ -1,0 +1,10 @@
+{
+  "name": "RPL/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "RPL-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"RPL-USD\"].VALUE }"
+}

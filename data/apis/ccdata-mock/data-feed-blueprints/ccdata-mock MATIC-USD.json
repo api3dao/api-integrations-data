@@ -1,0 +1,10 @@
+{
+  "name": "MATIC/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "MATIC-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"MATIC-USD\"].VALUE }"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MERL/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "MERL-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"MERL-USD\"].VALUE }"
+}

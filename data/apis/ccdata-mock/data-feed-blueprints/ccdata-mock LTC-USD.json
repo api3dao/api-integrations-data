@@ -1,0 +1,10 @@
+{
+  "name": "LTC/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "LTC-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"LTC-USD\"].VALUE }"
+}

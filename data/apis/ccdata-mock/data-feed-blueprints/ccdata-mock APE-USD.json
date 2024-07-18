@@ -1,0 +1,10 @@
+{
+  "name": "APE/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "APE-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"APE-USD\"].VALUE }"
+}

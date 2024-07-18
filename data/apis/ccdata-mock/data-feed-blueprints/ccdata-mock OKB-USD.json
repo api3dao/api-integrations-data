@@ -1,0 +1,10 @@
+{
+  "name": "OKB/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "OKB-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"OKB-USD\"].VALUE }"
+}

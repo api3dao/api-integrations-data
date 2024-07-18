@@ -1,0 +1,10 @@
+{
+  "name": "XTZ/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "XTZ-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"XTZ-USD\"].VALUE }"
+}

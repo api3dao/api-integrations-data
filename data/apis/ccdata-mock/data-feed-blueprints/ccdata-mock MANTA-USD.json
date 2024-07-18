@@ -1,0 +1,10 @@
+{
+  "name": "MANTA/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "MANTA-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"MANTA-USD\"].VALUE }"
+}

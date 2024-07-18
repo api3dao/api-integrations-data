@@ -1,0 +1,10 @@
+{
+  "name": "TAIKO/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "TAIKO-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"TAIKO-USD\"].VALUE }"
+}

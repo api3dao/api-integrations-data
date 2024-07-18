@@ -1,0 +1,10 @@
+{
+  "name": "YFI/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "YFI-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"YFI-USD\"].VALUE }"
+}

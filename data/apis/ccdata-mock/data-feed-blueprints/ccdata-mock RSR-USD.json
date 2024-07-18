@@ -1,0 +1,10 @@
+{
+  "name": "RSR/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "RSR-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"RSR-USD\"].VALUE }"
+}

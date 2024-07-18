@@ -1,0 +1,10 @@
+{
+  "name": "AR/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "AR-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"AR-USD\"].VALUE }"
+}

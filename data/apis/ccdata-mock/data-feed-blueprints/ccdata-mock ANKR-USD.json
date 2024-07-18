@@ -1,0 +1,10 @@
+{
+  "name": "ANKR/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "ANKR-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"ANKR-USD\"].VALUE }"
+}

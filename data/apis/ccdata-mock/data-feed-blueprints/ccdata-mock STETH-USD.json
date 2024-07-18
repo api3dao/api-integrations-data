@@ -1,0 +1,10 @@
+{
+  "name": "STETH/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "STETH-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"STETH-USD\"].VALUE }"
+}

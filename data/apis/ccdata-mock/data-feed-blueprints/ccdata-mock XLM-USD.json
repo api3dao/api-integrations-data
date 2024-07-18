@@ -1,0 +1,10 @@
+{
+  "name": "XLM/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "XLM-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"XLM-USD\"].VALUE }"
+}

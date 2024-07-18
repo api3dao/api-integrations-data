@@ -1,0 +1,10 @@
+{
+  "name": "BLAST/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "BLAST-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"BLAST-USD\"].VALUE }"
+}

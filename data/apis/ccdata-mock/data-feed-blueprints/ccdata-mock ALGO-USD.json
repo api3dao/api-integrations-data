@@ -1,0 +1,10 @@
+{
+  "name": "ALGO/USD",
+  "path": "v1/latest/tick",
+  "parameters": {
+    "market": "cadli",
+    "instruments": "ALGO-USD",
+    "groups": "VALUE"
+  },
+  "parser": "(response) => { return response.Data[\"ALGO-USD\"].VALUE }"
+}
