@@ -1,8 +1,0 @@
-{
-  "name": "GNS/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "GNS"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'GNS').price\n        }\n        "
-}

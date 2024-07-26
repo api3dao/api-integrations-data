@@ -1,8 +1,0 @@
-{
-  "name": "ASTR/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "ASTR"
-  },
-  "parser": "(response) => { return response.data[\"ASTR\"].price; }"
-}

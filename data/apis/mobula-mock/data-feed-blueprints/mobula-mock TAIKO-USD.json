@@ -1,8 +1,0 @@
-{
-  "name": "TAIKO/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "TAIKO"
-  },
-  "parser": "(response) => { return response.data[\"TAIKO\"].price; }"
-}

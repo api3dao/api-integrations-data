@@ -1,8 +1,0 @@
-{
-  "name": "KAVA/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "KAVA"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'KAVA').price\n        }\n        "
-}

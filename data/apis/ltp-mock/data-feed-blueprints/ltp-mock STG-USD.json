@@ -1,8 +1,0 @@
-{
-  "name": "STG/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "STG"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'STG').price\n        }\n        "
-}

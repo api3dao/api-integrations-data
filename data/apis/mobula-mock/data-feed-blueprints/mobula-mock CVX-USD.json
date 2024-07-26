@@ -1,8 +1,0 @@
-{
-  "name": "CVX/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "CVX"
-  },
-  "parser": "(response) => { return response.data[\"CVX\"].price; }"
-}

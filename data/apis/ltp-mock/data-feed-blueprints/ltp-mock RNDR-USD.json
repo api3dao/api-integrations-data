@@ -1,8 +1,0 @@
-{
-  "name": "RNDR/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "RNDR"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'RNDR').price\n        }\n        "
-}

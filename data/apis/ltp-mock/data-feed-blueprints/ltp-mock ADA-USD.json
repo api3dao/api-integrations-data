@@ -1,8 +1,0 @@
-{
-  "name": "ADA/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "ADA"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ADA').price\n        }\n        "
-}

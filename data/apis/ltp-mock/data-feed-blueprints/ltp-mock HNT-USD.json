@@ -1,8 +1,0 @@
-{
-  "name": "HNT/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "HNT"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'HNT').price\n        }\n        "
-}

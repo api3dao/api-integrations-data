@@ -1,8 +1,0 @@
-{
-  "name": "WLD/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "WLD"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'WLD').price\n        }\n        "
-}

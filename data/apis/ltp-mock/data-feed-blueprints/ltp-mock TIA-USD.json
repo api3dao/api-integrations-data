@@ -1,8 +1,0 @@
-{
-  "name": "TIA/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "TIA"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'TIA').price\n        }\n        "
-}

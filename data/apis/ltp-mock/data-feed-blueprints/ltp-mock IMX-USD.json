@@ -1,8 +1,0 @@
-{
-  "name": "IMX/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "IMX"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'IMX').price\n        }\n        "
-}

@@ -1,8 +1,0 @@
-{
-  "name": "CAKE/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "CAKE"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'CAKE').price\n        }\n        "
-}

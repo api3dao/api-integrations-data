@@ -1,8 +1,0 @@
-{
-  "name": "SAFE/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "SAFE"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'SAFE').price\n        }\n        "
-}

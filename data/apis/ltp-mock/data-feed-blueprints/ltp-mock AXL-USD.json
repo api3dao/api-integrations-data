@@ -1,8 +1,0 @@
-{
-  "name": "AXL/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "AXL"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'AXL').price\n        }\n        "
-}

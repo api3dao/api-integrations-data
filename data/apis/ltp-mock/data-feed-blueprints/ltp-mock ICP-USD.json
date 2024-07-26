@@ -1,8 +1,0 @@
-{
-  "name": "ICP/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "ICP"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ICP').price\n        }\n        "
-}

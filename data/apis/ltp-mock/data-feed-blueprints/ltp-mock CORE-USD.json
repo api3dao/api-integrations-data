@@ -1,8 +1,0 @@
-{
-  "name": "CORE/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "CORE"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'CORE').price\n        }\n        "
-}

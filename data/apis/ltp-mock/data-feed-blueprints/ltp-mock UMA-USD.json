@@ -1,8 +1,0 @@
-{
-  "name": "UMA/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "UMA"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'UMA').price\n        }\n        "
-}

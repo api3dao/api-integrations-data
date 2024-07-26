@@ -1,8 +1,0 @@
-{
-  "name": "CRO/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "CRO"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'CRO').price\n        }\n        "
-}

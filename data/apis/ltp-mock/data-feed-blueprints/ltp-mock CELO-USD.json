@@ -1,8 +1,0 @@
-{
-  "name": "CELO/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "CELO"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'CELO').price\n        }\n        "
-}

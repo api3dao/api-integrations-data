@@ -1,8 +1,0 @@
-{
-  "name": "YFI/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "YFI"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'YFI').price\n        }\n        "
-}

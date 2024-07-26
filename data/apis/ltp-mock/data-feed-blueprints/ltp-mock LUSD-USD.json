@@ -1,8 +1,0 @@
-{
-  "name": "LUSD/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "LUSD"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'LUSD').price\n        }\n        "
-}

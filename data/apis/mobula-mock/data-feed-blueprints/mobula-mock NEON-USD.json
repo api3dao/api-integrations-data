@@ -1,8 +1,0 @@
-{
-  "name": "NEON/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "NEON"
-  },
-  "parser": "(response) => { return response.data[\"NEON\"].price; }"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "OKB/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "OKB"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'OKB').price\n        }\n        "
-}

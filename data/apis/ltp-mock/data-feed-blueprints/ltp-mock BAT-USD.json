@@ -1,8 +1,0 @@
-{
-  "name": "BAT/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "BAT"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'BAT').price\n        }\n        "
-}

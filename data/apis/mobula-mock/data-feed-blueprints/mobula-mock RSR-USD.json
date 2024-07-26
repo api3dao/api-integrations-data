@@ -1,8 +1,0 @@
-{
-  "name": "RSR/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "RSR"
-  },
-  "parser": "(response) => { return response.data[\"RSR\"].price; }"
-}

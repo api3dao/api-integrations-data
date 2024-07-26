@@ -1,8 +1,0 @@
-{
-  "name": "PAXG/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "PAXG"
-  },
-  "parser": "(response) => { return response.data[\"PAXG\"].price; }"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "ADA/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "ADA"
-  },
-  "parser": "(response) => { return response.data[\"ADA\"].price; }"
-}

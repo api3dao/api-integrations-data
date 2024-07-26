@@ -1,8 +1,0 @@
-{
-  "name": "PENDLE/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "PENDLE"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'PENDLE').price\n        }\n        "
-}

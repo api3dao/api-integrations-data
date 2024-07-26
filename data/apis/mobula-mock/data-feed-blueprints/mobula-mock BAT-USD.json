@@ -1,8 +1,0 @@
-{
-  "name": "BAT/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "BAT"
-  },
-  "parser": "(response) => { return response.data[\"BAT\"].price; }"
-}

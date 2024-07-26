@@ -1,8 +1,0 @@
-{
-  "name": "TWT/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "TWT"
-  },
-  "parser": "(response) => { return response.data[\"TWT\"].price; }"
-}

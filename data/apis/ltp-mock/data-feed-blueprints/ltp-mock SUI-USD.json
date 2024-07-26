@@ -1,8 +1,0 @@
-{
-  "name": "SUI/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "SUI"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'SUI').price\n        }\n        "
-}

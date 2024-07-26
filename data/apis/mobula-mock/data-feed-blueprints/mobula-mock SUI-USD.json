@@ -1,8 +1,0 @@
-{
-  "name": "SUI/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "SUI"
-  },
-  "parser": "(response) => { return response.data[\"SUI\"].price; }"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "KDA/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "KDA"
-  },
-  "parser": "(response) => { return response.data[\"KDA\"].price; }"
-}

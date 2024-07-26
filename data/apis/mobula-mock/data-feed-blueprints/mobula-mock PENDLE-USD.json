@@ -1,8 +1,0 @@
-{
-  "name": "PENDLE/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "PENDLE"
-  },
-  "parser": "(response) => { return response.data[\"PENDLE\"].price; }"
-}

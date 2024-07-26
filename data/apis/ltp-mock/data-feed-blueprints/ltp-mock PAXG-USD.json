@@ -1,8 +1,0 @@
-{
-  "name": "PAXG/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "PAXG"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'PAXG').price\n        }\n        "
-}

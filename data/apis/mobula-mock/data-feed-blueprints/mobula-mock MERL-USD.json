@@ -1,8 +1,0 @@
-{
-  "name": "MERL/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "MERL"
-  },
-  "parser": "(response) => { return response.data[\"MERL\"].price; }"
-}

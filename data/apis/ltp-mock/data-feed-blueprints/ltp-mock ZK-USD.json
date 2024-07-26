@@ -1,8 +1,0 @@
-{
-  "name": "ZK/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "ZK"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ZRO').price\n        }\n        "
-}

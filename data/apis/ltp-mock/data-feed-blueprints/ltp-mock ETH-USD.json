@@ -1,8 +1,0 @@
-{
-  "name": "ETH/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "ETH"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ETH').price\n        }\n        "
-}

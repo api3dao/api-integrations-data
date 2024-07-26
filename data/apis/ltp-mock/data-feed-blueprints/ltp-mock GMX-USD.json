@@ -1,8 +1,0 @@
-{
-  "name": "GMX/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "GMX"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'GMX').price\n        }\n        "
-}

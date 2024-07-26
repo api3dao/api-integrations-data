@@ -1,8 +1,0 @@
-{
-  "name": "SAND/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "SAND"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'SAND').price\n        }\n        "
-}

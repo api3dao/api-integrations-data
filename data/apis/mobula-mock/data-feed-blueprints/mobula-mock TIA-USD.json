@@ -1,8 +1,0 @@
-{
-  "name": "TIA/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "TIA"
-  },
-  "parser": "(response) => { return response.data[\"TIA\"].price; }"
-}

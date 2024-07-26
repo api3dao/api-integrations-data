@@ -1,8 +1,0 @@
-{
-  "name": "OSMO/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "OSMO"
-  },
-  "parser": "(response) => { return response.data[\"OSMO\"].price; }"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "CRO/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "CRO"
-  },
-  "parser": "(response) => { return response.data[\"CRO\"].price; }"
-}

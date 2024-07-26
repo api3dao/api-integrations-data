@@ -1,8 +1,0 @@
-{
-  "name": "DYDX/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "DYDX"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'DYDX').price\n        }\n        "
-}

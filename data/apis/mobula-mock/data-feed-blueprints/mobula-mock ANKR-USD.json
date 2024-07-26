@@ -1,8 +1,0 @@
-{
-  "name": "ANKR/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "ANKR"
-  },
-  "parser": "(response) => { return response.data[\"ANKR\"].price; }"
-}

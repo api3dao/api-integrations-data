@@ -1,8 +1,0 @@
-{
-  "name": "SATS/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "SATS"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'SATS').price\n        }\n        "
-}

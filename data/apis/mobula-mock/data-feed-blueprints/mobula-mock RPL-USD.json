@@ -1,8 +1,0 @@
-{
-  "name": "RPL/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "RPL"
-  },
-  "parser": "(response) => { return response.data[\"RPL\"].price; }"
-}

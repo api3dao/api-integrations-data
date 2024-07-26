@@ -1,8 +1,0 @@
-{
-  "name": "MERL/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "MERL"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'MERL').price\n        }\n        "
-}

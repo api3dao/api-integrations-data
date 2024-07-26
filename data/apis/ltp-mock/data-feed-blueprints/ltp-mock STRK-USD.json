@@ -1,8 +1,0 @@
-{
-  "name": "STRK/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "STRK"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'STRK').price\n        }\n        "
-}

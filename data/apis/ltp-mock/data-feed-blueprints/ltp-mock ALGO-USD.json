@@ -1,8 +1,0 @@
-{
-  "name": "ALGO/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "ALGO"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ALGO').price\n        }\n        "
-}

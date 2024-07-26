@@ -1,8 +1,0 @@
-{
-  "name": "FTM/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "FTM"
-  },
-  "parser": "(response) => { return response.data[\"FTM\"].price; }"
-}

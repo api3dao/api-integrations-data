@@ -1,8 +1,0 @@
-{
-  "name": "MNT/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "MNT"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'MNT').price\n        }\n        "
-}

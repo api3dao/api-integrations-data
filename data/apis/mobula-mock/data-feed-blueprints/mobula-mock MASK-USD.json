@@ -1,8 +1,0 @@
-{
-  "name": "MASK/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "MASK"
-  },
-  "parser": "(response) => { return response.data[\"MASK\"].price; }"
-}

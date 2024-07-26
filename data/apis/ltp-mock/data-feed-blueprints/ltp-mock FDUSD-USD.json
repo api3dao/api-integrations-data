@@ -1,8 +1,0 @@
-{
-  "name": "FDUSD/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "FDUSD"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'FDUSD').price\n        }\n        "
-}

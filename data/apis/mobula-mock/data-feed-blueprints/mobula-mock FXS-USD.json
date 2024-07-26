@@ -1,8 +1,0 @@
-{
-  "name": "FXS/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "FXS"
-  },
-  "parser": "(response) => { return response.data[\"FXS\"].price; }"
-}

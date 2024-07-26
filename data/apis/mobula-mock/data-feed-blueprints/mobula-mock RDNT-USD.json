@@ -1,8 +1,0 @@
-{
-  "name": "RDNT/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "RDNT"
-  },
-  "parser": "(response) => { return response.data[\"RDNT\"].price; }"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "MKR/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "MKR"
-  },
-  "parser": "(response) => { return response.data[\"MKR\"].price; }"
-}

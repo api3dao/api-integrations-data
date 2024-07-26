@@ -1,8 +1,0 @@
-{
-  "name": "APT/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "APT"
-  },
-  "parser": "(response) => { return response.data[\"APT\"].price; }"
-}

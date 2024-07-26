@@ -1,8 +1,0 @@
-{
-  "name": "APE/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "APE"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'APE').price\n        }\n        "
-}

@@ -1,8 +1,0 @@
-{
-  "name": "BAL/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "BAL"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'BAL').price\n        }\n        "
-}

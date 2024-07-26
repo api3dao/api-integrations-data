@@ -1,8 +1,0 @@
-{
-  "name": "NEON/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "NEON"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'NEON').price\n        }\n        "
-}

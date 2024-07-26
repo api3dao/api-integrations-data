@@ -1,8 +1,0 @@
-{
-  "name": "DAI/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "DAI"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'DAI').price\n        }\n        "
-}

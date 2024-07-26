@@ -1,8 +1,0 @@
-{
-  "name": "ROSE/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "ROSE"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ROSE').price\n        }\n        "
-}

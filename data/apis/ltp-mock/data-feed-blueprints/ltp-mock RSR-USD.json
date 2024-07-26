@@ -1,8 +1,0 @@
-{
-  "name": "RSR/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "RSR"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'RSR').price\n        }\n        "
-}

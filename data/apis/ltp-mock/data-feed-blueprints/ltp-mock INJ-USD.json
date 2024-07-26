@@ -1,8 +1,0 @@
-{
-  "name": "INJ/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "INJ"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'INJ').price\n        }\n        "
-}

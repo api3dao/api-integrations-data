@@ -1,8 +1,0 @@
-{
-  "name": "SNX/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "SNX"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'SNX').price\n        }\n        "
-}

@@ -1,8 +1,0 @@
-{
-  "name": "AVAX/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "AVAX"
-  },
-  "parser": "(response) => { return response.data[\"AVAX\"].price; }"
-}

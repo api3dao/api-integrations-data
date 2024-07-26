@@ -1,8 +1,0 @@
-{
-  "name": "ATOM/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "ATOM"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'ATOM').price\n        }\n        "
-}

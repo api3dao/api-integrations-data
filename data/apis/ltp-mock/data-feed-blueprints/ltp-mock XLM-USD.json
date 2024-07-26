@@ -1,8 +1,0 @@
-{
-  "name": "XLM/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "XLM"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'XLM').price\n        }\n        "
-}

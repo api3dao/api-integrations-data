@@ -1,8 +1,0 @@
-{
-  "name": "COMP/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "COMP"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'COMP').price\n        }\n        "
-}

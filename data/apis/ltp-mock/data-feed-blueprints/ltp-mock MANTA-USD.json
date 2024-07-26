@@ -1,8 +1,0 @@
-{
-  "name": "MANTA/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "MANTA"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'MANTA').price\n        }\n        "
-}

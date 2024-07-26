@@ -1,8 +1,0 @@
-{
-  "name": "GNO/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "GNO"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'GNO').price\n        }\n        "
-}

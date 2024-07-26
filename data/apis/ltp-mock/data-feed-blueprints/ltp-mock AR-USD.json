@@ -1,8 +1,0 @@
-{
-  "name": "AR/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "AR"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'AR').price\n        }\n        "
-}

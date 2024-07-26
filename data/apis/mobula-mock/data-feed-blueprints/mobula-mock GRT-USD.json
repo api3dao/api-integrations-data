@@ -1,8 +1,0 @@
-{
-  "name": "GRT/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "GRT"
-  },
-  "parser": "(response) => { return response.data[\"GRT\"].price; }"
-}

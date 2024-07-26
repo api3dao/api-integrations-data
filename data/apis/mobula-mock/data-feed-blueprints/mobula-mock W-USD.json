@@ -1,8 +1,0 @@
-{
-  "name": "W/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "W"
-  },
-  "parser": "(response) => { return response.data[\"W\"].price; }"
-}

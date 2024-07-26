@@ -1,8 +1,0 @@
-{
-  "name": "XTZ/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "XTZ"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'XTZ').price\n        }\n        "
-}

@@ -1,8 +1,0 @@
-{
-  "name": "SUSHI/USD",
-  "path": "api/v1/ticker/price",
-  "parameters": {
-    "symbols": "SUSHI"
-  },
-  "parser": "(response) => {\n          return response.find((d) => d.symbol === 'SUSHI').price\n        }\n        "
-}

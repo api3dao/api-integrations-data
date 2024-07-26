@@ -1,8 +1,0 @@
-{
-  "name": "SOL/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "SOL"
-  },
-  "parser": "(response) => { return response.data[\"SOL\"].price; }"
-}

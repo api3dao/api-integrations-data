@@ -1,8 +1,0 @@
-{
-  "name": "BAL/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "BAL"
-  },
-  "parser": "(response) => { return response.data[\"BAL\"].price; }"
-}

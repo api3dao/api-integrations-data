@@ -1,8 +1,0 @@
-{
-  "name": "SAND/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "SAND"
-  },
-  "parser": "(response) => { return response.data[\"SAND\"].price; }"
-}

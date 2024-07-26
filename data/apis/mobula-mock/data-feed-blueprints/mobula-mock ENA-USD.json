@@ -1,8 +1,0 @@
-{
-  "name": "ENA/USD",
-  "path": "1/market/multi-data",
-  "parameters": {
-    "symbols": "ENA"
-  },
-  "parser": "(response) => { return response.data[\"ENA\"].price; }"
-}
