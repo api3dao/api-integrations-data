@@ -1,0 +1,61 @@
+{
+  "alias": "blastapi",
+  "name": "BlastAPI",
+  "providerType": "rpc",
+  "airnode": "0xeA42eAC629b517Ab560d26962cdD4d86dAf2cc8e",
+  "xpub": "xpub6CQ18KjH9Yb2132WbQakNyGWCsX98gMBDqo4V6ZRpZNryAQYBcmbkuWbA4JCkHufnJ9ak84FdkEkhzbduzLBc9ovvfHYcrd6Vv8WbEByb3A",
+  "supportedFeedsInBatches": {
+    "BlastAPI": [
+      ["cbETH/ETH Exchange Rate"],
+      ["rETH/ETH Exchange Rate"],
+      ["sfrxETH/frxETH Exchange Rate"],
+      ["swETH/ETH Exchange Rate"],
+      ["wstETH/stETH Exchange Rate"],
+      ["mETH/ETH Exchange Rate"],
+      ["stMATIC/MATIC Exchange Rate"],
+      ["MATICx/MATIC Exchange Rate"],
+      ["ETHx/ETH Exchange Rate"],
+      ["uniETH/ETH Exchange Rate"],
+      ["osETH/ETH Exchange Rate"],
+      ["weETH/ETH Exchange Rate"],
+      ["STONE/ETH Exchange Rate"],
+      ["USDY/USD Exchange Rate"],
+      ["rsETH/ETH Exchange Rate"],
+      ["rswETH/ETH Exchange Rate"],
+      ["apxETH/pxETH Exchange Rate"],
+      ["ezETH/ETH Exchange Rate"],
+      ["sAVAX/AVAX Exchange Rate"],
+      ["wUSDM/USDM Exchange Rate"],
+      ["sDAI/DAI Exchange Rate"],
+      ["sUSDe/USDe Exchange Rate"],
+      ["pufETH/stETH Exchange Rate"],
+      ["mpETH/ETH Exchange Rate"],
+      ["stTAO/TAO Exchange Rate"],
+      ["sFRAX/FRAX Exchange Rate"],
+      ["wBETH/ETH Exchange Rate"],
+      ["BNBx/BNB Exchange Rate"],
+      ["slisBNB/BNB Exchange Rate"],
+      ["weETHs/ETH Exchange Rate"],
+      ["spETH/ETH Exchange Rate"],
+      ["inETH/ETH Exchange Rate"]
+    ]
+  },
+  "deploymentLocations": ["aws"],
+  "homepageUrl": "https://blastapi.io",
+  "verifiedBaseUrl": "https://blastapi.io",
+  "signedApiUrl": "",
+  "productionSignedApiUrls": [
+    {
+      "url": "https://signed-api.nodary.io",
+      "name": "Nodary"
+    },
+    {
+      "url": "https://signed-api.api3.org",
+      "name": "API3"
+    }
+  ],
+  "stagingSignedApiUrl": {
+    "url": "https://signed-api.stage.nodary.io",
+    "name": "Staging"
+  }
+}
