@@ -1,0 +1,6 @@
+{
+  "name": "MATIC/USD",
+  "path": "v1/exchangerate/matic/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

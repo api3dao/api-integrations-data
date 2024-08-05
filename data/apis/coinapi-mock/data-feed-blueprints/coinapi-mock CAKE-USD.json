@@ -1,0 +1,6 @@
+{
+  "name": "CAKE/USD",
+  "path": "v1/exchangerate/cake/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

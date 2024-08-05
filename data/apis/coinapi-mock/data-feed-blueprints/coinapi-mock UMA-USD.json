@@ -1,0 +1,6 @@
+{
+  "name": "UMA/USD",
+  "path": "v1/exchangerate/uma/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

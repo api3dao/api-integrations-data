@@ -1,0 +1,6 @@
+{
+  "name": "CRO/USD",
+  "path": "v1/exchangerate/cro/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

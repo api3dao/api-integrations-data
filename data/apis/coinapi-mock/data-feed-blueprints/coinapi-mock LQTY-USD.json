@@ -1,0 +1,6 @@
+{
+  "name": "LQTY/USD",
+  "path": "v1/exchangerate/lqty/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

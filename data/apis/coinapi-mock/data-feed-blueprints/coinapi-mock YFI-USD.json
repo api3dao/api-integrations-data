@@ -1,0 +1,6 @@
+{
+  "name": "YFI/USD",
+  "path": "v1/exchangerate/yfi/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

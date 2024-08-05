@@ -1,0 +1,6 @@
+{
+  "name": "BLAST/USD",
+  "path": "v1/exchangerate/blast/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

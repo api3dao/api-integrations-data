@@ -1,0 +1,6 @@
+{
+  "name": "API3/USD",
+  "path": "v1/exchangerate/api3/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

@@ -1,0 +1,6 @@
+{
+  "name": "FXS/USD",
+  "path": "v1/exchangerate/fxs/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}

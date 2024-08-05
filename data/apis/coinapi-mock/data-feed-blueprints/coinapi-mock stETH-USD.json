@@ -1,0 +1,6 @@
+{
+  "name": "stETH/USD",
+  "path": "v1/exchangerate/steth/usd",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.rate\n        }\n        "
+}
