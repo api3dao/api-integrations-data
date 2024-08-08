@@ -1,0 +1,6 @@
+{
+  "name": "PYTH/USD",
+  "path": "getVWAP/PYTHUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

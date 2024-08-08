@@ -1,0 +1,6 @@
+{
+  "name": "MASK/USD",
+  "path": "getVWAP/MASKUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

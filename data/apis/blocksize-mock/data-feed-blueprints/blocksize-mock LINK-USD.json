@@ -1,0 +1,6 @@
+{
+  "name": "LINK/USD",
+  "path": "getVWAP/LINKUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

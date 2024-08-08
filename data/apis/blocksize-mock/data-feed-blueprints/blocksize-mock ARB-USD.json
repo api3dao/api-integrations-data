@@ -1,0 +1,6 @@
+{
+  "name": "ARB/USD",
+  "path": "getVWAP/ARBUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "STG/USD",
+  "path": "getVWAP/STGUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

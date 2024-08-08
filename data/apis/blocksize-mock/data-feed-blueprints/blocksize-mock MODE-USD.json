@@ -1,0 +1,6 @@
+{
+  "name": "MODE/USD",
+  "path": "getVWAP/MODEUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

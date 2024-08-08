@@ -1,0 +1,6 @@
+{
+  "name": "STRK/USD",
+  "path": "getVWAP/STRKUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

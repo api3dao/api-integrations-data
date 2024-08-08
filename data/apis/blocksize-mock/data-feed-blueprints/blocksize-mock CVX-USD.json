@@ -1,0 +1,6 @@
+{
+  "name": "CVX/USD",
+  "path": "getVWAP/CVXUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

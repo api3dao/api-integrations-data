@@ -1,0 +1,6 @@
+{
+  "name": "SHIB/USD",
+  "path": "getVWAP/SHIBUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

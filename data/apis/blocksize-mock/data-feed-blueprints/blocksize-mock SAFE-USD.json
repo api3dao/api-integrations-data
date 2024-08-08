@@ -1,0 +1,6 @@
+{
+  "name": "SAFE/USD",
+  "path": "getVWAP/SAFEUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

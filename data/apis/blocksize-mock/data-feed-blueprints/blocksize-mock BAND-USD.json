@@ -1,0 +1,6 @@
+{
+  "name": "BAND/USD",
+  "path": "getVWAP/BANDUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

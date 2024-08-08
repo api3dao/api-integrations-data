@@ -1,0 +1,6 @@
+{
+  "name": "CRV/USD",
+  "path": "getVWAP/CRVUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

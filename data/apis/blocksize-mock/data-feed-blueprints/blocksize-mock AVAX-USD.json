@@ -1,0 +1,6 @@
+{
+  "name": "AVAX/USD",
+  "path": "getVWAP/AVAXUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

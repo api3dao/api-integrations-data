@@ -1,0 +1,6 @@
+{
+  "name": "DEGEN/USD",
+  "path": "getVWAP/DEGENUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

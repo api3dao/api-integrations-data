@@ -1,0 +1,6 @@
+{
+  "name": "SEI/USD",
+  "path": "getVWAP/SEIUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

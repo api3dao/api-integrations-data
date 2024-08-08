@@ -1,0 +1,6 @@
+{
+  "name": "OKB/USD",
+  "path": "getVWAP/OKBUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

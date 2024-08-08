@@ -1,0 +1,6 @@
+{
+  "name": "BAL/USD",
+  "path": "getVWAP/BALUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

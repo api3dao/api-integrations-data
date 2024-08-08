@@ -1,0 +1,6 @@
+{
+  "name": "YFI/USD",
+  "path": "getVWAP/YFIUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MERL/USD",
+  "path": "getVWAP/MERLUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

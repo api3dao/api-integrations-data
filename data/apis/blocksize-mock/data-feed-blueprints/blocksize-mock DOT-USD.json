@@ -1,0 +1,6 @@
+{
+  "name": "DOT/USD",
+  "path": "getVWAP/DOTUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

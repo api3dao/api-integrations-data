@@ -1,0 +1,6 @@
+{
+  "name": "RPL/USD",
+  "path": "getVWAP/RPLUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

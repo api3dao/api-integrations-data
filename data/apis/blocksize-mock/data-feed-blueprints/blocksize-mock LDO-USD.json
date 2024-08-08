@@ -1,0 +1,6 @@
+{
+  "name": "LDO/USD",
+  "path": "getVWAP/LDOUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

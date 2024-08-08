@@ -1,0 +1,6 @@
+{
+  "name": "RNDR/USD",
+  "path": "getVWAP/RNDRUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

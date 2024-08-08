@@ -1,0 +1,6 @@
+{
+  "name": "METIS/USD",
+  "path": "getVWAP/METISUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}
