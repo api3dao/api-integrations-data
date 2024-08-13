@@ -144,7 +144,8 @@
       ["W/USD"],
       ["BLAST/USD"],
       ["ZRO/USD"],
-      ["ZK/USD"]
+      ["ZK/USD"],
+      ["CFX/USD"]
     ]
   },
   "deploymentLocations": ["local"],

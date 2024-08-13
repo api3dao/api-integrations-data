@@ -224,7 +224,8 @@
       ["NOK/USD"],
       ["weETHs/ETH Exchange Rate"],
       ["BLAST/USD"],
-      ["inETH/ETH Exchange Rate"]
+      ["inETH/ETH Exchange Rate"],
+      ["CFX/USD"]
     ]
   },
   "deploymentLocations": ["local"],
