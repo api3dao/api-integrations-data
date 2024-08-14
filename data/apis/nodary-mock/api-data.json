@@ -225,7 +225,8 @@
       ["weETHs/ETH Exchange Rate"],
       ["BLAST/USD"],
       ["inETH/ETH Exchange Rate"],
-      ["CFX/USD"]
+      ["CFX/USD"],
+      ["RENDER/USD"]
     ]
   },
   "deploymentLocations": ["local"],
