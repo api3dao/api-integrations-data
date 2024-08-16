@@ -224,7 +224,10 @@
       ["W/USD"],
       ["weETHs/ETH Exchange Rate"],
       ["BLAST/USD"],
-      ["inETH/ETH Exchange Rate"]
+      ["inETH/ETH Exchange Rate"],
+      ["CFX/USD"],
+      ["RENDER/USD"],
+      ["ankrETH/ETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["aws"],

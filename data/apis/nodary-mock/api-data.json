@@ -226,7 +226,8 @@
       ["BLAST/USD"],
       ["inETH/ETH Exchange Rate"],
       ["CFX/USD"],
-      ["RENDER/USD"]
+      ["RENDER/USD"],
+      ["ankrETH/ETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["local"],
