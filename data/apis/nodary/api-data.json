@@ -227,7 +227,9 @@
       ["inETH/ETH Exchange Rate"],
       ["CFX/USD"],
       ["RENDER/USD"],
-      ["ankrETH/ETH Exchange Rate"]
+      ["ankrETH/ETH Exchange Rate"],
+      ["ultraETHs/wstETH Exchange Rate"],
+      ["agETH/rsETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["aws"],

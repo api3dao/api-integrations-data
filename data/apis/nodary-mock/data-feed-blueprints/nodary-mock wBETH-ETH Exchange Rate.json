@@ -4,5 +4,5 @@
   "parameters": {
     "name": "wBETH/ETH Exchange Rate"
   },
-  "parser": "(response) => {\n          return response.value\n        }\n        "
+  "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
 }
