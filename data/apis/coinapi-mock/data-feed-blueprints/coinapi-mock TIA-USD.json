@@ -1,6 +1,0 @@
-{
-  "name": "TIA/USD",
-  "path": "v1/exchangerate/tia/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

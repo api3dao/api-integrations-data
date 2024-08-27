@@ -1,6 +1,0 @@
-{
-  "name": "PENDLE/USD",
-  "path": "v1/exchangerate/pendle/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

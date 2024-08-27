@@ -1,6 +1,0 @@
-{
-  "name": "QUICK/USD",
-  "path": "v1/exchangerate/quick/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

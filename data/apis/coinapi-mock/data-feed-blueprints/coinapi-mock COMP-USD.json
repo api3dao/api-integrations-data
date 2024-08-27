@@ -1,6 +1,0 @@
-{
-  "name": "COMP/USD",
-  "path": "v1/exchangerate/comp/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

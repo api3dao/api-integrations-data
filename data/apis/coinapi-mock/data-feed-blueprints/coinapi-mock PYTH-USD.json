@@ -1,6 +1,0 @@
-{
-  "name": "PYTH/USD",
-  "path": "v1/exchangerate/pyth/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

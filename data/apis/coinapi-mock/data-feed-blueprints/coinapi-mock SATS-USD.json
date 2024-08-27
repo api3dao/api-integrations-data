@@ -1,6 +1,0 @@
-{
-  "name": "SATS/USD",
-  "path": "v1/exchangerate/sats/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

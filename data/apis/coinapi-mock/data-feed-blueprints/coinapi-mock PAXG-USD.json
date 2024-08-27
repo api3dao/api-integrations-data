@@ -1,6 +1,0 @@
-{
-  "name": "PAXG/USD",
-  "path": "v1/exchangerate/paxg/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

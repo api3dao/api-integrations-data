@@ -1,6 +1,0 @@
-{
-  "name": "SAND/USD",
-  "path": "v1/exchangerate/sand/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

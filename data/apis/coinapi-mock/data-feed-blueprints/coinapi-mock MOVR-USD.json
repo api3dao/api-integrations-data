@@ -1,6 +1,0 @@
-{
-  "name": "MOVR/USD",
-  "path": "v1/exchangerate/movr/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

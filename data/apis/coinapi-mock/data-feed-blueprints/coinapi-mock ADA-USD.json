@@ -1,6 +1,0 @@
-{
-  "name": "ADA/USD",
-  "path": "v1/exchangerate/ada/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

@@ -1,6 +1,0 @@
-{
-  "name": "XLM/USD",
-  "path": "v1/exchangerate/xlm/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

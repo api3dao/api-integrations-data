@@ -1,6 +1,0 @@
-{
-  "name": "APE/USD",
-  "path": "v1/exchangerate/ape/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

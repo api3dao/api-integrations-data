@@ -1,6 +1,0 @@
-{
-  "name": "NEAR/USD",
-  "path": "v1/exchangerate/near/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

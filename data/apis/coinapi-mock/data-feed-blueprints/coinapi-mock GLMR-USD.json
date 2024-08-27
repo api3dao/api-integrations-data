@@ -1,6 +1,0 @@
-{
-  "name": "GLMR/USD",
-  "path": "v1/exchangerate/glmr/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}

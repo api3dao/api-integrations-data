@@ -1,6 +1,0 @@
-{
-  "name": "NEON/USD",
-  "path": "v1/exchangerate/neon/usd",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.rate\n        }\n        "
-}
