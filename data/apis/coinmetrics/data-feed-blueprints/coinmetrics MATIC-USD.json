@@ -1,0 +1,12 @@
+{
+  "name": "MATIC/USD",
+  "path": "v4/timeseries/asset-metrics",
+  "parameters": {
+    "assets": "matic",
+    "metrics": "ReferenceRate",
+    "frequency": "1s",
+    "limit_per_asset": "1",
+    "page_size": "2000"
+  },
+  "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'matic').ReferenceRate\n        }\n        "
+}
