@@ -140,7 +140,7 @@
       ]
     ]
   },
-  "deploymentLocations": ["local"],
+  "deploymentLocations": ["aws"],
   "homepageUrl": "https://coinmetrics.io",
   "verifiedBaseUrl": "https://coinmetrics.io",
   "signedApiUrl": "",
