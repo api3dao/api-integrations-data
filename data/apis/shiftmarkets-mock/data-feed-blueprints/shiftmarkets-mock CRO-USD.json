@@ -1,0 +1,8 @@
+{
+  "name": "CRO/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "CRO/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CRO/USD').price\n        }"
+}

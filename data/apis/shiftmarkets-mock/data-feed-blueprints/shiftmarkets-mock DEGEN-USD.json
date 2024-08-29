@@ -1,0 +1,8 @@
+{
+  "name": "DEGEN/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "DEGEN/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'DEGEN/USD').price\n        }"
+}

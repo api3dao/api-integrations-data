@@ -1,0 +1,8 @@
+{
+  "name": "MATIC/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "MATIC/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MATIC/USD').price\n        }"
+}

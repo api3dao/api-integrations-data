@@ -1,0 +1,8 @@
+{
+  "name": "MASK/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "MASK/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MASK/USD').price\n        }"
+}

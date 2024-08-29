@@ -1,0 +1,8 @@
+{
+  "name": "GNS/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "GNS/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'GNS/USD').price\n        }"
+}

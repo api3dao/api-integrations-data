@@ -1,0 +1,8 @@
+{
+  "name": "AERO/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "AERO/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'AERO/USD').price\n        }"
+}

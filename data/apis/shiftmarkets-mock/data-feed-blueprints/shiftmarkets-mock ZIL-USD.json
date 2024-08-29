@@ -1,0 +1,8 @@
+{
+  "name": "ZIL/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "ZIL/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ZIL/USD').price\n        }"
+}

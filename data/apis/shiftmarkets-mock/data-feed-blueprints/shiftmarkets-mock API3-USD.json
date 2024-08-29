@@ -1,0 +1,8 @@
+{
+  "name": "API3/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "API3/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'API3/USD').price\n        }"
+}

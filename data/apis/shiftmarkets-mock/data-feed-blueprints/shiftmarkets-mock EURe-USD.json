@@ -1,0 +1,8 @@
+{
+  "name": "EURe/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "EURE/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'EURE/USD').price\n        }\n        "
+}
