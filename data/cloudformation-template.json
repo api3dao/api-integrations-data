@@ -106,7 +106,7 @@
           },
           {
             "Name": "AirnodeFeed",
-            "Image": "api3/airnode-feed:1.1.0",
+            "Image": "api3/airnode-feed:2.0.0",
             "Environment": [
               {
                 "Name": "SECRETS_ENV",

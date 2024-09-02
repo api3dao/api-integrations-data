@@ -37,7 +37,10 @@
       ["slisBNB/BNB Exchange Rate"],
       ["weETHs/ETH Exchange Rate"],
       ["spETH/ETH Exchange Rate"],
-      ["inETH/ETH Exchange Rate"]
+      ["inETH/ETH Exchange Rate"],
+      ["ankrETH/ETH Exchange Rate"],
+      ["ultraETHs/wstETH Exchange Rate"],
+      ["agETH/rsETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["local"],
