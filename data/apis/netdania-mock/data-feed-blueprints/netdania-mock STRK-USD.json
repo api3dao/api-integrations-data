@@ -1,0 +1,13 @@
+{
+  "name": "STRK/USD",
+  "path": "StreamingServer/StreamingServer",
+  "parameters": {
+    "data": "price",
+    "format": "json",
+    "group": "api3market",
+    "source": "cryptoxchange",
+    "fields": "6|105",
+    "symbols": "STRKUSD"
+  },
+  "parser": "(response) => {\n        return response.quotes.find((item) => item.fields.f105 === 'STRKUSD').fields.f6;\n      }"
+}

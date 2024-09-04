@@ -1,0 +1,13 @@
+{
+  "name": "AR/USD",
+  "path": "StreamingServer/StreamingServer",
+  "parameters": {
+    "data": "price",
+    "format": "json",
+    "group": "api3market",
+    "source": "cryptoxchange",
+    "fields": "6|105",
+    "symbols": "ARUSD"
+  },
+  "parser": "(response) => {\n        return response.quotes.find((item) => item.fields.f105 === 'ARUSD').fields.f6;\n      }"
+}

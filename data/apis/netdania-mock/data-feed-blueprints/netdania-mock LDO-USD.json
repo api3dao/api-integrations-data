@@ -1,0 +1,13 @@
+{
+  "name": "LDO/USD",
+  "path": "StreamingServer/StreamingServer",
+  "parameters": {
+    "data": "price",
+    "format": "json",
+    "group": "api3market",
+    "source": "cryptoxchange",
+    "fields": "6|105",
+    "symbols": "LDOUSD"
+  },
+  "parser": "(response) => {\n        return response.quotes.find((item) => item.fields.f105 === 'LDOUSD').fields.f6;\n      }"
+}

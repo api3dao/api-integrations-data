@@ -1,0 +1,13 @@
+{
+  "name": "GMX/USD",
+  "path": "StreamingServer/StreamingServer",
+  "parameters": {
+    "data": "price",
+    "format": "json",
+    "group": "api3market",
+    "source": "cryptoxchange",
+    "fields": "6|105",
+    "symbols": "GMXUSD"
+  },
+  "parser": "(response) => {\n        return response.quotes.find((item) => item.fields.f105 === 'GMXUSD').fields.f6;\n      }"
+}
