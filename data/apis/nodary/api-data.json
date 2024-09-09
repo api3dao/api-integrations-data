@@ -229,7 +229,8 @@
       ["RENDER/USD"],
       ["ankrETH/ETH Exchange Rate"],
       ["ultraETHs/wstETH Exchange Rate"],
-      ["agETH/rsETH Exchange Rate"]
+      ["agETH/rsETH Exchange Rate"],
+      ["POL/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

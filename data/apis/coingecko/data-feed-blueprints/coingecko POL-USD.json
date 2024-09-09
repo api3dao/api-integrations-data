@@ -1,0 +1,9 @@
+{
+  "name": "POL/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "polygon-ecosystem-token",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['polygon-ecosystem-token']['usd']\n        }\n        "
+}

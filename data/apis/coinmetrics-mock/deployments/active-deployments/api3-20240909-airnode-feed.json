@@ -1458,15 +1458,15 @@
           "0x389204bc39b72a5b22b71a248b9bf1f1019ba6aa5bea16cd6606efe9d08fe03c",
           "0xbda0aa9c7db962a49b8c9e645ab659e019eff97190a15c478a4c0e9082059b9a"
         ],
-        "fetchInterval": 5
+        "fetchInterval": 60
       }
     ]
   },
   "signedApis": [
     {
-      "name": "Staging",
-      "url": "https://signed-api.stage.nodary.io",
-      "authToken": "${AUTH_TOKEN_STAGING}"
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
     }
   ],
   "ois": [
