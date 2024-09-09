@@ -1,0 +1,9 @@
+{
+  "name": "RENDER/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "render-token",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['render-token']['usd']\n        }\n        "
+}
