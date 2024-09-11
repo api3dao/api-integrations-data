@@ -1,5 +1,5 @@
 {
-  "name": "MANTA/USD",
+  "name": "COIN/USD",
   "path": "StreamingServer/StreamingServer",
   "parameters": {
     "data": "price",
@@ -7,7 +7,7 @@
     "group": "api3market",
     "source": "cryptoxchange",
     "fields": "6|105",
-    "symbols": "MANTAUSDT"
+    "symbols": "COINUSD"
   },
-  "parser": "(response) => {\n        return response.quotes.find((item) => item.fields.f105 === 'MANTAUSDT').fields.f6;\n      }"
+  "parser": "(response) => {\n        return response.quotes.find((item) => item.fields.f105 === 'COINUSD').fields.f6;\n      }"
 }
