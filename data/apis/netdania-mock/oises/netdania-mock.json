@@ -53,7 +53,7 @@
     },
     "servers": [
       {
-        "url": "https://balancer.netdania.com"
+        "url": "http://balancer.netdania.com:81"
       }
     ]
   },
