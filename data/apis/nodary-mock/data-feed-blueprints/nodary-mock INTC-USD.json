@@ -1,8 +1,0 @@
-{
-  "name": "INTC/USD",
-  "parameters": {
-    "name": "INTC/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

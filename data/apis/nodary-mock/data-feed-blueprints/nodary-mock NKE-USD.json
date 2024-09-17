@@ -1,8 +1,0 @@
-{
-  "name": "NKE/USD",
-  "path": "feed/latest",
-  "parameters": {
-    "name": "NKE/USD"
-  },
-  "parser": "(response) => {\n          return response.value\n        }\n        "
-}

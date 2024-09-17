@@ -1,6 +1,0 @@
-{
-  "name": "EUL/USD",
-  "parameters": {},
-  "path": "last/crypto/EULUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

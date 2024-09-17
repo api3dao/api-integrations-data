@@ -1,8 +1,0 @@
-{
-  "name": "PEPE/USD",
-  "parameters": {
-    "name": "PEPE/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}
