@@ -1768,7 +1768,7 @@
         },
         "servers": [
           {
-            "url": "http://185.201.147.178"
+            "url": "https://realtime.blocksize.info"
           }
         ],
         "security": {}
