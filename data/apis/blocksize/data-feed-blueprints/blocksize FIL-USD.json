@@ -1,0 +1,6 @@
+{
+  "name": "FIL/USD",
+  "path": "getVWAP/FILUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

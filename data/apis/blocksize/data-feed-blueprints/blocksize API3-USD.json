@@ -1,0 +1,6 @@
+{
+  "name": "API3/USD",
+  "path": "getVWAP/API3USD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

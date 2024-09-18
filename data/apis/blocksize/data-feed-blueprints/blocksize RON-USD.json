@@ -1,0 +1,6 @@
+{
+  "name": "RON/USD",
+  "path": "getVWAP/RONUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

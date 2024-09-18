@@ -1,0 +1,6 @@
+{
+  "name": "DYM/USD",
+  "path": "getVWAP/DYMUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

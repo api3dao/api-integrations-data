@@ -1,0 +1,6 @@
+{
+  "name": "MOVR/USD",
+  "path": "getVWAP/MOVRUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

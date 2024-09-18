@@ -1,0 +1,6 @@
+{
+  "name": "QUICK/USD",
+  "path": "getVWAP/QUICKUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

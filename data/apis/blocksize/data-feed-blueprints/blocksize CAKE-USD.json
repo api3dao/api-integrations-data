@@ -1,0 +1,6 @@
+{
+  "name": "CAKE/USD",
+  "path": "getVWAP/CAKEUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PAXG/USD",
+  "path": "getVWAP/PAXGUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

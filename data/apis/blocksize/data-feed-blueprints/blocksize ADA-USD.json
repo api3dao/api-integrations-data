@@ -1,0 +1,6 @@
+{
+  "name": "ADA/USD",
+  "path": "getVWAP/ADAUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

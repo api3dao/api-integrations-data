@@ -1,0 +1,6 @@
+{
+  "name": "RARI/USD",
+  "path": "getVWAP/RARIUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

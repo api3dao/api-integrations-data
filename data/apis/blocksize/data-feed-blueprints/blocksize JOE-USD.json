@@ -1,0 +1,6 @@
+{
+  "name": "JOE/USD",
+  "path": "getVWAP/JOEUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

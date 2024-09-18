@@ -1,0 +1,6 @@
+{
+  "name": "AR/USD",
+  "path": "getVWAP/ARUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

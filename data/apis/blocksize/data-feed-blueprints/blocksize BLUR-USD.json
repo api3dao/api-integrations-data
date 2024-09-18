@@ -1,0 +1,6 @@
+{
+  "name": "BLUR/USD",
+  "path": "getVWAP/BLURUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

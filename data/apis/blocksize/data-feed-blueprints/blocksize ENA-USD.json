@@ -1,0 +1,6 @@
+{
+  "name": "ENA/USD",
+  "path": "getVWAP/ENAUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

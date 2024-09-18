@@ -1,0 +1,6 @@
+{
+  "name": "KDA/USD",
+  "path": "getVWAP/KDAUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

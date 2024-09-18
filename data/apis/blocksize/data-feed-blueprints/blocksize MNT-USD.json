@@ -1,0 +1,6 @@
+{
+  "name": "MNT/USD",
+  "path": "getVWAP/MNTUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

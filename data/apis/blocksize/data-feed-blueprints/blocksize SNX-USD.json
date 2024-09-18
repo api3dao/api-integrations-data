@@ -1,0 +1,6 @@
+{
+  "name": "SNX/USD",
+  "path": "getVWAP/SNXUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

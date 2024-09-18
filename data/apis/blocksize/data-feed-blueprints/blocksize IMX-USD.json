@@ -1,0 +1,6 @@
+{
+  "name": "IMX/USD",
+  "path": "getVWAP/IMXUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "GRT/USD",
+  "path": "getVWAP/GRTUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

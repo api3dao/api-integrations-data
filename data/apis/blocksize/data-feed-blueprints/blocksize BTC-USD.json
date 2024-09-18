@@ -1,0 +1,6 @@
+{
+  "name": "BTC/USD",
+  "path": "getVWAP/BTCUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

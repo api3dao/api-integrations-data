@@ -1,0 +1,6 @@
+{
+  "name": "W/USD",
+  "path": "getVWAP/WUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "BLAST/USD",
+  "path": "getVWAP/BLASTUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

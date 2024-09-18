@@ -1,0 +1,6 @@
+{
+  "name": "APE/USD",
+  "path": "getVWAP/APEUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

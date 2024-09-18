@@ -1,0 +1,6 @@
+{
+  "name": "XTZ/USD",
+  "path": "getVWAP/XTZUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

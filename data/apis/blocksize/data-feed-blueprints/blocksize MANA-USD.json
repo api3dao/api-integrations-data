@@ -1,0 +1,6 @@
+{
+  "name": "MANA/USD",
+  "path": "getVWAP/MANAUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CORE/USD",
+  "path": "getVWAP/COREUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

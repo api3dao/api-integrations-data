@@ -1,0 +1,6 @@
+{
+  "name": "XLM/USD",
+  "path": "getVWAP/XLMUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

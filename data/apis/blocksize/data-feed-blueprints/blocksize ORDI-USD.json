@@ -1,0 +1,6 @@
+{
+  "name": "ORDI/USD",
+  "path": "getVWAP/ORDIUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

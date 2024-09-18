@@ -1,0 +1,6 @@
+{
+  "name": "ROSE/USD",
+  "path": "getVWAP/ROSEUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

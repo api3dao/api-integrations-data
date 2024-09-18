@@ -1,0 +1,6 @@
+{
+  "name": "RSR/USD",
+  "path": "getVWAP/RSRUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

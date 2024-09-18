@@ -1,0 +1,6 @@
+{
+  "name": "TIA/USD",
+  "path": "getVWAP/TIAUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

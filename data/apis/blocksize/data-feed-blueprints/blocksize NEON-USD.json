@@ -1,0 +1,6 @@
+{
+  "name": "NEON/USD",
+  "path": "getVWAP/NEONUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

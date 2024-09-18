@@ -1,0 +1,6 @@
+{
+  "name": "WBTC/USD",
+  "path": "getVWAP/WBTCUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

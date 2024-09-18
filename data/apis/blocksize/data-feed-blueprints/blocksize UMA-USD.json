@@ -1,0 +1,6 @@
+{
+  "name": "UMA/USD",
+  "path": "getVWAP/UMAUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}
