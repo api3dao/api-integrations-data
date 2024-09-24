@@ -220,7 +220,11 @@
       ["ankrETH/ETH Exchange Rate"],
       ["ultraETHs/wstETH Exchange Rate"],
       ["agETH/rsETH Exchange Rate"],
-      ["POL/USD"]
+      ["instETH/stETH Exchange Rate"],
+      ["POL/USD"],
+      ["EURC/USD"],
+      ["ZRO/USD"],
+      ["ZK/USD"]
     ]
   },
   "deploymentLocations": ["aws"],
