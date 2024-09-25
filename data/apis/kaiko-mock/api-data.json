@@ -128,7 +128,8 @@
       ["ZK/USD"],
       ["CFX/USD"],
       ["RENDER/USD"],
-      ["POL/USD"]
+      ["POL/USD"],
+      ["EURC/USD"]
     ]
   },
   "deploymentLocations": ["local"],

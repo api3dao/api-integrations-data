@@ -131,7 +131,8 @@
         "USDC/USD",
         "USDP/USD",
         "USDT/USD",
-        "POL/USD"
+        "POL/USD",
+        "EURC/USD"
       ]
     ]
   },
