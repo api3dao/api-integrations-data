@@ -1,6 +1,6 @@
 {
   "alias": "coinmetrics-mock",
-  "name": "CoinMetrics-Mock",
+  "name": "Coin Metrics-Mock",
   "providerType": "rest",
   "airnode": "0x0f84485f0c86D9c70144C4621Cb9b9a4d791F7f7",
   "xpub": "",

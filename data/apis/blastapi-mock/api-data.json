@@ -1,6 +1,6 @@
 {
   "alias": "blastapi-mock",
-  "name": "BlastAPI-Mock",
+  "name": "Blast API-Mock",
   "providerType": "rpc",
   "airnode": "0x3FBEd714e50206Fe6704C3BFc71552AdC92E81d0",
   "xpub": "",

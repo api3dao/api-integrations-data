@@ -1,6 +1,6 @@
 {
   "alias": "ncfx-mock",
-  "name": "NewChangeFX-Mock",
+  "name": "NCFX-Mock",
   "providerType": "rest",
   "airnode": "0x220Ad4917B349F69288E892e50E929A693B71920",
   "xpub": "",
