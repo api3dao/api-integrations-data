@@ -1,0 +1,6 @@
+{
+  "name": "RENDER/USD",
+  "path": "getVWAP/RENDERUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -128,7 +128,22 @@
       ["PYTH/USD"],
       ["PENDLE/USD"],
       ["SEI/USD"],
-      ["ONDO/USD"]
+      ["ONDO/USD"],
+      ["DAI/USD"],
+      ["HT/USD"],
+      ["POL/USD"],
+      ["RENDER/USD"],
+      ["TUSD/USD"],
+      ["USDB/USD"],
+      ["USDC/USD"],
+      ["USDP/USD"],
+      ["USDT/USD"],
+      ["XMR/USD"],
+      ["GHO/USD"],
+      ["crvUSD/USD"],
+      ["CFX/USD"],
+      ["LUSD/USD"],
+      ["FRAX/USD"]
     ]
   },
   "deploymentLocations": ["local"],

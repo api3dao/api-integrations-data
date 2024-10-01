@@ -1,0 +1,6 @@
+{
+  "name": "POL/USD",
+  "path": "getVWAP/POLUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}
