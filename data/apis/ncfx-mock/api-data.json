@@ -133,7 +133,12 @@
         "ZK/USD",
         "CFX/USD",
         "RENDER/USD",
-        "EURC/USD"
+        "EURC/USD",
+        "HT/USD",
+        "MERL/USD",
+        "NEON/USD",
+        "TAIKO/USD",
+        "XMR/USD"
       ]
     ]
   },

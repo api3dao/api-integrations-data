@@ -1,0 +1,8 @@
+{
+  "name": "TAIKO/USD",
+  "parameters": {
+    "pairs": "TAIKO-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['TAIKO-USD'].rate\n            }\n            "
+}
