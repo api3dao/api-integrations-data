@@ -132,7 +132,19 @@
         "USDP/USD",
         "USDT/USD",
         "POL/USD",
-        "EURC/USD"
+        "EURC/USD",
+        "BLAST/USD",
+        "ETHFI/USD",
+        "MERL/USD",
+        "RENDER/USD",
+        "TAIKO/USD",
+        "TAO/USD",
+        "DEGEN/USD",
+        "GHO/USD",
+        "crvUSD/USD",
+        "CFX/USD",
+        "SAFE/USD",
+        "USDe/USD"
       ]
     ]
   },
