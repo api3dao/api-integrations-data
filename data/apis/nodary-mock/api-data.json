@@ -224,7 +224,9 @@
       ["ankrETH/ETH Exchange Rate"],
       ["ultraETHs/wstETH Exchange Rate"],
       ["agETH/rsETH Exchange Rate"],
-      ["POL/USD"]
+      ["POL/USD"],
+      ["eBTC/WBTC Exchange Rate"],
+      ["AUSD/USD"]
     ]
   },
   "deploymentLocations": ["local"],

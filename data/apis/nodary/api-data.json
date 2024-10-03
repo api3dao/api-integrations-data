@@ -224,7 +224,9 @@
       ["POL/USD"],
       ["EURC/USD"],
       ["ZRO/USD"],
-      ["ZK/USD"]
+      ["ZK/USD"],
+      ["eBTC/WBTC Exchange Rate"],
+      ["AUSD/USD"]
     ]
   },
   "deploymentLocations": ["aws"],
