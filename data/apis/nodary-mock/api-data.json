@@ -226,7 +226,8 @@
       ["agETH/rsETH Exchange Rate"],
       ["POL/USD"],
       ["eBTC/WBTC Exchange Rate"],
-      ["AUSD/USD"]
+      ["AUSD/USD"],
+      ["FBTC/USD"]
     ]
   },
   "deploymentLocations": ["local"],
