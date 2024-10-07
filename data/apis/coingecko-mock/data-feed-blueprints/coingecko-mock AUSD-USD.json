@@ -1,0 +1,9 @@
+{
+  "name": "AUSD/USD",
+  "parameters": {
+    "ids": "agora-dollar",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['agora-dollar']['usd']\n            }"
+}

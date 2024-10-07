@@ -149,7 +149,9 @@
         "CFX/USD",
         "RENDER/USD",
         "POL/USD",
-        "EURC/USD"
+        "EURC/USD",
+        "FBTC/USD",
+        "AUSD/USD"
       ]
     ]
   },
