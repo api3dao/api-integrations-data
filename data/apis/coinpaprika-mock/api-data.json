@@ -148,7 +148,9 @@
       ["CFX/USD"],
       ["RENDER/USD"],
       ["EURC/USD"],
-      ["POL/USD"]
+      ["POL/USD"],
+      ["AUSD/USD"],
+      ["FBTC/USD"]
     ]
   },
   "deploymentLocations": ["local"],

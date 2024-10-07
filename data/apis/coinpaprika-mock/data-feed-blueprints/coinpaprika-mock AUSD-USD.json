@@ -1,0 +1,8 @@
+{
+  "name": "AUSD/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/ausd-agora-dollar",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}
