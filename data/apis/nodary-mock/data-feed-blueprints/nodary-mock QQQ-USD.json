@@ -1,8 +1,0 @@
-{
-  "name": "QQQ/USD",
-  "parameters": {
-    "name": "QQQ/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

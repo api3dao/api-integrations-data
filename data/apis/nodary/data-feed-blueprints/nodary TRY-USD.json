@@ -1,8 +1,0 @@
-{
-  "name": "TRY/USD",
-  "parameters": {
-    "name": "TRY/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

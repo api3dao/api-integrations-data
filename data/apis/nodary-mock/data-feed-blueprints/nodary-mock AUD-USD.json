@@ -1,8 +1,0 @@
-{
-  "name": "AUD/USD",
-  "parameters": {
-    "name": "AUD/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

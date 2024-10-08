@@ -1,8 +1,0 @@
-{
-  "name": "ARKK/USD",
-  "parameters": {
-    "name": "ARKK/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

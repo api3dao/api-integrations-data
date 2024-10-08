@@ -1,8 +1,0 @@
-{
-  "name": "SPY/USD",
-  "parameters": {
-    "name": "SPY/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

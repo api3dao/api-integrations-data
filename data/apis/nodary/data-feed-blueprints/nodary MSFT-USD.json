@@ -1,8 +1,0 @@
-{
-  "name": "MSFT/USD",
-  "parameters": {
-    "name": "MSFT/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

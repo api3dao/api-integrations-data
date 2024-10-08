@@ -1,8 +1,8 @@
 {
-  "name": "QCOM/USD",
+  "name": "FBTC/USD",
   "path": "feed/latest",
   "parameters": {
-    "name": "QCOM/USD"
+    "name": "FBTC/USD"
   },
   "parser": "(response) => {\n          return response.value\n        }\n        "
 }

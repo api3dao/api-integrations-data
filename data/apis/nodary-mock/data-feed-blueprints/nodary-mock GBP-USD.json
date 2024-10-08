@@ -1,8 +1,0 @@
-{
-  "name": "GBP/USD",
-  "parameters": {
-    "name": "GBP/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}
