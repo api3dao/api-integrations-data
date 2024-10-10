@@ -143,7 +143,10 @@
       ["crvUSD/USD"],
       ["CFX/USD"],
       ["LUSD/USD"],
-      ["FRAX/USD"]
+      ["FRAX/USD"],
+      ["AUSD/USD"],
+      ["EURC/USD"],
+      ["USDe/USD"]
     ]
   },
   "deploymentLocations": ["local"],

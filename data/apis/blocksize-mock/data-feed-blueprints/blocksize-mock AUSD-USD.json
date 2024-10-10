@@ -1,0 +1,6 @@
+{
+  "name": "AUSD/USD",
+  "path": "getVWAP/AUSDUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}
