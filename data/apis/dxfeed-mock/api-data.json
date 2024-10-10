@@ -134,7 +134,8 @@
       ["SAFE/USD"],
       ["JUICE/USD"],
       ["AERO/USD"],
-      ["TAIKO/USD"]
+      ["TAIKO/USD"],
+      ["EURC/USD"]
     ]
   },
   "deploymentLocations": ["local"],
