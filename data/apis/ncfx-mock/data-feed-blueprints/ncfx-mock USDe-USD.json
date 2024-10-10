@@ -1,0 +1,8 @@
+{
+  "name": "USDe/USD",
+  "parameters": {
+    "pairs": "USDE-USD"
+  },
+  "path": "live/midrate/v1/rates",
+  "parser": "(response) => {\n              return response.rates['USDE-USD'].rate\n            }\n            "
+}
