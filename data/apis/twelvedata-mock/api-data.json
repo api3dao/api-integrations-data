@@ -146,7 +146,11 @@
       ["SAFE/USD"],
       ["PENDLE/USD"],
       ["USDe/USD"],
-      ["SATS/USD"]
+      ["SATS/USD"],
+      ["AUSD/USD"],
+      ["EURC/USD"],
+      ["FBTC/USD"],
+      ["USDB/USD"]
     ]
   },
   "deploymentLocations": ["local"],
