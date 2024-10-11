@@ -1,0 +1,6 @@
+{
+  "name": "GHO/USD",
+  "path": "getVWAP/GHOUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

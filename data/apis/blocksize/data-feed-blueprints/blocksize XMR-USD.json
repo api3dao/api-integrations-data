@@ -1,0 +1,6 @@
+{
+  "name": "XMR/USD",
+  "path": "getVWAP/XMRUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

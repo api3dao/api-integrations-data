@@ -40,7 +40,9 @@
       ["inETH/ETH Exchange Rate"],
       ["ankrETH/ETH Exchange Rate"],
       ["ultraETHs/wstETH Exchange Rate"],
-      ["agETH/rsETH Exchange Rate"]
+      ["agETH/rsETH Exchange Rate"],
+      ["instETH/stETH Exchange Rate"],
+      ["eBTC/WBTC Exchange Rate"]
     ]
   },
   "deploymentLocations": ["aws"],
