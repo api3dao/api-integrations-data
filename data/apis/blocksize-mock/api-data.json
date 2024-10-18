@@ -146,7 +146,8 @@
       ["FRAX/USD"],
       ["AUSD/USD"],
       ["EURC/USD"],
-      ["USDe/USD"]
+      ["USDe/USD"],
+      ["FBTC/USD"]
     ]
   },
   "deploymentLocations": ["local"],
