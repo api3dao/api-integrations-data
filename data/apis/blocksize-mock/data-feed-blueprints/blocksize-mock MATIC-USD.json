@@ -1,6 +1,0 @@
-{
-  "name": "MATIC/USD",
-  "path": "getVWAP/MATICUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

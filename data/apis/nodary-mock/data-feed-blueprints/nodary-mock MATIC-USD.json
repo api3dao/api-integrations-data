@@ -1,8 +1,0 @@
-{
-  "name": "MATIC/USD",
-  "parameters": {
-    "name": "MATIC/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}
