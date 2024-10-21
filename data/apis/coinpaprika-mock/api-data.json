@@ -148,7 +148,8 @@
       ["EURC/USD"],
       ["POL/USD"],
       ["AUSD/USD"],
-      ["FBTC/USD"]
+      ["FBTC/USD"],
+      ["LUMIA/USD"]
     ]
   },
   "deploymentLocations": ["local"],

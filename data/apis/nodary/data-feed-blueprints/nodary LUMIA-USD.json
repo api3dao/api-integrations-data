@@ -1,0 +1,8 @@
+{
+  "name": "LUMIA/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "LUMIA/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

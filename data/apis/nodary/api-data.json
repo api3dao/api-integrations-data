@@ -77,7 +77,6 @@
       ["LTC/USD"],
       ["MANA/USD"],
       ["MKR/USD"],
-      ["MATIC/USD"],
       ["METIS/USD"],
       ["MOVR/USD"],
       ["NEAR/USD"],
@@ -109,7 +108,6 @@
       ["YFI/USD"],
       ["ZIL/USD"],
       ["ZRX/USD"],
-      ["RNDR/USD"],
       ["MASK/USD"],
       ["ENS/USD"],
       ["BLUR/USD"],
@@ -187,7 +185,11 @@
       ["POL/USD"],
       ["eBTC/WBTC Exchange Rate"],
       ["AUSD/USD"],
-      ["FBTC/USD"]
+      ["FBTC/USD"],
+      ["LUMIA/USD"],
+      ["cmETH/mETH Exchange Rate"],
+      ["LsETH/ETH Exchange Rate"],
+      ["insfrxETH/sfrxETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["aws"],

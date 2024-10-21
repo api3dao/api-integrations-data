@@ -143,7 +143,8 @@
       ["ZK/USD"],
       ["CFX/USD"],
       ["RENDER/USD"],
-      ["POL/USD"]
+      ["POL/USD"],
+      ["LUMIA/USD"]
     ]
   },
   "deploymentLocations": ["local"],

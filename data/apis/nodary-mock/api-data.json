@@ -185,7 +185,11 @@
       ["POL/USD"],
       ["eBTC/WBTC Exchange Rate"],
       ["AUSD/USD"],
-      ["FBTC/USD"]
+      ["FBTC/USD"],
+      ["LUMIA/USD"],
+      ["cmETH/mETH Exchange Rate"],
+      ["LsETH/ETH Exchange Rate"],
+      ["insfrxETH/sfrxETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["local"],

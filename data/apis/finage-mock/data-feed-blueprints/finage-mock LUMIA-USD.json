@@ -1,0 +1,6 @@
+{
+  "name": "LUMIA/USD",
+  "path": "last/crypto/LUMIAUSD",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.price\n        }\n        "
+}
