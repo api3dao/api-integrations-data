@@ -144,7 +144,11 @@
       ["CFX/USD"],
       ["RENDER/USD"],
       ["POL/USD"],
-      ["LUMIA/USD"]
+      ["LUMIA/USD"],
+      ["FBTC/USD"],
+      ["AUSD/USD"],
+      ["EURC/USD"],
+      ["USDB/USD"]
     ]
   },
   "deploymentLocations": ["local"],
