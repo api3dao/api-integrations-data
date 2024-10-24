@@ -1,0 +1,8 @@
+{
+  "name": "ENA/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "ENA/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ENA/USD').price\n        }"
+}

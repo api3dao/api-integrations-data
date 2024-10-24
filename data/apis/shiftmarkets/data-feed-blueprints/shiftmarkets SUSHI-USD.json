@@ -1,0 +1,8 @@
+{
+  "name": "SUSHI/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "SUSHI/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SUSHI/USD').price\n        }"
+}

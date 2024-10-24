@@ -1,0 +1,8 @@
+{
+  "name": "XRP/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "XRP/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'XRP/USD').price\n        }"
+}

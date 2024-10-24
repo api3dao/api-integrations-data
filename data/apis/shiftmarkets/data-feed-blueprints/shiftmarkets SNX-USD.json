@@ -1,0 +1,8 @@
+{
+  "name": "SNX/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "SNX/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SNX/USD').price\n        }"
+}

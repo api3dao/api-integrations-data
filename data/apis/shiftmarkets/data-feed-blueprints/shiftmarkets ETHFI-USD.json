@@ -1,0 +1,8 @@
+{
+  "name": "ETHFI/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "ETHFI/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ETHFI/USD').price\n        }"
+}

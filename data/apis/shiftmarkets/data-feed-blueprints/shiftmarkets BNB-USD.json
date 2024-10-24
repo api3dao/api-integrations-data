@@ -1,0 +1,8 @@
+{
+  "name": "BNB/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "BNB/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'BNB/USD').price\n        }"
+}
