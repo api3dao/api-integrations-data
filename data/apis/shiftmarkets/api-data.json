@@ -2,8 +2,8 @@
   "alias": "shiftmarkets",
   "name": "ShiftMarkets",
   "providerType": "rest",
-  "airnode": "0xB023c394966F9EDbfF37275b501d9Abe8b57BB1F",
-  "xpub": "xpub6DEEu1Tm3Ey5Px17wfJi2kn4fLgPi3nfN25CNYTpTx9tJeAXwZfabWAeQjcLRx48FMqszwFmVSaQTQGKWr4FxmFzBcuupG5SgyPzMxoT4qp",
+  "airnode": "0x1538e800Ae1B34C264E3F44B6Cd82bE033f38E20",
+  "xpub": "xpub6DVqYi4DvEX3BmXHyggZi9GhuYhrnQ8nv9RDCrB8HK92onGHZxqg2Hh5ujNZFuSisPmuF22usL1MrE7uB3pULzUU6vNXwcijayK8Te9YmQo",
   "supportedFeedsInBatches": {
     "ShiftMarkets": [
       [
