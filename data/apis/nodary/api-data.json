@@ -189,7 +189,10 @@
       ["LUMIA/USD"],
       ["cmETH/mETH Exchange Rate"],
       ["LsETH/ETH Exchange Rate"],
-      ["insfrxETH/sfrxETH Exchange Rate"]
+      ["insfrxETH/sfrxETH Exchange Rate"],
+      ["egETH/ETH Exchange Rate"],
+      ["mstETH/ETH Exchange Rate"],
+      ["SCR/USD"]
     ]
   },
   "deploymentLocations": ["aws"],
