@@ -2,8 +2,8 @@
   "name": "APT/USD",
   "parameters": {
     "event": "Quote",
-    "symbol": "APT/USD"
+    "symbol": "APT/USD:CXKBE"
   },
   "path": "rest/events.json",
-  "parser": "(response) => {\n            const bidPrice = response.Quote['APT/USD'].bidPrice;\n            const askPrice = response.Quote['APT/USD'].askPrice;\n            const result = (bidPrice + askPrice) / 2;\n            if(result === \"NaN\" || result === NaN) {\n              throw Error('[Known Error] - dxFeed returns NaN for one of the target values bidPrice or askPrice.');\n            }\n            return result;\n          }\n          "
+  "parser": "(response) => {\n            const bidPrice = response.Quote['APT/USD:CXKBE'].bidPrice;\n            const askPrice = response.Quote['APT/USD:CXKBE'].askPrice;\n            const result = (bidPrice + askPrice) / 2;\n            if(result === \"NaN\" || result === NaN) {\n              throw Error('[Known Error] - dxFeed returns NaN for one of the target values bidPrice or askPrice.');\n            }\n            return result;\n          }\n          "
 }
