@@ -37,19 +37,15 @@
             },
             {
               "in": "query",
-              "name": "contractAddress"
+              "name": "multicall3CallData"
             },
             {
               "in": "query",
-              "name": "implementationAddress"
+              "name": "multicall3Address"
             },
             {
               "in": "query",
-              "name": "contractMethods"
-            },
-            {
-              "in": "query",
-              "name": "contractMethodsParameters"
+              "name": "chainId"
             },
             {
               "in": "query",
@@ -58,10 +54,6 @@
             {
               "in": "query",
               "name": "rpcUrl"
-            },
-            {
-              "in": "query",
-              "name": "chainAlias"
             },
             {
               "in": "query",
@@ -101,34 +93,26 @@
           "required": true
         },
         {
-          "name": "contractAddress",
+          "name": "multicall3CallData",
           "operationParameter": {
             "in": "query",
-            "name": "contractAddress"
+            "name": "multicall3CallData"
           },
           "required": true
         },
         {
-          "name": "implementationAddress",
+          "name": "multicall3Address",
           "operationParameter": {
             "in": "query",
-            "name": "implementationAddress"
+            "name": "multicall3Address"
           },
           "required": true
         },
         {
-          "name": "contractMethods",
+          "name": "chainId",
           "operationParameter": {
             "in": "query",
-            "name": "contractMethods"
-          },
-          "required": true
-        },
-        {
-          "name": "contractMethodsParameters",
-          "operationParameter": {
-            "in": "query",
-            "name": "contractMethodsParameters"
+            "name": "chainId"
           },
           "required": true
         },
@@ -145,14 +129,6 @@
           "operationParameter": {
             "in": "query",
             "name": "rpcUrl"
-          },
-          "required": true
-        },
-        {
-          "name": "chainAlias",
-          "operationParameter": {
-            "in": "query",
-            "name": "chainAlias"
           },
           "required": true
         },
