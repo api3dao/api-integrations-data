@@ -1,0 +1,8 @@
+{
+  "name": "cbBTC/USD",
+  "parameters": {
+    "name": "cbBTC/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}
