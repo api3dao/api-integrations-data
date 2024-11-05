@@ -1,0 +1,69 @@
+{
+  "alias": "alchemy",
+  "providerType": "rpc",
+  "name": "Alchemy",
+  "airnode": "0x886AD79b463B1BCa97C0fbF4D5e9782542e5EE40",
+  "xpub": "xpub6CV7uveoXskcGCdMyzK7YNYUDY3NEsRtT6WRKR7Va92h9uadwUY3zhqj24EmtvPiqVYWtcg7jG8Eur9bQFWSikTqrzEWPGGmXTQ12oDm2Gb",
+  "supportedFeedsInBatches": {
+    "Alchemy": [
+      ["cbETH/ETH Exchange Rate"],
+      ["rETH/ETH Exchange Rate"],
+      ["sfrxETH/frxETH Exchange Rate"],
+      ["swETH/ETH Exchange Rate"],
+      ["wstETH/stETH Exchange Rate"],
+      ["mETH/ETH Exchange Rate"],
+      ["stMATIC/MATIC Exchange Rate"],
+      ["MATICx/MATIC Exchange Rate"],
+      ["ETHx/ETH Exchange Rate"],
+      ["uniETH/ETH Exchange Rate"],
+      ["osETH/ETH Exchange Rate"],
+      ["weETH/ETH Exchange Rate"],
+      ["STONE/ETH Exchange Rate"],
+      ["USDY/USD Exchange Rate"],
+      ["rsETH/ETH Exchange Rate"],
+      ["rswETH/ETH Exchange Rate"],
+      ["apxETH/pxETH Exchange Rate"],
+      ["ezETH/ETH Exchange Rate"],
+      ["sAVAX/AVAX Exchange Rate"],
+      ["wUSDM/USDM Exchange Rate"],
+      ["sDAI/DAI Exchange Rate"],
+      ["sUSDe/USDe Exchange Rate"],
+      ["pufETH/stETH Exchange Rate"],
+      ["mpETH/ETH Exchange Rate"],
+      ["stTAO/TAO Exchange Rate"],
+      ["sFRAX/FRAX Exchange Rate"],
+      ["wBETH/ETH Exchange Rate"],
+      ["BNBx/BNB Exchange Rate"],
+      ["slisBNB/BNB Exchange Rate"],
+      ["weETHs/ETH Exchange Rate"],
+      ["spETH/ETH Exchange Rate"],
+      ["inETH/ETH Exchange Rate"],
+      ["ankrETH/ETH Exchange Rate"],
+      ["ultraETHs/wstETH Exchange Rate"],
+      ["agETH/rsETH Exchange Rate"],
+      ["instETH/stETH Exchange Rate"],
+      ["eBTC/WBTC Exchange Rate"],
+      ["cmETH/mETH Exchange Rate"],
+      ["LsETH/ETH Exchange Rate"],
+      ["insfrxETH/sfrxETH Exchange Rate"]
+    ]
+  },
+  "deploymentLocations": ["aws"],
+  "homepageUrl": "https://www.alchemy.com",
+  "verifiedBaseUrl": "https://alchemy.com",
+  "signedApiUrl": "",
+  "productionSignedApiUrls": [
+    {
+      "url": "https://signed-api.nodary.io",
+      "name": "Nodary"
+    },
+    {
+      "url": "https://signed-api.api3.org",
+      "name": "API3"
+    }
+  ],
+  "stagingSignedApiUrl": {
+    "url": "https://signed-api.stage.nodary.io",
+    "name": "Staging"
+  }
+}
