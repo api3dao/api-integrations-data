@@ -42,7 +42,12 @@
       ["ultraETHs/wstETH Exchange Rate"],
       ["agETH/rsETH Exchange Rate"],
       ["instETH/stETH Exchange Rate"],
-      ["eBTC/WBTC Exchange Rate"]
+      ["eBTC/WBTC Exchange Rate"],
+      ["cmETH/mETH Exchange Rate"],
+      ["LsETH/ETH Exchange Rate"],
+      ["insfrxETH/sfrxETH Exchange Rate"],
+      ["egETH/ETH Exchange Rate"],
+      ["mstETH/ETH Exchange Rate"]
     ]
   },
   "deploymentLocations": ["aws"],
