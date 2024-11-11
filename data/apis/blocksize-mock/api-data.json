@@ -143,7 +143,12 @@
       ["AUSD/USD"],
       ["EURC/USD"],
       ["USDe/USD"],
-      ["FBTC/USD"]
+      ["FBTC/USD"],
+      ["SCR/USD"],
+      ["COOK/USD"],
+      ["CBBTC/USD"],
+      ["BRETT/USD"],
+      ["LUMIA/USD"]
     ]
   },
   "deploymentLocations": ["local"],

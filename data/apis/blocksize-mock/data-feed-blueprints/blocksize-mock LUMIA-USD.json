@@ -1,0 +1,6 @@
+{
+  "name": "LUMIA/USD",
+  "path": "getVWAP/LUMIAUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

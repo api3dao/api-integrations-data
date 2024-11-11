@@ -1,0 +1,6 @@
+{
+  "name": "SCR/USD",
+  "path": "getVWAP/SCRUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}
