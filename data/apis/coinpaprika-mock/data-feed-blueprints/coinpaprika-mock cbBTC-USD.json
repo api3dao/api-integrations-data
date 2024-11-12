@@ -1,0 +1,8 @@
+{
+  "name": "cbBTC/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/cbbtc-coinbase-wrapped-btc",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

@@ -149,7 +149,11 @@
       ["POL/USD"],
       ["AUSD/USD"],
       ["FBTC/USD"],
-      ["LUMIA/USD"]
+      ["LUMIA/USD"],
+      ["BRETT/USD"],
+      ["cbBTC/USD"],
+      ["SCR/USD"],
+      ["COOK/USD"]
     ]
   },
   "deploymentLocations": ["local"],
