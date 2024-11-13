@@ -1,0 +1,9 @@
+{
+  "name": "cbBTC/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "coinbase-wrapped-btc",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['coinbase-wrapped-btc']['usd']\n        }\n        "
+}

@@ -150,7 +150,11 @@
         "EURC/USD",
         "FBTC/USD",
         "AUSD/USD",
-        "LUMIA/USD"
+        "LUMIA/USD",
+        "BRETT/USD",
+        "cbBTC/USD",
+        "COOK/USD",
+        "SCR/USD"
       ]
     ]
   },
