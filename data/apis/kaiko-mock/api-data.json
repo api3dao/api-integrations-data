@@ -127,7 +127,9 @@
       ["CFX/USD"],
       ["RENDER/USD"],
       ["POL/USD"],
-      ["EURC/USD"]
+      ["EURC/USD"],
+      ["LUMIA/USD"],
+      ["SCR/USD"]
     ]
   },
   "deploymentLocations": ["local"],

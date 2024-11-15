@@ -1,6 +1,6 @@
 {
-  "name": "USDe/USD",
-  "path": "trades.v2/spot_exchange_rate/usde/usd",
+  "name": "SCR/USD",
+  "path": "trades.v2/spot_exchange_rate/scr/usd",
   "parameters": {
     "interval": "1m"
   },

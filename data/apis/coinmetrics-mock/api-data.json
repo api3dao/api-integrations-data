@@ -141,7 +141,10 @@
         "CFX/USD",
         "SAFE/USD",
         "USDe/USD",
-        "AUSD/USD"
+        "AUSD/USD",
+        "BRETT/USD",
+        "LUMIA/USD",
+        "SCR/USD"
       ]
     ]
   },
