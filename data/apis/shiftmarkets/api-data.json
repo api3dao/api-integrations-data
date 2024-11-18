@@ -134,7 +134,15 @@
         "OSMO/USD",
         "USDP/USD",
         "stETH/USD",
-        "EURe/USD"
+        "EURe/USD",
+        "FBTC/USD",
+        "AUSD/USD",
+        "EURC/USD",
+        "USDe/USD",
+        "LUMIA/USD",
+        "SCR/USD",
+        "COOK/USD",
+        "cbBTC/USD"
       ]
     ]
   },

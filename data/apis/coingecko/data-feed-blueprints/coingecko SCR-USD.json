@@ -1,0 +1,9 @@
+{
+  "name": "SCR/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "scroll",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['scroll']['usd']\n        }\n        "
+}

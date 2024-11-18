@@ -55,7 +55,6 @@
         "GRT/USD",
         "HBAR/USD",
         "HNT/USD",
-        "HT/USD",
         "ICP/USD",
         "IMX/USD",
         "INJ/USD",
@@ -70,7 +69,6 @@
         "MANA/USD",
         "MANTA/USD",
         "MASK/USD",
-        "MATIC/USD",
         "METIS/USD",
         "MKR/USD",
         "MNT/USD",
@@ -89,7 +87,6 @@
         "RARI/USD",
         "RDNT/USD",
         "RIF/USD",
-        "RNDR/USD",
         "RON/USD",
         "ROSE/USD",
         "RPL/USD",
@@ -115,7 +112,6 @@
         "WLD/USD",
         "WOO/USD",
         "XLM/USD",
-        "XMR/USD",
         "XRP/USD",
         "XTZ/USD",
         "XVS/USD",
@@ -145,7 +141,10 @@
         "CFX/USD",
         "SAFE/USD",
         "USDe/USD",
-        "AUSD/USD"
+        "AUSD/USD",
+        "BRETT/USD",
+        "LUMIA/USD",
+        "SCR/USD"
       ]
     ]
   },

@@ -1,0 +1,6 @@
+{
+  "name": "COOK/USD",
+  "path": "getVWAP/COOKUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "COOK/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "COOK/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'COOK/USD').price\n        }"
+}

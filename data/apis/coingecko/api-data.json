@@ -54,7 +54,6 @@
         "LTC/USD",
         "MANA/USD",
         "MKR/USD",
-        "MATIC/USD",
         "METIS/USD",
         "MOVR/USD",
         "NEAR/USD",
@@ -86,7 +85,6 @@
         "YFI/USD",
         "ZIL/USD",
         "ZRX/USD",
-        "RNDR/USD",
         "MASK/USD",
         "ENS/USD",
         "BLUR/USD",
@@ -151,7 +149,12 @@
         "POL/USD",
         "EURC/USD",
         "FBTC/USD",
-        "AUSD/USD"
+        "AUSD/USD",
+        "LUMIA/USD",
+        "BRETT/USD",
+        "cbBTC/USD",
+        "COOK/USD",
+        "SCR/USD"
       ]
     ]
   },

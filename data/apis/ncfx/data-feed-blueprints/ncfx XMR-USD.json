@@ -1,8 +1,0 @@
-{
-  "name": "XMR/USD",
-  "parameters": {
-    "pairs": "XMR-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['XMR-USD'].rate\n            }\n            "
-}

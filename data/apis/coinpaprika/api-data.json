@@ -53,7 +53,6 @@
       ["LTC/USD"],
       ["MANA/USD"],
       ["MKR/USD"],
-      ["MATIC/USD"],
       ["METIS/USD"],
       ["MOVR/USD"],
       ["NEAR/USD"],
@@ -85,7 +84,6 @@
       ["YFI/USD"],
       ["ZIL/USD"],
       ["ZRX/USD"],
-      ["RNDR/USD"],
       ["MASK/USD"],
       ["ENS/USD"],
       ["BLUR/USD"],
@@ -150,7 +148,12 @@
       ["EURC/USD"],
       ["POL/USD"],
       ["AUSD/USD"],
-      ["FBTC/USD"]
+      ["FBTC/USD"],
+      ["LUMIA/USD"],
+      ["BRETT/USD"],
+      ["cbBTC/USD"],
+      ["SCR/USD"],
+      ["COOK/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

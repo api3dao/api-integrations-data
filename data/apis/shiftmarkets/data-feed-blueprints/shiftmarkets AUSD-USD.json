@@ -1,0 +1,8 @@
+{
+  "name": "AUSD/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "AUSD/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'AUSD/USD').price\n        }"
+}

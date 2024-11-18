@@ -135,7 +135,10 @@
       ["AERO/USD"],
       ["TAIKO/USD"],
       ["EURC/USD"],
-      ["LUMIA/USD"]
+      ["LUMIA/USD"],
+      ["BRETT/USD"],
+      ["COOK/USD"],
+      ["SCR/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

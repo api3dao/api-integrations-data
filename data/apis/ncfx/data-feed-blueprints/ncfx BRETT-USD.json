@@ -1,0 +1,8 @@
+{
+  "name": "BRETT/USD",
+  "path": "live/midrate/v1/rates",
+  "parameters": {
+    "pairs": "BRETT-USD"
+  },
+  "parser": "(response) => {\n          return response.rates['BRETT-USD'].rate\n        }\n        "
+}
