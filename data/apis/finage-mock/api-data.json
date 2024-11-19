@@ -148,7 +148,10 @@
       ["FBTC/USD"],
       ["AUSD/USD"],
       ["EURC/USD"],
-      ["USDB/USD"]
+      ["USDB/USD"],
+      ["BRETT/USD"],
+      ["COOK/USD"],
+      ["SCR/USD"]
     ]
   },
   "deploymentLocations": ["local"],
