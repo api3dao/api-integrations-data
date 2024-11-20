@@ -1,9 +1,9 @@
 {
-  "alias": "allnodes-mock",
+  "alias": "allnodes",
   "providerType": "rpc",
-  "name": "Allnodes-Mock",
-  "airnode": "0xFed2B36Bd81A48AF990a4A334538f9e56a693596",
-  "xpub": "",
+  "name": "Allnodes",
+  "airnode": "0xAA4dDB94Fd93Efb84c2b8f7650eb332b28AC0b06",
+  "xpub": "xpub6C4HhGDWhpD7AsjGAE64TimyyFhRUQmVxemhL6Qa9V8X6Mn7MpQB1y3KJJhucxNzYMjqaV5hhP58W7pKTkhnxtu7JK7aVhwmZfC7vovvh1L",
   "supportedFeedsInBatches": {
     "AllNodes": [
       ["cbETH/ETH Exchange Rate"],
@@ -50,13 +50,22 @@
       ["mstETH/ETH Exchange Rate"]
     ]
   },
-  "deploymentLocations": ["local"],
-  "homepageUrl": "",
-  "verifiedBaseUrl": "",
+  "deploymentLocations": ["aws"],
+  "homepageUrl": "https://www.allnodes.com/",
+  "verifiedBaseUrl": "https://allnodes.me",
   "signedApiUrl": "",
-  "productionSignedApiUrls": [],
+  "productionSignedApiUrls": [
+    {
+      "url": "https://signed-api.nodary.io",
+      "name": "Nodary"
+    },
+    {
+      "url": "https://signed-api.api3.org",
+      "name": "API3"
+    }
+  ],
   "stagingSignedApiUrl": {
-    "name": "Nodary",
-    "url": "https://signed-api.nodary.io"
+    "url": "https://signed-api.stage.nodary.io",
+    "name": "Staging"
   }
 }
