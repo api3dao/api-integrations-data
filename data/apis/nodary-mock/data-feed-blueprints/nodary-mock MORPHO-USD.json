@@ -1,0 +1,8 @@
+{
+  "name": "MORPHO/USD",
+  "parameters": {
+    "name": "MORPHO/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}

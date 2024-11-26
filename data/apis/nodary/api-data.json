@@ -195,7 +195,11 @@
       ["SCR/USD"],
       ["COOK/USD"],
       ["cbBTC/USD"],
-      ["BRETT/USD"]
+      ["BRETT/USD"],
+      ["MORPHO/USD"],
+      ["yUSD/USD Exchange Rate"],
+      ["SolvBTC/USD"],
+      ["ZRC/USD"]
     ]
   },
   "deploymentLocations": ["aws"],
