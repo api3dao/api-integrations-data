@@ -1,0 +1,9 @@
+{
+  "name": "ZRC/USD",
+  "parameters": {
+    "ids": "zircuit",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['zircuit']['usd']\n            }"
+}

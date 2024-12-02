@@ -1,0 +1,6 @@
+{
+  "name": "ZRC/USD",
+  "path": "getVWAP/ZRCUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

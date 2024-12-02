@@ -1,0 +1,8 @@
+{
+  "name": "MORPHO/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/morpho-morpho",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

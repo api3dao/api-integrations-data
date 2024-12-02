@@ -142,7 +142,11 @@
         "LUMIA/USD",
         "SCR/USD",
         "COOK/USD",
-        "cbBTC/USD"
+        "cbBTC/USD",
+        "BRETT/USD",
+        "SolvBTC/USD",
+        "ZRC/USD",
+        "MORPHO/USD"
       ]
     ]
   },

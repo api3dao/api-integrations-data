@@ -149,7 +149,11 @@
       ["USDB/USD"],
       ["LUMIA/USD"],
       ["SCR/USD"],
-      ["COOK/USD"]
+      ["COOK/USD"],
+      ["BRETT/USD"],
+      ["SolvBTC/USD"],
+      ["ZRC/USD"],
+      ["MORPHO/USD"]
     ]
   },
   "deploymentLocations": ["local"],
