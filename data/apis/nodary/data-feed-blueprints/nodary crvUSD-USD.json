@@ -1,7 +1,7 @@
 {
   "name": "crvUSD/USD",
   "parameters": {
-    "name": "CRVUSD/USD"
+    "name": "crvUSD/USD"
   },
   "path": "feed/latest",
   "parser": "(response) => {\n              return response.value;\n            }\n            "

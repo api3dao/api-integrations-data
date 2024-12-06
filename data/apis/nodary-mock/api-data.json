@@ -16,7 +16,6 @@
       ["MATICx/MATIC Exchange Rate"],
       ["ETHx/ETH Exchange Rate"],
       ["uniETH/ETH Exchange Rate"],
-      ["osETH/ETH Exchange Rate"],
       ["weETH/ETH Exchange Rate"],
       ["STONE/ETH Exchange Rate"],
       ["USDY/USD Exchange Rate"],
@@ -199,7 +198,9 @@
       ["MORPHO/USD"],
       ["yUSD/USD Exchange Rate"],
       ["SolvBTC/USD"],
-      ["ZRC/USD"]
+      ["ZRC/USD"],
+      ["inwstETHs/wstETH Exchange Rate"],
+      ["LBTC/USD"]
     ]
   },
   "deploymentLocations": ["local"],

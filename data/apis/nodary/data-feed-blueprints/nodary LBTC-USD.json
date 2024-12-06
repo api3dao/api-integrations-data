@@ -1,0 +1,8 @@
+{
+  "name": "LBTC/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "LBTC/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}
