@@ -129,7 +129,9 @@
       ["POL/USD"],
       ["EURC/USD"],
       ["LUMIA/USD"],
-      ["SCR/USD"]
+      ["SCR/USD"],
+      ["ZRC/USD"],
+      ["MORPHO/USD"]
     ]
   },
   "deploymentLocations": ["local"],

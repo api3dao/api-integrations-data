@@ -1,7 +1,7 @@
 {
-  "name": "ZRC/USD",
+  "name": "BRETT/USD",
   "parameters": {
-    "symbol": "ZRC/USD",
+    "symbol": "BRETT/USD",
     "dp": "11"
   },
   "path": "price",

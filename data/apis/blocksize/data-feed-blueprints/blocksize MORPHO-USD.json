@@ -1,0 +1,6 @@
+{
+  "name": "MORPHO/USD",
+  "path": "getVWAP/MORPHOUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

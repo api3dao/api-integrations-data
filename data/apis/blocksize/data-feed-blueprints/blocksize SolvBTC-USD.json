@@ -1,0 +1,6 @@
+{
+  "name": "SolvBTC/USD",
+  "path": "getVWAP/SOLVBTCUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

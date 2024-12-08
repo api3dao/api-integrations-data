@@ -138,7 +138,9 @@
       ["LUMIA/USD"],
       ["BRETT/USD"],
       ["COOK/USD"],
-      ["SCR/USD"]
+      ["SCR/USD"],
+      ["ZRC/USD"],
+      ["MORPHO/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

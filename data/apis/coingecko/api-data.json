@@ -154,7 +154,11 @@
         "BRETT/USD",
         "cbBTC/USD",
         "COOK/USD",
-        "SCR/USD"
+        "SCR/USD",
+        "SolvBTC/USD",
+        "ZRC/USD",
+        "MORPHO/USD",
+        "LBTC/USD"
       ]
     ]
   },

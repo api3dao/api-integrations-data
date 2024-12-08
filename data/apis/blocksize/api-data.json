@@ -148,7 +148,10 @@
       ["COOK/USD"],
       ["cbBTC/USD"],
       ["BRETT/USD"],
-      ["LUMIA/USD"]
+      ["LUMIA/USD"],
+      ["SolvBTC/USD"],
+      ["ZRC/USD"],
+      ["MORPHO/USD"]
     ]
   },
   "deploymentLocations": ["aws"],

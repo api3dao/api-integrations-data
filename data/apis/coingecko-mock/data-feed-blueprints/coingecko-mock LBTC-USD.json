@@ -1,0 +1,9 @@
+{
+  "name": "LBTC/USD",
+  "parameters": {
+    "ids": "lombard-staked-btc",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['lombard-staked-btc']['usd']\n            }"
+}
