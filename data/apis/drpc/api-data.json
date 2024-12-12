@@ -52,7 +52,6 @@
       ["inwstETHs/wstETH Exchange Rate"]
     ]
   },
-  "deploymentLocations": ["aws"],
   "homepageUrl": "https://drpc.org",
   "verifiedBaseUrl": "https://drpc.org",
   "signedApiUrl": "",
@@ -69,5 +68,17 @@
   "stagingSignedApiUrl": {
     "url": "https://signed-api.stage.nodary.io",
     "name": "Staging"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "us-east-2",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "eu-central-1",
+      "provider": "aws"
+    }
+  ]
 }

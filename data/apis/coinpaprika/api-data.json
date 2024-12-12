@@ -160,7 +160,6 @@
       ["LBTC/USD"]
     ]
   },
-  "deploymentLocations": ["aws"],
   "homepageUrl": "https://coinpaprika.com",
   "verifiedBaseUrl": "https://coinpaprika.com",
   "signedApiUrl": "",
@@ -177,5 +176,17 @@
   "stagingSignedApiUrl": {
     "url": "https://signed-api.stage.nodary.io",
     "name": "Staging"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "us-east-1",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "eu-north-1",
+      "provider": "aws"
+    }
+  ]
 }

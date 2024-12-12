@@ -155,7 +155,6 @@
       ["MORPHO/USD"]
     ]
   },
-  "deploymentLocations": ["aws"],
   "homepageUrl": "https://finage.co.uk",
   "verifiedBaseUrl": "https://finage.co.uk",
   "signedApiUrl": "",
@@ -172,5 +171,17 @@
   "stagingSignedApiUrl": {
     "url": "https://signed-api.stage.nodary.io",
     "name": "Staging"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "eu-west-2",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "us-east-1",
+      "provider": "aws"
+    }
+  ]
 }

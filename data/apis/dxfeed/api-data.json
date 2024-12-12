@@ -143,7 +143,6 @@
       ["MORPHO/USD"]
     ]
   },
-  "deploymentLocations": ["aws"],
   "homepageUrl": "https://dxfeed.com",
   "verifiedBaseUrl": "https://dxfeed.com",
   "signedApiUrl": "",
@@ -160,5 +159,17 @@
   "stagingSignedApiUrl": {
     "url": "https://signed-api.stage.nodary.io",
     "name": "Staging"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "eu-west-1",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "us-east-2",
+      "provider": "aws"
+    }
+  ]
 }

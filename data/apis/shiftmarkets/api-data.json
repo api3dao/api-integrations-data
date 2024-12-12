@@ -150,7 +150,6 @@
       ]
     ]
   },
-  "deploymentLocations": ["aws"],
   "homepageUrl": "https://www.shiftmarkets.com",
   "verifiedBaseUrl": "https://shiftmarkets.com",
   "signedApiUrl": "",
@@ -167,5 +166,17 @@
   "stagingSignedApiUrl": {
     "url": "https://signed-api.stage.nodary.io",
     "name": "Staging"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "eu-central-1",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "ap-south-1",
+      "provider": "aws"
+    }
+  ]
 }

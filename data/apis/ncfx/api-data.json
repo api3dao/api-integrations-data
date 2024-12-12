@@ -145,7 +145,6 @@
       ]
     ]
   },
-  "deploymentLocations": ["aws"],
   "homepageUrl": "https://www.newchangefx.com",
   "verifiedBaseUrl": "https://newchangefx.com",
   "signedApiUrl": "",
@@ -162,5 +161,17 @@
   "stagingSignedApiUrl": {
     "url": "https://signed-api.stage.nodary.io",
     "name": "Staging"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "eu-west-2",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "us-east-1",
+      "provider": "aws"
+    }
+  ]
 }

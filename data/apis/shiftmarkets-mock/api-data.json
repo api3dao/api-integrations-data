@@ -150,7 +150,6 @@
       ]
     ]
   },
-  "deploymentLocations": ["local"],
   "homepageUrl": "",
   "verifiedBaseUrl": "",
   "signedApiUrl": "",
@@ -158,5 +157,12 @@
   "stagingSignedApiUrl": {
     "name": "Nodary",
     "url": "https://signed-api.nodary.io"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "",
+      "provider": "local"
+    }
+  ]
 }

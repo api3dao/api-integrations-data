@@ -134,7 +134,6 @@
       ["MORPHO/USD"]
     ]
   },
-  "deploymentLocations": ["aws"],
   "homepageUrl": "https://www.kaiko.com",
   "verifiedBaseUrl": "https://kaiko.io",
   "signedApiUrl": "",
@@ -151,5 +150,17 @@
   "stagingSignedApiUrl": {
     "url": "https://signed-api.stage.nodary.io",
     "name": "Staging"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "us-east-1",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "eu-west-1",
+      "provider": "aws"
+    }
+  ]
 }

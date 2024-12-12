@@ -148,7 +148,6 @@
       ]
     ]
   },
-  "deploymentLocations": ["aws"],
   "homepageUrl": "https://coinmetrics.io",
   "verifiedBaseUrl": "https://coinmetrics.io",
   "signedApiUrl": "",
@@ -165,5 +164,17 @@
   "stagingSignedApiUrl": {
     "url": "https://signed-api.stage.nodary.io",
     "name": "Staging"
-  }
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": false,
+      "region": "us-east-2",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "eu-west-2",
+      "provider": "aws"
+    }
+  ]
 }
