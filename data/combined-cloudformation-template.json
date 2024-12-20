@@ -1,0 +1,710 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "CloudFormation template for deploying Signed API and Airnode Feed",
+  "Parameters": {
+    "realTimeEndpointAuthToken": {
+      "Type": "String",
+      "MinLength": 5,
+      "Description": "Auth token for accessing real time data."
+    },
+    "OevEndpointAuthToken": {
+      "Type": "String",
+      "MinLength": 5,
+      "Description": "Auth token for the OEV endpoint"
+    },
+    "AcmCertificateArn": {
+      "Type": "String",
+      "Description": "ARN of ACM certificate for the domain",
+      "MinLength": 20
+    },
+    "airnodeMnemonic": {
+      "Type": "String",
+      "MinLength": 10,
+      "Description": "Mnemonic phrase of your Airnode address."
+    },
+    "API_KEY_1": {
+      "Type": "String",
+      "MinLength": 10,
+      "Description": "Please enter the value for the security parameter API_KEY_1"
+    },
+    "SelfSignedApiToken": {
+      "Type": "String",
+      "MinLength": "10",
+      "AllowedPattern": "^[^\\s]+$",
+      "ConstraintDescription": "The string must not contain any whitespaces.",
+      "Description": "Token to POST data to Self Signed API (This should be handed to you)."
+    },
+    "NodarySignedApiToken": {
+      "Type": "String",
+      "MinLength": "10",
+      "AllowedPattern": "^[^\\s]+$",
+      "ConstraintDescription": "The string must not contain any whitespaces.",
+      "Description": "Token to POST data to Nodary Signed API (This should be handed to you)."
+    },
+    "Api3SignedApiToken": {
+      "Type": "String",
+      "MinLength": "10",
+      "AllowedPattern": "^[^\\s]+$",
+      "ConstraintDescription": "The string must not contain any whitespaces.",
+      "Description": "Token to POST data to API3 Signed API (This should be handed to you)."
+    },
+    "grafanaLokiUser": {
+      "Type": "String",
+      "MinLength": 2,
+      "AllowedPattern": "^[^\\s]+$",
+      "Description": "Username for authenticating Loki API"
+    },
+    "grafanaLokiToken": {
+      "Type": "String",
+      "MinLength": 10,
+      "AllowedPattern": "^[^\\s]+$",
+      "Description": "Token for authenticating Loki API"
+    },
+    "grafanaLokiEndpoint": {
+      "Type": "String",
+      "MinLength": 10,
+      "AllowedPattern": "^[^\\s]+$",
+      "Description": "Loki endpoint"
+    }
+  },
+  "Resources": {
+    "SharedECSCluster": {
+      "Type": "AWS::ECS::Cluster",
+      "Properties": {
+        "ClusterName": "api3-shared-cluster-<SOME_ID>"
+      }
+    },
+    "VPC": {
+      "Type": "AWS::EC2::VPC",
+      "Properties": {
+        "CidrBlock": "10.0.0.0/16",
+        "EnableDnsSupport": true,
+        "EnableDnsHostnames": true
+      }
+    },
+    "PublicSubnet1": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "VpcId": {
+          "Ref": "VPC"
+        },
+        "CidrBlock": "10.0.1.0/24",
+        "AvailabilityZone": {
+          "Fn::Select": [
+            0,
+            {
+              "Fn::GetAZs": ""
+            }
+          ]
+        },
+        "MapPublicIpOnLaunch": true
+      }
+    },
+    "PublicSubnet2": {
+      "Type": "AWS::EC2::Subnet",
+      "Properties": {
+        "VpcId": {
+          "Ref": "VPC"
+        },
+        "CidrBlock": "10.0.2.0/24",
+        "AvailabilityZone": {
+          "Fn::Select": [
+            1,
+            {
+              "Fn::GetAZs": ""
+            }
+          ]
+        },
+        "MapPublicIpOnLaunch": true
+      }
+    },
+    "InternetGateway": {
+      "Type": "AWS::EC2::InternetGateway"
+    },
+    "GatewayAttachment": {
+      "Type": "AWS::EC2::VPCGatewayAttachment",
+      "Properties": {
+        "VpcId": {
+          "Ref": "VPC"
+        },
+        "InternetGatewayId": {
+          "Ref": "InternetGateway"
+        }
+      }
+    },
+    "RouteTable": {
+      "Type": "AWS::EC2::RouteTable",
+      "Properties": {
+        "VpcId": {
+          "Ref": "VPC"
+        }
+      }
+    },
+    "Route": {
+      "Type": "AWS::EC2::Route",
+      "DependsOn": "GatewayAttachment",
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "RouteTable"
+        },
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "GatewayId": {
+          "Ref": "InternetGateway"
+        }
+      }
+    },
+    "Subnet1RouteTableAssociation": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "SubnetId": {
+          "Ref": "PublicSubnet1"
+        },
+        "RouteTableId": {
+          "Ref": "RouteTable"
+        }
+      }
+    },
+    "Subnet2RouteTableAssociation": {
+      "Type": "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties": {
+        "SubnetId": {
+          "Ref": "PublicSubnet2"
+        },
+        "RouteTableId": {
+          "Ref": "RouteTable"
+        }
+      }
+    },
+    "SignedApiLogsGroup": {
+      "Type": "AWS::Logs::LogGroup",
+      "Properties": {
+        "LogGroupName": "/ecs/signedApi-<SOME_ID>",
+        "RetentionInDays": 7
+      }
+    },
+    "AirnodeFeedLogsGroup": {
+      "Type": "AWS::Logs::LogGroup",
+      "Properties": {
+        "LogGroupName": "/ecs/airnodeFeed-prod",
+        "RetentionInDays": 7
+      }
+    },
+    "SignedApiTaskDefinition": {
+      "Type": "AWS::ECS::TaskDefinition",
+      "Properties": {
+        "Family": "signed-api-task",
+        "Cpu": "1024",
+        "Memory": "2048",
+        "NetworkMode": "awsvpc",
+        "RequiresCompatibilities": ["FARGATE"],
+        "ExecutionRoleArn": {
+          "Ref": "SharedECSTaskRole"
+        },
+        "ContainerDefinitions": [
+          {
+            "Essential": true,
+            "Image": "grafana/fluent-bit-plugin-loki:2.9.1-amd64",
+            "Name": "SignedApiLogForwarder",
+            "FirelensConfiguration": {
+              "Type": "fluentbit",
+              "Options": {
+                "enable-ecs-log-metadata": "true"
+              }
+            },
+            "LogConfiguration": {
+              "LogDriver": "awslogs",
+              "Options": {
+                "awslogs-group": {
+                  "Ref": "SignedApiLogsGroup"
+                },
+                "awslogs-region": {
+                  "Ref": "AWS::Region"
+                },
+                "awslogs-create-group": "true",
+                "awslogs-stream-prefix": "firelens"
+              }
+            },
+            "MemoryReservation": 50
+          },
+          {
+            "Name": "signed-api-container",
+            "Image": "api3/signed-api:v2.1.0",
+            "Environment": [
+              {
+                "Name": "REAL_TIME_ENDPOINT_AUTH_TOKEN",
+                "Value": {
+                  "Ref": "realTimeEndpointAuthToken"
+                }
+              },
+              {
+                "Name": "OEV_ENDPOINT_AUTH_TOKEN",
+                "Value": {
+                  "Ref": "OevEndpointAuthToken"
+                }
+              },
+              {
+                "Name": "AIRNODE_FEED_AUTH_TOKEN",
+                "Value": { "Ref": "SelfSignedApiToken" }
+              },
+              {
+                "Name": "CONFIG_SOURCE",
+                "Value": "local"
+              },
+              {
+                "Name": "LOG_LEVEL",
+                "Value": "info"
+              }
+            ],
+            "EntryPoint": ["/bin/sh", "-c", "mkdir -p config && echo <SIGNED_API_CONFIG>\nEOF\nnode dist/src/index.js"],
+            "PortMappings": [
+              {
+                "ContainerPort": 80,
+                "HostPort": 80
+              }
+            ],
+            "LogConfiguration": {
+              "LogDriver": "awsfirelens",
+              "Options": {
+                "Name": "grafana-loki",
+                "Url": {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "https://",
+                      {
+                        "Ref": "grafanaLokiUser"
+                      },
+                      ":",
+                      {
+                        "Ref": "grafanaLokiToken"
+                      },
+                      "@",
+                      {
+                        "Ref": "grafanaLokiEndpoint"
+                      },
+                      "/loki/api/v1/push"
+                    ]
+                  ]
+                },
+                "Labels": {
+                  "Fn::Join": ["", ["{app=\"signed-api\",airnode=\"<AIRNODE_ADDRESS>", "\"}"]]
+                },
+                "RemoveKeys": "container_id,container_name,ecs_task_definition,source,ecs_cluster",
+                "LabelKeys": "ecs_task_arn",
+                "LineFormat": "json"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "AirnodeFeedTaskDefinition": {
+      "Type": "AWS::ECS::TaskDefinition",
+      "Properties": {
+        "Family": "airnode-feed-task",
+        "Cpu": "2048",
+        "Memory": "4096",
+        "NetworkMode": "awsvpc",
+        "RequiresCompatibilities": ["FARGATE"],
+        "ExecutionRoleArn": {
+          "Ref": "SharedECSTaskRole"
+        },
+        "ContainerDefinitions": [
+          {
+            "Essential": true,
+            "Image": "grafana/fluent-bit-plugin-loki:2.9.1-amd64",
+            "Name": "AirnodeFeedLogForwarder",
+            "FirelensConfiguration": {
+              "Type": "fluentbit",
+              "Options": {
+                "enable-ecs-log-metadata": "true"
+              }
+            },
+            "LogConfiguration": {
+              "LogDriver": "awslogs",
+              "Options": {
+                "awslogs-group": {
+                  "Ref": "AirnodeFeedLogsGroup"
+                },
+                "awslogs-region": {
+                  "Ref": "AWS::Region"
+                },
+                "awslogs-create-group": "true",
+                "awslogs-stream-prefix": "firelens"
+              }
+            },
+            "MemoryReservation": 50
+          },
+          {
+            "Name": "AirnodeFeed",
+            "Image": "api3/airnode-feed:2.0.0",
+            "Environment": [
+              {
+                "Name": "SECRETS_ENV",
+                "Value": {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "WALLET_MNEMONIC=",
+                      {
+                        "Ref": "airnodeMnemonic"
+                      },
+                      "\\n",
+                      "API_KEY_1_VALUE=",
+                      {
+                        "Ref": "API_KEY_1"
+                      },
+                      "\\n",
+                      "AUTH_TOKEN_API3=",
+                      {
+                        "Ref": "Api3SignedApiToken"
+                      },
+                      "\\n",
+                      "AUTH_TOKEN_NODARY=",
+                      {
+                        "Ref": "NodarySignedApiToken"
+                      },
+                      "\\n",
+                      "AUTH_TOKEN_SELF=",
+                      {
+                        "Ref": "SelfSignedApiToken"
+                      },
+                      "\\n",
+                      "STAGE=local"
+                    ]
+                  ]
+                }
+              },
+              {
+                "Name": "LOG_LEVEL",
+                "Value": "info"
+              }
+            ],
+            "EntryPoint": ["/bin/sh", "-c"],
+            "Command": ["echo '<AIRNODE_FEED_RUNNER_SCRIPT_BASE64>' | base64 -d > run.sh; sh run.sh"],
+            "LogConfiguration": {
+              "LogDriver": "awsfirelens",
+              "Options": {
+                "Name": "grafana-loki",
+                "Url": {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "https://",
+                      {
+                        "Ref": "grafanaLokiUser"
+                      },
+                      ":",
+                      {
+                        "Ref": "grafanaLokiToken"
+                      },
+                      "@",
+                      {
+                        "Ref": "grafanaLokiEndpoint"
+                      },
+                      "/loki/api/v1/push"
+                    ]
+                  ]
+                },
+                "Labels": {
+                  "Fn::Join": ["", ["{app=\"airnode-feed\",airnode=\"<AIRNODE_ADDRESS>", "\"}"]]
+                },
+                "RemoveKeys": "container_id,container_name,ecs_task_definition,source,ecs_cluster",
+                "LabelKeys": "ecs_task_arn",
+                "LineFormat": "json"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "SignedApiService": {
+      "Type": "AWS::ECS::Service",
+      "DependsOn": "SignedApiListener",
+      "Properties": {
+        "Cluster": {
+          "Ref": "SharedECSCluster"
+        },
+        "LaunchType": "FARGATE",
+        "TaskDefinition": {
+          "Ref": "SignedApiTaskDefinition"
+        },
+        "DesiredCount": 1,
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": [
+              {
+                "Ref": "PublicSubnet1"
+              },
+              {
+                "Ref": "PublicSubnet2"
+              }
+            ],
+            "SecurityGroups": [
+              {
+                "Ref": "ECSSecurityGroup"
+              }
+            ],
+            "AssignPublicIp": "ENABLED"
+          }
+        },
+        "LoadBalancers": [
+          {
+            "ContainerName": "signed-api-container",
+            "ContainerPort": 80,
+            "TargetGroupArn": {
+              "Ref": "SignedApiTargetGroup"
+            }
+          }
+        ]
+      }
+    },
+    "AirnodeFeedService": {
+      "Type": "AWS::ECS::Service",
+      "Properties": {
+        "Cluster": {
+          "Ref": "SharedECSCluster"
+        },
+        "ServiceName": "AirnodeFeedService",
+        "TaskDefinition": {
+          "Ref": "AirnodeFeedTaskDefinition"
+        },
+        "DesiredCount": 1,
+        "LaunchType": "FARGATE",
+        "NetworkConfiguration": {
+          "AwsvpcConfiguration": {
+            "Subnets": [
+              {
+                "Ref": "PublicSubnet1"
+              },
+              {
+                "Ref": "PublicSubnet2"
+              }
+            ],
+            "SecurityGroups": [
+              {
+                "Ref": "ECSSecurityGroup"
+              }
+            ],
+            "AssignPublicIp": "ENABLED"
+          }
+        }
+      }
+    },
+    "ELB": {
+      "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+      "Properties": {
+        "Name": "signed-api-elb-<SOME_ID>",
+        "Subnets": [
+          {
+            "Ref": "PublicSubnet1"
+          },
+          {
+            "Ref": "PublicSubnet2"
+          }
+        ],
+        "SecurityGroups": [
+          {
+            "Ref": "ELBSecurityGroup"
+          }
+        ],
+        "Scheme": "internet-facing"
+      }
+    },
+    "SignedApiListener": {
+      "Type": "AWS::ElasticLoadBalancingV2::Listener",
+      "Properties": {
+        "DefaultActions": [
+          {
+            "Type": "forward",
+            "TargetGroupArn": {
+              "Ref": "SignedApiTargetGroup"
+            }
+          }
+        ],
+        "LoadBalancerArn": {
+          "Ref": "ELB"
+        },
+        "Port": 80,
+        "Protocol": "HTTP"
+      }
+    },
+    "SignedApiTargetGroup": {
+      "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+      "Properties": {
+        "Port": 80,
+        "Protocol": "HTTP",
+        "VpcId": {
+          "Ref": "VPC"
+        },
+        "TargetType": "ip"
+      }
+    },
+    "ECSSecurityGroup": {
+      "Type": "AWS::EC2::SecurityGroup",
+      "Properties": {
+        "GroupDescription": "Security Group for ECS Tasks",
+        "VpcId": {
+          "Ref": "VPC"
+        },
+        "SecurityGroupIngress": [
+          {
+            "IpProtocol": "tcp",
+            "FromPort": 80,
+            "ToPort": 80,
+            "SourceSecurityGroupId": {
+              "Ref": "ELBSecurityGroup"
+            }
+          }
+        ]
+      }
+    },
+    "ELBSecurityGroup": {
+      "Type": "AWS::EC2::SecurityGroup",
+      "Properties": {
+        "GroupDescription": "Security Group for ELB",
+        "VpcId": {
+          "Ref": "VPC"
+        },
+        "SecurityGroupIngress": [
+          {
+            "IpProtocol": "tcp",
+            "FromPort": 80,
+            "ToPort": 80,
+            "CidrIp": "0.0.0.0/0"
+          }
+        ]
+      }
+    },
+    "SharedECSTaskRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": ["ecs-tasks.amazonaws.com"]
+              },
+              "Action": ["sts:AssumeRole"]
+            }
+          ]
+        },
+        "Path": "/",
+        "Policies": [
+          {
+            "PolicyName": "ecs-service",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "ec2:AuthorizeSecurityGroupIngress",
+                    "ec2:Describe*",
+                    "elasticloadbalancing:DeregisterInstancesFromLoadBalancer",
+                    "elasticloadbalancing:DeregisterTargets",
+                    "elasticloadbalancing:Describe*",
+                    "elasticloadbalancing:RegisterInstancesWithLoadBalancer",
+                    "elasticloadbalancing:RegisterTargets",
+                    "ec2:CreateSecurityGroup",
+                    "ec2:DeleteSecurityGroup",
+                    "logs:CreateLogGroup",
+                    "logs:CreateLogStream",
+                    "logs:DescribeLogStreams",
+                    "logs:PutLogEvents"
+                  ],
+                  "Resource": "*"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "CloudFrontDistribution": {
+      "Type": "AWS::CloudFront::Distribution",
+      "Properties": {
+        "DistributionConfig": {
+          "Aliases": ["<SIGNED_API_DOMAIN>"],
+          "Enabled": true,
+          "DefaultCacheBehavior": {
+            "AllowedMethods": ["GET", "HEAD", "OPTIONS", "PUT", "POST", "PATCH", "DELETE"],
+            "CachedMethods": ["GET", "HEAD", "OPTIONS"],
+            "Compress": true,
+            "DefaultTTL": 0,
+            "ForwardedValues": {
+              "QueryString": true,
+              "Headers": ["Authorization", "Origin", "Accept"],
+              "Cookies": {
+                "Forward": "all"
+              }
+            },
+            "MinTTL": 0,
+            "MaxTTL": 0,
+            "TargetOriginId": "ELB",
+            "ViewerProtocolPolicy": "redirect-to-https"
+          },
+          "Origins": [
+            {
+              "DomainName": {
+                "Fn::GetAtt": ["ELB", "DNSName"]
+              },
+              "Id": "ELB",
+              "CustomOriginConfig": {
+                "HTTPPort": 80,
+                "HTTPSPort": 443,
+                "OriginProtocolPolicy": "http-only",
+                "OriginSSLProtocols": ["TLSv1.2"]
+              }
+            }
+          ],
+          "ViewerCertificate": {
+            "AcmCertificateArn": {
+              "Ref": "AcmCertificateArn"
+            },
+            "MinimumProtocolVersion": "TLSv1.2_2021",
+            "SslSupportMethod": "sni-only"
+          },
+          "PriceClass": "PriceClass_100"
+        }
+      }
+    }
+  },
+  "Outputs": {
+    "LoadBalancerDNS": {
+      "Description": "The DNS name of the load balancer",
+      "Value": {
+        "Fn::GetAtt": ["ELB", "DNSName"]
+      },
+      "Export": {
+        "Name": {
+          "Fn::Sub": "${AWS::StackName}-LoadBalancerDNS"
+        }
+      }
+    },
+    "CloudFrontDomainName": {
+      "Description": "CloudFront Distribution Domain Name",
+      "Value": {
+        "Fn::GetAtt": ["CloudFrontDistribution", "DomainName"]
+      },
+      "Export": {
+        "Name": {
+          "Fn::Sub": "${AWS::StackName}-CloudFrontDomainName"
+        }
+      }
+    },
+    "CloudFrontDistributionId": {
+      "Description": "CloudFront Distribution ID",
+      "Value": {
+        "Ref": "CloudFrontDistribution"
+      },
+      "Export": {
+        "Name": {
+          "Fn::Sub": "${AWS::StackName}-CloudFrontDistributionId"
+        }
+      }
+    }
+  }
+}
