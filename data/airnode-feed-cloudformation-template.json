@@ -64,6 +64,14 @@
     "CloudWatchLogsGroup": {
       "Type": "AWS::Logs::LogGroup",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "LogGroupName": "AirnodeFeedLogGroup-<SOME_ID>",
         "RetentionInDays": 7
       }
@@ -71,6 +79,14 @@
     "AppDefinition": {
       "Type": "AWS::ECS::TaskDefinition",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "NetworkMode": "awsvpc",
         "Cpu": 2048,
         "Memory": 4096,
@@ -201,12 +217,28 @@
     "AppCluster": {
       "Type": "AWS::ECS::Cluster",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "ClusterName": "AirnodeFeedCluster-<SOME_ID>"
       }
     },
     "AppService": {
       "Type": "AWS::ECS::Service",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "Cluster": {
           "Ref": "AppCluster"
         },
@@ -235,6 +267,14 @@
     "InstanceVPC": {
       "Type": "AWS::EC2::VPC",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "CidrBlock": "10.0.0.0/16",
         "EnableDnsSupport": true,
         "EnableDnsHostnames": true
@@ -257,6 +297,14 @@
     "InstancePublicRouteTable": {
       "Type": "AWS::EC2::RouteTable",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "VpcId": {
           "Ref": "InstanceVPC"
         }
@@ -278,6 +326,14 @@
     "InstanceSubnet": {
       "Type": "AWS::EC2::Subnet",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "CidrBlock": "10.0.0.0/24",
         "VpcId": {
           "Ref": "InstanceVPC"
@@ -299,6 +355,14 @@
     "ECSTaskRole": {
       "Type": "AWS::IAM::Role",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "AssumeRolePolicyDocument": {
           "Statement": {
             "Effect": "Allow",

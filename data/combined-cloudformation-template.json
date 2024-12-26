@@ -71,12 +71,28 @@
     "SharedECSCluster": {
       "Type": "AWS::ECS::Cluster",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "ClusterName": "api3-shared-cluster-<SOME_ID>"
       }
     },
     "VPC": {
       "Type": "AWS::EC2::VPC",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "CidrBlock": "10.0.0.0/16",
         "EnableDnsSupport": true,
         "EnableDnsHostnames": true
@@ -85,6 +101,14 @@
     "PublicSubnet1": {
       "Type": "AWS::EC2::Subnet",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "VpcId": {
           "Ref": "VPC"
         },
@@ -135,6 +159,14 @@
     "RouteTable": {
       "Type": "AWS::EC2::RouteTable",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "VpcId": {
           "Ref": "VPC"
         }
@@ -178,6 +210,14 @@
     "SignedApiLogsGroup": {
       "Type": "AWS::Logs::LogGroup",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "LogGroupName": "/ecs/signedApi-<SOME_ID>",
         "RetentionInDays": 7
       }
@@ -185,6 +225,14 @@
     "AirnodeFeedLogsGroup": {
       "Type": "AWS::Logs::LogGroup",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "LogGroupName": "/ecs/airnodeFeed-prod",
         "RetentionInDays": 7
       }
@@ -192,6 +240,14 @@
     "SignedApiTaskDefinition": {
       "Type": "AWS::ECS::TaskDefinition",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "Family": "signed-api-task",
         "Cpu": "1024",
         "Memory": "2048",
@@ -370,7 +426,7 @@
                         "Ref": "SelfSignedApiToken"
                       },
                       "\\n",
-                      "STAGE=local"
+                      "STAGE=aws"
                     ]
                   ]
                 }
@@ -422,6 +478,14 @@
       "Type": "AWS::ECS::Service",
       "DependsOn": "SignedApiListener",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "Cluster": {
           "Ref": "SharedECSCluster"
         },
@@ -494,6 +558,14 @@
     "ELB": {
       "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "Name": "signed-api-elb-<SOME_ID>",
         "Subnets": [
           {
@@ -543,6 +615,14 @@
     "ECSSecurityGroup": {
       "Type": "AWS::EC2::SecurityGroup",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "GroupDescription": "Security Group for ECS Tasks",
         "VpcId": {
           "Ref": "VPC"
@@ -579,6 +659,14 @@
     "SharedECSTaskRole": {
       "Type": "AWS::IAM::Role",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "AssumeRolePolicyDocument": {
           "Version": "2012-10-17",
           "Statement": [
@@ -626,6 +714,14 @@
     "CloudFrontDistribution": {
       "Type": "AWS::CloudFront::Distribution",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "DistributionConfig": {
           "Aliases": ["<SIGNED_API_DOMAIN>"],
           "Enabled": true,
