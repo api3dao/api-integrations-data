@@ -2756,6 +2756,11 @@
       "name": "API3",
       "url": "https://signed-api.api3.org",
       "authToken": "${AUTH_TOKEN_API3}"
+    },
+    {
+      "name": "Self",
+      "url": "https://signed-api.api-analysis.de",
+      "authToken": "${AUTH_TOKEN_SELF}"
     }
   ],
   "ois": [
