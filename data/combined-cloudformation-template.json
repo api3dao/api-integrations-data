@@ -287,31 +287,30 @@
             "Image": "api3/signed-api:v2.1.0",
             "Environment": [
               {
-                "Name": "REAL_TIME_ENDPOINT_AUTH_TOKEN",
+                "Name": "SECRETS_ENV",
                 "Value": {
-                  "Ref": "realTimeEndpointAuthToken"
+                  "Fn::Join": [
+                    "",
+                    [
+                      "REAL_TIME_ENDPOINT_AUTH_TOKEN=",
+                      { "Ref": "realTimeEndpointAuthToken" },
+                      "\\n",
+                      "OEV_ENDPOINT_AUTH_TOKEN=",
+                      { "Ref": "OevEndpointAuthToken" },
+                      "\\n",
+                      "AIRNODE_FEED_AUTH_TOKEN=",
+                      { "Ref": "SelfSignedApiToken" },
+                      "\\n",
+                      "CONFIG_SOURCE=local",
+                      "\\n",
+                      "LOG_LEVEL=info"
+                    ]
+                  ]
                 }
-              },
-              {
-                "Name": "OEV_ENDPOINT_AUTH_TOKEN",
-                "Value": {
-                  "Ref": "OevEndpointAuthToken"
-                }
-              },
-              {
-                "Name": "AIRNODE_FEED_AUTH_TOKEN",
-                "Value": { "Ref": "SelfSignedApiToken" }
-              },
-              {
-                "Name": "CONFIG_SOURCE",
-                "Value": "local"
-              },
-              {
-                "Name": "LOG_LEVEL",
-                "Value": "info"
               }
             ],
-            "EntryPoint": ["/bin/sh", "-c", "mkdir -p config && echo <SIGNED_API_CONFIG>\nEOF\nnode dist/src/index.js"],
+            "EntryPoint": ["/bin/sh", "-c"],
+            "Command": ["echo '<SIGNED_API_RUNNER_SCRIPT_BASE64>' | base64 -d > run.sh; sh run.sh"],
             "PortMappings": [
               {
                 "ContainerPort": 80,
