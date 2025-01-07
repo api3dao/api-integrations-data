@@ -1,0 +1,6 @@
+{
+  "name": "ENS/USD",
+  "path": "v1/exchangerate/ENS/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

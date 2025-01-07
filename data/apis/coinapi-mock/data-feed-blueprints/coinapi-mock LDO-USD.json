@@ -1,0 +1,6 @@
+{
+  "name": "LDO/USD",
+  "path": "v1/exchangerate/LDO/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

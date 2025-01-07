@@ -1,0 +1,6 @@
+{
+  "name": "IMX/USD",
+  "path": "v1/exchangerate/IMX/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

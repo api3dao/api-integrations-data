@@ -1,0 +1,6 @@
+{
+  "name": "CELO/USD",
+  "path": "v1/exchangerate/CELO/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

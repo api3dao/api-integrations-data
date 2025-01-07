@@ -1,0 +1,6 @@
+{
+  "name": "ZIL/USD",
+  "path": "v1/exchangerate/ZIL/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

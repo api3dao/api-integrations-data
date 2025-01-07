@@ -1,0 +1,6 @@
+{
+  "name": "ICP/USD",
+  "path": "v1/exchangerate/ICP/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

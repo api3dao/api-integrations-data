@@ -1,0 +1,6 @@
+{
+  "name": "MKR/USD",
+  "path": "v1/exchangerate/MKR/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

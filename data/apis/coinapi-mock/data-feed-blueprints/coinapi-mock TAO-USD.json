@@ -1,0 +1,6 @@
+{
+  "name": "TAO/USD",
+  "path": "v1/exchangerate/TAO/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

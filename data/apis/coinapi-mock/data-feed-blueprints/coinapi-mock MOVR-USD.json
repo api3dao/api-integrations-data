@@ -1,0 +1,6 @@
+{
+  "name": "MOVR/USD",
+  "path": "v1/exchangerate/MOVR/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

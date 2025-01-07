@@ -1,0 +1,6 @@
+{
+  "name": "BRETT/USD",
+  "path": "v1/exchangerate/BRETT/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

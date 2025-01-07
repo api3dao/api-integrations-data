@@ -1,0 +1,6 @@
+{
+  "name": "GNS/USD",
+  "path": "v1/exchangerate/GNS/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

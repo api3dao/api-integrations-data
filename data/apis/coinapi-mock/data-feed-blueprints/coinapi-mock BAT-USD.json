@@ -1,0 +1,6 @@
+{
+  "name": "BAT/USD",
+  "path": "v1/exchangerate/BAT/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

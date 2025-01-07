@@ -1,0 +1,6 @@
+{
+  "name": "HNT/USD",
+  "path": "v1/exchangerate/HNT/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

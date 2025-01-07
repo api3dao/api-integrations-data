@@ -1,0 +1,6 @@
+{
+  "name": "ATOM/USD",
+  "path": "v1/exchangerate/ATOM/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

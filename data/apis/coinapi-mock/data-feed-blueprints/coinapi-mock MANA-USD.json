@@ -1,0 +1,6 @@
+{
+  "name": "MANA/USD",
+  "path": "v1/exchangerate/MANA/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

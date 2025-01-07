@@ -1,0 +1,6 @@
+{
+  "name": "BTC/USD",
+  "path": "v1/exchangerate/BTC/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

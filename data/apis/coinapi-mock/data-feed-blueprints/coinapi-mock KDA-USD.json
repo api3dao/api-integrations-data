@@ -1,0 +1,6 @@
+{
+  "name": "KDA/USD",
+  "path": "v1/exchangerate/KDA/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "WBTC/USD",
+  "path": "v1/exchangerate/WBTC/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "POL/USD",
+  "path": "v1/exchangerate/POL/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

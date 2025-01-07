@@ -1,0 +1,6 @@
+{
+  "name": "FTM/USD",
+  "path": "v1/exchangerate/FTM/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

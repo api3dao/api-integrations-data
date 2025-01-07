@@ -1,0 +1,6 @@
+{
+  "name": "MASK/USD",
+  "path": "v1/exchangerate/MASK/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

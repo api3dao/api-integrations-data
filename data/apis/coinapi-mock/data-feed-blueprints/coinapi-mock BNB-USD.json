@@ -1,0 +1,6 @@
+{
+  "name": "BNB/USD",
+  "path": "v1/exchangerate/BNB/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

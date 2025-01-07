@@ -1,0 +1,6 @@
+{
+  "name": "RUNE/USD",
+  "path": "v1/exchangerate/RUNE/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

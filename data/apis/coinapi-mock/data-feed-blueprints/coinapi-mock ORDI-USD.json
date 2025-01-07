@@ -1,0 +1,6 @@
+{
+  "name": "ORDI/USD",
+  "path": "v1/exchangerate/ORDI/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "RARI/USD",
+  "path": "v1/exchangerate/RARI/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

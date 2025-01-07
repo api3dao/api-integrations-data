@@ -1,0 +1,6 @@
+{
+  "name": "CRV/USD",
+  "path": "v1/exchangerate/CRV/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

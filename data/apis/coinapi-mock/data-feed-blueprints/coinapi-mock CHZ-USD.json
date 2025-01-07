@@ -1,0 +1,6 @@
+{
+  "name": "CHZ/USD",
+  "path": "v1/exchangerate/CHZ/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

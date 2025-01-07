@@ -1,0 +1,6 @@
+{
+  "name": "CVX/USD",
+  "path": "v1/exchangerate/CVX/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "DAI/USD",
+  "path": "v1/exchangerate/DAI/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

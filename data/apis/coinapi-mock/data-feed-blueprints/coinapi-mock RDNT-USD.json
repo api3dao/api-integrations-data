@@ -1,0 +1,6 @@
+{
+  "name": "RDNT/USD",
+  "path": "v1/exchangerate/RDNT/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}

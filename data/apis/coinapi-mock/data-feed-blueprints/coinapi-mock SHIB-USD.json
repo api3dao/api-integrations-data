@@ -1,0 +1,6 @@
+{
+  "name": "SHIB/USD",
+  "path": "v1/exchangerate/SHIB/USD",
+  "parameters": {},
+  "parser": "(response) => { return response.rate }"
+}
