@@ -151,12 +151,15 @@
       ["LUMIA/USD"],
       ["SolvBTC/USD"],
       ["ZRC/USD"],
-      ["MORPHO/USD"]
+      ["MORPHO/USD"],
+      ["LBTC/USD"],
+      ["S/USD"],
+      ["VELO/USD"]
     ]
   },
   "homepageUrl": "https://www.blocksize.info",
   "verifiedBaseUrl": "https://blocksize.info",
-  "signedApiUrl": "",
+  "signedApiUrl": "https://signed-api.blocksize.info",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
@@ -165,6 +168,10 @@
     {
       "url": "https://signed-api.api3.org",
       "name": "API3"
+    },
+    {
+      "url": "https://signed-api.blocksize.info",
+      "name": "Self"
     }
   ],
   "stagingSignedApiUrl": {
@@ -173,7 +180,7 @@
   },
   "deploymentConfigurations": [
     {
-      "signedApi": false,
+      "signedApi": true,
       "region": "eu-central-1",
       "provider": "aws"
     },

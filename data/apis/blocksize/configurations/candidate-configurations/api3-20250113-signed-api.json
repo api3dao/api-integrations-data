@@ -1,0 +1,37 @@
+{
+  "endpoints": [
+    {
+      "urlPath": "/real-time",
+      "authTokens": ["${REAL_TIME_ENDPOINT_AUTH_TOKEN}"],
+      "delaySeconds": 0,
+      "isOev": false
+    },
+    {
+      "urlPath": "/oev",
+      "authTokens": ["${OEV_ENDPOINT_AUTH_TOKEN}"],
+      "delaySeconds": 0,
+      "isOev": true
+    },
+    {
+      "urlPath": "/public",
+      "authTokens": null,
+      "delaySeconds": 15,
+      "isOev": false
+    },
+    {
+      "urlPath": "/unsigned-real-time",
+      "authTokens": null,
+      "delaySeconds": 0,
+      "hideSignatures": true,
+      "isOev": false
+    }
+  ],
+  "allowedAirnodes": [
+    {
+      "address": "0x1Fb13E33B505d359b734F02A95E392284A205895",
+      "authTokens": ["${AIRNODE_FEED_AUTH_TOKEN}"]
+    }
+  ],
+  "stage": "aws",
+  "version": "2.1.0"
+}

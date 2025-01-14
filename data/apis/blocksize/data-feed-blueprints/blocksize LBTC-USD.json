@@ -1,0 +1,6 @@
+{
+  "name": "LBTC/USD",
+  "path": "getVWAP/LBTCUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}
