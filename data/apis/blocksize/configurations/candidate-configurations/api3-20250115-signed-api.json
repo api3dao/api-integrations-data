@@ -1,28 +1,28 @@
 {
   "endpoints": [
     {
-      "urlPath": "/real-time",
-      "authTokens": ["${REAL_TIME_ENDPOINT_AUTH_TOKEN}"],
+      "urlPath": "/unsigned-oev",
+      "authTokens": null,
       "delaySeconds": 0,
+      "hideSignatures": true,
       "isOev": false
     },
     {
       "urlPath": "/oev",
       "authTokens": ["${OEV_ENDPOINT_AUTH_TOKEN}"],
       "delaySeconds": 0,
+      "isOev": false
+    },
+    {
+      "urlPath": "/public-oev",
+      "authTokens": null,
+      "delaySeconds": 0,
       "isOev": true
     },
     {
       "urlPath": "/public",
       "authTokens": null,
-      "delaySeconds": 15,
-      "isOev": false
-    },
-    {
-      "urlPath": "/unsigned-real-time",
-      "authTokens": null,
-      "delaySeconds": 0,
-      "hideSignatures": true,
+      "delaySeconds": 60,
       "isOev": false
     }
   ],
@@ -33,5 +33,9 @@
     }
   ],
   "stage": "aws",
-  "version": "2.1.0"
+  "version": "2.1.0",
+  "cache": {
+    "type": "cdn",
+    "maxAgeSeconds": 1
+  }
 }
