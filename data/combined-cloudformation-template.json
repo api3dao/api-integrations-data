@@ -2,11 +2,6 @@
   "AWSTemplateFormatVersion": "2010-09-09",
   "Description": "CloudFormation template for deploying Signed API and Airnode Feed",
   "Parameters": {
-    "realTimeEndpointAuthToken": {
-      "Type": "String",
-      "MinLength": 5,
-      "Description": "Auth token for accessing real time data."
-    },
     "OevEndpointAuthToken": {
       "Type": "String",
       "MinLength": 5,
@@ -292,9 +287,6 @@
                   "Fn::Join": [
                     "",
                     [
-                      "REAL_TIME_ENDPOINT_AUTH_TOKEN=",
-                      { "Ref": "realTimeEndpointAuthToken" },
-                      "\\n",
                       "OEV_ENDPOINT_AUTH_TOKEN=",
                       { "Ref": "OevEndpointAuthToken" },
                       "\\n",
