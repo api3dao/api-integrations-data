@@ -1,0 +1,8 @@
+{
+  "name": "MTL/USD",
+  "path": "tickers/mtl-metal",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}

@@ -144,7 +144,12 @@
         "AUSD/USD",
         "BRETT/USD",
         "LUMIA/USD",
-        "SCR/USD"
+        "SCR/USD",
+        "COOK/USD",
+        "SolvBTC/USD",
+        "ZRC/USD",
+        "MORPHO/USD",
+        "LBTC/USD"
       ]
     ]
   },

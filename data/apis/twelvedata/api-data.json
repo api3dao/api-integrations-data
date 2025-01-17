@@ -152,7 +152,9 @@
       ["COOK/USD"],
       ["BRETT/USD"],
       ["SolvBTC/USD"],
-      ["MORPHO/USD"]
+      ["MORPHO/USD"],
+      ["LBTC/USD"],
+      ["ZRC/USD"]
     ]
   },
   "homepageUrl": "https://twelvedata.com",

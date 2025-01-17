@@ -12,7 +12,6 @@
       ["swETH/ETH Exchange Rate"],
       ["wstETH/stETH Exchange Rate"],
       ["mETH/ETH Exchange Rate"],
-      ["stMATIC/MATIC Exchange Rate"],
       ["MATICx/MATIC Exchange Rate"],
       ["ETHx/ETH Exchange Rate"],
       ["uniETH/ETH Exchange Rate"],
@@ -48,7 +47,8 @@
       ["egETH/ETH Exchange Rate"],
       ["mstETH/ETH Exchange Rate"],
       ["yUSD/USD Exchange Rate"],
-      ["inwstETHs/wstETH Exchange Rate"]
+      ["inwstETHs/wstETH Exchange Rate"],
+      ["scrvUSD/crvUSD Exchange Rate"]
     ]
   },
   "homepageUrl": "https://blastapi.io",

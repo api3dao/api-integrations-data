@@ -131,7 +131,9 @@
       ["LUMIA/USD"],
       ["SCR/USD"],
       ["ZRC/USD"],
-      ["MORPHO/USD"]
+      ["MORPHO/USD"],
+      ["S/USD"],
+      ["VELO/USD"]
     ]
   },
   "homepageUrl": "https://www.kaiko.com",

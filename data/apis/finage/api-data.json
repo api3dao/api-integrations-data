@@ -152,7 +152,12 @@
       ["BRETT/USD"],
       ["COOK/USD"],
       ["SCR/USD"],
-      ["MORPHO/USD"]
+      ["MORPHO/USD"],
+      ["cbBTC/USD"],
+      ["SolvBTC/USD"],
+      ["ZRC/USD"],
+      ["LBTC/USD"],
+      ["S/USD"]
     ]
   },
   "homepageUrl": "https://finage.co.uk",

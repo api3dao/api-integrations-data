@@ -1,0 +1,9 @@
+{
+  "name": "S/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "sonic-3",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['sonic-3']['usd']\n        }\n        "
+}

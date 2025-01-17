@@ -157,7 +157,10 @@
       ["SolvBTC/USD"],
       ["ZRC/USD"],
       ["MORPHO/USD"],
-      ["LBTC/USD"]
+      ["LBTC/USD"],
+      ["S/USD"],
+      ["VELO/USD"],
+      ["MTL/USD"]
     ]
   },
   "homepageUrl": "https://coinpaprika.com",

@@ -1,0 +1,6 @@
+{
+  "name": "SolvBTC/USD",
+  "path": "last/crypto/SOLVBTCUSD",
+  "parameters": {},
+  "parser": "(response) => {\n          return response.price\n        }\n        "
+}
