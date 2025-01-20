@@ -140,7 +140,9 @@
       ["COOK/USD"],
       ["SCR/USD"],
       ["ZRC/USD"],
-      ["MORPHO/USD"]
+      ["MORPHO/USD"],
+      ["VELO/USD"],
+      ["S/USD"]
     ]
   },
   "homepageUrl": "",
