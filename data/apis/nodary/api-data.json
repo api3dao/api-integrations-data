@@ -207,7 +207,7 @@
   },
   "homepageUrl": "https://nodary.io",
   "verifiedBaseUrl": "https://nodary.io",
-  "signedApiUrl": "",
+  "signedApiUrl": "https://signed-api.serhan.me",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
@@ -216,6 +216,10 @@
     {
       "url": "https://signed-api.api3.org",
       "name": "API3"
+    },
+    {
+      "url": "https://signed-api.serhan.me",
+      "name": "Self"
     }
   ],
   "stagingSignedApiUrl": {
@@ -224,7 +228,7 @@
   },
   "deploymentConfigurations": [
     {
-      "signedApi": false,
+      "signedApi": true,
       "region": "eu-north-1",
       "provider": "aws"
     },
