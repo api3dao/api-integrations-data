@@ -5,7 +5,7 @@
     "OevEndpointAuthToken": {
       "Type": "String",
       "MinLength": 5,
-      "Description": "Auth token for the OEV endpoint"
+      "Description": "Auth token for the OEV endpoint of Self Signed API"
     },
     "AcmCertificateArn": {
       "Type": "String",
