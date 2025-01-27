@@ -17,10 +17,15 @@
       "MinLength": 10,
       "Description": "Mnemonic phrase of your Airnode address."
     },
-    "API_KEY_1": {
+    "apiKey1": {
       "Type": "String",
       "MinLength": 10,
-      "Description": "Please enter the value for the security parameter API_KEY_1"
+      "Description": "Please enter the value for the security parameter apiKey1"
+    },
+    "apiKey2": {
+      "Type": "String",
+      "MinLength": 10,
+      "Description": "Please enter the value for the security parameter apiKey2"
     },
     "SelfSignedApiToken": {
       "Type": "String",
@@ -399,7 +404,12 @@
                       "\\n",
                       "API_KEY_1_VALUE=",
                       {
-                        "Ref": "API_KEY_1"
+                        "Ref": "apiKey1"
+                      },
+                      "\\n",
+                      "API_KEY_2_VALUE=",
+                      {
+                        "Ref": "apiKey2"
                       },
                       "\\n",
                       "AUTH_TOKEN_API3=",
