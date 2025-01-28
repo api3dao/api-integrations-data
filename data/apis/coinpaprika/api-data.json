@@ -165,7 +165,7 @@
   },
   "homepageUrl": "https://coinpaprika.com",
   "verifiedBaseUrl": "https://coinpaprika.com",
-  "signedApiUrl": "https://signed-api.test-signed-api.com",
+  "signedApiUrl": "",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
@@ -174,10 +174,6 @@
     {
       "url": "https://signed-api.api3.org",
       "name": "API3"
-    },
-    {
-      "url": "https://signed-api.test-signed-api.com",
-      "name": "Self"
     }
   ],
   "stagingSignedApiUrl": {
@@ -186,7 +182,7 @@
   },
   "deploymentConfigurations": [
     {
-      "signedApi": true,
+      "signedApi": false,
       "region": "us-east-1",
       "provider": "aws"
     },
