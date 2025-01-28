@@ -202,7 +202,8 @@
       ["LBTC/USD"],
       ["S/USD"],
       ["VELO/USD"],
-      ["scrvUSD/crvUSD Exchange Rate"]
+      ["scrvUSD/crvUSD Exchange Rate"],
+      ["MTL/USD"]
     ]
   },
   "homepageUrl": "https://nodary.io",
