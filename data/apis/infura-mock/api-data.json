@@ -45,7 +45,10 @@
       ["LsETH/ETH Exchange Rate"],
       ["insfrxETH/sfrxETH Exchange Rate"],
       ["egETH/ETH Exchange Rate"],
-      ["mstETH/ETH Exchange Rate"]
+      ["mstETH/ETH Exchange Rate"],
+      ["yUSD/USD Exchange Rate"],
+      ["inwstETHs/wstETH Exchange Rate"],
+      ["scrvUSD/crvUSD Exchange Rate"]
     ]
   },
   "homepageUrl": "",
