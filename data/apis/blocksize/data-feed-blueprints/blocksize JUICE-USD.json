@@ -1,6 +1,0 @@
-{
-  "name": "JUICE/USD",
-  "path": "getVWAP/JUICEUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

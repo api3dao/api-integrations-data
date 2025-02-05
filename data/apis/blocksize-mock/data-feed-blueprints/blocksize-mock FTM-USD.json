@@ -1,6 +1,0 @@
-{
-  "name": "FTM/USD",
-  "path": "getVWAP/FTMUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}
