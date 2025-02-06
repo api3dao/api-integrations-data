@@ -201,7 +201,8 @@
       ["S/USD"],
       ["VELO/USD"],
       ["scrvUSD/crvUSD Exchange Rate"],
-      ["MTL/USD"]
+      ["MTL/USD"],
+      ["BERA/USD"]
     ]
   },
   "homepageUrl": "",
