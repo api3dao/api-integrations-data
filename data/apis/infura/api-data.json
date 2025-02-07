@@ -53,7 +53,7 @@
   },
   "homepageUrl": "https://www.infura.io",
   "verifiedBaseUrl": "https://infura.io",
-  "signedApiUrl": "https://signed-api.dev.infura.io",
+  "signedApiUrl": "https://signed-api.infura.io",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
@@ -64,7 +64,7 @@
       "name": "API3"
     },
     {
-      "url": "https://signed-api.dev.infura.io",
+      "url": "https://signed-api.infura.io",
       "name": "Self"
     }
   ],

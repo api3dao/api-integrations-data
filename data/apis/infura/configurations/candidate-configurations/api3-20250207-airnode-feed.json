@@ -631,7 +631,7 @@
     },
     {
       "name": "Self",
-      "url": "https://signed-api.dev.infura.io",
+      "url": "https://signed-api.infura.io",
       "authToken": "${AUTH_TOKEN_SELF}"
     }
   ],
