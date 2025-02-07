@@ -1,6 +1,0 @@
-{
-  "name": "ARB/USD",
-  "path": "v1/exchangerate/ARB/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "TUSD/USD",
-  "path": "v1/exchangerate/TUSD/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

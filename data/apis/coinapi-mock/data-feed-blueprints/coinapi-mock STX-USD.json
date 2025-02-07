@@ -1,6 +1,0 @@
-{
-  "name": "STX/USD",
-  "path": "v1/exchangerate/STX/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

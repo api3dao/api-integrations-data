@@ -1,6 +1,0 @@
-{
-  "name": "GNO/USD",
-  "path": "v1/exchangerate/GNO/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

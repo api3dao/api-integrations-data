@@ -1,6 +1,0 @@
-{
-  "name": "XRP/USD",
-  "path": "v1/exchangerate/XRP/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

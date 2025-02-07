@@ -1,6 +1,0 @@
-{
-  "name": "BLUR/USD",
-  "path": "v1/exchangerate/BLUR/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

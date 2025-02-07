@@ -1,6 +1,0 @@
-{
-  "name": "DYDX/USD",
-  "path": "v1/exchangerate/DYDX/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

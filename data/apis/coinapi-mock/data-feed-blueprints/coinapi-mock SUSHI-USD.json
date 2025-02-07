@@ -1,6 +1,0 @@
-{
-  "name": "SUSHI/USD",
-  "path": "v1/exchangerate/SUSHI/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

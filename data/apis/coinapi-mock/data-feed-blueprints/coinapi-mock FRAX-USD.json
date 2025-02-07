@@ -1,6 +1,0 @@
-{
-  "name": "FRAX/USD",
-  "path": "v1/exchangerate/FRAX/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

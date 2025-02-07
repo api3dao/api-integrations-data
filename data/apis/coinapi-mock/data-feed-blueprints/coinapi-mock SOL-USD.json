@@ -1,6 +1,0 @@
-{
-  "name": "SOL/USD",
-  "path": "v1/exchangerate/SOL/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

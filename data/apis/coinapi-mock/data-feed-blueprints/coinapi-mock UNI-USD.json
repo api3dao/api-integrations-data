@@ -1,6 +1,0 @@
-{
-  "name": "UNI/USD",
-  "path": "v1/exchangerate/UNI/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

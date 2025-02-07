@@ -1,6 +1,0 @@
-{
-  "name": "HBAR/USD",
-  "path": "v1/exchangerate/HBAR/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

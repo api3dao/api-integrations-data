@@ -1,6 +1,0 @@
-{
-  "name": "CRO/USD",
-  "path": "v1/exchangerate/CRO/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

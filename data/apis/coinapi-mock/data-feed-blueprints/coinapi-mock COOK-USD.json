@@ -1,6 +1,0 @@
-{
-  "name": "COOK/USD",
-  "path": "v1/exchangerate/COOK/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

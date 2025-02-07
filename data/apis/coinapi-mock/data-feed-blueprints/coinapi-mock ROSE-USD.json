@@ -1,6 +1,0 @@
-{
-  "name": "ROSE/USD",
-  "path": "v1/exchangerate/ROSE/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

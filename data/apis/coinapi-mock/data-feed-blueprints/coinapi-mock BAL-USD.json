@@ -1,6 +1,0 @@
-{
-  "name": "BAL/USD",
-  "path": "v1/exchangerate/BAL/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

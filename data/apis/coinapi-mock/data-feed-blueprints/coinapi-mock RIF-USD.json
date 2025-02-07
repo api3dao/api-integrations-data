@@ -1,6 +1,0 @@
-{
-  "name": "RIF/USD",
-  "path": "v1/exchangerate/RIF/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

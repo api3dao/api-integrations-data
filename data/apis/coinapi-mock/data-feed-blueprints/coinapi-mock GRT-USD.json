@@ -1,6 +1,0 @@
-{
-  "name": "GRT/USD",
-  "path": "v1/exchangerate/GRT/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "BAND/USD",
-  "path": "v1/exchangerate/BAND/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

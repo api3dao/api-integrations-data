@@ -1,6 +1,0 @@
-{
-  "name": "OSMO/USD",
-  "path": "v1/exchangerate/OSMO/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

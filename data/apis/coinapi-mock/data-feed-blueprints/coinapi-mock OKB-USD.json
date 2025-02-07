@@ -1,6 +1,0 @@
-{
-  "name": "OKB/USD",
-  "path": "v1/exchangerate/OKB/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

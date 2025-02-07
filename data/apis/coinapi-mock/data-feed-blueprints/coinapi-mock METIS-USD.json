@@ -1,6 +1,0 @@
-{
-  "name": "METIS/USD",
-  "path": "v1/exchangerate/METIS/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

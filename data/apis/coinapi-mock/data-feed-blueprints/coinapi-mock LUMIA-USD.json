@@ -1,6 +1,0 @@
-{
-  "name": "LUMIA/USD",
-  "path": "v1/exchangerate/LUMIA/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

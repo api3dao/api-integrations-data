@@ -1,6 +1,0 @@
-{
-  "name": "SUI/USD",
-  "path": "v1/exchangerate/SUI/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

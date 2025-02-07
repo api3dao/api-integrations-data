@@ -1,6 +1,0 @@
-{
-  "name": "KAVA/USD",
-  "path": "v1/exchangerate/KAVA/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}

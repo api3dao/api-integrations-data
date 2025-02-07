@@ -1,6 +1,0 @@
-{
-  "name": "ANKR/USD",
-  "path": "v1/exchangerate/ANKR/USD",
-  "parameters": {},
-  "parser": "(response) => { return response.rate }"
-}
