@@ -1,0 +1,8 @@
+{
+  "name": "ysUSDC/USDC Exchange Rate",
+  "parameters": {
+    "name": "ysUSDC/USDC Exchange Rate"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+}
