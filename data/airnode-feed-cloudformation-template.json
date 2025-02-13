@@ -79,7 +79,7 @@
             }
           }
         ],
-        "LogGroupName": "AirnodeFeedLogGroup-<SOME_ID>",
+        "LogGroupName": "/ecs/airnodeFeed-<SOME_ID>",
         "RetentionInDays": 7
       }
     },

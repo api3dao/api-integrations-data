@@ -233,7 +233,7 @@
             }
           }
         ],
-        "LogGroupName": "/ecs/airnodeFeed-prod",
+        "LogGroupName": "/ecs/airnodeFeed-<SOME_ID>",
         "RetentionInDays": 7
       }
     },
@@ -257,31 +257,6 @@
           "Ref": "SharedECSTaskRole"
         },
         "ContainerDefinitions": [
-          {
-            "Essential": true,
-            "Image": "grafana/fluent-bit-plugin-loki:2.9.1-amd64",
-            "Name": "SignedApiLogForwarder",
-            "FirelensConfiguration": {
-              "Type": "fluentbit",
-              "Options": {
-                "enable-ecs-log-metadata": "true"
-              }
-            },
-            "LogConfiguration": {
-              "LogDriver": "awslogs",
-              "Options": {
-                "awslogs-group": {
-                  "Ref": "SignedApiLogsGroup"
-                },
-                "awslogs-region": {
-                  "Ref": "AWS::Region"
-                },
-                "awslogs-create-group": "true",
-                "awslogs-stream-prefix": "firelens"
-              }
-            },
-            "MemoryReservation": 50
-          },
           {
             "Name": "signed-api-container",
             "Image": "api3/signed-api:v2.1.0",
@@ -315,35 +290,16 @@
               }
             ],
             "LogConfiguration": {
-              "LogDriver": "awsfirelens",
+              "LogDriver": "awslogs",
               "Options": {
-                "Name": "grafana-loki",
-                "Url": {
-                  "Fn::Join": [
-                    "",
-                    [
-                      "https://",
-                      {
-                        "Ref": "grafanaLokiUser"
-                      },
-                      ":",
-                      {
-                        "Ref": "grafanaLokiToken"
-                      },
-                      "@",
-                      {
-                        "Ref": "grafanaLokiEndpoint"
-                      },
-                      "/loki/api/v1/push"
-                    ]
-                  ]
+                "awslogs-group": {
+                  "Ref": "SignedApiLogsGroup"
                 },
-                "Labels": {
-                  "Fn::Join": ["", ["{app=\"signed-api\",airnode=\"<AIRNODE_ADDRESS>", "\"}"]]
+                "awslogs-region": {
+                  "Ref": "AWS::Region"
                 },
-                "RemoveKeys": "container_id,container_name,ecs_task_definition,source,ecs_cluster",
-                "LabelKeys": "ecs_task_arn",
-                "LineFormat": "json"
+                "awslogs-stream-prefix": "signed-api",
+                "awslogs-create-group": "true"
               }
             }
           }
