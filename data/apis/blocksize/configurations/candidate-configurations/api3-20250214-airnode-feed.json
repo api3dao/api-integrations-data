@@ -2087,7 +2087,7 @@
     },
     {
       "name": "Self",
-      "url": "https://signed-api.blocksize.info",
+      "url": "https://signed-api.serhan.me",
       "authToken": "${AUTH_TOKEN_SELF}"
     }
   ],
