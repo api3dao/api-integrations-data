@@ -127,6 +127,14 @@
     "PublicSubnet2": {
       "Type": "AWS::EC2::Subnet",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "VpcId": {
           "Ref": "VPC"
         },
@@ -483,6 +491,14 @@
     "AirnodeFeedService": {
       "Type": "AWS::ECS::Service",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "Cluster": {
           "Ref": "SharedECSCluster"
         },
@@ -599,6 +615,14 @@
     "ELBSecurityGroup": {
       "Type": "AWS::EC2::SecurityGroup",
       "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
         "GroupDescription": "Security Group for ELB",
         "VpcId": {
           "Ref": "VPC"
@@ -685,19 +709,11 @@
           "DefaultCacheBehavior": {
             "AllowedMethods": ["GET", "HEAD", "OPTIONS", "PUT", "POST", "PATCH", "DELETE"],
             "CachedMethods": ["GET", "HEAD", "OPTIONS"],
-            "Compress": true,
-            "DefaultTTL": 0,
-            "ForwardedValues": {
-              "QueryString": true,
-              "Headers": ["Authorization", "Origin", "Accept"],
-              "Cookies": {
-                "Forward": "all"
-              }
-            },
-            "MinTTL": 0,
-            "MaxTTL": 0,
+            "FunctionAssociations": [],
             "TargetOriginId": "ELB",
-            "ViewerProtocolPolicy": "redirect-to-https"
+            "ViewerProtocolPolicy": "redirect-to-https",
+            "CachePolicyId": "658327ea-f89d-4fab-a63d-7e88639e58f6",
+            "OriginRequestPolicyId": "216adef6-5c7f-47e4-b989-5492eafa07d3"
           },
           "Origins": [
             {
@@ -706,10 +722,8 @@
               },
               "Id": "ELB",
               "CustomOriginConfig": {
-                "HTTPPort": 80,
-                "HTTPSPort": 443,
                 "OriginProtocolPolicy": "http-only",
-                "OriginSSLProtocols": ["TLSv1.2"]
+                "HTTPPort": 80
               }
             }
           ],
