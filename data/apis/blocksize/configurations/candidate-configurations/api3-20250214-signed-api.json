@@ -28,7 +28,7 @@
   ],
   "allowedAirnodes": [
     {
-      "address": "0x1Fb13E33B505d359b734F02A95E392284A205895",
+      "address": "0x5B2a49765b8E5820E3642c2C21a997A7D02BbcAC",
       "authTokens": ["${AIRNODE_FEED_AUTH_TOKEN}"]
     }
   ],
