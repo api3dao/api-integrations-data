@@ -1,0 +1,8 @@
+{
+  "name": "MTL/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "MTL/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MTL/USD').price\n        }"
+}

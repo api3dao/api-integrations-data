@@ -160,7 +160,7 @@
   },
   "homepageUrl": "https://finage.co.uk",
   "verifiedBaseUrl": "https://finage.co.uk",
-  "signedApiUrl": "",
+  "signedApiUrl": "https://signed-api.finage.co.uk",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
@@ -169,6 +169,10 @@
     {
       "url": "https://signed-api.api3.org",
       "name": "API3"
+    },
+    {
+      "url": "https://signed-api.finage.co.uk",
+      "name": "Self"
     }
   ],
   "stagingSignedApiUrl": {
@@ -177,7 +181,7 @@
   },
   "deploymentConfigurations": [
     {
-      "signedApi": false,
+      "signedApi": true,
       "region": "eu-west-2",
       "provider": "aws"
     },

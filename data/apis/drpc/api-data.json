@@ -53,7 +53,7 @@
   },
   "homepageUrl": "https://drpc.org",
   "verifiedBaseUrl": "https://drpc.org",
-  "signedApiUrl": "",
+  "signedApiUrl": "https://signed-api.drpc.org",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
@@ -62,6 +62,10 @@
     {
       "url": "https://signed-api.api3.org",
       "name": "API3"
+    },
+    {
+      "url": "https://signed-api.drpc.org",
+      "name": "Self"
     }
   ],
   "stagingSignedApiUrl": {
@@ -70,7 +74,7 @@
   },
   "deploymentConfigurations": [
     {
-      "signedApi": false,
+      "signedApi": true,
       "region": "us-east-2",
       "provider": "aws"
     },

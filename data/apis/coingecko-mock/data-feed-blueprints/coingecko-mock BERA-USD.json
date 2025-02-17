@@ -1,0 +1,9 @@
+{
+  "name": "BERA/USD",
+  "parameters": {
+    "ids": "berachain-bera",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['berachain-bera']['usd']\n            }"
+}

@@ -152,7 +152,7 @@
   },
   "homepageUrl": "https://www.shiftmarkets.com",
   "verifiedBaseUrl": "https://shiftmarkets.com",
-  "signedApiUrl": "",
+  "signedApiUrl": "https://signed-api.shiftmarkets.com",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
@@ -161,6 +161,10 @@
     {
       "url": "https://signed-api.api3.org",
       "name": "API3"
+    },
+    {
+      "url": "https://signed-api.shiftmarkets.com",
+      "name": "Self"
     }
   ],
   "stagingSignedApiUrl": {
@@ -169,7 +173,7 @@
   },
   "deploymentConfigurations": [
     {
-      "signedApi": false,
+      "signedApi": true,
       "region": "eu-central-1",
       "provider": "aws"
     },

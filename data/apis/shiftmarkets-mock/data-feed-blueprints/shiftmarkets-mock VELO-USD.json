@@ -1,0 +1,8 @@
+{
+  "name": "VELO/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "VELO2/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'VELO2/USD').price\n        }"
+}

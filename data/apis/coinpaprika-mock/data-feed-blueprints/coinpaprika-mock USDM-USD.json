@@ -1,0 +1,8 @@
+{
+  "name": "USDM/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/usdm-mountain-protocol-usd",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

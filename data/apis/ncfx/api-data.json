@@ -147,7 +147,7 @@
   },
   "homepageUrl": "https://www.newchangefx.com",
   "verifiedBaseUrl": "https://newchangefx.com",
-  "signedApiUrl": "",
+  "signedApiUrl": "https://signed-api.newchangefx.com",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
@@ -156,6 +156,10 @@
     {
       "url": "https://signed-api.api3.org",
       "name": "API3"
+    },
+    {
+      "url": "https://signed-api.newchangefx.com",
+      "name": "Self"
     }
   ],
   "stagingSignedApiUrl": {
@@ -164,7 +168,7 @@
   },
   "deploymentConfigurations": [
     {
-      "signedApi": false,
+      "signedApi": true,
       "region": "eu-west-2",
       "provider": "aws"
     },

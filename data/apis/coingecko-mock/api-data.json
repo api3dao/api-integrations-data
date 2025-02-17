@@ -159,7 +159,10 @@
         "LBTC/USD",
         "S/USD",
         "VELO/USD",
-        "MTL/USD"
+        "MTL/USD",
+        "BERA/USD",
+        "USDS/USD",
+        "USDM/USD"
       ]
     ]
   },

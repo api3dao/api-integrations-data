@@ -140,7 +140,14 @@
       ["ZRC/USD"],
       ["MORPHO/USD"],
       ["VELO/USD"],
-      ["S/USD"]
+      ["S/USD"],
+      ["MTL/USD"],
+      ["BERA/USD"],
+      ["USDS/USD"],
+      ["ZK/USD"],
+      ["ZRO/USD"],
+      ["POL/USD"],
+      ["crvUSD/USD"]
     ]
   },
   "homepageUrl": "",

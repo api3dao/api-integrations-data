@@ -1,0 +1,42 @@
+{
+  "endpoints": [
+    {
+      "urlPath": "/unsigned-oev",
+      "authTokens": null,
+      "delaySeconds": 0,
+      "hideSignatures": true,
+      "isOev": false
+    },
+    {
+      "urlPath": "/oev",
+      "authTokens": ["${OEV_ENDPOINT_AUTH_TOKEN}"],
+      "delaySeconds": 0,
+      "isOev": false
+    },
+    {
+      "urlPath": "/public-oev",
+      "authTokens": null,
+      "delaySeconds": 0,
+      "isOev": true
+    },
+    {
+      "urlPath": "/public",
+      "authTokens": null,
+      "delaySeconds": 60,
+      "isOev": false
+    }
+  ],
+  "allowedAirnodes": [
+    {
+      "address": "0xAaA5fdF8189C6344bA17De6C1a877beb416990AC",
+      "authTokens": ["${AIRNODE_FEED_AUTH_TOKEN}"],
+      "isCertified": true
+    }
+  ],
+  "stage": "aws",
+  "version": "3.0.1",
+  "cache": {
+    "type": "cdn",
+    "maxAgeSeconds": 1
+  }
+}
