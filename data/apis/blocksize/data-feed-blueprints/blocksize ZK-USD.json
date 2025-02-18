@@ -1,0 +1,6 @@
+{
+  "name": "ZK/USD",
+  "path": "getVWAP/ZKUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

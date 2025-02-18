@@ -48,7 +48,9 @@
       ["mstETH/ETH Exchange Rate"],
       ["yUSD/USD Exchange Rate"],
       ["inwstETHs/wstETH Exchange Rate"],
-      ["scrvUSD/crvUSD Exchange Rate"]
+      ["scrvUSD/crvUSD Exchange Rate"],
+      ["sUSDS/USDS Exchange Rate"],
+      ["ysUSDC/USDC Exchange Rate"]
     ]
   },
   "homepageUrl": "https://www.alchemy.com",

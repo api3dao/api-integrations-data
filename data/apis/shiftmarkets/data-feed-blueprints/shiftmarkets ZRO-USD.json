@@ -1,0 +1,8 @@
+{
+  "name": "ZRO/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "ZRO/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ZRO/USD').price\n        }"
+}

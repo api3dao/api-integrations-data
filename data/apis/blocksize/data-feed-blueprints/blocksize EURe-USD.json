@@ -1,0 +1,6 @@
+{
+  "name": "EURe/USD",
+  "path": "getVWAP/EUREUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

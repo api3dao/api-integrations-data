@@ -152,7 +152,14 @@
       ["MORPHO/USD"],
       ["LBTC/USD"],
       ["S/USD"],
-      ["VELO/USD"]
+      ["VELO/USD"],
+      ["MTL/USD"],
+      ["BERA/USD"],
+      ["USDS/USD"],
+      ["USDM/USD"],
+      ["EURe/USD"],
+      ["ZK/USD"],
+      ["ZRO/USD"]
     ]
   },
   "homepageUrl": "https://www.blocksize.info",

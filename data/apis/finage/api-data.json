@@ -155,7 +155,12 @@
       ["SolvBTC/USD"],
       ["ZRC/USD"],
       ["LBTC/USD"],
-      ["S/USD"]
+      ["S/USD"],
+      ["VELO/USD"],
+      ["MTL/USD"],
+      ["BERA/USD"],
+      ["USDS/USD"],
+      ["USDM/USD"]
     ]
   },
   "homepageUrl": "https://finage.co.uk",

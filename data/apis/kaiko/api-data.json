@@ -132,7 +132,9 @@
       ["ZRC/USD"],
       ["MORPHO/USD"],
       ["S/USD"],
-      ["VELO/USD"]
+      ["VELO/USD"],
+      ["MTL/USD"],
+      ["BERA/USD"]
     ]
   },
   "homepageUrl": "https://www.kaiko.com",
