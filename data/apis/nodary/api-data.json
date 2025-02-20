@@ -211,7 +211,7 @@
   },
   "homepageUrl": "https://nodary.io",
   "verifiedBaseUrl": "https://nodary.io",
-  "signedApiUrl": "",
+  "signedApiUrl": "https://signed-api.nodary.io",
   "productionSignedApiUrls": [
     {
       "url": "https://signed-api.nodary.io",
