@@ -206,7 +206,8 @@
       ["sUSDS/USDS Exchange Rate"],
       ["USDS/USD"],
       ["ysUSDC/USDC Exchange Rate"],
-      ["USDM/USD"]
+      ["USDM/USD"],
+      ["sfrxUSD/frxUSD Exchange Rate"]
     ]
   },
   "homepageUrl": "",
