@@ -207,7 +207,9 @@
       ["USDS/USD"],
       ["ysUSDC/USDC Exchange Rate"],
       ["USDM/USD"],
-      ["sfrxUSD/frxUSD Exchange Rate"]
+      ["sfrxUSD/frxUSD Exchange Rate"],
+      ["HYPE/USD"],
+      ["VET/USD"]
     ]
   },
   "homepageUrl": "https://nodary.io",

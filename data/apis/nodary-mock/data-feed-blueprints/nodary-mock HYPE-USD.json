@@ -1,0 +1,8 @@
+{
+  "name": "HYPE/USD",
+  "parameters": {
+    "name": "HYPE/USD"
+  },
+  "path": "feed/latest",
+  "parser": "(response) => {\n              return response.value;\n            }\n            "
+}
