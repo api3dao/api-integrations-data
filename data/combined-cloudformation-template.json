@@ -2,11 +2,6 @@
   "AWSTemplateFormatVersion": "2010-09-09",
   "Description": "CloudFormation template for deploying Signed API and Airnode Feed",
   "Parameters": {
-    "OevEndpointAuthToken": {
-      "Type": "String",
-      "MinLength": 5,
-      "Description": "Auth token for the OEV endpoint of Self Signed API"
-    },
     "AcmCertificateArn": {
       "Type": "String",
       "Description": "ARN of ACM certificate for the domain",
@@ -275,9 +270,6 @@
                   "Fn::Join": [
                     "",
                     [
-                      "OEV_ENDPOINT_AUTH_TOKEN=",
-                      { "Ref": "OevEndpointAuthToken" },
-                      "\\n",
                       "AIRNODE_FEED_AUTH_TOKEN=",
                       { "Ref": "SelfSignedApiToken" },
                       "\\n",
