@@ -1,0 +1,8 @@
+{
+  "name": "tBTC/USD",
+  "path": "feed/latest",
+  "parameters": {
+    "name": "tBTC/USD"
+  },
+  "parser": "(response) => {\n          return response.value\n        }\n        "
+}

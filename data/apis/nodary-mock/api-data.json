@@ -209,7 +209,9 @@
       ["USDM/USD"],
       ["sfrxUSD/frxUSD Exchange Rate"],
       ["HYPE/USD"],
-      ["VET/USD"]
+      ["VET/USD"],
+      ["demETH/ETH Exchange Rate"],
+      ["tBTC/USD"]
     ]
   },
   "homepageUrl": "",
