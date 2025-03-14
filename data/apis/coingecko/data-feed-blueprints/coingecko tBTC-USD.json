@@ -1,0 +1,9 @@
+{
+  "name": "tBTC/USD",
+  "parameters": {
+    "ids": "tbtc",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['tbtc']['usd']\n            }"
+}

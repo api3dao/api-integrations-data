@@ -1,0 +1,8 @@
+{
+  "name": "DAI/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "DAI/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'DAI/USD').price\n        }"
+}

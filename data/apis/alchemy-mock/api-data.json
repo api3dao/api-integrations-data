@@ -51,7 +51,8 @@
       ["scrvUSD/crvUSD Exchange Rate"],
       ["sUSDS/USDS Exchange Rate"],
       ["ysUSDC/USDC Exchange Rate"],
-      ["demETH/ETH Exchange Rate"]
+      ["demETH/ETH Exchange Rate"],
+      ["sfrxUSD/frxUSD Exchange Rate"]
     ]
   },
   "homepageUrl": "",

@@ -1,0 +1,6 @@
+{
+  "name": "VET/USD",
+  "path": "getVWAP/VETUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

@@ -145,7 +145,13 @@
         "MTL/USD",
         "BERA/USD",
         "USDS/USD",
-        "POL/USD"
+        "POL/USD",
+        "HYPE/USD",
+        "ETHFI/USD",
+        "GNS/USD",
+        "ENA/USD",
+        "VET/USD",
+        "SATS/USD"
       ]
     ]
   },

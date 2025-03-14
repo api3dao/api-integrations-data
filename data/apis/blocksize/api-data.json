@@ -159,7 +159,11 @@
       ["USDM/USD"],
       ["EURe/USD"],
       ["ZK/USD"],
-      ["ZRO/USD"]
+      ["ZRO/USD"],
+      ["frxUSD/USD"],
+      ["HYPE/USD"],
+      ["VET/USD"],
+      ["tBTC/USD"]
     ]
   },
   "homepageUrl": "https://www.blocksize.info",

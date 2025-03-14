@@ -1,0 +1,8 @@
+{
+  "name": "tBTC/USD",
+  "path": "v1/price",
+  "parameters": {
+    "symbols": "TBTC/USD"
+  },
+  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'TBTC/USD').price\n        }"
+}

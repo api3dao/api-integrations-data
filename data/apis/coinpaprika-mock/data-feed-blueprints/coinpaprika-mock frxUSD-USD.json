@@ -1,0 +1,8 @@
+{
+  "name": "frxUSD/USD",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "path": "tickers/frxusd-frax-usd",
+  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+}

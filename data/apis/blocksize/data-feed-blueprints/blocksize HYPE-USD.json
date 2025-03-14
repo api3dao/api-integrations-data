@@ -1,0 +1,6 @@
+{
+  "name": "HYPE/USD",
+  "path": "getVWAP/HYPEUSD",
+  "parameters": {},
+  "parser": "(response) => { return response.price; }"
+}

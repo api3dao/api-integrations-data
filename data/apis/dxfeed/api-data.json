@@ -147,7 +147,12 @@
       ["ZK/USD"],
       ["ZRO/USD"],
       ["POL/USD"],
-      ["crvUSD/USD"]
+      ["crvUSD/USD"],
+      ["RON/USD"],
+      ["stETH/USD"],
+      ["tBTC/USD"],
+      ["HYPE/USD"],
+      ["VET/USD"]
     ]
   },
   "homepageUrl": "https://dxfeed.com",

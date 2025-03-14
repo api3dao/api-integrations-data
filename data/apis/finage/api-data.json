@@ -160,7 +160,11 @@
       ["MTL/USD"],
       ["BERA/USD"],
       ["USDS/USD"],
-      ["USDM/USD"]
+      ["USDM/USD"],
+      ["HYPE/USD"],
+      ["VET/USD"],
+      ["tBTC/USD"],
+      ["frxUSD/USD"]
     ]
   },
   "homepageUrl": "https://finage.co.uk",

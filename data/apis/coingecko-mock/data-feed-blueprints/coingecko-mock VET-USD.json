@@ -1,0 +1,9 @@
+{
+  "name": "VET/USD",
+  "parameters": {
+    "ids": "vechain",
+    "vs_currencies": "usd"
+  },
+  "path": "simple/price",
+  "parser": "(response) => {\n              return response['vechain']['usd']\n            }"
+}

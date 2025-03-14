@@ -162,7 +162,11 @@
         "MTL/USD",
         "BERA/USD",
         "USDS/USD",
-        "USDM/USD"
+        "USDM/USD",
+        "frxUSD/USD",
+        "HYPE/USD",
+        "VET/USD",
+        "tBTC/USD"
       ]
     ]
   },

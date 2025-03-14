@@ -1,0 +1,6 @@
+{
+  "name": "frxUSD/USD",
+  "parameters": {},
+  "path": "last/crypto/FRAXUSD",
+  "parser": "(response) => {\n              return response.price\n            }\n            "
+}

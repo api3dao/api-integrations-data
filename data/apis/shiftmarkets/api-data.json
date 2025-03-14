@@ -155,7 +155,15 @@
         "ZK/USD",
         "ZRO/USD",
         "POL/USD",
-        "crvUSD/USD"
+        "crvUSD/USD",
+        "frxUSD/USD",
+        "HYPE/USD",
+        "VET/USD",
+        "tBTC/USD",
+        "CFX/USD",
+        "DAI/USD",
+        "INJ/USD",
+        "RENDER/USD"
       ]
     ]
   },
