@@ -211,7 +211,8 @@
       ["HYPE/USD"],
       ["VET/USD"],
       ["demETH/ETH Exchange Rate"],
-      ["tBTC/USD"]
+      ["tBTC/USD"],
+      ["VTHO/USD"]
     ]
   },
   "homepageUrl": "https://nodary.io",
