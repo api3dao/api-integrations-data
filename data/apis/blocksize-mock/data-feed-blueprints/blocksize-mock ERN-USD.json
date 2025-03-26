@@ -1,6 +1,0 @@
-{
-  "name": "ERN/USD",
-  "path": "getVWAP/ERNUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}
