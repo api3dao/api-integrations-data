@@ -182,7 +182,7 @@
               },
               {
                 "Name": "LOG_LEVEL",
-                "Value": "info"
+                "Value": "warn"
               }
             ],
             "EntryPoint": ["/bin/sh", "-c"],
