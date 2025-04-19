@@ -163,7 +163,8 @@
       ["HYPE/USD"],
       ["VET/USD"],
       ["tBTC/USD"],
-      ["frxUSD/USD"]
+      ["frxUSD/USD"],
+      ["VTHO/USD"]
     ]
   },
   "homepageUrl": "",
