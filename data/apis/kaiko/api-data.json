@@ -149,7 +149,7 @@
       "name": "API3"
     },
     {
-      "url": "https://signed-api.kaiko.com",
+      "url": "http://signed-api.self.internal",
       "name": "Self"
     }
   ],

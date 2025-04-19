@@ -52,13 +52,6 @@
       "ConstraintDescription": "The string must not contain any whitespaces.",
       "Description": "Token to POST data to API3 Signed API (This should be handed to you)."
     },
-    "SelfSignedApiToken": {
-      "Type": "String",
-      "MinLength": "10",
-      "AllowedPattern": "^[^\\s]+$",
-      "ConstraintDescription": "The string must not contain any whitespaces.",
-      "Description": "Token to POST data to Self Signed API (This should be handed to you)."
-    },
     "StagingSignedApiToken": {
       "Type": "String",
       "MinLength": 10,

@@ -167,7 +167,7 @@
       "name": "API3"
     },
     {
-      "url": "https://signed-api.dxfeed.com",
+      "url": "http://signed-api.self.internal",
       "name": "Self"
     }
   ],

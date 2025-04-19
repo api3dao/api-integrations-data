@@ -431,6 +431,50 @@
         ]
       }
     },
+    "ServiceDiscoveryNamespace": {
+      "Type": "AWS::ServiceDiscovery::PrivateDnsNamespace",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
+        "Name": "self.internal",
+        "Vpc": { "Ref": "VPC" },
+        "Description": "Private DNS namespace for internal API3 service discovery"
+      }
+    },
+    "SignedApiServiceRegistry": {
+      "Type": "AWS::ServiceDiscovery::Service",
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "API3",
+            "Value": {
+              "Fn::Join": ["-", [{ "Ref": "AWS::StackName" }, { "Ref": "AWS::Region" }]]
+            }
+          }
+        ],
+        "Name": "signed-api",
+        "Description": "Service discovery for Signed API service",
+        "DnsConfig": {
+          "DnsRecords": [
+            {
+              "Type": "A",
+              "TTL": 10
+            }
+          ],
+          "NamespaceId": { "Ref": "ServiceDiscoveryNamespace" },
+          "RoutingPolicy": "MULTIVALUE"
+        },
+        "HealthCheckCustomConfig": {
+          "FailureThreshold": 1
+        }
+      }
+    },
     "SignedApiService": {
       "Type": "AWS::ECS::Service",
       "DependsOn": "SignedApiListener",
@@ -476,6 +520,11 @@
             "TargetGroupArn": {
               "Ref": "SignedApiTargetGroup"
             }
+          }
+        ],
+        "ServiceRegistries": [
+          {
+            "RegistryArn": { "Fn::GetAtt": ["SignedApiServiceRegistry", "Arn"] }
           }
         ]
       }
@@ -699,7 +748,7 @@
           "Aliases": ["<SIGNED_API_DOMAIN>"],
           "Enabled": true,
           "DefaultCacheBehavior": {
-            "AllowedMethods": ["GET", "HEAD", "OPTIONS", "PUT", "POST", "PATCH", "DELETE"],
+            "AllowedMethods": ["GET", "HEAD", "OPTIONS"],
             "CachedMethods": ["GET", "HEAD", "OPTIONS"],
             "FunctionAssociations": [],
             "TargetOriginId": "ELB",
@@ -728,6 +777,17 @@
           },
           "PriceClass": "PriceClass_100"
         }
+      }
+    },
+    "InternalCommunicationSecurityGroupRule": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": { "Ref": "ECSSecurityGroup" },
+        "IpProtocol": "tcp",
+        "FromPort": 80,
+        "ToPort": 80,
+        "SourceSecurityGroupId": { "Ref": "ECSSecurityGroup" },
+        "Description": "Allow internal communication between ECS Tasks"
       }
     }
   },

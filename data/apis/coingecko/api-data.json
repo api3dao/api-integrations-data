@@ -182,7 +182,7 @@
       "name": "API3"
     },
     {
-      "url": "https://signed-api.coingecko.com",
+      "url": "http://signed-api.self.internal",
       "name": "Self"
     }
   ],

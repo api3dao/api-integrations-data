@@ -68,7 +68,7 @@
       "name": "API3"
     },
     {
-      "url": "https://signed-api.ankr.com",
+      "url": "http://signed-api.self.internal",
       "name": "Self"
     }
   ],
