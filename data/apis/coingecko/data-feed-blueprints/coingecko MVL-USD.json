@@ -1,0 +1,9 @@
+{
+  "name": "MVL/USD",
+  "path": "simple/price",
+  "parameters": {
+    "ids": "mass-vehicle-ledger",
+    "vs_currencies": "usd"
+  },
+  "parser": "(response) => {\n          return response['mass-vehicle-ledger']['usd']\n        }\n        "
+}

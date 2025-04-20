@@ -164,7 +164,9 @@
       ["frxUSD/USD"],
       ["HYPE/USD"],
       ["VET/USD"],
-      ["tBTC/USD"]
+      ["tBTC/USD"],
+      ["VTHO/USD"],
+      ["MVL/USD"]
     ]
   },
   "homepageUrl": "https://coinpaprika.com",

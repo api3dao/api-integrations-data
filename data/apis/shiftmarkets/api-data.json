@@ -162,7 +162,9 @@
         "CFX/USD",
         "DAI/USD",
         "INJ/USD",
-        "RENDER/USD"
+        "RENDER/USD",
+        "VTHO/USD",
+        "MVL/USD"
       ]
     ]
   },

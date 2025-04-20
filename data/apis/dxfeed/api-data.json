@@ -151,7 +151,8 @@
       ["stETH/USD"],
       ["tBTC/USD"],
       ["HYPE/USD"],
-      ["VET/USD"]
+      ["VET/USD"],
+      ["VTHO/USD"]
     ]
   },
   "homepageUrl": "https://dxfeed.com",

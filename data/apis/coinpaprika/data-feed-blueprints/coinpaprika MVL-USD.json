@@ -1,0 +1,8 @@
+{
+  "name": "MVL/USD",
+  "path": "tickers/mvl-mass-vehicle-ledger",
+  "parameters": {
+    "quotes": "USD"
+  },
+  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+}
