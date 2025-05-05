@@ -1,6 +1,0 @@
-{
-  "name": "HNT/USD",
-  "path": "getVWAP/HNTUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

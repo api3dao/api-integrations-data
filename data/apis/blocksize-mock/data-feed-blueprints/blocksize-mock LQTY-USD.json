@@ -1,6 +1,0 @@
-{
-  "name": "LQTY/USD",
-  "path": "getVWAP/LQTYUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

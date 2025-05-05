@@ -1,6 +1,0 @@
-{
-  "name": "WLD/USD",
-  "path": "last/crypto/WLDUSD",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

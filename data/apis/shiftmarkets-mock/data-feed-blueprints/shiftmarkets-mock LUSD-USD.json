@@ -1,8 +1,0 @@
-{
-  "name": "LUSD/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "LUSD/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'LUSD/USD').price\n        }"
-}

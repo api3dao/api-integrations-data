@@ -1,8 +1,0 @@
-{
-  "name": "TUSD/USD",
-  "parameters": {
-    "name": "TUSD/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

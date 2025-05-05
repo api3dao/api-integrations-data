@@ -1,9 +1,0 @@
-{
-  "name": "BRETT/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "based-brett",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['based-brett']['usd']\n        }\n        "
-}

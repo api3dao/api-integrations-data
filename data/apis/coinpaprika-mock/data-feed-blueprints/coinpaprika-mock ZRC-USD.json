@@ -1,8 +1,0 @@
-{
-  "name": "ZRC/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/zrc-zircuit",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

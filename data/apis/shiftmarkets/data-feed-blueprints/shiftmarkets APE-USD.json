@@ -1,8 +1,0 @@
-{
-  "name": "APE/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "APE/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'APE/USD').price\n        }"
-}

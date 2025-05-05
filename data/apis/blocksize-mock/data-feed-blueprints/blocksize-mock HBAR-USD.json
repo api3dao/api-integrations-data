@@ -1,6 +1,0 @@
-{
-  "name": "HBAR/USD",
-  "path": "getVWAP/HBARUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

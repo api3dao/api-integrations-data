@@ -1,6 +1,0 @@
-{
-  "name": "stETH/USD",
-  "path": "getVWAP/STETHUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

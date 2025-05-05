@@ -1,6 +1,0 @@
-{
-  "name": "USDT/USD",
-  "path": "getVWAP/USDTUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

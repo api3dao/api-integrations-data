@@ -1,8 +1,0 @@
-{
-  "name": "FBTC/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "FBTC/USD_Crypto"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'FBTC/USD_Crypto').price\n        }"
-}

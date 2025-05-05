@@ -1,8 +1,0 @@
-{
-  "name": "METIS/USD",
-  "parameters": {
-    "name": "METIS/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

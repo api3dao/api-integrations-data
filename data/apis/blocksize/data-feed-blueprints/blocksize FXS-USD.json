@@ -1,6 +1,0 @@
-{
-  "name": "FXS/USD",
-  "path": "getVWAP/FXSUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

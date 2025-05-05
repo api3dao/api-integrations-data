@@ -1,6 +1,0 @@
-{
-  "name": "OSMO/USD",
-  "path": "getVWAP/OSMOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

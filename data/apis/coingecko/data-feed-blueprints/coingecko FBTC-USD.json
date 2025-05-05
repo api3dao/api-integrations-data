@@ -1,9 +1,0 @@
-{
-  "name": "FBTC/USD",
-  "parameters": {
-    "ids": "ignition-fbtc",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['ignition-fbtc']['usd']\n            }"
-}

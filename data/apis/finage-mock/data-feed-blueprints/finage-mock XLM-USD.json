@@ -1,6 +1,0 @@
-{
-  "name": "XLM/USD",
-  "parameters": {},
-  "path": "last/crypto/XLMUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

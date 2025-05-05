@@ -1,9 +1,0 @@
-{
-  "name": "BAND/USD",
-  "parameters": {
-    "ids": "band-protocol",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['band-protocol']['usd']\n            }"
-}

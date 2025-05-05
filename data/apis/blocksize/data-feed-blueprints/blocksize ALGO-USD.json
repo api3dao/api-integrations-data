@@ -1,6 +1,0 @@
-{
-  "name": "ALGO/USD",
-  "path": "getVWAP/ALGOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

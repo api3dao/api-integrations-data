@@ -1,8 +1,0 @@
-{
-  "name": "PAXG/USD",
-  "parameters": {
-    "pairs": "PAXG-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['PAXG-USD'].rate\n            }\n            "
-}

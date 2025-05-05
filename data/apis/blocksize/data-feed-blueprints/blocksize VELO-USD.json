@@ -1,6 +1,0 @@
-{
-  "name": "VELO/USD",
-  "path": "getVWAP/VELOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

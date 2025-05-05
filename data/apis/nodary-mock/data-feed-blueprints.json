@@ -1,0 +1,1658 @@
+[
+  {
+    "name": "AAVE/USD",
+    "parameters": {
+      "name": "AAVE/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ADA/USD",
+    "parameters": {
+      "name": "ADA/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "AERO/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "AERO/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "ALGO/USD",
+    "parameters": {
+      "name": "ALGO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ANKR/USD",
+    "parameters": {
+      "name": "ANKR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "APE/USD",
+    "parameters": {
+      "name": "APE/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "API3/USD",
+    "parameters": {
+      "name": "API3/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "APT/USD",
+    "parameters": {
+      "name": "APT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "AR/USD",
+    "parameters": {
+      "name": "AR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ARB/USD",
+    "parameters": {
+      "name": "ARB/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ASTR/USD",
+    "parameters": {
+      "name": "ASTR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ATOM/USD",
+    "parameters": {
+      "name": "ATOM/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "AUSD/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "AUSD/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "AVAX/USD",
+    "parameters": {
+      "name": "AVAX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "AXL/USD",
+    "parameters": {
+      "name": "AXL/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "AXS/USD",
+    "parameters": {
+      "name": "AXS/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "BAL/USD",
+    "parameters": {
+      "name": "BAL/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "BAND/USD",
+    "parameters": {
+      "name": "BAND/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "BAT/USD",
+    "parameters": {
+      "name": "BAT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "BERA/USD",
+    "parameters": {
+      "name": "BERA/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "BLAST/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "BLAST/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "BLUR/USD",
+    "parameters": {
+      "name": "BLUR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "BNB/USD",
+    "parameters": {
+      "name": "BNB/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "BNBx/BNB Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "BNBx/BNB Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "BRETT/USD",
+    "parameters": {
+      "name": "BRETT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "BTC/USD",
+    "parameters": {
+      "name": "BTC/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "CAKE/USD",
+    "parameters": {
+      "name": "CAKE/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "CELO/USD",
+    "parameters": {
+      "name": "CELO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "CFX/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "CFX/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "CHZ/USD",
+    "parameters": {
+      "name": "CHZ/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "COMP/USD",
+    "parameters": {
+      "name": "COMP/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "COOK/USD",
+    "parameters": {
+      "name": "COOK/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "CORE/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "CORE/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "CRO/USD",
+    "parameters": {
+      "name": "CRO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "CRV/USD",
+    "parameters": {
+      "name": "CRV/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "CVX/USD",
+    "parameters": {
+      "name": "CVX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "DAI/USD",
+    "parameters": {
+      "name": "DAI/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "DEGEN/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "DEGEN/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "DOGE/USD",
+    "parameters": {
+      "name": "DOGE/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "DOT/USD",
+    "parameters": {
+      "name": "DOT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "DYDX/USD",
+    "parameters": {
+      "name": "DYDX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "DYM/USD",
+    "parameters": {
+      "name": "DYM/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ENA/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "ENA/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "ENS/USD",
+    "parameters": {
+      "name": "ENS/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ETH/USD",
+    "parameters": {
+      "name": "ETH/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ETHFI/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "ETHFI/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "ETHx/ETH Exchange Rate",
+    "parameters": {
+      "name": "ETHx/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "EURC/USD",
+    "parameters": {
+      "name": "EURC/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "EURe/USD",
+    "parameters": {
+      "name": "EURe/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "FBTC/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "FBTC/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "FDUSD/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "FDUSD/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "FIL/USD",
+    "parameters": {
+      "name": "FIL/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "FLOW/USD",
+    "parameters": {
+      "name": "FLOW/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "FRAX/USD",
+    "parameters": {
+      "name": "FRAX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "FXS/USD",
+    "parameters": {
+      "name": "FXS/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "GHO/USD",
+    "parameters": {
+      "name": "GHO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "GLMR/USD",
+    "parameters": {
+      "name": "GLMR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "GMX/USD",
+    "parameters": {
+      "name": "GMX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "GNO/USD",
+    "parameters": {
+      "name": "GNO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "GNS/USD",
+    "parameters": {
+      "name": "GNS/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "GRT/USD",
+    "parameters": {
+      "name": "GRT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "HBAR/USD",
+    "parameters": {
+      "name": "HBAR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "HNT/USD",
+    "parameters": {
+      "name": "HNT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "HYPE/USD",
+    "parameters": {
+      "name": "HYPE/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ICP/USD",
+    "parameters": {
+      "name": "ICP/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "IMX/USD",
+    "parameters": {
+      "name": "IMX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "INJ/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "INJ/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "JOE/USD",
+    "parameters": {
+      "name": "JOE/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "KAVA/USD",
+    "parameters": {
+      "name": "KAVA/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "KDA/USD",
+    "parameters": {
+      "name": "KDA/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "KSM/USD",
+    "parameters": {
+      "name": "KSM/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "LBTC/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "LBTC/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "LDO/USD",
+    "parameters": {
+      "name": "LDO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "LINK/USD",
+    "parameters": {
+      "name": "LINK/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "LQTY/USD",
+    "parameters": {
+      "name": "LQTY/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "LTC/USD",
+    "parameters": {
+      "name": "LTC/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "LUMIA/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "LUMIA/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "LUSD/USD",
+    "parameters": {
+      "name": "LUSD/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "LsETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "LsETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "MANA/USD",
+    "parameters": {
+      "name": "MANA/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "MANTA/USD",
+    "parameters": {
+      "name": "MANTA/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "MASK/USD",
+    "parameters": {
+      "name": "MASK/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "MATICx/MATIC Exchange Rate",
+    "parameters": {
+      "name": "MATICx/MATIC Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "MERL/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "MERL/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "METIS/USD",
+    "parameters": {
+      "name": "METIS/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "MKR/USD",
+    "parameters": {
+      "name": "MKR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "MNT/USD",
+    "parameters": {
+      "name": "MNT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "MODE/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "MODE/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "MORPHO/USD",
+    "parameters": {
+      "name": "MORPHO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "MOVR/USD",
+    "parameters": {
+      "name": "MOVR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "MTL/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "MTL/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "MVL/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "MVL/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "NEAR/USD",
+    "parameters": {
+      "name": "NEAR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "NEON/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "NEON/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "OKB/USD",
+    "parameters": {
+      "name": "OKB/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ONDO/USD",
+    "parameters": {
+      "name": "ONDO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "OP/USD",
+    "parameters": {
+      "name": "OP/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ORDI/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "ORDI/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "OSMO/USD",
+    "parameters": {
+      "name": "OSMO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "PAXG/USD",
+    "parameters": {
+      "name": "PAXG/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "PENDLE/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "PENDLE/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "POL/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "POL/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "PYTH/USD",
+    "parameters": {
+      "name": "PYTH/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "PYUSD/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "PYUSD/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "QUICK/USD",
+    "parameters": {
+      "name": "QUICK/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "RARI/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "RARI/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "RDNT/USD",
+    "parameters": {
+      "name": "RDNT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "RENDER/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "RENDER/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "RIF/USD",
+    "parameters": {
+      "name": "RIF/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "RON/USD",
+    "parameters": {
+      "name": "RON/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ROSE/USD",
+    "parameters": {
+      "name": "ROSE/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "RPL/USD",
+    "parameters": {
+      "name": "RPL/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "RSR/USD",
+    "parameters": {
+      "name": "RSR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "RUNE/USD",
+    "parameters": {
+      "name": "RUNE/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "S/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "S/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "SAFE/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "SAFE/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "SAND/USD",
+    "parameters": {
+      "name": "SAND/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SATS/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "SATS/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "SCR/USD",
+    "parameters": {
+      "name": "SCR/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SEI/USD",
+    "parameters": {
+      "name": "SEI/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SHIB/USD",
+    "parameters": {
+      "name": "SHIB/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SNX/USD",
+    "parameters": {
+      "name": "SNX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SOL/USD",
+    "parameters": {
+      "name": "SOL/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "STG/USD",
+    "parameters": {
+      "name": "STG/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "STONE/ETH Exchange Rate",
+    "parameters": {
+      "name": "STONE/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "STRK/USD",
+    "parameters": {
+      "name": "STRK/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "STX/USD",
+    "parameters": {
+      "name": "STX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SUI/USD",
+    "parameters": {
+      "name": "SUI/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SUSHI/USD",
+    "parameters": {
+      "name": "SUSHI/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SolvBTC/USD",
+    "parameters": {
+      "name": "SolvBTC/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "TAIKO/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "TAIKO/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "TAO/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "TAO/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "TIA/USD",
+    "parameters": {
+      "name": "TIA/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "TUSD/USD",
+    "parameters": {
+      "name": "TUSD/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "TWT/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "TWT/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "UMA/USD",
+    "parameters": {
+      "name": "UMA/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "UNI/USD",
+    "parameters": {
+      "name": "UNI/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "USDB/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "USDB/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "USDC/USD",
+    "parameters": {
+      "name": "USDC/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "USDM/USD",
+    "parameters": {
+      "name": "USDM/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "USDP/USD",
+    "parameters": {
+      "name": "USDP/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "USDS/USD",
+    "parameters": {
+      "name": "USDS/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "USDT/USD",
+    "parameters": {
+      "name": "USDT/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "USDY/USD Exchange Rate",
+    "parameters": {
+      "name": "USDY/USD Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "USDe/USD",
+    "parameters": {
+      "name": "USDe/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "VELO/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "VELO/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "VET/USD",
+    "parameters": {
+      "name": "VET/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "VTHO/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "VTHO/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "W/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "W/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "WBTC/USD",
+    "parameters": {
+      "name": "WBTC/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "WLD/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "WLD/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "WOO/USD",
+    "parameters": {
+      "name": "WOO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "XLM/USD",
+    "parameters": {
+      "name": "XLM/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "XRP/USD",
+    "parameters": {
+      "name": "XRP/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "XTZ/USD",
+    "parameters": {
+      "name": "XTZ/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "XVS/USD",
+    "parameters": {
+      "name": "XVS/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "YFI/USD",
+    "parameters": {
+      "name": "YFI/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ZIL/USD",
+    "parameters": {
+      "name": "ZIL/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ZK/USD",
+    "parameters": {
+      "name": "ZK/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ZRC/USD",
+    "parameters": {
+      "name": "ZRC/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ZRO/USD",
+    "parameters": {
+      "name": "ZRO/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "ZRX/USD",
+    "parameters": {
+      "name": "ZRX/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "agETH/rsETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "agETH/rsETH Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "ankrETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "ankrETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "apxETH/pxETH Exchange Rate",
+    "parameters": {
+      "name": "apxETH/pxETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "cbBTC/USD",
+    "parameters": {
+      "name": "cbBTC/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "cbETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "cbETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "cmETH/mETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "cmETH/mETH Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "crvUSD/USD",
+    "parameters": {
+      "name": "crvUSD/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "demETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "demETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "eBTC/WBTC Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "eBTC/WBTC Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "egETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "egETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "ezETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "ezETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "inETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "inETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "insfrxETH/sfrxETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "insfrxETH/sfrxETH Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "instETH/stETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "instETH/stETH Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "inwstETHs/wstETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "inwstETHs/wstETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "mETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "mETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "mpETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "mpETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "mstETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "mstETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "pufETH/stETH Exchange Rate",
+    "parameters": {
+      "name": "pufETH/stETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "rETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "rETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "rsETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "rsETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "rswETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "rswETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "sAVAX/AVAX Exchange Rate",
+    "parameters": {
+      "name": "sAVAX/AVAX Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "sDAI/DAI Exchange Rate",
+    "parameters": {
+      "name": "sDAI/DAI Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "sFRAX/FRAX Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "sFRAX/FRAX Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "sUSDS/USDS Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "sUSDS/USDS Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "sUSDe/USDe Exchange Rate",
+    "parameters": {
+      "name": "sUSDe/USDe Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "scrvUSD/crvUSD Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "scrvUSD/crvUSD Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "sfrxETH/frxETH Exchange Rate",
+    "parameters": {
+      "name": "sfrxETH/frxETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "sfrxUSD/frxUSD Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "sfrxUSD/frxUSD Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "slisBNB/BNB Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "slisBNB/BNB Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "spETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "spETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "stETH/USD",
+    "parameters": {
+      "name": "stETH/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "stTAO/TAO Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "stTAO/TAO Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "swETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "swETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "tBTC/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "tBTC/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "ultraETHs/wstETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "ultraETHs/wstETH Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "uniETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "uniETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "wBETH/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "wBETH/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "wUSDM/USDM Exchange Rate",
+    "parameters": {
+      "name": "wUSDM/USDM Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "weETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "weETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "weETHs/ETH Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "weETHs/ETH Exchange Rate"
+    },
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "wstETH/stETH Exchange Rate",
+    "parameters": {
+      "name": "wstETH/stETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "yUSD/USD Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "yUSD/USD Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "ysUSDC/USDC Exchange Rate",
+    "parameters": {
+      "name": "ysUSDC/USDC Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  }
+]

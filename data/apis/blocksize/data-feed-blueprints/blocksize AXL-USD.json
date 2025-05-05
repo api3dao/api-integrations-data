@@ -1,6 +1,0 @@
-{
-  "name": "AXL/USD",
-  "path": "getVWAP/AXLUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

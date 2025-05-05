@@ -1,9 +1,0 @@
-{
-  "name": "USDS/USD",
-  "parameters": {
-    "ids": "usds",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['usds']['usd']\n            }"
-}

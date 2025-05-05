@@ -1,8 +1,0 @@
-{
-  "name": "RENDER/USD",
-  "path": "live/midrate/v1/rates",
-  "parameters": {
-    "pairs": "RENDER-USD"
-  },
-  "parser": "(response) => {\n          return response.rates['RENDER-USD'].rate\n        }\n        "
-}

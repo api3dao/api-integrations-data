@@ -1,8 +1,0 @@
-{
-  "name": "STRK/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/strk-starknet",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

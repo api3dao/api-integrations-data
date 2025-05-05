@@ -1,6 +1,0 @@
-{
-  "name": "PENDLE/USD",
-  "path": "getVWAP/PENDLEUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

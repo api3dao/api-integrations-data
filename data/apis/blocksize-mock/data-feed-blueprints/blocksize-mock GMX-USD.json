@@ -1,6 +1,0 @@
-{
-  "name": "GMX/USD",
-  "path": "getVWAP/GMXUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

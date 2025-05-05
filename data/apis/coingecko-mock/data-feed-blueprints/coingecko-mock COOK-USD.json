@@ -1,9 +1,0 @@
-{
-  "name": "COOK/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "meth-protocol",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['meth-protocol']['usd']\n        }\n        "
-}

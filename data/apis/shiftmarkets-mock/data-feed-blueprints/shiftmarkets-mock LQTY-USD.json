@@ -1,8 +1,0 @@
-{
-  "name": "LQTY/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "LQTY/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'LQTY/USD').price\n        }"
-}

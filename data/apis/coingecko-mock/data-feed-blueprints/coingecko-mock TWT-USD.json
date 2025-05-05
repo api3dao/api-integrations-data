@@ -1,9 +1,0 @@
-{
-  "name": "TWT/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "trust-wallet-token",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['trust-wallet-token']['usd']\n        }\n        "
-}

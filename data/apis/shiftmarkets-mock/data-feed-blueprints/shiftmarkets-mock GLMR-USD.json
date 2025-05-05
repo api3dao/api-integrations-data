@@ -1,8 +1,0 @@
-{
-  "name": "GLMR/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "GLMR/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'GLMR/USD').price\n        }"
-}

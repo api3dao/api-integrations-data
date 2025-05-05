@@ -1,6 +1,0 @@
-{
-  "name": "LBTC/USD",
-  "path": "last/crypto/LBTCUSD",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

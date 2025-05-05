@@ -1,8 +1,0 @@
-{
-  "name": "OSMO/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "OSMO/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'OSMO/USD').price\n        }"
-}

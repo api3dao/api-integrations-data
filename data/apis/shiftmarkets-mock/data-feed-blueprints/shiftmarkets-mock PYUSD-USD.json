@@ -1,8 +1,0 @@
-{
-  "name": "PYUSD/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "PYUSD/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'PYUSD/USD').price\n        }"
-}

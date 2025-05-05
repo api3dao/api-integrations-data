@@ -1,8 +1,0 @@
-{
-  "name": "USDP/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/usdp-paxos-standard-token",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

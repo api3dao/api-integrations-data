@@ -1,8 +1,0 @@
-{
-  "name": "BLAST/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "BLAST/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'BLAST/USD').price\n        }"
-}

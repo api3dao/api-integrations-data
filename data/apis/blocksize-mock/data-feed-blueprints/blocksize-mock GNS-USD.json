@@ -1,6 +1,0 @@
-{
-  "name": "GNS/USD",
-  "path": "getVWAP/GNSUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

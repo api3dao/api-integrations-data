@@ -1,8 +1,0 @@
-{
-  "name": "TAO/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "TAO/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'TAO/USD').price\n        }"
-}

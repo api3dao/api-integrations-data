@@ -1,8 +1,0 @@
-{
-  "name": "DYM/USD",
-  "parameters": {
-    "name": "DYM/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

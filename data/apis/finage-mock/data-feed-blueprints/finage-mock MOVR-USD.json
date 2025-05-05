@@ -1,6 +1,0 @@
-{
-  "name": "MOVR/USD",
-  "parameters": {},
-  "path": "last/crypto/MOVRUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

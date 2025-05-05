@@ -1,8 +1,0 @@
-{
-  "name": "crvUSD/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "CRVUSD/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CRVUSD/USD').price\n        }"
-}

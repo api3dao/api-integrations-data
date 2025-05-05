@@ -1,8 +1,0 @@
-{
-  "name": "ORDI/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "ORDI/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ORDI/USD').price\n        }"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "MASK/USD",
-  "parameters": {},
-  "path": "last/crypto/MASKUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

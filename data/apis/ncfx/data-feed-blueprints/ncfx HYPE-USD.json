@@ -1,8 +1,0 @@
-{
-  "name": "HYPE/USD",
-  "parameters": {
-    "pairs": "HYPE-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['HYPE-USD'].rate\n            }\n            "
-}

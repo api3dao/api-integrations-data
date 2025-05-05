@@ -1,8 +1,0 @@
-{
-  "name": "BTC/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "BTC/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'BTC/USD').price\n        }"
-}

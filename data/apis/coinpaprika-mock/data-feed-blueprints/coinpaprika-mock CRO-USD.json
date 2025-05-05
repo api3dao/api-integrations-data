@@ -1,8 +1,0 @@
-{
-  "name": "CRO/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/cro-cryptocom-chain",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

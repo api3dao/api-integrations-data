@@ -1,8 +1,0 @@
-{
-  "name": "ONDO/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/ondo-ondo",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

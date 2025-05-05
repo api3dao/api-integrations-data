@@ -1,6 +1,0 @@
-{
-  "name": "frxUSD/USD",
-  "path": "getVWAP/FRXUSDUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "USDB/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "usdb",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['usdb']['usd']\n        }\n        "
-}

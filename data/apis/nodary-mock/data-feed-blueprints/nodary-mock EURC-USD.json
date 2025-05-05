@@ -1,8 +1,0 @@
-{
-  "name": "EURC/USD",
-  "parameters": {
-    "name": "EURC/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

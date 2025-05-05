@@ -1,6 +1,0 @@
-{
-  "name": "MKR/USD",
-  "path": "getVWAP/MKRUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

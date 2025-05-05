@@ -1,6 +1,0 @@
-{
-  "name": "USDP/USD",
-  "path": "getVWAP/USDPUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

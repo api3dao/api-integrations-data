@@ -1,8 +1,0 @@
-{
-  "name": "GLMR/USD",
-  "parameters": {
-    "name": "GLMR/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

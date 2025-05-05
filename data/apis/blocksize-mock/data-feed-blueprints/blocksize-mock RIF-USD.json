@@ -1,6 +1,0 @@
-{
-  "name": "RIF/USD",
-  "path": "getVWAP/RIFUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

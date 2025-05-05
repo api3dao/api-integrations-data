@@ -1,8 +1,0 @@
-{
-  "name": "FBTC/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/fbtc-ignition-fbtc",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

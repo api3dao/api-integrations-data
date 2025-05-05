@@ -1,8 +1,0 @@
-{
-  "name": "DAI/USD",
-  "parameters": {
-    "name": "DAI/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

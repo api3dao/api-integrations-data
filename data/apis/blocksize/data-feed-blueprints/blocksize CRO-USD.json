@@ -1,6 +1,0 @@
-{
-  "name": "CRO/USD",
-  "path": "getVWAP/CROUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

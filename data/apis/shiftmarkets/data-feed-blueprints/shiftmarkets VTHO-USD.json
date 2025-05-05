@@ -1,8 +1,0 @@
-{
-  "name": "VTHO/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "VTHO/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'VTHO/USD').price\n        }\n        "
-}

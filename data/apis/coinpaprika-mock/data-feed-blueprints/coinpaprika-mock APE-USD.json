@@ -1,8 +1,0 @@
-{
-  "name": "APE/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/ape-apecoin",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

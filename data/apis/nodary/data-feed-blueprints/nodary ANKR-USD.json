@@ -1,8 +1,0 @@
-{
-  "name": "ANKR/USD",
-  "parameters": {
-    "name": "ANKR/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

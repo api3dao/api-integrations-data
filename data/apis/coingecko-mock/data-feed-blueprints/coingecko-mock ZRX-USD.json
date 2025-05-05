@@ -1,9 +1,0 @@
-{
-  "name": "ZRX/USD",
-  "parameters": {
-    "ids": "0x",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['0x']['usd']\n            }"
-}

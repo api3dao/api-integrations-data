@@ -1,6 +1,0 @@
-{
-  "name": "HYPE/USD",
-  "parameters": {},
-  "path": "last/crypto/HYPEUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

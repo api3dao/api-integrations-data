@@ -1,6 +1,0 @@
-{
-  "name": "cbBTC/USD",
-  "path": "getVWAP/CBBTCUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

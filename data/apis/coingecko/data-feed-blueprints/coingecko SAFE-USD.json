@@ -1,9 +1,0 @@
-{
-  "name": "SAFE/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "safe",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['safe']['usd']\n        }\n        "
-}

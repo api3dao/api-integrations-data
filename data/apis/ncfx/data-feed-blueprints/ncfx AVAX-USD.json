@@ -1,8 +1,0 @@
-{
-  "name": "AVAX/USD",
-  "parameters": {
-    "pairs": "AVAX-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['AVAX-USD'].rate\n            }\n            "
-}

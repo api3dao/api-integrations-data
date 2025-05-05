@@ -1,6 +1,0 @@
-{
-  "name": "MKR/USD",
-  "parameters": {},
-  "path": "last/crypto/MKRUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

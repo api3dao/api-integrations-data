@@ -1,6 +1,0 @@
-{
-  "name": "SATS/USD",
-  "path": "getVWAP/SATSUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

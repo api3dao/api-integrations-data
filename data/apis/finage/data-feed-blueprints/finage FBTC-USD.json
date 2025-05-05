@@ -1,6 +1,0 @@
-{
-  "name": "FBTC/USD",
-  "parameters": {},
-  "path": "last/crypto/FBTCUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

@@ -1,9 +1,0 @@
-{
-  "name": "EURC/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "euro-coin",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['euro-coin']['usd']\n        }\n        "
-}

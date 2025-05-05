@@ -1,8 +1,0 @@
-{
-  "name": "MOVR/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "MOVR/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MOVR/USD').price\n        }"
-}

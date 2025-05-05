@@ -1,8 +1,0 @@
-{
-  "name": "APT/USD",
-  "parameters": {
-    "name": "APT/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

@@ -1,8 +1,0 @@
-{
-  "name": "RENDER/USD",
-  "path": "tickers/rndr-render-token",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-}

@@ -1,9 +1,0 @@
-{
-  "name": "AR/USD",
-  "parameters": {
-    "ids": "arweave",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['arweave']['usd']\n            }"
-}

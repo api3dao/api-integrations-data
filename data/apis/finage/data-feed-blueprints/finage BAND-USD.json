@@ -1,6 +1,0 @@
-{
-  "name": "BAND/USD",
-  "parameters": {},
-  "path": "last/crypto/BANDUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

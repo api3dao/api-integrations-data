@@ -1,6 +1,0 @@
-{
-  "name": "tBTC/USD",
-  "parameters": {},
-  "path": "last/crypto/TBTCUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

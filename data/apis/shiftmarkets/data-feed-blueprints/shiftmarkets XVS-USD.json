@@ -1,8 +1,0 @@
-{
-  "name": "XVS/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "XVS/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'XVS/USD').price\n        }"
-}

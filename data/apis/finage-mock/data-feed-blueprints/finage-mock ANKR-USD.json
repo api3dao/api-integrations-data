@@ -1,6 +1,0 @@
-{
-  "name": "ANKR/USD",
-  "parameters": {},
-  "path": "last/crypto/ANKRUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

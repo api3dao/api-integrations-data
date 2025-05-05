@@ -1,6 +1,0 @@
-{
-  "name": "CELO/USD",
-  "parameters": {},
-  "path": "last/crypto/CELOUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

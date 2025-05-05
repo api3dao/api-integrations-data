@@ -1,8 +1,0 @@
-{
-  "name": "WBTC/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "WBTC/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'WBTC/USD').price\n        }"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "SAFE/USD",
-  "path": "feed/latest",
-  "parameters": {
-    "name": "SAFE/USD"
-  },
-  "parser": "(response) => {\n          return response.value\n        }\n        "
-}

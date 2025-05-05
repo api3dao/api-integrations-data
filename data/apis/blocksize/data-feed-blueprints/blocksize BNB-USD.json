@@ -1,6 +1,0 @@
-{
-  "name": "BNB/USD",
-  "path": "getVWAP/BNBUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

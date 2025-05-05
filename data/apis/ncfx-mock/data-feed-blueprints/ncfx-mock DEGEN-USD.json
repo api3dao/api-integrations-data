@@ -1,8 +1,0 @@
-{
-  "name": "DEGEN/USD",
-  "path": "live/midrate/v1/rates",
-  "parameters": {
-    "pairs": "DEGEN-USD"
-  },
-  "parser": "(response) => {\n          return response.rates['DEGEN-USD'].rate\n        }\n        "
-}

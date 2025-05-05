@@ -1,8 +1,0 @@
-{
-  "name": "RARI/USD",
-  "path": "feed/latest",
-  "parameters": {
-    "name": "RARI/USD"
-  },
-  "parser": "(response) => {\n          return response.value\n        }\n        "
-}

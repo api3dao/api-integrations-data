@@ -1,6 +1,0 @@
-{
-  "name": "MTL/USD",
-  "path": "getVWAP/MTLUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

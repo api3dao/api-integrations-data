@@ -1,6 +1,0 @@
-{
-  "name": "ASTR/USD",
-  "path": "getVWAP/ASTRUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

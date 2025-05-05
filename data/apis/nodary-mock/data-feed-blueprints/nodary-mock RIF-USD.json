@@ -1,8 +1,0 @@
-{
-  "name": "RIF/USD",
-  "parameters": {
-    "name": "RIF/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

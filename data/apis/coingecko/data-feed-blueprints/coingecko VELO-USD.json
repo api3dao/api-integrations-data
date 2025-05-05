@@ -1,9 +1,0 @@
-{
-  "name": "VELO/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "velodrome-finance",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['velodrome-finance']['usd']\n        }\n        "
-}

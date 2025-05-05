@@ -1,8 +1,0 @@
-{
-  "name": "MANTA/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "MANTA/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MANTA/USD').price\n        }"
-}

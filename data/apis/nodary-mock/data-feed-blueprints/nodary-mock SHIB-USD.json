@@ -1,8 +1,0 @@
-{
-  "name": "SHIB/USD",
-  "parameters": {
-    "name": "SHIB/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

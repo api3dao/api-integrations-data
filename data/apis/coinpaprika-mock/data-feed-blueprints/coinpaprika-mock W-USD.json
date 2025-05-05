@@ -1,8 +1,0 @@
-{
-  "name": "W/USD",
-  "path": "tickers/w-wormhole",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-}

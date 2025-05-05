@@ -1,8 +1,0 @@
-{
-  "name": "ZRO/USD",
-  "path": "tickers/zro-layerzero",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-}

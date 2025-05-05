@@ -1,6 +1,0 @@
-{
-  "name": "FXS/USD",
-  "parameters": {},
-  "path": "last/crypto/FXSUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

@@ -1,6 +1,0 @@
-{
-  "name": "INJ/USD",
-  "path": "getVWAP/INJUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

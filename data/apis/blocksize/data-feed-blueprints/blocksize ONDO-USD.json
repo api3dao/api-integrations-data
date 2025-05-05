@@ -1,6 +1,0 @@
-{
-  "name": "ONDO/USD",
-  "path": "getVWAP/ONDOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

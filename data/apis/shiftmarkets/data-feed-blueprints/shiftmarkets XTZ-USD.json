@@ -1,8 +1,0 @@
-{
-  "name": "XTZ/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "XTZ/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'XTZ/USD').price\n        }"
-}

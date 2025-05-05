@@ -1,6 +1,0 @@
-{
-  "name": "GMX/USD",
-  "parameters": {},
-  "path": "last/crypto/GMXUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

@@ -1,6 +1,0 @@
-{
-  "name": "ZRC/USD",
-  "path": "last/crypto/ZRCUSD",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

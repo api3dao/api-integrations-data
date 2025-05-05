@@ -1,6 +1,0 @@
-{
-  "name": "RUNE/USD",
-  "path": "getVWAP/RUNEUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "TAIKO/USD",
-  "path": "getVWAP/TAIKOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

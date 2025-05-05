@@ -1,8 +1,0 @@
-{
-  "name": "ADA/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "ADA/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ADA/USD').price\n        }"
-}

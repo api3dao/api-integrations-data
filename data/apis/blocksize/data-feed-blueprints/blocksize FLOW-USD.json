@@ -1,6 +1,0 @@
-{
-  "name": "FLOW/USD",
-  "path": "getVWAP/FLOWUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

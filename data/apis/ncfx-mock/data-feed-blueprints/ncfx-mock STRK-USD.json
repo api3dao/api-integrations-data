@@ -1,8 +1,0 @@
-{
-  "name": "STRK/USD",
-  "parameters": {
-    "pairs": "STRK-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['STRK-USD'].rate\n            }\n            "
-}

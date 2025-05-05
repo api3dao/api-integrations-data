@@ -1,6 +1,0 @@
-{
-  "name": "CFX/USD",
-  "path": "getVWAP/CFXUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

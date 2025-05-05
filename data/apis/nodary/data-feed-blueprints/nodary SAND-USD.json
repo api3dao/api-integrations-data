@@ -1,8 +1,0 @@
-{
-  "name": "SAND/USD",
-  "parameters": {
-    "name": "SAND/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

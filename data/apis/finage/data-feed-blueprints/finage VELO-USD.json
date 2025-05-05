@@ -1,6 +1,0 @@
-{
-  "name": "VELO/USD",
-  "parameters": {},
-  "path": "last/crypto/VELODROMEUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

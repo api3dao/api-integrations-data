@@ -1,9 +1,0 @@
-{
-  "name": "MTL/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "metal",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['metal']['usd']\n        }\n        "
-}

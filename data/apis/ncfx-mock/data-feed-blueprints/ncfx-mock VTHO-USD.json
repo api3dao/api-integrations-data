@@ -1,8 +1,0 @@
-{
-  "name": "VTHO/USD",
-  "path": "live/midrate/v1/rates",
-  "parameters": {
-    "pairs": "VTHO-USD"
-  },
-  "parser": "(response) => {\n          return response.rates['VTHO-USD'].rate\n        }\n        "
-}

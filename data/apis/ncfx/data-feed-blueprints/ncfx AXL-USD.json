@@ -1,8 +1,0 @@
-{
-  "name": "AXL/USD",
-  "parameters": {
-    "pairs": "AXL-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['AXL-USD'].rate\n            }\n            "
-}

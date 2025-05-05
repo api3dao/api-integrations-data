@@ -1,8 +1,0 @@
-{
-  "name": "VTHO/USD",
-  "path": "tickers/vtho-vethor-token",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-}

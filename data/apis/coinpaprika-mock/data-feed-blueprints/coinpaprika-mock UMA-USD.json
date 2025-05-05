@@ -1,8 +1,0 @@
-{
-  "name": "UMA/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/uma-uma",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

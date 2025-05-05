@@ -1,8 +1,0 @@
-{
-  "name": "COMP/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "COMP/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'COMP/USD').price\n        }"
-}

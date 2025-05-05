@@ -1,8 +1,0 @@
-{
-  "name": "SHIB/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/shib-shiba-inu",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "SAND/USD",
-  "parameters": {},
-  "path": "last/crypto/SANDUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

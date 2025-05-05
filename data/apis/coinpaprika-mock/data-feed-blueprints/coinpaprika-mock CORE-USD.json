@@ -1,8 +1,0 @@
-{
-  "name": "CORE/USD",
-  "path": "tickers/core-core-dao",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-}

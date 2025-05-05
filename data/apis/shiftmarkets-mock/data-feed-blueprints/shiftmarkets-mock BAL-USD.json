@@ -1,8 +1,0 @@
-{
-  "name": "BAL/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "BAL/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'BAL/USD').price\n        }"
-}

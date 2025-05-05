@@ -1,6 +1,0 @@
-{
-  "name": "RENDER/USD",
-  "path": "last/crypto/RENDERUSD",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

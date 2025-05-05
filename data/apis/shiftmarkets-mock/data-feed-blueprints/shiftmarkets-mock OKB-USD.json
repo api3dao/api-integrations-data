@@ -1,8 +1,0 @@
-{
-  "name": "OKB/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "OKB/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'OKB/USD').price\n        }"
-}

@@ -1,6 +1,0 @@
-{
-  "name": "BRETT/USD",
-  "parameters": {},
-  "path": "last/crypto/BRETTUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

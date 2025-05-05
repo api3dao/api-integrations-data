@@ -1,6 +1,0 @@
-{
-  "name": "SAND/USD",
-  "path": "getVWAP/SANDUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

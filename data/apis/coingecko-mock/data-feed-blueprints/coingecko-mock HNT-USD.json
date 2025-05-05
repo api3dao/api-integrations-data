@@ -1,9 +1,0 @@
-{
-  "name": "HNT/USD",
-  "parameters": {
-    "ids": "helium",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['helium']['usd']\n            }"
-}

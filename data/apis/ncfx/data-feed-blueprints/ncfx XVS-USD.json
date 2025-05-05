@@ -1,8 +1,0 @@
-{
-  "name": "XVS/USD",
-  "parameters": {
-    "pairs": "XVS-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['XVS-USD'].rate\n            }\n            "
-}

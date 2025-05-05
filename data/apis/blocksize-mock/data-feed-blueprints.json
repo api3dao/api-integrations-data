@@ -1,0 +1,950 @@
+[
+  {
+    "name": "AAVE/USD",
+    "path": "getVWAP/AAVEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ADA/USD",
+    "path": "getVWAP/ADAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "AERO/USD",
+    "path": "getVWAP/AEROUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ALGO/USD",
+    "path": "getVWAP/ALGOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ANKR/USD",
+    "path": "getVWAP/ANKRUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "APE/USD",
+    "path": "getVWAP/APEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "API3/USD",
+    "path": "getVWAP/API3USD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "APT/USD",
+    "path": "getVWAP/APTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "AR/USD",
+    "path": "getVWAP/ARUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ARB/USD",
+    "path": "getVWAP/ARBUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ASTR/USD",
+    "path": "getVWAP/ASTRUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ATOM/USD",
+    "path": "getVWAP/ATOMUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "AUSD/USD",
+    "path": "getVWAP/AUSDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "AVAX/USD",
+    "path": "getVWAP/AVAXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "AXL/USD",
+    "path": "getVWAP/AXLUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "AXS/USD",
+    "path": "getVWAP/AXSUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BAL/USD",
+    "path": "getVWAP/BALUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BAND/USD",
+    "path": "getVWAP/BANDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BAT/USD",
+    "path": "getVWAP/BATUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BERA/USD",
+    "path": "getVWAP/BERAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BLAST/USD",
+    "path": "getVWAP/BLASTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BLUR/USD",
+    "path": "getVWAP/BLURUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BNB/USD",
+    "path": "getVWAP/BNBUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BRETT/USD",
+    "path": "getVWAP/BRETTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BTC/USD",
+    "path": "getVWAP/BTCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "CAKE/USD",
+    "path": "getVWAP/CAKEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "CELO/USD",
+    "path": "getVWAP/CELOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "CFX/USD",
+    "path": "getVWAP/CFXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "CHZ/USD",
+    "path": "getVWAP/CHZUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "COMP/USD",
+    "path": "getVWAP/COMPUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "COOK/USD",
+    "path": "getVWAP/COOKUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "CORE/USD",
+    "path": "getVWAP/COREUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "CRO/USD",
+    "path": "getVWAP/CROUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "CRV/USD",
+    "path": "getVWAP/CRVUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "CVX/USD",
+    "path": "getVWAP/CVXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "DAI/USD",
+    "path": "getVWAP/DAIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "DEGEN/USD",
+    "path": "getVWAP/DEGENUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "getVWAP/DOGEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "DOT/USD",
+    "path": "getVWAP/DOTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "DYDX/USD",
+    "path": "getVWAP/DYDXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "DYM/USD",
+    "path": "getVWAP/DYMUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ENA/USD",
+    "path": "getVWAP/ENAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ENS/USD",
+    "path": "getVWAP/ENSUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ETH/USD",
+    "path": "getVWAP/ETHUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ETHFI/USD",
+    "path": "getVWAP/ETHFIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "EURC/USD",
+    "path": "getVWAP/EURCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "EURe/USD",
+    "path": "getVWAP/EUREUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "FBTC/USD",
+    "path": "getVWAP/FBTCIUSD",
+    "parameters": {},
+    "parser": "(response) => {\n          return response.price\n        }\n        "
+  },
+  {
+    "name": "FIL/USD",
+    "path": "getVWAP/FILUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "FLOW/USD",
+    "path": "getVWAP/FLOWUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "FRAX/USD",
+    "path": "getVWAP/FRAXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "FXS/USD",
+    "path": "getVWAP/FXSUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "GHO/USD",
+    "path": "getVWAP/GHOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "GLMR/USD",
+    "path": "getVWAP/GLMRUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "GMX/USD",
+    "path": "getVWAP/GMXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "GNO/USD",
+    "path": "getVWAP/GNOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "GNS/USD",
+    "path": "getVWAP/GNSUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "GRT/USD",
+    "path": "getVWAP/GRTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "HBAR/USD",
+    "path": "getVWAP/HBARUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "HNT/USD",
+    "path": "getVWAP/HNTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "HYPE/USD",
+    "path": "getVWAP/HYPEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ICP/USD",
+    "path": "getVWAP/ICPUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "IMX/USD",
+    "path": "getVWAP/IMXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "INJ/USD",
+    "path": "getVWAP/INJUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "JOE/USD",
+    "path": "getVWAP/JOEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "KAVA/USD",
+    "path": "getVWAP/KAVAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "KDA/USD",
+    "path": "getVWAP/KDAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "KSM/USD",
+    "path": "getVWAP/KSMUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "LBTC/USD",
+    "path": "getVWAP/LBTCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "LDO/USD",
+    "path": "getVWAP/LDOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "LINK/USD",
+    "path": "getVWAP/LINKUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "LQTY/USD",
+    "path": "getVWAP/LQTYUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "LTC/USD",
+    "path": "getVWAP/LTCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "LUMIA/USD",
+    "path": "getVWAP/LUMIAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "LUSD/USD",
+    "path": "getVWAP/LUSDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MANA/USD",
+    "path": "getVWAP/MANAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MANTA/USD",
+    "path": "getVWAP/MANTAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MASK/USD",
+    "path": "getVWAP/MASKUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MERL/USD",
+    "path": "getVWAP/MERLUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "METIS/USD",
+    "path": "getVWAP/METISUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MKR/USD",
+    "path": "getVWAP/MKRUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MNT/USD",
+    "path": "getVWAP/MNTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MODE/USD",
+    "path": "getVWAP/MODEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MORPHO/USD",
+    "path": "getVWAP/MORPHOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MOVR/USD",
+    "path": "getVWAP/MOVRUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MTL/USD",
+    "path": "getVWAP/MTLUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "NEAR/USD",
+    "path": "getVWAP/NEARUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "NEON/USD",
+    "path": "getVWAP/NEONUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "OKB/USD",
+    "path": "getVWAP/OKBUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ONDO/USD",
+    "path": "getVWAP/ONDOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "OP/USD",
+    "path": "getVWAP/OPUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ORDI/USD",
+    "path": "getVWAP/ORDIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "OSMO/USD",
+    "path": "getVWAP/OSMOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "PAXG/USD",
+    "path": "getVWAP/PAXGUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "PENDLE/USD",
+    "path": "getVWAP/PENDLEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "POL/USD",
+    "path": "getVWAP/POLUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "PYTH/USD",
+    "path": "getVWAP/PYTHUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "QUICK/USD",
+    "path": "getVWAP/QUICKUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RARI/USD",
+    "path": "getVWAP/RARIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RDNT/USD",
+    "path": "getVWAP/RDNTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RENDER/USD",
+    "path": "getVWAP/RENDERUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RIF/USD",
+    "path": "getVWAP/RIFUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RON/USD",
+    "path": "getVWAP/RONUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ROSE/USD",
+    "path": "getVWAP/ROSEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RPL/USD",
+    "path": "getVWAP/RPLUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RSR/USD",
+    "path": "getVWAP/RSRUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RUNE/USD",
+    "path": "getVWAP/RUNEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "S/USD",
+    "path": "getVWAP/SUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SAFE/USD",
+    "path": "getVWAP/SAFEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SAND/USD",
+    "path": "getVWAP/SANDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SATS/USD",
+    "path": "getVWAP/SATSUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SCR/USD",
+    "path": "getVWAP/SCRUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SEI/USD",
+    "path": "getVWAP/SEIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SHIB/USD",
+    "path": "getVWAP/SHIBUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SNX/USD",
+    "path": "getVWAP/SNXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SOL/USD",
+    "path": "getVWAP/SOLUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "STG/USD",
+    "path": "getVWAP/STGUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "STRK/USD",
+    "path": "getVWAP/STRKUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "STX/USD",
+    "path": "getVWAP/STXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SUI/USD",
+    "path": "getVWAP/SUIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SUSHI/USD",
+    "path": "getVWAP/SUSHIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SolvBTC/USD",
+    "path": "getVWAP/SOLVBTCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "TAIKO/USD",
+    "path": "getVWAP/TAIKOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "TAO/USD",
+    "path": "getVWAP/TAOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "TIA/USD",
+    "path": "getVWAP/TIAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "TUSD/USD",
+    "path": "getVWAP/TUSDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "TWT/USD",
+    "path": "getVWAP/TWTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "UMA/USD",
+    "path": "getVWAP/UMAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "UNI/USD",
+    "path": "getVWAP/UNIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDB/USD",
+    "path": "getVWAP/USDBUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDC/USD",
+    "path": "getVWAP/USDCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDM/USD",
+    "path": "getVWAP/USDMUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDP/USD",
+    "path": "getVWAP/USDPUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDS/USD",
+    "path": "getVWAP/USDSUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDT/USD",
+    "path": "getVWAP/USDTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDe/USD",
+    "path": "getVWAP/USDEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "VELO/USD",
+    "path": "getVWAP/VELOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "VET/USD",
+    "path": "getVWAP/VETUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "VTHO/USD",
+    "path": "getVWAP/VTHOUSD",
+    "parameters": {},
+    "parser": "(response) => {\n          return response.price\n        }\n        "
+  },
+  {
+    "name": "W/USD",
+    "path": "getVWAP/WUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "WBTC/USD",
+    "path": "getVWAP/WBTCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "WLD/USD",
+    "path": "getVWAP/WLDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "WOO/USD",
+    "path": "getVWAP/WOOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "XLM/USD",
+    "path": "getVWAP/XLMUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "XRP/USD",
+    "path": "getVWAP/XRPUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "XTZ/USD",
+    "path": "getVWAP/XTZUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "XVS/USD",
+    "path": "getVWAP/XVSUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "YFI/USD",
+    "path": "getVWAP/YFIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ZIL/USD",
+    "path": "getVWAP/ZILUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ZK/USD",
+    "path": "getVWAP/ZKUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ZRC/USD",
+    "path": "getVWAP/ZRCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ZRO/USD",
+    "path": "getVWAP/ZROUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ZRX/USD",
+    "path": "getVWAP/ZRXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "cbBTC/USD",
+    "path": "getVWAP/CBBTCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "crvUSD/USD",
+    "path": "getVWAP/CRVUSDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "frxUSD/USD",
+    "path": "getVWAP/FRXUSDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "stETH/USD",
+    "path": "getVWAP/STETHUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "tBTC/USD",
+    "path": "getVWAP/TBTCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  }
+]

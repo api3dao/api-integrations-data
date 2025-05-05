@@ -1,6 +1,0 @@
-{
-  "name": "TIA/USD",
-  "parameters": {},
-  "path": "last/crypto/TIAUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

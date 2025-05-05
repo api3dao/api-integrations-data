@@ -1,8 +1,0 @@
-{
-  "name": "USDT/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/usdt-tether",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

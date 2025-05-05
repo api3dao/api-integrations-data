@@ -1,6 +1,0 @@
-{
-  "name": "METIS/USD",
-  "parameters": {},
-  "path": "last/crypto/METISUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

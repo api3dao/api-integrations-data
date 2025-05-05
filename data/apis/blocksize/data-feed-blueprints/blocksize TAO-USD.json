@@ -1,6 +1,0 @@
-{
-  "name": "TAO/USD",
-  "path": "getVWAP/TAOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

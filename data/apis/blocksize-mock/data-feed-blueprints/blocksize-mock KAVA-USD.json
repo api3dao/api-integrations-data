@@ -1,6 +1,0 @@
-{
-  "name": "KAVA/USD",
-  "path": "getVWAP/KAVAUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

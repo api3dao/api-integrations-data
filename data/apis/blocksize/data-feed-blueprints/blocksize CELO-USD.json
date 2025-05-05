@@ -1,6 +1,0 @@
-{
-  "name": "CELO/USD",
-  "path": "getVWAP/CELOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

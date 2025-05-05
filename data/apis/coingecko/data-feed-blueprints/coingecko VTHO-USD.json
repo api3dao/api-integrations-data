@@ -1,9 +1,0 @@
-{
-  "name": "VTHO/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "vethor-token",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['vethor-token']['usd']\n        }\n        "
-}

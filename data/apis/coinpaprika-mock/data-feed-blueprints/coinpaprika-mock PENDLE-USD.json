@@ -1,8 +1,0 @@
-{
-  "name": "PENDLE/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/pendle-pendle",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

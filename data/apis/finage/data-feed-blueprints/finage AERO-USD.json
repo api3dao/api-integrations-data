@@ -1,6 +1,0 @@
-{
-  "name": "AERO/USD",
-  "path": "last/crypto/AEROUSD",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

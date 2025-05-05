@@ -1,6 +1,0 @@
-{
-  "name": "RDNT/USD",
-  "path": "getVWAP/RDNTUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

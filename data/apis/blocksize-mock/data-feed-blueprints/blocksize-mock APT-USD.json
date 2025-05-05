@@ -1,6 +1,0 @@
-{
-  "name": "APT/USD",
-  "path": "getVWAP/APTUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

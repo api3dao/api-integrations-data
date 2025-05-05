@@ -1,8 +1,0 @@
-{
-  "name": "MKR/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/mkr-maker",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

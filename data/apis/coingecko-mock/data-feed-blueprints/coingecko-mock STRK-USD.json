@@ -1,9 +1,0 @@
-{
-  "name": "STRK/USD",
-  "parameters": {
-    "ids": "starknet",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['starknet']['usd']\n            }"
-}

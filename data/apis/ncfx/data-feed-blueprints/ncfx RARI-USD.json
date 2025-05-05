@@ -1,8 +1,0 @@
-{
-  "name": "RARI/USD",
-  "path": "live/midrate/v1/rates",
-  "parameters": {
-    "pairs": "RARI-USD"
-  },
-  "parser": "(response) => {\n          return response.rates['RARI-USD'].rate\n        }\n        "
-}

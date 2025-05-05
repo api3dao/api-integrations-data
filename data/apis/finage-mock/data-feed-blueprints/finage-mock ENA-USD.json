@@ -1,6 +1,0 @@
-{
-  "name": "ENA/USD",
-  "path": "last/crypto/ENAUSD",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

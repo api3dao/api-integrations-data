@@ -1,6 +1,0 @@
-{
-  "name": "BLUR/USD",
-  "parameters": {},
-  "path": "last/crypto/BLURUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

@@ -1,8 +1,0 @@
-{
-  "name": "LDO/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "LDO/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'LDO/USD').price\n        }"
-}

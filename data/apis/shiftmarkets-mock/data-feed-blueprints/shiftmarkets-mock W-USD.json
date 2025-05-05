@@ -1,8 +1,0 @@
-{
-  "name": "W/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "W/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'W/USD').price\n        }"
-}

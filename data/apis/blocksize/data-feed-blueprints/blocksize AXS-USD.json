@@ -1,6 +1,0 @@
-{
-  "name": "AXS/USD",
-  "path": "getVWAP/AXSUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

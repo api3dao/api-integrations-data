@@ -1,8 +1,0 @@
-{
-  "name": "YFI/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "YFI/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'YFI/USD').price\n        }"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "CELO/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "CELO/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CELO/USD').price\n        }"
-}

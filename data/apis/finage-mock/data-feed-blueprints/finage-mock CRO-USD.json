@@ -1,6 +1,0 @@
-{
-  "name": "CRO/USD",
-  "parameters": {},
-  "path": "last/crypto/CROUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

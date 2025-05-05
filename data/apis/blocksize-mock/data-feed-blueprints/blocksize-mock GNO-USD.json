@@ -1,6 +1,0 @@
-{
-  "name": "GNO/USD",
-  "path": "getVWAP/GNOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

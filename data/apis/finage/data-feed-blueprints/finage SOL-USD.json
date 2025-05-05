@@ -1,6 +1,0 @@
-{
-  "name": "SOL/USD",
-  "parameters": {},
-  "path": "last/crypto/SOLUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

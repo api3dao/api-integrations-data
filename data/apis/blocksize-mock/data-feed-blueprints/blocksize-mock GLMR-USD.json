@@ -1,6 +1,0 @@
-{
-  "name": "GLMR/USD",
-  "path": "getVWAP/GLMRUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

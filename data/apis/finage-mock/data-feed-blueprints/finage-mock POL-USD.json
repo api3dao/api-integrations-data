@@ -1,6 +1,0 @@
-{
-  "name": "POL/USD",
-  "path": "last/crypto/POLUSD",
-  "parameters": {},
-  "parser": "(response) => {\n          return response.price\n        }\n        "
-}

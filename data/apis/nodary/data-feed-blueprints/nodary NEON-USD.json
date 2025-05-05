@@ -1,8 +1,0 @@
-{
-  "name": "NEON/USD",
-  "path": "feed/latest",
-  "parameters": {
-    "name": "NEON/USD"
-  },
-  "parser": "(response) => {\n          return response.value\n        }\n        "
-}

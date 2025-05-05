@@ -1,8 +1,0 @@
-{
-  "name": "ONDO/USD",
-  "parameters": {
-    "name": "ONDO/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

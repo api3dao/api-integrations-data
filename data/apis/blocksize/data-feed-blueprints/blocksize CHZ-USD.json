@@ -1,6 +1,0 @@
-{
-  "name": "CHZ/USD",
-  "path": "getVWAP/CHZUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

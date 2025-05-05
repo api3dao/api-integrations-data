@@ -1,8 +1,0 @@
-{
-  "name": "PYUSD/USD",
-  "path": "tickers/pyusd-paypal-usd",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-}

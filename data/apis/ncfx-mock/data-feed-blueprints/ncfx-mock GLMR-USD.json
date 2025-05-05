@@ -1,8 +1,0 @@
-{
-  "name": "GLMR/USD",
-  "parameters": {
-    "pairs": "GLMR-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['GLMR-USD'].rate\n            }\n            "
-}

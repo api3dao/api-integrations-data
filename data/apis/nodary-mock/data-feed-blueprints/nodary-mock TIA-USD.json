@@ -1,8 +1,0 @@
-{
-  "name": "TIA/USD",
-  "parameters": {
-    "name": "TIA/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

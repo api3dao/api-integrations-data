@@ -1,6 +1,0 @@
-{
-  "name": "LTC/USD",
-  "path": "getVWAP/LTCUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

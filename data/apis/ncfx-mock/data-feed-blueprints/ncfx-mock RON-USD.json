@@ -1,8 +1,0 @@
-{
-  "name": "RON/USD",
-  "parameters": {
-    "pairs": "RON-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['RON-USD'].rate\n            }\n            "
-}

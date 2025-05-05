@@ -1,0 +1,519 @@
+[
+  {
+    "name": "BNBx/BNB Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "BNBx/BNB Exchange Rate",
+      "rpcUrl": "${RPC_BSC_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "56"
+    },
+    "parser": "(response) => { return response.data[\"BNBx/BNB Exchange Rate\"] }"
+  },
+  {
+    "name": "ETHx/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "ETHx/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"ETHx/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "LsETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "LsETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"LsETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "MATICx/MATIC Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "MATICx/MATIC Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"MATICx/MATIC Exchange Rate\"] }"
+  },
+  {
+    "name": "STONE/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "STONE/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"STONE/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "USDY/USD Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "USDY/USD Exchange Rate",
+      "rpcUrl": "${RPC_MANTLE_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "5000"
+    },
+    "parser": "(response) => { return response.data[\"USDY/USD Exchange Rate\"] }"
+  },
+  {
+    "name": "agETH/rsETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "agETH/rsETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"agETH/rsETH Exchange Rate\"] }"
+  },
+  {
+    "name": "ankrETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "ankrETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"ankrETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "apxETH/pxETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "apxETH/pxETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"apxETH/pxETH Exchange Rate\"] }"
+  },
+  {
+    "name": "cbETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "cbETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"cbETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "cmETH/mETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "cmETH/mETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"cmETH/mETH Exchange Rate\"] }"
+  },
+  {
+    "name": "demETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "demETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"demETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "eBTC/WBTC Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "eBTC/WBTC Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"eBTC/WBTC Exchange Rate\"] }"
+  },
+  {
+    "name": "egETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "egETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"egETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "ezETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "ezETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"ezETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "inETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "inETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"inETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "insfrxETH/sfrxETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "insfrxETH/sfrxETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"insfrxETH/sfrxETH Exchange Rate\"] }"
+  },
+  {
+    "name": "instETH/stETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "instETH/stETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"instETH/stETH Exchange Rate\"] }"
+  },
+  {
+    "name": "inwstETHs/wstETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "inwstETHs/wstETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"inwstETHs/wstETH Exchange Rate\"] }"
+  },
+  {
+    "name": "mETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "mETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"mETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "mpETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "mpETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"mpETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "mstETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "mstETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"mstETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "pufETH/stETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "pufETH/stETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"pufETH/stETH Exchange Rate\"] }"
+  },
+  {
+    "name": "rETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "rETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"rETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "rsETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "rsETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"rsETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "rswETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "rswETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"rswETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "sAVAX/AVAX Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "sAVAX/AVAX Exchange Rate",
+      "rpcUrl": "${RPC_AVALANCHE_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "43114"
+    },
+    "parser": "(response) => { return response.data[\"sAVAX/AVAX Exchange Rate\"] }"
+  },
+  {
+    "name": "sDAI/DAI Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "sDAI/DAI Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"sDAI/DAI Exchange Rate\"] }"
+  },
+  {
+    "name": "sFRAX/FRAX Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "sFRAX/FRAX Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"sFRAX/FRAX Exchange Rate\"] }"
+  },
+  {
+    "name": "sUSDS/USDS Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "sUSDS/USDS Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"sUSDS/USDS Exchange Rate\"] }"
+  },
+  {
+    "name": "sUSDe/USDe Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "sUSDe/USDe Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"sUSDe/USDe Exchange Rate\"] }"
+  },
+  {
+    "name": "scrvUSD/crvUSD Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "scrvUSD/crvUSD Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"scrvUSD/crvUSD Exchange Rate\"] }"
+  },
+  {
+    "name": "sfrxETH/frxETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "sfrxETH/frxETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"sfrxETH/frxETH Exchange Rate\"] }"
+  },
+  {
+    "name": "sfrxUSD/frxUSD Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "sfrxUSD/frxUSD Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"sfrxUSD/frxUSD Exchange Rate\"] }"
+  },
+  {
+    "name": "slisBNB/BNB Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "slisBNB/BNB Exchange Rate",
+      "rpcUrl": "${RPC_BSC_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "56"
+    },
+    "parser": "(response) => { return response.data[\"slisBNB/BNB Exchange Rate\"] }"
+  },
+  {
+    "name": "spETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "spETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"spETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "stTAO/TAO Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "stTAO/TAO Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"stTAO/TAO Exchange Rate\"] }"
+  },
+  {
+    "name": "swETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "swETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"swETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "ultraETHs/wstETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "ultraETHs/wstETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"ultraETHs/wstETH Exchange Rate\"] }"
+  },
+  {
+    "name": "uniETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "uniETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"uniETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "wBETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "wBETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_BSC_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "56"
+    },
+    "parser": "(response) => { return response.data[\"wBETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "wUSDM/USDM Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "wUSDM/USDM Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"wUSDM/USDM Exchange Rate\"] }"
+  },
+  {
+    "name": "weETH/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "weETH/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"weETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "weETHs/ETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "weETHs/ETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"weETHs/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "wstETH/stETH Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "wstETH/stETH Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"wstETH/stETH Exchange Rate\"] }"
+  },
+  {
+    "name": "yUSD/USD Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "yUSD/USD Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"yUSD/USD Exchange Rate\"] }"
+  },
+  {
+    "name": "ysUSDC/USDC Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "ysUSDC/USDC Exchange Rate",
+      "rpcUrl": "${RPC_ETHEREUM_URL_VALUE}",
+      "multicall3Address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "chainId": "1"
+    },
+    "parser": "(response) => { return response.data[\"ysUSDC/USDC Exchange Rate\"] }"
+  }
+]

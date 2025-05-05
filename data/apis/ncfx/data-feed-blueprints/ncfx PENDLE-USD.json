@@ -1,8 +1,0 @@
-{
-  "name": "PENDLE/USD",
-  "parameters": {
-    "pairs": "PENDLE-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['PENDLE-USD'].rate\n            }\n            "
-}

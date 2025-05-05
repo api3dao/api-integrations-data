@@ -1,6 +1,0 @@
-{
-  "name": "BERA/USD",
-  "path": "getVWAP/BERAUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

@@ -1,8 +1,0 @@
-{
-  "name": "DYDX/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "DYDX/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'DYDX/USD').price\n        }"
-}

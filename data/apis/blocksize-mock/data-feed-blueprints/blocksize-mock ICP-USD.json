@@ -1,6 +1,0 @@
-{
-  "name": "ICP/USD",
-  "path": "getVWAP/ICPUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

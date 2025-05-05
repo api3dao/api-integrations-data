@@ -1,9 +1,0 @@
-{
-  "name": "FLOW/USD",
-  "parameters": {
-    "ids": "flow",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['flow']['usd']\n            }"
-}

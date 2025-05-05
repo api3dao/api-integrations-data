@@ -1,8 +1,0 @@
-{
-  "name": "HYPE/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/hype-hyperliquid",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

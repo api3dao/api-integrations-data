@@ -1,6 +1,0 @@
-{
-  "name": "KSM/USD",
-  "parameters": {},
-  "path": "last/crypto/KSMUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

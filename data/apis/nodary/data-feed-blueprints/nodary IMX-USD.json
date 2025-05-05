@@ -1,8 +1,0 @@
-{
-  "name": "IMX/USD",
-  "parameters": {
-    "name": "IMX/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

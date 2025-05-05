@@ -1,9 +1,0 @@
-{
-  "name": "LUMIA/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "lumia",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['lumia']['usd']\n        }\n        "
-}

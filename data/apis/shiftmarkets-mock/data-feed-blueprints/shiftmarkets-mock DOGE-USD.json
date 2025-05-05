@@ -1,8 +1,0 @@
-{
-  "name": "DOGE/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "DOGE/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'DOGE/USD').price\n        }"
-}

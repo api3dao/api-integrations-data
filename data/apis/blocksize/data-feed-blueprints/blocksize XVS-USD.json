@@ -1,6 +1,0 @@
-{
-  "name": "XVS/USD",
-  "path": "getVWAP/XVSUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

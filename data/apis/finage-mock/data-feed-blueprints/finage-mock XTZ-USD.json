@@ -1,6 +1,0 @@
-{
-  "name": "XTZ/USD",
-  "parameters": {},
-  "path": "last/crypto/XTZUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

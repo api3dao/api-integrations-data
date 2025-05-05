@@ -1,9 +1,0 @@
-{
-  "name": "CFX/USD",
-  "parameters": {
-    "event": "Quote",
-    "symbol": "CFX/USDT:CXBINA"
-  },
-  "path": "rest/events.json",
-  "parser": "(response) => {\n            const bidPrice = response.Quote['CFX/USDT:CXBINA'].bidPrice;\n            const askPrice = response.Quote['CFX/USDT:CXBINA'].askPrice;\n            const result = (bidPrice + askPrice) / 2;\n            if(result === \"NaN\" || result === NaN) {\n              throw Error('[Known Error] - dxFeed returns NaN for one of the target values bidPrice or askPrice.');\n            }\n            return result;\n          }\n          "
-}

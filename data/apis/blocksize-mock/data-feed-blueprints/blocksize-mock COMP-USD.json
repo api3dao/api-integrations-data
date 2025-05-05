@@ -1,6 +1,0 @@
-{
-  "name": "COMP/USD",
-  "path": "getVWAP/COMPUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

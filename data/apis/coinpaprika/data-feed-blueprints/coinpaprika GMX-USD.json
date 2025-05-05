@@ -1,8 +1,0 @@
-{
-  "name": "GMX/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/gmx-gmx",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

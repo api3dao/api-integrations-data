@@ -1,9 +1,0 @@
-{
-  "name": "RON/USD",
-  "parameters": {
-    "ids": "ronin",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['ronin']['usd']\n            }"
-}

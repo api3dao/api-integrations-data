@@ -1,6 +1,0 @@
-{
-  "name": "COOK/USD",
-  "parameters": {},
-  "path": "last/crypto/COOKUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

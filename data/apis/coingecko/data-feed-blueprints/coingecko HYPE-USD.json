@@ -1,9 +1,0 @@
-{
-  "name": "HYPE/USD",
-  "parameters": {
-    "ids": "hyperliquid",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['hyperliquid']['usd']\n            }"
-}

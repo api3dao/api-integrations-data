@@ -1,8 +1,0 @@
-{
-  "name": "cbBTC/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "CBBTC/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CBBTC/USD').price\n        }"
-}

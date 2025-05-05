@@ -1,6 +1,0 @@
-{
-  "name": "ANKR/USD",
-  "path": "getVWAP/ANKRUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

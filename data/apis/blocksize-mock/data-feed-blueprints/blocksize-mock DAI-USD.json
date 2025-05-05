@@ -1,6 +1,0 @@
-{
-  "name": "DAI/USD",
-  "path": "getVWAP/DAIUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

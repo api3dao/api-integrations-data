@@ -1,8 +1,0 @@
-{
-  "name": "BERA/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/bera-berachain",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

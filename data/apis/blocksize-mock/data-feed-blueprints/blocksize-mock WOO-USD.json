@@ -1,6 +1,0 @@
-{
-  "name": "WOO/USD",
-  "path": "getVWAP/WOOUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

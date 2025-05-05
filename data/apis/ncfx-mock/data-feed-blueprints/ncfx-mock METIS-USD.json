@@ -1,8 +1,0 @@
-{
-  "name": "METIS/USD",
-  "parameters": {
-    "pairs": "METIS-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['METIS-USD'].rate\n            }\n            "
-}

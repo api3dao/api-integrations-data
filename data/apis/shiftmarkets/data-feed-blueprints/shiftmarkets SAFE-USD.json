@@ -1,8 +1,0 @@
-{
-  "name": "SAFE/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "SAFE/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SAFE/USD').price\n        }"
-}

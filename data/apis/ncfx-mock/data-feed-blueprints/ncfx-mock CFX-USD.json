@@ -1,8 +1,0 @@
-{
-  "name": "CFX/USD",
-  "path": "live/midrate/v1/rates",
-  "parameters": {
-    "pairs": "CFX-USD"
-  },
-  "parser": "(response) => {\n          return response.rates['CFX-USD'].rate\n        }\n        "
-}

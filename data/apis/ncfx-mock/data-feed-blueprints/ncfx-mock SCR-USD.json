@@ -1,8 +1,0 @@
-{
-  "name": "SCR/USD",
-  "path": "live/midrate/v1/rates",
-  "parameters": {
-    "pairs": "SCR-USD"
-  },
-  "parser": "(response) => {\n          return response.rates['SCR-USD'].rate\n        }\n        "
-}

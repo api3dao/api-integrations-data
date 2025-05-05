@@ -1,8 +1,0 @@
-{
-  "name": "WOO/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "WOO/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'WOO/USD').price\n        }"
-}

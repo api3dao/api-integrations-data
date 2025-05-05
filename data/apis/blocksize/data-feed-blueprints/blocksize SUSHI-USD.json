@@ -1,6 +1,0 @@
-{
-  "name": "SUSHI/USD",
-  "path": "getVWAP/SUSHIUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "FDUSD/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "first-digital-usd",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['first-digital-usd']['usd']\n        }\n        "
-}

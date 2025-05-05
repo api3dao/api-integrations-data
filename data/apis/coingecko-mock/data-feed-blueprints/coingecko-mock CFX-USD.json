@@ -1,9 +1,0 @@
-{
-  "name": "CFX/USD",
-  "path": "simple/price",
-  "parameters": {
-    "ids": "conflux-token",
-    "vs_currencies": "usd"
-  },
-  "parser": "(response) => {\n          return response['conflux-token']['usd']\n        }\n        "
-}

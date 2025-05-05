@@ -1,6 +1,0 @@
-{
-  "name": "ZIL/USD",
-  "path": "getVWAP/ZILUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

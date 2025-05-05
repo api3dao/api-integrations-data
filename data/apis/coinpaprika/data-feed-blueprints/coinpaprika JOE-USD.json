@@ -1,8 +1,0 @@
-{
-  "name": "JOE/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/joe-trader-joe",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

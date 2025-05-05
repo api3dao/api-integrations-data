@@ -1,6 +1,0 @@
-{
-  "name": "USDC/USD",
-  "path": "getVWAP/USDCUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

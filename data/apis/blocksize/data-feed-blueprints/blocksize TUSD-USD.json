@@ -1,6 +1,0 @@
-{
-  "name": "TUSD/USD",
-  "path": "getVWAP/TUSDUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

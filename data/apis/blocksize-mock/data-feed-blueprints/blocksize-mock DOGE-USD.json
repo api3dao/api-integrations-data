@@ -1,6 +1,0 @@
-{
-  "name": "DOGE/USD",
-  "path": "getVWAP/DOGEUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

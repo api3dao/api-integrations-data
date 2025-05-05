@@ -1,8 +1,0 @@
-{
-  "name": "LUMIA/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "LUMIA/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'LUMIA/USD').price\n        }"
-}

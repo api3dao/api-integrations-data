@@ -1,8 +1,0 @@
-{
-  "name": "XVS/USD",
-  "parameters": {
-    "name": "XVS/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

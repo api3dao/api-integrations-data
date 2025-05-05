@@ -1,9 +1,0 @@
-{
-  "name": "AAVE/USD",
-  "parameters": {
-    "ids": "aave",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['aave']['usd']\n            }"
-}

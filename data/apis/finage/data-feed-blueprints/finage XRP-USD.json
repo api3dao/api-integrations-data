@@ -1,6 +1,0 @@
-{
-  "name": "XRP/USD",
-  "parameters": {},
-  "path": "last/crypto/XRPUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

@@ -1,6 +1,0 @@
-{
-  "name": "NEAR/USD",
-  "path": "getVWAP/NEARUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

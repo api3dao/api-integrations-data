@@ -1,6 +1,0 @@
-{
-  "name": "ETH/USD",
-  "path": "getVWAP/ETHUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

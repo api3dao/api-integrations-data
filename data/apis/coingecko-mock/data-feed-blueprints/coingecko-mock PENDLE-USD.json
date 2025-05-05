@@ -1,9 +1,0 @@
-{
-  "name": "PENDLE/USD",
-  "parameters": {
-    "ids": "pendle",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['pendle']['usd']\n            }"
-}

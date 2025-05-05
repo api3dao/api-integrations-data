@@ -1,8 +1,0 @@
-{
-  "name": "RSR/USD",
-  "parameters": {
-    "name": "RSR/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

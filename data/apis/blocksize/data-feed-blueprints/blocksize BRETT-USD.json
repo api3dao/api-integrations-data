@@ -1,6 +1,0 @@
-{
-  "name": "BRETT/USD",
-  "path": "getVWAP/BRETTUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

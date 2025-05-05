@@ -1,8 +1,0 @@
-{
-  "name": "VET/USD",
-  "parameters": {
-    "pairs": "VET-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['VET-USD'].rate\n            }\n            "
-}

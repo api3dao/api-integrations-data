@@ -1,8 +1,0 @@
-{
-  "name": "RUNE/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/rune-thorchain",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

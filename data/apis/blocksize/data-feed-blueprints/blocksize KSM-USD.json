@@ -1,6 +1,0 @@
-{
-  "name": "KSM/USD",
-  "path": "getVWAP/KSMUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

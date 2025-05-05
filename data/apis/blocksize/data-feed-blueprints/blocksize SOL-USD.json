@@ -1,6 +1,0 @@
-{
-  "name": "SOL/USD",
-  "path": "getVWAP/SOLUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

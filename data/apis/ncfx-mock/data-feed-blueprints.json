@@ -1,0 +1,1162 @@
+[
+  {
+    "name": "AAVE/USD",
+    "parameters": {
+      "pairs": "AAVE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['AAVE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ADA/USD",
+    "parameters": {
+      "pairs": "ADA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ADA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "AERO/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "AERO-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['AERO-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "ALGO/USD",
+    "parameters": {
+      "pairs": "ALGO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ALGO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ANKR/USD",
+    "parameters": {
+      "pairs": "ANKR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ANKR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "APE/USD",
+    "parameters": {
+      "pairs": "APE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['APE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "API3/USD",
+    "parameters": {
+      "pairs": "API3-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['API3-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "APT/USD",
+    "parameters": {
+      "pairs": "APT-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['APT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "AR/USD",
+    "parameters": {
+      "pairs": "AR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['AR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ARB/USD",
+    "parameters": {
+      "pairs": "ARB-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ARB-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ASTR/USD",
+    "parameters": {
+      "pairs": "ASTR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ASTR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ATOM/USD",
+    "parameters": {
+      "pairs": "ATOM-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ATOM-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "AVAX/USD",
+    "parameters": {
+      "pairs": "AVAX-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['AVAX-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "AXL/USD",
+    "parameters": {
+      "pairs": "AXL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['AXL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "AXS/USD",
+    "parameters": {
+      "pairs": "AXS-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['AXS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "BAL/USD",
+    "parameters": {
+      "pairs": "BAL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['BAL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "BAND/USD",
+    "parameters": {
+      "pairs": "BAND-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['BAND-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "BAT/USD",
+    "parameters": {
+      "pairs": "BAT-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['BAT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "BERA/USD",
+    "parameters": {
+      "pairs": "BERA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['BERA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "BLAST/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "BLAST-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['BLAST-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "BLUR/USD",
+    "parameters": {
+      "pairs": "BLUR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['BLUR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "BNB/USD",
+    "parameters": {
+      "pairs": "BNB-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['BNB-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "BRETT/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "BRETT-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['BRETT-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "BTC/USD",
+    "parameters": {
+      "pairs": "BTC-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['BTC-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "CAKE/USD",
+    "parameters": {
+      "pairs": "CAKE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['CAKE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "CELO/USD",
+    "parameters": {
+      "pairs": "CELO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['CELO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "CFX/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "CFX-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['CFX-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "CHZ/USD",
+    "parameters": {
+      "pairs": "CHZ-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['CHZ-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "COMP/USD",
+    "parameters": {
+      "pairs": "COMP-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['COMP-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "COOK/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "COOK-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['COOK-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "CORE/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "CORE-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['CORE-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "CRO/USD",
+    "parameters": {
+      "pairs": "CRO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['CRO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "CRV/USD",
+    "parameters": {
+      "pairs": "CRV-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['CRV-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "CVX/USD",
+    "parameters": {
+      "pairs": "CVX-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['CVX-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "DAI/USD",
+    "parameters": {
+      "pairs": "DAI-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['DAI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "DEGEN/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "DEGEN-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['DEGEN-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "DOGE/USD",
+    "parameters": {
+      "pairs": "DOGE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['DOGE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "DOT/USD",
+    "parameters": {
+      "pairs": "DOT-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['DOT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "DYDX/USD",
+    "parameters": {
+      "pairs": "DYDX-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['DYDX-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "DYM/USD",
+    "parameters": {
+      "pairs": "DYM-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['DYM-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ENA/USD",
+    "parameters": {
+      "pairs": "ENA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ENA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ENS/USD",
+    "parameters": {
+      "pairs": "ENS-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ENS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ETH/USD",
+    "parameters": {
+      "pairs": "ETH-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ETH-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ETHFI/USD",
+    "parameters": {
+      "pairs": "ETHFI-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ETHFI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "EURC/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "EURC-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['EURC-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "FDUSD/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "FDUSD-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['FDUSD-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "FIL/USD",
+    "parameters": {
+      "pairs": "FIL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['FIL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "FLOW/USD",
+    "parameters": {
+      "pairs": "FLOW-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['FLOW-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "FXS/USD",
+    "parameters": {
+      "pairs": "FXS-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['FXS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "GLMR/USD",
+    "parameters": {
+      "pairs": "GLMR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['GLMR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "GMX/USD",
+    "parameters": {
+      "pairs": "GMX-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['GMX-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "GNO/USD",
+    "parameters": {
+      "pairs": "GNO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['GNO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "GNS/USD",
+    "parameters": {
+      "pairs": "GNS-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['GNS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "GRT/USD",
+    "parameters": {
+      "pairs": "GRT-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['GRT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "HBAR/USD",
+    "parameters": {
+      "pairs": "HBAR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['HBAR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "HNT/USD",
+    "parameters": {
+      "pairs": "HNT-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['HNT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "HYPE/USD",
+    "parameters": {
+      "pairs": "HYPE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['HYPE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ICP/USD",
+    "parameters": {
+      "pairs": "ICP-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ICP-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "IMX/USD",
+    "parameters": {
+      "pairs": "IMX-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['IMX-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "INJ/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "INJ-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['INJ-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "JOE/USD",
+    "parameters": {
+      "pairs": "JOE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['JOE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "KAVA/USD",
+    "parameters": {
+      "pairs": "KAVA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['KAVA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "KDA/USD",
+    "parameters": {
+      "pairs": "KDA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['KDA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "KSM/USD",
+    "parameters": {
+      "pairs": "KSM-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['KSM-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "LDO/USD",
+    "parameters": {
+      "pairs": "LDO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['LDO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "LINK/USD",
+    "parameters": {
+      "pairs": "LINK-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['LINK-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "LQTY/USD",
+    "parameters": {
+      "pairs": "LQTY-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['LQTY-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "LTC/USD",
+    "parameters": {
+      "pairs": "LTC-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['LTC-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "LUMIA/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "LUMIA-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['LUMIA-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "MANA/USD",
+    "parameters": {
+      "pairs": "MANA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MANA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MANTA/USD",
+    "parameters": {
+      "pairs": "MANTA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MANTA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MASK/USD",
+    "parameters": {
+      "pairs": "MASK-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MASK-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MERL/USD",
+    "parameters": {
+      "pairs": "MERL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MERL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "METIS/USD",
+    "parameters": {
+      "pairs": "METIS-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['METIS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MKR/USD",
+    "parameters": {
+      "pairs": "MKR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MKR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MNT/USD",
+    "parameters": {
+      "pairs": "MNT-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MNT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MODE/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "MODE-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['MODE-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "MORPHO/USD",
+    "parameters": {
+      "pairs": "MORPHO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MORPHO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MOVR/USD",
+    "parameters": {
+      "pairs": "MOVR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MOVR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MTL/USD",
+    "parameters": {
+      "pairs": "MTL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['MTL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "NEAR/USD",
+    "parameters": {
+      "pairs": "NEAR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['NEAR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "NEON/USD",
+    "parameters": {
+      "pairs": "NEON-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['NEON-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "OKB/USD",
+    "parameters": {
+      "pairs": "OKB-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['OKB-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ONDO/USD",
+    "parameters": {
+      "pairs": "ONDO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ONDO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "OP/USD",
+    "parameters": {
+      "pairs": "OP-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['OP-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ORDI/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "ORDI-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['ORDI-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "OSMO/USD",
+    "parameters": {
+      "pairs": "OSMO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['OSMO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "PAXG/USD",
+    "parameters": {
+      "pairs": "PAXG-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['PAXG-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "PENDLE/USD",
+    "parameters": {
+      "pairs": "PENDLE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['PENDLE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "POL/USD",
+    "parameters": {
+      "pairs": "POL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['POL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "PYTH/USD",
+    "parameters": {
+      "pairs": "PYTH-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['PYTH-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "PYUSD/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "PYUSD-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['PYUSD-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "QUICK/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "QUICK-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['QUICK-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "RARI/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "RARI-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['RARI-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "RDNT/USD",
+    "parameters": {
+      "pairs": "RDNT-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['RDNT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "RENDER/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "RENDER-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['RENDER-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "RIF/USD",
+    "parameters": {
+      "pairs": "RIF-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['RIF-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "RON/USD",
+    "parameters": {
+      "pairs": "RON-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['RON-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ROSE/USD",
+    "parameters": {
+      "pairs": "ROSE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ROSE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "RPL/USD",
+    "parameters": {
+      "pairs": "RPL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['RPL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "RSR/USD",
+    "parameters": {
+      "pairs": "RSR-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['RSR-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "RUNE/USD",
+    "parameters": {
+      "pairs": "RUNE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['RUNE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "S/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "S-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['S-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "SAFE/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "SAFE-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['SAFE-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "SAND/USD",
+    "parameters": {
+      "pairs": "SAND-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['SAND-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SATS/USD",
+    "parameters": {
+      "pairs": "SATS-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['SATS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SCR/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "SCR-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['SCR-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "SEI/USD",
+    "parameters": {
+      "pairs": "SEI-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['SEI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SHIB/USD",
+    "parameters": {
+      "pairs": "SHIB-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['SHIB-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SNX/USD",
+    "parameters": {
+      "pairs": "SNX-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['SNX-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SOL/USD",
+    "parameters": {
+      "pairs": "SOL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['SOL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "STG/USD",
+    "parameters": {
+      "pairs": "STG-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['STG-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "STRK/USD",
+    "parameters": {
+      "pairs": "STRK-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['STRK-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "STX/USD",
+    "parameters": {
+      "pairs": "STX-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['STX-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SUI/USD",
+    "parameters": {
+      "pairs": "SUI-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['SUI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SUSHI/USD",
+    "parameters": {
+      "pairs": "SUSHI-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['SUSHI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "TAIKO/USD",
+    "parameters": {
+      "pairs": "TAIKO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['TAIKO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "TAO/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "TAO-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['TAO-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "TIA/USD",
+    "parameters": {
+      "pairs": "TIA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['TIA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "TUSD/USD",
+    "parameters": {
+      "pairs": "TUSD-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['TUSD-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "TWT/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "TWT-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['TWT-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "UMA/USD",
+    "parameters": {
+      "pairs": "UMA-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['UMA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "UNI/USD",
+    "parameters": {
+      "pairs": "UNI-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['UNI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USDC/USD",
+    "parameters": {
+      "pairs": "USDC-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['USDC-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USDP/USD",
+    "parameters": {
+      "pairs": "USDP-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['USDP-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USDS/USD",
+    "parameters": {
+      "pairs": "USDS-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['USDS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USDT/USD",
+    "parameters": {
+      "pairs": "USDT-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['USDT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USDe/USD",
+    "parameters": {
+      "pairs": "USDE-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['USDE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "VELO/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "VELO-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['VELO-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "VET/USD",
+    "parameters": {
+      "pairs": "VET-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['VET-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "VTHO/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "VTHO-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['VTHO-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "WBTC/USD",
+    "parameters": {
+      "pairs": "WBTC-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['WBTC-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "WLD/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "WLD-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['WLD-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "WOO/USD",
+    "parameters": {
+      "pairs": "WOO-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['WOO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "XLM/USD",
+    "parameters": {
+      "pairs": "XLM-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['XLM-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "XRP/USD",
+    "parameters": {
+      "pairs": "XRP-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['XRP-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "XTZ/USD",
+    "parameters": {
+      "pairs": "XTZ-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['XTZ-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "XVS/USD",
+    "parameters": {
+      "pairs": "XVS-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['XVS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "YFI/USD",
+    "parameters": {
+      "pairs": "YFI-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['YFI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ZIL/USD",
+    "parameters": {
+      "pairs": "ZIL-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ZIL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ZK/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "ZK-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['ZK-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "ZRC/USD",
+    "parameters": {
+      "pairs": "ZRC-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ZRC-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ZRO/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "ZRO-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['ZRO-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "ZRX/USD",
+    "parameters": {
+      "pairs": "ZRX-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['ZRX-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "stETH/USD",
+    "parameters": {
+      "pairs": "STETH-USD"
+    },
+    "path": "live/midrate/v1/rates",
+    "parser": "(response) => {\n              return response.rates['STETH-USD'].rate\n            }\n            "
+  }
+]

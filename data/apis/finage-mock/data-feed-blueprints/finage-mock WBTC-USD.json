@@ -1,6 +1,0 @@
-{
-  "name": "WBTC/USD",
-  "parameters": {},
-  "path": "last/crypto/WBTCUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

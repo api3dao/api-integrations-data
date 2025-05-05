@@ -1,8 +1,0 @@
-{
-  "name": "APE/USD",
-  "parameters": {
-    "pairs": "APE-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['APE-USD'].rate\n            }\n            "
-}

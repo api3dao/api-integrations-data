@@ -1,8 +1,0 @@
-{
-  "name": "SolvBTC/USD",
-  "parameters": {
-    "name": "SolvBTC/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

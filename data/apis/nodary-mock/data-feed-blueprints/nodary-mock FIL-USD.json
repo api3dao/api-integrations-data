@@ -1,8 +1,0 @@
-{
-  "name": "FIL/USD",
-  "parameters": {
-    "name": "FIL/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

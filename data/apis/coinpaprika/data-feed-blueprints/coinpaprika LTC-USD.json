@@ -1,8 +1,0 @@
-{
-  "name": "LTC/USD",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "path": "tickers/ltc-litecoin",
-  "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-}

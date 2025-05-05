@@ -1,8 +1,0 @@
-{
-  "name": "MERL/USD",
-  "parameters": {
-    "pairs": "MERL-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['MERL-USD'].rate\n            }\n            "
-}

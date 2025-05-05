@@ -1,6 +1,0 @@
-{
-  "name": "UNI/USD",
-  "path": "getVWAP/UNIUSD",
-  "parameters": {},
-  "parser": "(response) => { return response.price; }"
-}

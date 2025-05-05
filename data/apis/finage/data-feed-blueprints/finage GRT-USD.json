@@ -1,6 +1,0 @@
-{
-  "name": "GRT/USD",
-  "parameters": {},
-  "path": "last/crypto/GRTUSD",
-  "parser": "(response) => {\n              return response.price\n            }\n            "
-}

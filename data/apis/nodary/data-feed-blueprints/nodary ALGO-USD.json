@@ -1,8 +1,0 @@
-{
-  "name": "ALGO/USD",
-  "parameters": {
-    "name": "ALGO/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}

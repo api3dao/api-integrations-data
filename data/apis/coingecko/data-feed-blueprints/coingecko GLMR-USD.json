@@ -1,9 +1,0 @@
-{
-  "name": "GLMR/USD",
-  "parameters": {
-    "ids": "moonbeam",
-    "vs_currencies": "usd"
-  },
-  "path": "simple/price",
-  "parser": "(response) => {\n              return response['moonbeam']['usd']\n            }"
-}

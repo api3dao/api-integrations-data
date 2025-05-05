@@ -1,8 +1,0 @@
-{
-  "name": "KSM/USD",
-  "path": "v1/price",
-  "parameters": {
-    "symbols": "KSM/USD"
-  },
-  "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'KSM/USD').price\n        }"
-}

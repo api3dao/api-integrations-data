@@ -1,8 +1,0 @@
-{
-  "name": "VELO/USD",
-  "path": "tickers/velo-velodrome-finance",
-  "parameters": {
-    "quotes": "USD"
-  },
-  "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-}

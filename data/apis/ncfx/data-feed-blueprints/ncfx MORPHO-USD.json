@@ -1,8 +1,0 @@
-{
-  "name": "MORPHO/USD",
-  "parameters": {
-    "pairs": "MORPHO-USD"
-  },
-  "path": "live/midrate/v1/rates",
-  "parser": "(response) => {\n              return response.rates['MORPHO-USD'].rate\n            }\n            "
-}

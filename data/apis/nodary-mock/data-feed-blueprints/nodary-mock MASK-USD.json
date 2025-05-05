@@ -1,8 +1,0 @@
-{
-  "name": "MASK/USD",
-  "parameters": {
-    "name": "MASK/USD"
-  },
-  "path": "feed/latest",
-  "parser": "(response) => {\n              return response.value;\n            }\n            "
-}
