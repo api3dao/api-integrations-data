@@ -3,6 +3,7 @@
   "name": "Finage",
   "providerType": "rest",
   "airnode": "0xa924847354c551C79BAE7E75529364bA0449e51A",
+  "previousAirnodes": [],
   "xpub": "xpub6CFWer6kWqCwTQLLfMTVviYeHKmDvXM4Leq8AwUBE9XNqmQYAmgtGZnxKo6rxypmGRpeZjSZy8gHUNJioeZVrHnb6RyjsZs3MkeMoaL1JbV",
   "supportedFeedsInBatches": {
     "Finage": [

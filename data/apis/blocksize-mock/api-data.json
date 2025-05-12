@@ -3,6 +3,7 @@
   "name": "BLOCKSIZE-Mock",
   "providerType": "rest",
   "airnode": "0x3E377AcDc90AD2912E92B5031aAE4BBFb3670b95",
+  "previousAirnodes": [],
   "xpub": "",
   "supportedFeedsInBatches": {
     "Blocksize": [

@@ -3,6 +3,7 @@
   "name": "CoinPaprika-Mock",
   "providerType": "rest",
   "airnode": "0x59493508C6CdE2179100CE2994919Dae38D893b2",
+  "previousAirnodes": [],
   "xpub": "",
   "supportedFeedsInBatches": {
     "Coinpaprika": [

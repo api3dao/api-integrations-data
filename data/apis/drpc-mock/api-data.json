@@ -3,6 +3,7 @@
   "name": "dRPC-Mock",
   "providerType": "rpc",
   "airnode": "0xDFCC177437f9Be5e5A0828A620664A4C1321e780",
+  "previousAirnodes": [],
   "xpub": "",
   "supportedFeedsInBatches": {
     "dRPC": [

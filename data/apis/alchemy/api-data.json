@@ -3,6 +3,7 @@
   "name": "Alchemy",
   "providerType": "rpc",
   "airnode": "0x886AD79b463B1BCa97C0fbF4D5e9782542e5EE40",
+  "previousAirnodes": [],
   "xpub": "xpub6CV7uveoXskcGCdMyzK7YNYUDY3NEsRtT6WRKR7Va92h9uadwUY3zhqj24EmtvPiqVYWtcg7jG8Eur9bQFWSikTqrzEWPGGmXTQ12oDm2Gb",
   "supportedFeedsInBatches": {
     "Alchemy": [

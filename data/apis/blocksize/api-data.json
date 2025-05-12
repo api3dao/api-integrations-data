@@ -3,6 +3,7 @@
   "name": "BLOCKSIZE",
   "providerType": "rest",
   "airnode": "0x1Fb13E33B505d359b734F02A95E392284A205895",
+  "previousAirnodes": [],
   "xpub": "xpub6ChioaZW8CYs1Bc6Gx3QLEMCZf5sqZ9oNzcLuKMJj3uUm1PDAQhtQBY2odUaeJMndbZmDao59tG8rzNXoDV7UHxPTz4JtLXfbyq6vDtYitp",
   "supportedFeedsInBatches": {
     "Blocksize": [

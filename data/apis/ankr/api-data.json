@@ -3,6 +3,7 @@
   "name": "Ankr",
   "providerType": "rpc",
   "airnode": "0xAaA5fdF8189C6344bA17De6C1a877beb416990AC",
+  "previousAirnodes": [],
   "xpub": "xpub6CXN3cVGEXfshsprcmzbmSYt2zrcsjuZEEGABTaPuV9b47Emxpo4bgyGrLpiKw6hrArTXgPqV6xjZvLTEP8z6VU9UNsLBjNsfEaZ9U6aDjy",
   "supportedFeedsInBatches": {
     "Ankr": [

@@ -3,6 +3,7 @@
   "name": "Infura-Mock",
   "providerType": "rpc",
   "airnode": "0x4D81964F58409651eF5C191166a9Ff6e6b40986f",
+  "previousAirnodes": [],
   "xpub": "",
   "supportedFeedsInBatches": {
     "Infura": [

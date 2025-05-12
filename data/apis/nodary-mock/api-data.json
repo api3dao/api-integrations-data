@@ -3,6 +3,7 @@
   "name": "Nodary-Mock",
   "providerType": "rest",
   "airnode": "0x241364bbd08701330bdc810bAaA10cF8DF1710E5",
+  "previousAirnodes": [],
   "xpub": "",
   "supportedFeedsInBatches": {
     "Nodary": [

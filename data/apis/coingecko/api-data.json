@@ -3,6 +3,7 @@
   "name": "CoinGecko",
   "providerType": "rest",
   "airnode": "0x6b56E47DccFbC82D63Df3da417d26e8B1B877f0f",
+  "previousAirnodes": [],
   "xpub": "xpub6Bp9GNsZu8Um4du9r6usXvs9eB2Fp8ftCbri114gSJKroJNnZjBFCCvo73XxnBS8WPcEufH2K7w3JsPahjzB1yUPi9P4JoSyyBGC1FLFTZy",
   "supportedFeedsInBatches": {
     "CoinGecko": [

@@ -3,6 +3,7 @@
   "name": "Alchemy-Mock",
   "providerType": "rpc",
   "airnode": "0x5B2a49765b8E5820E3642c2C21a997A7D02BbcAC",
+  "previousAirnodes": [],
   "xpub": "",
   "supportedFeedsInBatches": {
     "Alchemy": [

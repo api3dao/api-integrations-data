@@ -3,6 +3,7 @@
   "name": "ShiftMarkets",
   "providerType": "rest",
   "airnode": "0x1538e800Ae1B34C264E3F44B6Cd82bE033f38E20",
+  "previousAirnodes": [],
   "xpub": "xpub6DVqYi4DvEX3BmXHyggZi9GhuYhrnQ8nv9RDCrB8HK92onGHZxqg2Hh5ujNZFuSisPmuF22usL1MrE7uB3pULzUU6vNXwcijayK8Te9YmQo",
   "supportedFeedsInBatches": {
     "ShiftMarkets": [

@@ -3,6 +3,7 @@
   "name": "ShiftMarkets-Mock",
   "providerType": "rest",
   "airnode": "0x4C283936141b6AD8253C599091f86DAdE9dd8fDc",
+  "previousAirnodes": [],
   "xpub": "",
   "supportedFeedsInBatches": {
     "ShiftMarkets": [

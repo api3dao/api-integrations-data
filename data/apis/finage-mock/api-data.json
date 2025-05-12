@@ -3,6 +3,7 @@
   "name": "Finage-Mock",
   "providerType": "rest",
   "airnode": "0xD7AD63b84F03FF923a690bAE32C988097C70C673",
+  "previousAirnodes": [],
   "xpub": "",
   "supportedFeedsInBatches": {
     "Finage": [

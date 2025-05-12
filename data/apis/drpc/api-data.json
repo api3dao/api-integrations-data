@@ -3,6 +3,7 @@
   "name": "dRPC",
   "providerType": "rpc",
   "airnode": "0x14F4bC1EC875f4A8d260721B0A7b07262A71a220",
+  "previousAirnodes": [],
   "xpub": "xpub6CHmnmsEDrQ6M7v94J6tu4beX6jnFueyg9rUCn83X8ZnrqxuDQwFWB4npDWiWoUb6cMJrAsuL5EC2D5gq7BDnsyFzWnNx91qev5Wb6aQuyS",
   "supportedFeedsInBatches": {
     "dRPC": [

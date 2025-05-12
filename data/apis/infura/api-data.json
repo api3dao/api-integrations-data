@@ -3,6 +3,7 @@
   "name": "Infura",
   "providerType": "rpc",
   "airnode": "0x72bFf91fc62E03f917D5c1202225f92f74cBe67e",
+  "previousAirnodes": [],
   "xpub": "xpub6C9AUv96zC5cBpsNxkun9Csvdo4eDjj6o9cVLW1gx7LTma7eXnHFiDPmdXBT5q5PCqaxTNyrPa2h6LaH8Q7ag7xgmnmAnCHETkc9UN63MQ4",
   "supportedFeedsInBatches": {
     "Infura": [
