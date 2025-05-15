@@ -74,7 +74,7 @@
             }
           }
         ],
-        "ClusterName": "api3-shared-cluster-<SOME_ID>"
+        "ClusterName": "api3-shared-cluster-<STAGE>-<AIRNODE_SUFFIX>"
       }
     },
     "VPC": {
@@ -221,7 +221,7 @@
             }
           }
         ],
-        "LogGroupName": "/ecs/signedApi-<SOME_ID>",
+        "LogGroupName": "/ecs/signedApi-<STAGE>-<AIRNODE_SUFFIX>",
         "RetentionInDays": 7
       }
     },
@@ -236,7 +236,7 @@
             }
           }
         ],
-        "LogGroupName": "/ecs/airnodeFeed-<SOME_ID>",
+        "LogGroupName": "/ecs/airnodeFeed-<STAGE>-<AIRNODE_SUFFIX>",
         "RetentionInDays": 7
       }
     },
@@ -518,7 +518,7 @@
             "ContainerName": "signed-api-container",
             "ContainerPort": 80,
             "TargetGroupArn": {
-              "Ref": "SignedApiTargetGroup"
+              "Ref": "SignedApiTargetGroup<AIRNODE_SUFFIX>"
             }
           }
         ],
@@ -580,7 +580,7 @@
             }
           }
         ],
-        "Name": "signed-api-elb-<SOME_ID>",
+        "Name": "signed-api-elb-<STAGE>-<AIRNODE_SUFFIX>",
         "Subnets": [
           {
             "Ref": "PublicSubnet1"
@@ -604,7 +604,7 @@
           {
             "Type": "forward",
             "TargetGroupArn": {
-              "Ref": "SignedApiTargetGroup"
+              "Ref": "SignedApiTargetGroup<AIRNODE_SUFFIX>"
             }
           }
         ],
@@ -615,7 +615,7 @@
         "Protocol": "HTTP"
       }
     },
-    "SignedApiTargetGroup": {
+    "SignedApiTargetGroup<AIRNODE_SUFFIX>": {
       "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
       "Properties": {
         "Port": 80,

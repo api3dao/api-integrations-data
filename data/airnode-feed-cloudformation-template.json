@@ -72,7 +72,7 @@
             }
           }
         ],
-        "LogGroupName": "/ecs/airnodeFeed-<SOME_ID>",
+        "LogGroupName": "/ecs/airnodeFeed-<STAGE>-<AIRNODE_SUFFIX>",
         "RetentionInDays": 7
       }
     },
@@ -98,7 +98,7 @@
           {
             "Essential": true,
             "Image": "grafana/fluent-bit-plugin-loki:2.9.1-amd64",
-            "Name": "AirnodeFeedLogForwarder-<SOME_ID>",
+            "Name": "AirnodeFeedLogForwarder",
             "FirelensConfiguration": {
               "Type": "fluentbit",
               "Options": {
@@ -225,7 +225,7 @@
             }
           }
         ],
-        "ClusterName": "AirnodeFeedCluster-<SOME_ID>"
+        "ClusterName": "AirnodeFeedCluster-<STAGE>-<AIRNODE_SUFFIX>"
       }
     },
     "AppService": {
@@ -242,7 +242,7 @@
         "Cluster": {
           "Ref": "AppCluster"
         },
-        "ServiceName": "AirnodeFeedService-<SOME_ID>",
+        "ServiceName": "AirnodeFeedService",
         "DesiredCount": 1,
         "LaunchType": "FARGATE",
         "TaskDefinition": {
