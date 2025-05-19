@@ -2,9 +2,14 @@
   "alias": "mnemonicrotationtest",
   "name": "MnemonicRotationTest",
   "providerType": "rest",
-  "airnode": "0x53eC2C4FA6bbb814C27a8353E8A867632Ad5b6e0",
-  "previousAirnodes": [],
-  "xpub": "xpub6CBsfFgg2koo5pB12Z3ggZBEFuSsFjraPBoCP46imnUj9Md9MhuDTfsfqEQ49bGfkGntXpTU5vFuRvudfGkR3mJvt5jd4H1PX59MwbZTovZ",
+  "airnode": "0xB3661e51992555B7d692aB5Bf56843C3E31Cd4b2",
+  "previousAirnodes": [
+    {
+      "expiryTimestamp": 1747644241,
+      "airnodeAddress": "0x53eC2C4FA6bbb814C27a8353E8A867632Ad5b6e0"
+    }
+  ],
+  "xpub": "xpub6DP6etVsoSz9gXqv8xuXBD1rn8SvU4dfcw4MT2tbijyGLmsfYB636mR5GvTEbrVnZFvDfQNJ4t5PmacEztTqugd2gYr5q2YUBqy7Xtca8hL",
   "supportedFeedsInBatches": {
     "MnemonicRotationTest": [["AAVE/USD"], ["AERO/USD"], ["ADA/USD"]]
   },
