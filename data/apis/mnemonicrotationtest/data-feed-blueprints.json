@@ -1,0 +1,20 @@
+[
+  {
+    "name": "AAVE/USD",
+    "path": "getVWAP/AAVEUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ADA/USD",
+    "path": "getVWAP/ADAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "AERO/USD",
+    "path": "getVWAP/AEROUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  }
+]

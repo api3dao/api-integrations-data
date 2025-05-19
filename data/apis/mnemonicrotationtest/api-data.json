@@ -1,0 +1,44 @@
+{
+  "alias": "mnemonicrotationtest",
+  "name": "MnemonicRotationTest",
+  "providerType": "rest",
+  "airnode": "0x53eC2C4FA6bbb814C27a8353E8A867632Ad5b6e0",
+  "previousAirnodes": [],
+  "xpub": "xpub6CBsfFgg2koo5pB12Z3ggZBEFuSsFjraPBoCP46imnUj9Md9MhuDTfsfqEQ49bGfkGntXpTU5vFuRvudfGkR3mJvt5jd4H1PX59MwbZTovZ",
+  "supportedFeedsInBatches": {
+    "MnemonicRotationTest": [["AAVE/USD"], ["AERO/USD"], ["ADA/USD"]]
+  },
+  "homepageUrl": "https://serhan.me",
+  "verifiedBaseUrl": "https://serhan.me",
+  "signedApiUrl": "https://signed-api.serhan.me",
+  "productionSignedApiUrls": [
+    {
+      "url": "https://signed-api.nodary.io",
+      "name": "Nodary"
+    },
+    {
+      "url": "https://signed-api.api3.org",
+      "name": "API3"
+    },
+    {
+      "url": "http://signed-api.self.internal",
+      "name": "Self"
+    }
+  ],
+  "stagingSignedApiUrl": {
+    "url": "https://signed-api.stage.nodary.io",
+    "name": "Staging"
+  },
+  "deploymentConfigurations": [
+    {
+      "signedApi": true,
+      "region": "eu-central-1",
+      "provider": "aws"
+    },
+    {
+      "signedApi": false,
+      "region": "us-east-1",
+      "provider": "aws"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "oisFormat": "2.3.0",
+  "title": "MnemonicRotationTest",
+  "version": "1.0.0",
+  "apiSpecifications": {
+    "components": {
+      "securitySchemes": {}
+    },
+    "paths": {
+      "/{path}": {
+        "get": {
+          "parameters": [
+            {
+              "in": "path",
+              "name": "path"
+            }
+          ]
+        }
+      }
+    },
+    "servers": [
+      {
+        "url": "https://realtime.blocksize.info"
+      }
+    ],
+    "security": {}
+  },
+  "endpoints": [
+    {
+      "fixedOperationParameters": [],
+      "name": "feed",
+      "operation": {
+        "method": "get",
+        "path": "/{path}"
+      },
+      "parameters": [
+        {
+          "name": "name",
+          "required": true
+        },
+        {
+          "name": "path",
+          "operationParameter": {
+            "in": "path",
+            "name": "path"
+          },
+          "required": true
+        }
+      ],
+      "reservedParameters": [
+        {
+          "name": "_type",
+          "fixed": "int256"
+        },
+        {
+          "name": "_times",
+          "fixed": "1000000000000000000"
+        }
+      ],
+      "preProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"AAVE/USD\": { path: \"getVWAP/AAVEUSD\", parameters: {} },\n    \"AERO/USD\": { path: \"getVWAP/AEROUSD\", parameters: {} },\n    \"ADA/USD\": { path: \"getVWAP/ADAUSD\", parameters: {} },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+        "timeoutMs": 5000
+      },
+      "postProcessingSpecificationV2": {
+        "environment": "Node",
+        "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"AAVE/USD\": \"(response) => { return response.price; }\",\n    \"AERO/USD\": \"(response) => { return response.price; }\",\n    \"ADA/USD\": \"(response) => { return response.price; }\",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+        "timeoutMs": 5000
+      }
+    }
+  ]
+}
