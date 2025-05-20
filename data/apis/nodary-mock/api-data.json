@@ -213,7 +213,8 @@
       ["demETH/ETH Exchange Rate"],
       ["tBTC/USD"],
       ["VTHO/USD"],
-      ["MVL/USD"]
+      ["MVL/USD"],
+      ["frxUSD/USD"]
     ]
   },
   "homepageUrl": "",

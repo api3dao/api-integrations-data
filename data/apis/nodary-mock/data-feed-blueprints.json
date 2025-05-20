@@ -432,6 +432,14 @@
     "parser": "(response) => {\n              return response.value;\n            }\n            "
   },
   {
+    "name": "frxUSD/USD",
+    "parameters": {
+      "name": "frxUSD/USD"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
     "name": "FXS/USD",
     "parameters": {
       "name": "FXS/USD"
