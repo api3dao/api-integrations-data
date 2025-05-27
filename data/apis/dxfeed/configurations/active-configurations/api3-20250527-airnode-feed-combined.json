@@ -1,7 +1,7 @@
 {
   "nodeSettings": {
     "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
-    "nodeVersion": "3.2.0",
+    "nodeVersion": "3.3.0",
     "stage": "${STAGE}"
   },
   "templates": {
@@ -2084,6 +2084,11 @@
       "name": "API3",
       "url": "https://signed-api.api3.org",
       "authToken": "${AUTH_TOKEN_API3}"
+    },
+    {
+      "name": "Self",
+      "url": "http://signed-api.self.internal",
+      "authToken": "${AUTH_TOKEN_SELF}"
     }
   ],
   "ois": [

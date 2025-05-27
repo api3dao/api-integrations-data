@@ -2,9 +2,14 @@
   "alias": "dxfeed",
   "name": "dxFeed",
   "providerType": "rest",
-  "airnode": "0x11030d4f8eB06F958E763C6f8b165D7CDd98DB6C",
-  "previousAirnodes": [],
-  "xpub": "xpub6DSE1Hr6hCmAXb9tapwx14DFth2qUQb8XKr5gAX7G9PcSUoszk3Wnx7zoxedVzun4vVt4ZzYZk27FcPz19bWuLA3kXYBBK3vjgYADFUCQDa",
+  "airnode": "0x9E3F8344DB06aDFFD1E9C5D6A65b33aFbC321610",
+  "previousAirnodes": [
+    {
+      "expiryTimestamp": 1748337714,
+      "airnodeAddress": "0x11030d4f8eB06F958E763C6f8b165D7CDd98DB6C"
+    }
+  ],
+  "xpub": "xpub6DWi8fs3sCHjQ3vGcm9V9x1ZnUdfpBD1HCzNWZEq14rCkSCNuh6mbZZiseSgf41eSjAarztgrfhJfbAfgCuvF5rurxEJfuefUHCnNTVEvzU",
   "supportedFeedsInBatches": {
     "dxFeed": [
       ["AAVE/USD"],
