@@ -1158,5 +1158,13 @@
     },
     "path": "live/midrate/v1/rates",
     "parser": "(response) => {\n              return response.rates['STETH-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "MVL/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "MVL-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['MVL-USD'].rate\n            }\n            "
   }
 ]

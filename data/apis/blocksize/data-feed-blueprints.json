@@ -946,5 +946,11 @@
     "path": "getVWAP/TBTCUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "MVL/USD",
+    "path": "getVWAP/MVLUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
   }
 ]

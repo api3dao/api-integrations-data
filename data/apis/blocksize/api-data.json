@@ -164,7 +164,8 @@
       ["HYPE/USD"],
       ["VET/USD"],
       ["tBTC/USD"],
-      ["VTHO/USD"]
+      ["VTHO/USD"],
+      ["MVL/USD"]
     ]
   },
   "homepageUrl": "https://www.blocksize.info",

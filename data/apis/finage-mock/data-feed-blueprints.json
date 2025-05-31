@@ -952,5 +952,11 @@
     "parameters": {},
     "path": "last/crypto/TBTCUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "MVL/USD",
+    "path": "last/crypto/MVLUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
   }
 ]
