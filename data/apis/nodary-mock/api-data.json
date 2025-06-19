@@ -213,7 +213,13 @@
       ["tBTC/USD"],
       ["VTHO/USD"],
       ["MVL/USD"],
-      ["frxUSD/USD"]
+      ["frxUSD/USD"],
+      ["VIRTUAL/USD"],
+      ["osETH/ETH Exchange Rate"],
+      ["SPK/USD"],
+      ["SYRUP/USD"],
+      ["RESOLV/USD"],
+      ["XAUt/USD"]
     ]
   },
   "homepageUrl": "",

@@ -1654,5 +1654,53 @@
     },
     "path": "feed/latest",
     "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "VIRTUAL/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "osETH/ETH Exchange Rate",
+    "parameters": {
+      "name": "osETH/ETH Exchange Rate"
+    },
+    "path": "feed/latest",
+    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
+  },
+  {
+    "name": "SPK/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "SPK/USD"
+    },
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SYRUP/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "SYRUP/USD"
+    },
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "RESOLV/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "RESOLV/USD"
+    },
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "XAUt/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "XAUt/USD"
+    },
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
   }
 ]
