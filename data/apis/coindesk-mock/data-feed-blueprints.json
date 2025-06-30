@@ -1568,5 +1568,35 @@
     },
     "path": "index/cc/v1/latest/tick",
     "parser": "(response) => {\n              return response.Data[\"XAUT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MNT/USD",
+    "path": "index/cc/v1/latest/tick",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MANTLE-USD",
+      "groups": "VALUE"
+    },
+    "parser": "(response) => {\n          return response.Data['MANTLE-USD'].VALUE\n        }\n        "
+  },
+  {
+    "name": "RON/USD",
+    "path": "index/cc/v1/latest/tick",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RONIN-USD",
+      "groups": "VALUE"
+    },
+    "parser": "(response) => {\n          return response.Data['RONIN-USD'].VALUE\n        }\n        "
+  },
+  {
+    "name": "SCR/USD",
+    "path": "index/cc/v1/latest/tick",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SCROLL-USD",
+      "groups": "VALUE"
+    },
+    "parser": "(response) => {\n          return response.Data['SCROLL-USD'].VALUE\n        }\n        "
   }
 ]
