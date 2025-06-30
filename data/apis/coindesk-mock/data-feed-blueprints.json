@@ -1,0 +1,1572 @@
+[
+  {
+    "name": "AAVE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "AAVE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"AAVE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ADA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ADA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ADA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ALGO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ALGO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ALGO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ANKR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ANKR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ANKR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "APE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "APE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"APE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "API3/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "API3-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"API3-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ARB/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ARB-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ARB-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ATOM/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ATOM-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ATOM-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "AVAX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "AVAX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"AVAX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "AXS/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "AXS-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"AXS-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BAL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BAL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BAL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BAT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BAT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BAT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BNB/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BNB-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BNB-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BTC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BTC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BTC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "CAKE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CAKE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CAKE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "CELO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CELO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CELO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "CHZ/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CHZ-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CHZ-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "COMP/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "COMP-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"COMP-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "CRO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CRO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CRO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "CRV/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CRV-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CRV-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "CVX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CVX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CVX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "DAI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "DAI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"DAI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "DOGE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "DOGE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"DOGE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "DOT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "DOT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"DOT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "DYDX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "DYDX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"DYDX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ETH/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ETH-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ETH-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "FIL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "FIL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"FIL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "FLOW/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "FLOW-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"FLOW-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "FXS/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "FXS-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"FXS-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "GLMR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "GLMR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"GLMR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "GMX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "GMX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"GMX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "GNO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "GNO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"GNO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "GRT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "GRT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"GRT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "HBAR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "HBAR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"HBAR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "HNT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "HNT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"HNT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ICP/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ICP-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ICP-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "IMX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "IMX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"IMX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "JOE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "JOE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"JOE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "KDA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "KDA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"KDA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "KSM/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "KSM-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"KSM-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "LDO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "LDO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"LDO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "LINK/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "LINK-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"LINK-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "LQTY/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "LQTY-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"LQTY-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "LTC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "LTC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"LTC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MANA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MANA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MANA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MKR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MKR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MKR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "METIS/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "METIS-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"METIS-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MOVR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MOVR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MOVR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "NEAR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "NEAR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"NEAR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "OKB/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "OKB-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"OKB-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "OP/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "OP-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"OP-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "PAXG/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "PAXG-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"PAXG-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "QUICK/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "QUICK-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"QUICK-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ROSE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ROSE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ROSE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "RPL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RPL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"RPL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "RSR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RSR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"RSR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "RUNE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RUNE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"RUNE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SAND/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SAND-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SAND-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SHIB/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SHIB-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SHIB-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SNX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SNX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SNX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SOL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SOL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SOL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "stETH/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "STETH-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"STETH-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "STG/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "STG-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"STG-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "STX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "STX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"STX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SUSHI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SUSHI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SUSHI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "TUSD/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "TUSD-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"TUSD-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "UNI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "UNI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"UNI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "USDT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "USDT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"USDT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "USDC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "USDC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"USDC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "USDP/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "USDP-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"USDP-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "WBTC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "WBTC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"WBTC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "XLM/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "XLM-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"XLM-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "XRP/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "XRP-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"XRP-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "XTZ/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "XTZ-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"XTZ-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "YFI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "YFI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"YFI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ZIL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ZIL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ZIL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ZRX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ZRX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ZRX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MASK/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MASK-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MASK-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ENS/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ENS-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ENS-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BLUR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BLUR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BLUR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BAND/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BAND-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BAND-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "UMA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "UMA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"UMA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "APT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "APT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"APT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "OSMO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "OSMO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"OSMO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SUI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SUI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SUI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "GNS/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "GNS-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"GNS-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "KAVA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "KAVA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"KAVA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "RDNT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RDNT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"RDNT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "RIF/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RIF-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"RIF-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "GHO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "GHO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"GHO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "crvUSD/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CRVUSD-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CRVUSD-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "EURe/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "EURE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"EURE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "FRAX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "FRAX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"FRAX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "LUSD/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "LUSD-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"LUSD-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "WOO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "WOO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"WOO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "PYTH/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "PYTH-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"PYTH-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "USDe/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "USDE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"USDE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ASTR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ASTR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ASTR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "TIA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "TIA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"TIA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "DYM/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "DYM-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"DYM-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SEI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SEI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SEI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "AR/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "AR-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"AR-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "STRK/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "STRK-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"STRK-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "AXL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "AXL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"AXL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ONDO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ONDO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ONDO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MANTA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MANTA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MANTA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "XVS/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "XVS-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"XVS-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "PENDLE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "PENDLE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"PENDLE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "TWT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "TWT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"TWT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "AERO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "AERO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"AERO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "TAO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "TAO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"TAO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "PYUSD/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "PYUSD-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"PYUSD-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MERL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MERL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MERL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ORDI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ORDI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ORDI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SATS/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SATS-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SATS-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "INJ/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "INJ-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"INJ-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MODE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MODE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MODE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "NEON/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "NEON-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"NEON-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "RARI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RARI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"RARI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "CORE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CORE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CORE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "DEGEN/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "DEGEN-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"DEGEN-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ENA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ENA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ENA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "FDUSD/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "FDUSD-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"FDUSD-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "WLD/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "WLD-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"WLD-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "EURC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "EURC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"EURC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ZRO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ZRO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ZRO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ZK/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ZK-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ZK-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ETHFI/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ETHFI-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ETHFI-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SAFE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SAFE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SAFE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "TAIKO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "TAIKO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"TAIKO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "W/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "W-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"W-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BLAST/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BLAST-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BLAST-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "CFX/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CFX-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CFX-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "RENDER/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RENDER-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"RENDER-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "POL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "POL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"POL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "AUSD/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "AUSD-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"AUSD-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "LUMIA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "LUMIA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"LUMIA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "COOK/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "COOK-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"COOK-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "cbBTC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "CBBTC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"CBBTC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BRETT/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BRETT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BRETT-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MORPHO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MORPHO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MORPHO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "ZRC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "ZRC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"ZRC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "LBTC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "LBTC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"LBTC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "S/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "S-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"S-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "VELO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "VELO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"VELO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MTL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MTL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MTL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "BERA/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "BERA-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"BERA-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "USDS/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "USDS-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"USDS-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "HYPE/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "HYPE-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"HYPE-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "VET/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "VET-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"VET-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "tBTC/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "TBTC-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"TBTC-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "VTHO/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "VTHO-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"VTHO-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "MVL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "MVL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"MVL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "VIRTUAL-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"VIRTUAL-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "SYRUP/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "SYRUP-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"SYRUP-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "RESOLV/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "RESOLV-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"RESOLV-USD\"].VALUE\n            }"
+  },
+  {
+    "name": "XAUt/USD",
+    "parameters": {
+      "market": "cadli",
+      "instruments": "XAUT-USD",
+      "groups": "VALUE"
+    },
+    "path": "index/cc/v1/latest/tick",
+    "parser": "(response) => {\n              return response.Data[\"XAUT-USD\"].VALUE\n            }"
+  }
+]
