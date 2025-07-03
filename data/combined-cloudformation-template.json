@@ -27,7 +27,14 @@
       "MinLength": "10",
       "AllowedPattern": "^[^\\s]+$",
       "ConstraintDescription": "The string must not contain any whitespaces.",
-      "Description": "Token to POST data to Self Signed API (This should be handed to you)."
+      "Description": "Token used by the signed-api application to POST data to Self Signed API (This should be handed to you)."
+    },
+    "SelfAuthToken": {
+      "Type": "String",
+      "MinLength": "10",
+      "AllowedPattern": "^[^\\s]+$",
+      "ConstraintDescription": "The string must not contain any whitespaces.",
+      "Description": "Token used by the airnode-feed application to POST data to Self Signed API (This should be handed to you)."
     },
     "NodarySignedApiToken": {
       "Type": "String",
@@ -380,7 +387,7 @@
                       "\\n",
                       "AUTH_TOKEN_SELF=",
                       {
-                        "Ref": "SelfSignedApiToken"
+                        "Ref": "SelfAuthToken"
                       },
                       "\\n",
                       "STAGE=aws"
