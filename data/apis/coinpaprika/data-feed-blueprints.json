@@ -1286,5 +1286,61 @@
     },
     "path": "tickers/tbtc-tbtc",
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "path": "tickers/virtual-virtual-protocol",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "DOLA/USD",
+    "path": "tickers/dola-dola",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "SPK/USD",
+    "path": "tickers/spk-spark",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "SYRUP/USD",
+    "path": "tickers/syrup-syrup-token",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "RESOLV/USD",
+    "path": "tickers/resolv-resolv",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "XAUt/USD",
+    "path": "tickers/xaut-tether-gold",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USD1/USD",
+    "path": "tickers/usd1-usd1",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   }
 ]

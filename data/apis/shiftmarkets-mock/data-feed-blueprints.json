@@ -1262,5 +1262,61 @@
       "symbols": "TBTC/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'TBTC/USD').price\n        }"
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "VIRTUAL/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'VIRTUAL/USD').price\n        }"
+  },
+  {
+    "name": "DOLA/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "DOLA/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'DOLA/USD').price\n        }"
+  },
+  {
+    "name": "SPK/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "SPK/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SPK/USD').price\n        }"
+  },
+  {
+    "name": "SYRUP/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "SYRUP/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SYRUP/USD').price\n        }"
+  },
+  {
+    "name": "RESOLV/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "RESOLV/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'RESOLV/USD').price\n        }"
+  },
+  {
+    "name": "XAUt/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "XAUT/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'XAUT/USD').price\n        }"
+  },
+  {
+    "name": "USD1/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USD1/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USD1/USD').price\n        }"
   }
 ]

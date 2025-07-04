@@ -1166,5 +1166,53 @@
       "pairs": "MVL-USD"
     },
     "parser": "(response) => {\n              return response.rates['MVL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "VIRTUAL-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['VIRTUAL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SPK/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "SPK-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['SPK-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SYRUP/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "SYRUP-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['SYRUP-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "RESOLV/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "RESOLV-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['RESOLV-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "XAUt/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "XAUT-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['XAUT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USD1/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "USD1-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['USD1-USD'].rate\n            }\n            "
   }
 ]

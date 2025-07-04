@@ -958,5 +958,47 @@
     "path": "last/crypto/MVLUSD",
     "parameters": {},
     "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "path": "last/crypto/VIRTUALUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "DOLA/USD",
+    "path": "last/crypto/DOLAUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "SPK/USD",
+    "path": "last/crypto/SPKUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "SYRUP/USD",
+    "path": "last/crypto/SYRUPUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "RESOLV/USD",
+    "path": "last/crypto/RESOLVUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "XAUt/USD",
+    "path": "last/crypto/XAUTUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "USD1/USD",
+    "path": "last/crypto/USD1USD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
   }
 ]

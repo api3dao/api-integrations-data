@@ -1447,5 +1447,68 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['tbtc']['usd']\n            }"
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "virtual-protocol",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['virtual-protocol']['usd']\n            }"
+  },
+  {
+    "name": "DOLA/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "dola-usd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['dola-usd']['usd']\n            }"
+  },
+  {
+    "name": "SPK/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "spark-2",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['spark-2']['usd']\n            }"
+  },
+  {
+    "name": "SYRUP/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "syrup",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['syrup']['usd']\n            }"
+  },
+  {
+    "name": "RESOLV/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "resolv",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['resolv']['usd']\n            }"
+  },
+  {
+    "name": "XAUt/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "tether-gold",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['tether-gold']['usd']\n            }"
+  },
+  {
+    "name": "USD1/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usd1-wlfi",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usd1-wlfi']['usd']\n            }"
   }
 ]

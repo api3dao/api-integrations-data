@@ -952,5 +952,47 @@
     "path": "getVWAP/MVLUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "path": "getVWAP/VIRTUALUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "DOLA/USD",
+    "path": "getVWAP/DOLAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SPK/USD",
+    "path": "getVWAP/SPKUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SYRUP/USD",
+    "path": "getVWAP/SYRUPUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RESOLV/USD",
+    "path": "getVWAP/RESOLVUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "XAUt/USD",
+    "path": "getVWAP/XAUTUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USD1/USD",
+    "path": "getVWAP/USD1USD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
   }
 ]

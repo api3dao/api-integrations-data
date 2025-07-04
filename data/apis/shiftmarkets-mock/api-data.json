@@ -165,7 +165,14 @@
         "INJ/USD",
         "RENDER/USD",
         "VTHO/USD",
-        "MVL/USD"
+        "MVL/USD",
+        "VIRTUAL/USD",
+        "DOLA/USD",
+        "SPK/USD",
+        "SYRUP/USD",
+        "RESOLV/USD",
+        "XAUt/USD",
+        "USD1/USD"
       ]
     ]
   },
