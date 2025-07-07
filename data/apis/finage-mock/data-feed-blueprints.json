@@ -1000,5 +1000,29 @@
     "path": "last/crypto/USD1USD",
     "parameters": {},
     "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "USDY/USD",
+    "path": "last/crypto/USDYUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "USDD/USD",
+    "path": "last/crypto/USDDUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "USDG/USD",
+    "path": "last/crypto/USDGUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "BUSD/USD",
+    "path": "last/crypto/BUSDUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
   }
 ]

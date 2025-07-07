@@ -1318,5 +1318,29 @@
       "symbols": "USD1/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USD1/USD').price\n        }"
+  },
+  {
+    "name": "USDY/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USDY/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDY/USD').price\n        }"
+  },
+  {
+    "name": "USD0/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USD0/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USD0/USD').price\n        }"
+  },
+  {
+    "name": "USDD/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USDD/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDD/USD').price\n        }"
   }
 ]

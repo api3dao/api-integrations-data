@@ -172,7 +172,21 @@
       ["SYRUP/USD"],
       ["RESOLV/USD"],
       ["XAUt/USD"],
-      ["USD1/USD"]
+      ["USD1/USD"],
+      ["sUSDS/USD"],
+      ["USDtb/USD"],
+      ["syrupUSDC/USD"],
+      ["USDX/USD"],
+      ["USDY/USD"],
+      ["USD0/USD"],
+      ["USDf/USD"],
+      ["RLUSD/USD"],
+      ["USDD/USD"],
+      ["USDG/USD"],
+      ["BUSD/USD"],
+      ["USDO/USD"],
+      ["USR/USD"],
+      ["USDa/USD"]
     ]
   },
   "homepageUrl": "",

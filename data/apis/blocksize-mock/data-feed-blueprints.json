@@ -994,5 +994,89 @@
     "path": "getVWAP/USD1USD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "sUSDS/USD",
+    "path": "getVWAP/SUSDSUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDtb/USD",
+    "path": "getVWAP/USDTBUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "syrupUSDC/USD",
+    "path": "getVWAP/SYRUPUSDCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDX/USD",
+    "path": "getVWAP/USDXUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDY/USD",
+    "path": "getVWAP/USDYUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USD0/USD",
+    "path": "getVWAP/USD0USD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDf/USD",
+    "path": "getVWAP/USDFUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RLUSD/USD",
+    "path": "getVWAP/RLUSDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDD/USD",
+    "path": "getVWAP/USDDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDG/USD",
+    "path": "getVWAP/USDGUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "BUSD/USD",
+    "path": "getVWAP/BUSDUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDO/USD",
+    "path": "getVWAP/USDOUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USR/USD",
+    "path": "getVWAP/USRUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "USDa/USD",
+    "path": "getVWAP/USDAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
   }
 ]

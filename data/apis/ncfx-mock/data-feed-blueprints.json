@@ -1214,5 +1214,29 @@
       "pairs": "USD1-USD"
     },
     "parser": "(response) => {\n              return response.rates['USD1-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "RLUSD/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "RLUSD-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['RLUSD-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USDD/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "USDD-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['USDD-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USDG/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "USDG-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['USDG-USD'].rate\n            }\n            "
   }
 ]

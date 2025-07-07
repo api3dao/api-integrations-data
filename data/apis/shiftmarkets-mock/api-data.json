@@ -172,7 +172,10 @@
         "SYRUP/USD",
         "RESOLV/USD",
         "XAUt/USD",
-        "USD1/USD"
+        "USD1/USD",
+        "USDY/USD",
+        "USD0/USD",
+        "USDD/USD"
       ]
     ]
   },
