@@ -129,7 +129,6 @@
       ["POL/USD"],
       ["RENDER/USD"],
       ["TUSD/USD"],
-      ["USDB/USD"],
       ["USDC/USD"],
       ["USDP/USD"],
       ["USDT/USD"],
@@ -156,7 +155,6 @@
       ["MTL/USD"],
       ["BERA/USD"],
       ["USDS/USD"],
-      ["USDM/USD"],
       ["EURe/USD"],
       ["ZK/USD"],
       ["ZRO/USD"],
@@ -186,7 +184,9 @@
       ["BUSD/USD"],
       ["USDO/USD"],
       ["USR/USD"],
-      ["USDa/USD"]
+      ["USDa/USD"],
+      ["EUR/USD"],
+      ["WELL/USD"]
     ]
   },
   "homepageUrl": "",

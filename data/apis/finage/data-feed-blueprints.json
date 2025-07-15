@@ -780,21 +780,9 @@
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
-    "name": "USDB/USD",
-    "parameters": {},
-    "path": "last/crypto/USDBUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "USDC/USD",
     "parameters": {},
     "path": "last/crypto/USDCUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
-    "name": "USDM/USD",
-    "parameters": {},
-    "path": "last/crypto/USDMUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {

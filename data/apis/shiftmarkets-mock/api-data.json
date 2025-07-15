@@ -91,7 +91,6 @@
         "GHO/USD",
         "LUSD/USD",
         "FRAX/USD",
-        "USDB/USD",
         "MANA/USD",
         "PAXG/USD",
         "XVS/USD",
@@ -151,7 +150,6 @@
         "MTL/USD",
         "BERA/USD",
         "USDS/USD",
-        "USDM/USD",
         "ZK/USD",
         "ZRO/USD",
         "POL/USD",
@@ -175,7 +173,9 @@
         "USD1/USD",
         "USDY/USD",
         "USD0/USD",
-        "USDD/USD"
+        "USDD/USD",
+        "EUR/USD",
+        "WELL/USD"
       ]
     ]
   },

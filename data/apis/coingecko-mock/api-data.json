@@ -119,7 +119,6 @@
         "XVS/USD",
         "PENDLE/USD",
         "TWT/USD",
-        "USDB/USD",
         "AERO/USD",
         "TAO/USD",
         "PYUSD/USD",
@@ -162,7 +161,6 @@
         "MTL/USD",
         "BERA/USD",
         "USDS/USD",
-        "USDM/USD",
         "frxUSD/USD",
         "HYPE/USD",
         "VET/USD",
@@ -189,7 +187,8 @@
         "BUSD/USD",
         "USDO/USD",
         "USR/USD",
-        "USDa/USD"
+        "USDa/USD",
+        "WELL/USD"
       ]
     ]
   },

@@ -774,20 +774,8 @@
     "parser": "(response) => { return response.price; }"
   },
   {
-    "name": "USDB/USD",
-    "path": "getVWAP/USDBUSD",
-    "parameters": {},
-    "parser": "(response) => { return response.price; }"
-  },
-  {
     "name": "USDC/USD",
     "path": "getVWAP/USDCUSD",
-    "parameters": {},
-    "parser": "(response) => { return response.price; }"
-  },
-  {
-    "name": "USDM/USD",
-    "path": "getVWAP/USDMUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
   },
@@ -1076,6 +1064,18 @@
   {
     "name": "USDa/USD",
     "path": "getVWAP/USDAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "EUR/USD",
+    "path": "getVWAP/EURUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "WELL/USD",
+    "path": "getVWAP/WELLUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
   }

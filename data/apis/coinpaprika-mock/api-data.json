@@ -120,7 +120,6 @@
       ["TWT/USD"],
       ["AERO/USD"],
       ["TAO/USD"],
-      ["USDB/USD"],
       ["PYUSD/USD"],
       ["MERL/USD"],
       ["ORDI/USD"],
@@ -161,7 +160,6 @@
       ["MTL/USD"],
       ["BERA/USD"],
       ["USDS/USD"],
-      ["USDM/USD"],
       ["frxUSD/USD"],
       ["HYPE/USD"],
       ["VET/USD"],
@@ -188,7 +186,8 @@
       ["BUSD/USD"],
       ["USDO/USD"],
       ["USR/USD"],
-      ["USDa/USD"]
+      ["USDa/USD"],
+      ["WELL/USD"]
     ]
   },
   "homepageUrl": "",

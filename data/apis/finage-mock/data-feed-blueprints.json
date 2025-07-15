@@ -780,21 +780,9 @@
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
-    "name": "USDB/USD",
-    "parameters": {},
-    "path": "last/crypto/USDBUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "USDC/USD",
     "parameters": {},
     "path": "last/crypto/USDCUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
-    "name": "USDM/USD",
-    "parameters": {},
-    "path": "last/crypto/USDMUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
@@ -1022,6 +1010,18 @@
   {
     "name": "BUSD/USD",
     "path": "last/crypto/BUSDUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "EUR/USD",
+    "path": "last/trade/forex/EURUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "WELL/USD",
+    "path": "last/crypto/WELLUSD",
     "parameters": {},
     "parser": "(response) => {\n              return response.price\n            }\n            "
   }

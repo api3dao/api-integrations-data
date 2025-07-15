@@ -146,7 +146,6 @@
       ["FBTC/USD"],
       ["AUSD/USD"],
       ["EURC/USD"],
-      ["USDB/USD"],
       ["BRETT/USD"],
       ["COOK/USD"],
       ["SCR/USD"],
@@ -160,7 +159,6 @@
       ["MTL/USD"],
       ["BERA/USD"],
       ["USDS/USD"],
-      ["USDM/USD"],
       ["HYPE/USD"],
       ["VET/USD"],
       ["tBTC/USD"],
@@ -177,7 +175,9 @@
       ["USDY/USD"],
       ["USDD/USD"],
       ["USDG/USD"],
-      ["BUSD/USD"]
+      ["BUSD/USD"],
+      ["EUR/USD"],
+      ["WELL/USD"]
     ]
   },
   "homepageUrl": "",

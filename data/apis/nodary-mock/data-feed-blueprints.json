@@ -1104,25 +1104,9 @@
     "parser": "(response) => {\n              return response.value;\n            }\n            "
   },
   {
-    "name": "USDB/USD",
-    "path": "feed/latest",
-    "parameters": {
-      "name": "USDB/USD"
-    },
-    "parser": "(response) => {\n          return response.value\n        }\n        "
-  },
-  {
     "name": "USDC/USD",
     "parameters": {
       "name": "USDC/USD"
-    },
-    "path": "feed/latest",
-    "parser": "(response) => {\n              return response.value;\n            }\n            "
-  },
-  {
-    "name": "USDM/USD",
-    "parameters": {
-      "name": "USDM/USD"
     },
     "path": "feed/latest",
     "parser": "(response) => {\n              return response.value;\n            }\n            "
@@ -1424,14 +1408,6 @@
     "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
   },
   {
-    "name": "mpETH/ETH Exchange Rate",
-    "path": "feed/latest",
-    "parameters": {
-      "name": "mpETH/ETH Exchange Rate"
-    },
-    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
-  },
-  {
     "name": "mstETH/ETH Exchange Rate",
     "path": "feed/latest",
     "parameters": {
@@ -1544,14 +1520,6 @@
     "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
   },
   {
-    "name": "spETH/ETH Exchange Rate",
-    "path": "feed/latest",
-    "parameters": {
-      "name": "spETH/ETH Exchange Rate"
-    },
-    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
-  },
-  {
     "name": "stETH/USD",
     "parameters": {
       "name": "stETH/USD"
@@ -1605,14 +1573,6 @@
     "parameters": {
       "name": "wBETH/ETH Exchange Rate"
     },
-    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
-  },
-  {
-    "name": "wUSDM/USDM Exchange Rate",
-    "parameters": {
-      "name": "wUSDM/USDM Exchange Rate"
-    },
-    "path": "feed/latest",
     "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
   },
   {
@@ -1702,5 +1662,29 @@
       "name": "XAUt/USD"
     },
     "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "EUR/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "EUR/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "WELL/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "WELL/USD"
+    },
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "wOS/OS Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "wOS/OS Exchange Rate"
+    },
+    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
   }
 ]

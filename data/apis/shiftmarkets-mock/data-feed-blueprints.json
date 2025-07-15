@@ -1032,28 +1032,12 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'UNI/USD').price\n        }"
   },
   {
-    "name": "USDB/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "USDB/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDB/USD').price\n        }"
-  },
-  {
     "name": "USDC/USD",
     "path": "v1/price",
     "parameters": {
       "symbols": "USDC/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDC/USD').price\n        }"
-  },
-  {
-    "name": "USDM/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "USDM/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDM/USD').price\n        }"
   },
   {
     "name": "USDP/USD",
@@ -1342,5 +1326,21 @@
       "symbols": "USDD/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDD/USD').price\n        }"
+  },
+  {
+    "name": "EUR/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "EUR/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'EUR/USD').price\n        }"
+  },
+  {
+    "name": "WELL/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "WELL/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'WELL/USD').price\n        }"
   }
 ]
