@@ -175,7 +175,15 @@
         "USD0/USD",
         "USDD/USD",
         "EUR/USD",
-        "WELL/USD"
+        "WELL/USD",
+        "sUSDS/USD",
+        "USDX/USD",
+        "RLUSD/USD",
+        "USDO/USD",
+        "USR/USD",
+        "USDG/USD",
+        "BUSD/USD",
+        "USDa/USD"
       ]
     ]
   },

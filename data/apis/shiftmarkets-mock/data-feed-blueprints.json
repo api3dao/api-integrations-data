@@ -1342,5 +1342,69 @@
       "symbols": "WELL/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'WELL/USD').price\n        }"
+  },
+  {
+    "name": "sUSDS/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "sUSDS/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'sUSDS/USD').price\n        }\n        "
+  },
+  {
+    "name": "USDX/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USDX/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDX/USD').price\n        }\n        "
+  },
+  {
+    "name": "RLUSD/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "RLUSD/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'RLUSD/USD').price\n        }\n        "
+  },
+  {
+    "name": "USDO/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USDO/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDO/USD').price\n        }\n        "
+  },
+  {
+    "name": "USR/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USR/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USR/USD').price\n        }\n        "
+  },
+  {
+    "name": "USDG/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USDG/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDG/USD').price\n        }\n        "
+  },
+  {
+    "name": "BUSD/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "BUSD/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'BUSD/USD').price\n        }\n        "
+  },
+  {
+    "name": "USDa/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "AVALON.USDA/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'AVALON.USDA/USD').price\n        }\n        "
   }
 ]
