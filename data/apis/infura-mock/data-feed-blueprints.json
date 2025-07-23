@@ -482,5 +482,16 @@
       "chainId": "1"
     },
     "parser": "(response) => { return response.data[\"osETH/ETH Exchange Rate\"] }"
+  },
+  {
+    "name": "wOS/OS Exchange Rate",
+    "path": "/",
+    "parameters": {
+      "catalogName": "wOS/OS Exchange Rate",
+      "rpcUrl": "${RPC_SONIC_URL_VALUE}",
+      "multicall3Address": "0xca11bde05977b3631167028862be2a173976ca11",
+      "chainId": "146"
+    },
+    "parser": "(response) => { return response.data[\"wOS/OS Exchange Rate\"] }"
   }
 ]
