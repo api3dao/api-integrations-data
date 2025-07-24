@@ -217,7 +217,8 @@
       ["XAUt/USD"],
       ["EUR/USD"],
       ["WELL/USD"],
-      ["wOS/OS Exchange Rate"]
+      ["wOS/OS Exchange Rate"],
+      ["USD1/USD"]
     ]
   },
   "homepageUrl": "https://nodary.io",

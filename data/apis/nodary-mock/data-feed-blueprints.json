@@ -1686,5 +1686,13 @@
       "name": "wOS/OS Exchange Rate"
     },
     "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "USD1/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "USD1/USD"
+    },
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
   }
 ]
