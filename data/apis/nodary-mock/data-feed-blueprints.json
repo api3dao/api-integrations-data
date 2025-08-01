@@ -1368,38 +1368,6 @@
     "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
   },
   {
-    "name": "inETH/ETH Exchange Rate",
-    "path": "feed/latest",
-    "parameters": {
-      "name": "inETH/ETH Exchange Rate"
-    },
-    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
-  },
-  {
-    "name": "insfrxETH/sfrxETH Exchange Rate",
-    "path": "feed/latest",
-    "parameters": {
-      "name": "insfrxETH/sfrxETH Exchange Rate"
-    },
-    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
-  },
-  {
-    "name": "instETH/stETH Exchange Rate",
-    "path": "feed/latest",
-    "parameters": {
-      "name": "instETH/stETH Exchange Rate"
-    },
-    "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
-  },
-  {
-    "name": "inwstETHs/wstETH Exchange Rate",
-    "path": "feed/latest",
-    "parameters": {
-      "name": "inwstETHs/wstETH Exchange Rate"
-    },
-    "parser": "(response) => {\n              const result = response.value;\n              if(result <= 0) {\n                throw Error('[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ', result);\n              }\n              return result;\n            }\n            "
-  },
-  {
     "name": "mETH/ETH Exchange Rate",
     "parameters": {
       "name": "mETH/ETH Exchange Rate"
