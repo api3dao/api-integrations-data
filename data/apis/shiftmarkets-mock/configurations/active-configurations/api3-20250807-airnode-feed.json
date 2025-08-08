@@ -1953,7 +1953,7 @@
           "0xf13945f57845f3bb4fcc46f269528e773158d5b79dad030d86ab3a3d654dfe9a",
           "0x6a10c75601c2adb0560255d79f107bc3398243639297845d9791b783bead72f6"
         ],
-        "fetchInterval": 60
+        "fetchInterval": 5
       }
     ]
   },

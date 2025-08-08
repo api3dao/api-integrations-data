@@ -1,0 +1,1931 @@
+{
+  "nodeSettings": {
+    "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
+    "nodeVersion": "3.3.0",
+    "stage": "${STAGE}"
+  },
+  "templates": {
+    "0x60583e2a94e61357a6067ffb378874e6f38de1e8d99827c32c0915449a9ec4df": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AAVE/USD"
+        }
+      ]
+    },
+    "0x6d45fc42c14cca85fb747e0945a6bce76196080424aacef2ab257c67a5122057": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ADA/USD"
+        }
+      ]
+    },
+    "0xd192cb2682e2140d7d8284b728159c7decffdfbb3eedb2c7760f886a255de2ef": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ALGO/USD"
+        }
+      ]
+    },
+    "0xb3ccf2cda38eae3dc698141006d9861d7bdce567e7fa0b7c3c92c967939d92a4": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ANKR/USD"
+        }
+      ]
+    },
+    "0x925005ee12eb5807740ff0bd4d25d4a0439b946c1fd6c981c15a62bd2ff02c38": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "APE/USD"
+        }
+      ]
+    },
+    "0xb7cf8fca645fa08e4dc7ef0d4c514952a52c83860ba27bdcf81834067bb08c7b": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "API3/USD"
+        }
+      ]
+    },
+    "0xb5b50779f7035567af20dd55479a34d88f19e9095e8d604b799dd3814be017db": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ARB/USD"
+        }
+      ]
+    },
+    "0xf78c057fd930c9fa2de20cec7251cf167c95cc0c13c1537e783fc0cea34b11f4": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ATOM/USD"
+        }
+      ]
+    },
+    "0x50c29fa18961b7054358c01bbc725215509a6f6905d1bc0fb39a790871ecb421": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AVAX/USD"
+        }
+      ]
+    },
+    "0xaee940e727c2f1961aeff95944177e0a9e998a2277dc741b487270fd0a42c49e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AXS/USD"
+        }
+      ]
+    },
+    "0x83d46f6c48e9f0588a301b25c25090522c631866a18e01041cd87eaff3d32bbf": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAL/USD"
+        }
+      ]
+    },
+    "0x6d8c6fec99b76eefab232a3ffbb735d34c7ff2f18324434f38db96c8387faa9e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAT/USD"
+        }
+      ]
+    },
+    "0x5b4de8302ab0a0e95b04d193bb6da15a194eb9bf45c016f04e260c277e286e7e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BNB/USD"
+        }
+      ]
+    },
+    "0x2ef416450d02986b21d4c8eea52eb2f2f92a8ee4a2075c2711e0bda89d8f2a36": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BTC/USD"
+        }
+      ]
+    },
+    "0x22f05fd3d0f87a3d3df77c3c46bcb20af5c57b721e7541e0634b11af366de875": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CAKE/USD"
+        }
+      ]
+    },
+    "0xc3cfc37e9d7ff82a64b79b2cbf846bce85cb36028fce27c38beea8881fc97966": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CELO/USD"
+        }
+      ]
+    },
+    "0x2a9edc3b9722adf6dce35ef250924521966bf1e873e5652b9e4f4fb3beb2a951": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CHZ/USD"
+        }
+      ]
+    },
+    "0x42d795440b52c8b12675f17383e83dae7f353c3da6ff3bb40e2011a067f8b668": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "COMP/USD"
+        }
+      ]
+    },
+    "0x11c906aeeebbca880f675c6e03b45bfd5f45dd4bd3c7801ce114f1e2c0d3043b": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CRO/USD"
+        }
+      ]
+    },
+    "0x41e6495eeab0d5214bef219d231ca1792382cbf539c50c93143ee4c9d9c0a343": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CRV/USD"
+        }
+      ]
+    },
+    "0x68f9719bbd811d0884a739cef4f08cc55b2e1ae03b6e216181a95114591e8771": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CVX/USD"
+        }
+      ]
+    },
+    "0x2991c5620ebe0333bcb90fe82c7d73a98094dd283213acfa0bab8c3841058a18": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DAI/USD"
+        }
+      ]
+    },
+    "0xbe3110bf38fc9dea83ef3bd6dd1c1c745d52a1206c3a84496d32838e813d7f35": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DOGE/USD"
+        }
+      ]
+    },
+    "0x170bb98ec56586d5680d1c074c4c0f507629d6c5d0192d0a8fbbfd0b71c2fd3d": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DOT/USD"
+        }
+      ]
+    },
+    "0x28f00ee18dd4b696dff0a9fa5792de8d047ce196a5136df78b620950aa58b059": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DYDX/USD"
+        }
+      ]
+    },
+    "0x93c78036f5069921f79fd5c8a6734fbf724c3cf2f317e84908b3dcae1717f874": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ETH/USD"
+        }
+      ]
+    },
+    "0xd5770d64b40efc67695d01da92af13babdf5adf9c5f04ab27d05ff84b6e514b0": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FIL/USD"
+        }
+      ]
+    },
+    "0x7143f0655c60c726ac07490e295bab80da27302603bdc4096acb6539618f4af0": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FLOW/USD"
+        }
+      ]
+    },
+    "0x929df61d3dc66453e9c090c8d359320af9bb28c20d28eff1d4ff5030aae92532": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FXS/USD"
+        }
+      ]
+    },
+    "0xeed4854bbbc1c0f6da1905f0ff3573d76f73a5d654fe4e9450458d04cd9796da": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GLMR/USD"
+        }
+      ]
+    },
+    "0xeca169cae5f33ba6a57df39d88ad16ddec6d294cdc871784d157bfcc450719e4": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GMX/USD"
+        }
+      ]
+    },
+    "0xd9bf6fc56a5f2bcf20fe4b0680101348ff7600a316782d9daf2c240d8a072f29": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GNO/USD"
+        }
+      ]
+    },
+    "0xbe3b699887c0ab14e56033715707d4e8e49fac85cb11ec2bd428d77d88eca80a": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GRT/USD"
+        }
+      ]
+    },
+    "0xfd15e59f262745a6208fb33b87c744e25c94080567f568cf787fca3ce8f6abc4": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HBAR/USD"
+        }
+      ]
+    },
+    "0x841da5daca86796b333a69a339bab9d64672e13d8ec519f183f17c8e0d799b67": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HNT/USD"
+        }
+      ]
+    },
+    "0xd58564844de864345a439c61efbe459b1d73b505c2596d797d155411cdb40745": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ICP/USD"
+        }
+      ]
+    },
+    "0xc96e9c0a9ae183e43caaf48166ad6aac4466835e17af0bac5f18bb54c45f8dc1": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "IMX/USD"
+        }
+      ]
+    },
+    "0x339a387de6acca40d75815900b52bac71f9446a1b748c2820bc8f328af6ebbba": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "JOE/USD"
+        }
+      ]
+    },
+    "0x1348a1bb0249525abfaa30f78c4330701dd05d3f1334a597af4a8b4489e29758": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KDA/USD"
+        }
+      ]
+    },
+    "0x158e2e8c574d5dd3248e93767089fc0ae02b9e0852eadda38bb683634320b512": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KSM/USD"
+        }
+      ]
+    },
+    "0x2110ee0030dde165b533965b1533c8cee8f45cc7ccd64d6da722ca0e82a9babd": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LDO/USD"
+        }
+      ]
+    },
+    "0xdb978c65aba8855bb1f04ec7d9939d793753ea0b8d8d979ca1436075c242f424": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LINK/USD"
+        }
+      ]
+    },
+    "0x1e137aa72ea7468ebf83438155cfdbff77a4a943d6ee1a88b7d68f35378db180": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LQTY/USD"
+        }
+      ]
+    },
+    "0xb1111d2c0de56846996fb492d6cb974dda42a396f9d35c38c8951da4dda55b44": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LTC/USD"
+        }
+      ]
+    },
+    "0x8ce7116f0d7bb3d51215582fabda3673f9def30f4d698a0295e30739ed74c800": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MANA/USD"
+        }
+      ]
+    },
+    "0xa8e935f69d9134e87e1fe2214ba2c451d12616a6764b58c7a4d1cc35d922bc09": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MKR/USD"
+        }
+      ]
+    },
+    "0xbb6cba5ecdf0750b27b21d93175bd8ad56e005a1184bb1fbefea5d5529e38b35": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "METIS/USD"
+        }
+      ]
+    },
+    "0xfe819b1a3e7845c5fadd56e906768de482c1edb9093caa868709f30fbd77cbbb": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MOVR/USD"
+        }
+      ]
+    },
+    "0x565efa5b8808f0c719045dbfcb117c4225854557952564502ec72eaba7ffb0dc": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NEAR/USD"
+        }
+      ]
+    },
+    "0x7712fc4684c3ed458d554b16d701272f54bef4c87239415a2a04cb4b36a11b56": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OKB/USD"
+        }
+      ]
+    },
+    "0xdb2b4164f3ed1197773d6b2bddefe8f01f79902edfd3e626466945327ab87163": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OP/USD"
+        }
+      ]
+    },
+    "0x573e47d32b7596690fe295346eaec3c58be8448a774f908930b19c1b2b69e84c": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PAXG/USD"
+        }
+      ]
+    },
+    "0x6d0398ec3dff130539d25d92aa16e5636b67232a93d39465d7c317e559f7086e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "QUICK/USD"
+        }
+      ]
+    },
+    "0x3d13ad645bf2d0f737e5d280e6fe37dcafdfbed9df87e9b6566d77a67b568c5e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ROSE/USD"
+        }
+      ]
+    },
+    "0x33fa372240696ad783be093f4ef585ccb05c7c2fac9c2cc23b6a4871cc90b094": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RPL/USD"
+        }
+      ]
+    },
+    "0xcb8e73926aa90f170240f86ced32b2182079898e3132201ab68983e45cbc27e8": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RSR/USD"
+        }
+      ]
+    },
+    "0xedbdbc4ba41b4524153ad03787dea0d208e943733235b5a850a3da713b02b790": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RUNE/USD"
+        }
+      ]
+    },
+    "0x805db8ef6229527554002a8b6ffd9376fc545becc093e360376aeb29afefc3ec": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SAND/USD"
+        }
+      ]
+    },
+    "0x5ea5658d99252e5ba58376e57b1cbf9fddbed5604f34a368e19b6644471cfc93": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SHIB/USD"
+        }
+      ]
+    },
+    "0x13612199f28405879f47134406f4dc7b6624867602267010d6ac7ed4e8362a5e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SNX/USD"
+        }
+      ]
+    },
+    "0x4af8ceec5dc4c8335eb1bb251ff17ee317477bdcb09fb45c08c5000dc6a269dd": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SOL/USD"
+        }
+      ]
+    },
+    "0x538797b252cd313cd99c667eb1354fe1fe6dddc7c70e61aec868d8dee9a550a5": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "stETH/USD"
+        }
+      ]
+    },
+    "0x5f9a528bb61e22afb5833f9c4b4920203c37b4080d6f891b1ec5d48f1909e68f": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STG/USD"
+        }
+      ]
+    },
+    "0xa721185cb8065626b17664a5172dfd9e42ecb96293ed42e250dc889c8da05d82": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STX/USD"
+        }
+      ]
+    },
+    "0x60a7809c7ccdb5ccffdb5141108fdf2c59538748dfb6f5bc90e7a36d5d70f90e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SUSHI/USD"
+        }
+      ]
+    },
+    "0x51258d88b72333f1ed1bcf738854e5e87b18610083af1019990ef419b440dd54": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TUSD/USD"
+        }
+      ]
+    },
+    "0xf401e697b701264dac46ccf84107566af27af1c0902cac1ae2523e5beb5d60ee": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "UNI/USD"
+        }
+      ]
+    },
+    "0x717bf7f66df67e35b4803474a2d9432235b3d8d1145cdacdea0174bf2951314e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDT/USD"
+        }
+      ]
+    },
+    "0x4b165aa0fe58ee41a08501bb84d365bd48723388a0a2585e84f8688b8863414d": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDC/USD"
+        }
+      ]
+    },
+    "0x340933af5b4a4732dd35a543c6d09d6eea3a4b9b221c75e38b6fce002501f505": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDP/USD"
+        }
+      ]
+    },
+    "0xb794c1db6da84da46c37876ada606e6bf4580d058992896b00ce42b71d18edce": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WBTC/USD"
+        }
+      ]
+    },
+    "0x3bb5cd6c8a110dcae22ef6997064ba77575fc8e0e23870f82d72145a58888a75": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XLM/USD"
+        }
+      ]
+    },
+    "0x9b525860b5c94191f89ae11f62542ec5637ebe748fb0764f452eef4b2db95e71": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XRP/USD"
+        }
+      ]
+    },
+    "0x5267d6e6a77158d0dab475a619343e6f4ba1a4c48997680d94e75fd59f277e92": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XTZ/USD"
+        }
+      ]
+    },
+    "0x5ad98d96839fd8cac0cd25cd7736b3e29314fd765e25f3d243305418ead6a4ff": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "YFI/USD"
+        }
+      ]
+    },
+    "0xeb65a4c95c4e11e640202bc39d7e1a69d1d9cabeb6c27a184c8f75f2d3ee7c2b": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZIL/USD"
+        }
+      ]
+    },
+    "0x13df78e3a30baa454bf75b9ab07777d6bddf63ec105d81477a170d4d8c584ffd": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZRX/USD"
+        }
+      ]
+    },
+    "0x0ad79ddb543eee0277298c1260a178c3c0ee44a56f7b441a7b770990df2a4251": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MASK/USD"
+        }
+      ]
+    },
+    "0x73b410e12b8d0bb319369711acb32f8ca12606196b3886da1c40caa45d85140c": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ENS/USD"
+        }
+      ]
+    },
+    "0x46eedbdd2f61c82aa9bc4929e7feda23b8c83cdb10e43933bc423d743377b367": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BLUR/USD"
+        }
+      ]
+    },
+    "0xe1ca8442a030b639a74d24da0202f7e287bf6531217147cad6d01b22874aaea0": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BAND/USD"
+        }
+      ]
+    },
+    "0x464ee54932724ae113d04971e542d5677f5722fac23f46045e249d820192672f": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "UMA/USD"
+        }
+      ]
+    },
+    "0x4feddaf5dc3c9bdc5762797ca5cb17a007327cf9b9e9304d3f0eee2d6d129858": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "APT/USD"
+        }
+      ]
+    },
+    "0x606ef85cec1b85f95817e7abef5601ef5f349ade5f3c9c97217b12a529c22d29": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "OSMO/USD"
+        }
+      ]
+    },
+    "0x7c8cda7cc2a5e4673a65651e9e99f87c72a56a59f0bbcc8339a10f27c462a5b6": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SUI/USD"
+        }
+      ]
+    },
+    "0x6feb5667aa783812f436387b243cb4ed9705492ded398cae423e598442888a3e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GNS/USD"
+        }
+      ]
+    },
+    "0xefc82fb0d8511699af59d10ebe11cea518e2a78436a9dbdbd486f7ad28f599fa": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "KAVA/USD"
+        }
+      ]
+    },
+    "0x863e440b8ea24c0aca29c4f319befc5c1291c127fc63f827a2ff5b4f36814ca9": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RDNT/USD"
+        }
+      ]
+    },
+    "0x0475a9550d8ad07f900a891fbd93d3e49831e4ce1a272f30c08358ae6ea092d1": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RIF/USD"
+        }
+      ]
+    },
+    "0xf46176e3bea20935e3eb69f2bd9d214a6c268ede423e9a1e21b8933f4618b796": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "GHO/USD"
+        }
+      ]
+    },
+    "0x84cdb38fdcda2a14bfe84d87602aed9daf1189e3773e7c07609c7ff20a2e53d7": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "crvUSD/USD"
+        }
+      ]
+    },
+    "0x6fe49b778d91cdbd6741e1deb8e3464b661f131ef1e80201cbba5322a3e5e588": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "EURe/USD"
+        }
+      ]
+    },
+    "0xa59c6fd971085968c09c2c810d8b04772ac282d14d09fa3ddd240e2933ec935b": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FRAX/USD"
+        }
+      ]
+    },
+    "0x09fcbe27b7f2cf5dcbcba20e55edee0b7dabd1eef86b2e23178f995366ddb820": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LUSD/USD"
+        }
+      ]
+    },
+    "0xc6f3804f39bfda5d6f74c7485c3cd62abc1a082f86d632d44998961693c30bf4": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WOO/USD"
+        }
+      ]
+    },
+    "0xc48d43e05787d6e97095cb342db4a49c4be6d3cc8e373a6602e009b0a70b1eaa": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PYTH/USD"
+        }
+      ]
+    },
+    "0x12498cfecd02188aae5bed75c6e9ba6e15186ab8fa0f3660188d0e615a5425f1": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDe/USD"
+        }
+      ]
+    },
+    "0x504e231de64d7b7b9068202fff971c3d8fc0319ee197141f42e32e4c22cf66eb": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ASTR/USD"
+        }
+      ]
+    },
+    "0xc266dd0751278c7369b2e0e0b5f9e8b7a454dfe7d14efd42a9a74b982314e128": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TIA/USD"
+        }
+      ]
+    },
+    "0xf7b56c42eb13c599e2a5a4a53b88ea3fe3fde46db270b44916afb7c5db85fc85": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DYM/USD"
+        }
+      ]
+    },
+    "0xc6c19f636f0983f0af92a88619802cfb7cacd219cbff84c17408f31dfd463203": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SEI/USD"
+        }
+      ]
+    },
+    "0x655a6626fc8d7526e0c0994228d1f06307044df4b041a05ca368c55717b4731a": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AR/USD"
+        }
+      ]
+    },
+    "0xe71d096ec62c4c943d78c56590ee596d11d76e953b936d12cbfa01faf50c9b60": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "STRK/USD"
+        }
+      ]
+    },
+    "0xe4439bdc087a9aadd6c6ea46f1ac7808754f3bd617245f50ea96b462e9c7349d": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AXL/USD"
+        }
+      ]
+    },
+    "0xf9650949a58ee95adbc61bf399708ef06faa480bd893b00fecda487721f0d76d": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ONDO/USD"
+        }
+      ]
+    },
+    "0xfe9aad54d251d228836455f03221764caf4f63d1cda4d708bf48ac5cb4fe476c": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MANTA/USD"
+        }
+      ]
+    },
+    "0xbb04779d69e915b8e604ed90053a7118095d98ff72bfc9e079b101f490772c27": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XVS/USD"
+        }
+      ]
+    },
+    "0x109f84c0902a5ba656d6c4f59331b97eedde3244d393d81f5b646cd40a878698": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PENDLE/USD"
+        }
+      ]
+    },
+    "0xa51533ae814240352ed7b1f9393f3fb93581b88ab8a1eaf9ff33499d15a72f6e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TWT/USD"
+        }
+      ]
+    },
+    "0xc87b631d65a2b1c5ec26b46de1b4f55660130d056b67367281505d9e5a798ed3": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AERO/USD"
+        }
+      ]
+    },
+    "0x0979b91d36b46f40a81cc5c0ce39ff8d946dce6c1fa36a20c7b1aed27ab9a507": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TAO/USD"
+        }
+      ]
+    },
+    "0xdbee40dc54825405bb725626d505000709f3ce6397c06eb5a33471de3ae97c2e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "PYUSD/USD"
+        }
+      ]
+    },
+    "0x1ff92db0757cbcb1d76fe506a91c41b03e9c6b50837ac67e7754dcca92273f43": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MERL/USD"
+        }
+      ]
+    },
+    "0xa2d0a337748cf4397742eb96acd77a55ea633b4dca791e7acdc8445221df139d": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ORDI/USD"
+        }
+      ]
+    },
+    "0x6b1478aa50e0c14b4dfedce8f703d60be6d185b2304f2c0982a0daadb4563fd3": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SATS/USD"
+        }
+      ]
+    },
+    "0x509c09114836e424f5c3da245df3eddf008e9a1eb46a05abc404612a0a710263": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "INJ/USD"
+        }
+      ]
+    },
+    "0x0e9e1c18a156468f088a800f72b472884e1a90bcebf9148f9589bb4adc0fbf5f": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MODE/USD"
+        }
+      ]
+    },
+    "0x0afcce93ee5bf7790588a9bc6cac45a0cee4aa54f647e5f23c7c308ba9a59276": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "NEON/USD"
+        }
+      ]
+    },
+    "0x043a29a07a0667d99660a66fd8a750ffcb9a773c350fff5156860529a8472f2e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RARI/USD"
+        }
+      ]
+    },
+    "0x83d90146bef3998673c7616bb969ece19beb49805ed8ae683770e49cb499a238": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CORE/USD"
+        }
+      ]
+    },
+    "0x7a21f5df931647103e7a7792151ad5d77344d31652410a3bc669ff0bd89a81dd": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "DEGEN/USD"
+        }
+      ]
+    },
+    "0x895ed7526ad1422a44e7943e1288c7f692c0a7e50578866a3e471168b23a62d1": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ENA/USD"
+        }
+      ]
+    },
+    "0xed2c92f700879ef0e4af3aca516d7b5237ce6f838d02b0cd99c4fb82aa92d8d6": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "FDUSD/USD"
+        }
+      ]
+    },
+    "0xbf6cb90641aebba8295cb6fdebfb0ef8cff1a4dadbbae418e6dc0b408d905735": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "WLD/USD"
+        }
+      ]
+    },
+    "0x9dca2c0aa4323baca0e11fada0b0f1ec8240029ec563365c8ec5b2d2e771c014": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "EURC/USD"
+        }
+      ]
+    },
+    "0x74f3ba82142d2e89d38a51becfdfa2dc3e8f875f123e8746ddfac747b88fe1a6": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZRO/USD"
+        }
+      ]
+    },
+    "0xc5bf094f427e22b47a514b2f0a32b4b612733353e8ca3521d30917e598c71fd7": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZK/USD"
+        }
+      ]
+    },
+    "0xa9e41797baf34e8ee47c2d899a756be83ed1242b3cffbb271af22df9e2af4636": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ETHFI/USD"
+        }
+      ]
+    },
+    "0x3637d8e3d8894c097b14d4f6e393ae845f50f8d4891a0bb91773498898595198": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SAFE/USD"
+        }
+      ]
+    },
+    "0x13f1083675a6a808a03df86c658d5ac78d9d68bcabae7ba2303d48fd0cc43531": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "TAIKO/USD"
+        }
+      ]
+    },
+    "0x843cbd627edc12f419bce02e3041fb9b43a3895516e1ed7cbf0fbca2ca0a9603": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "W/USD"
+        }
+      ]
+    },
+    "0x6c0600d80c950e7eb6be14a856c84df6298e0cc3356754e8750f12dcb747b188": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BLAST/USD"
+        }
+      ]
+    },
+    "0x8201898b0102bcfbdfd3632db5e01fa65b4360249b60f8b7562b5e92324cda23": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "CFX/USD"
+        }
+      ]
+    },
+    "0xe4c7346df1dc183f87804dfc8bfd9bcca9a2bc3f64e1b88438fca657573b398a": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RENDER/USD"
+        }
+      ]
+    },
+    "0x42d5154296ab7add213cf4123a9eb20b28fc763e163a7d5c5d79c5dcb3bcc43e": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "POL/USD"
+        }
+      ]
+    },
+    "0x41149802f2885d822b0827fa370fe3fae72df158924df6bde2d7d86c1dfb75d9": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "AUSD/USD"
+        }
+      ]
+    },
+    "0xf221c8c29f5de8369dcc2a0975936a27e91cc807937b97e9981787d27e26d89a": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LUMIA/USD"
+        }
+      ]
+    },
+    "0x2efc2cbfb8185e9b815c1118fc7a5374e228176024120f2a33aed25a379cf83a": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "COOK/USD"
+        }
+      ]
+    },
+    "0x2eff0dc17b3d2b344676ed621aa13a5b1457a4ea8b75dfb901e0bd5e77d84077": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "cbBTC/USD"
+        }
+      ]
+    },
+    "0xaac15e5f4c8d88dd54054fe7fa76783e179fde737d67f3032ba3d13feb7952dc": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BRETT/USD"
+        }
+      ]
+    },
+    "0xff82f6e4446cb7776a291d574bc9f899d1dfe75eaff758d714615770cbe6a5cf": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MORPHO/USD"
+        }
+      ]
+    },
+    "0xbd011dc7bb0685028dcc89a11892c13f48a80d0893e6f523bece04fc809a81a7": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "ZRC/USD"
+        }
+      ]
+    },
+    "0x909aeb198a73842a022acfcddef0b47a0212fd2fc398316ea68e77a2380a9766": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "LBTC/USD"
+        }
+      ]
+    },
+    "0x75392a9c140d093e72c1cb6bca753a4f7728468fc4e46db353703f60d1bfe456": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "S/USD"
+        }
+      ]
+    },
+    "0x27c8af2d762458868cd02d493a127348a11edebc84ccdb6a2f341a5ce5590d24": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "VELO/USD"
+        }
+      ]
+    },
+    "0xe783b7764143abbad8018503d1be77fe7c0c894c3b08740ef197bdeb5f3e89e1": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MTL/USD"
+        }
+      ]
+    },
+    "0x64f9b15c0b013e1314c837ae8058331111e70accf82041065e17b50c47f49139": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "BERA/USD"
+        }
+      ]
+    },
+    "0x1c6926515a127f49d09545df16a6f1def5b62a84dfa0331959191bfd72c0c24d": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "USDS/USD"
+        }
+      ]
+    },
+    "0xbfe18f67c6a23986e89385382c6f52b4993e925ee6bef751e6819cd94dccd501": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "HYPE/USD"
+        }
+      ]
+    },
+    "0x07777cf10aa651fb80de5122e3889736b79004495d58c60c2be03ee073c2be62": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "VET/USD"
+        }
+      ]
+    },
+    "0x6e847dad4c16e89e7bb72c926fd785ea7134880c4bf4ff7aa7c26dcd2497cda9": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "tBTC/USD"
+        }
+      ]
+    },
+    "0x3f63eef15bfe1ed4c1a4f6667c399f8e0526a7f71fcd5d7a8d4e716143765e40": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "VTHO/USD"
+        }
+      ]
+    },
+    "0x4ea9908826ef176095aaf32768f1a0fb9348b483a2404b08b76d995d60e8f6a2": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MVL/USD"
+        }
+      ]
+    },
+    "0x0c0d14c866a931c2a753e661abe327eb0d0178ea12cf870054b0f35dd6f44a1b": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "VIRTUAL/USD"
+        }
+      ]
+    },
+    "0x2939b69e113a88c5e944c39d30a23c7d78597521d7c98a78d793ee36f517b99a": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SYRUP/USD"
+        }
+      ]
+    },
+    "0xc621c49f0a5e65e7418ea3c954c965859f160c510c49d155c1d3770faf7b3caa": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RESOLV/USD"
+        }
+      ]
+    },
+    "0x7bc024f4ea89744a3f08babae657631392c721826e4103e4a0174d63571055e2": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "XAUt/USD"
+        }
+      ]
+    },
+    "0x635070b8f847391416f7a5cdf029659224612b817213919e869f3dcf61aa365c": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "MNT/USD"
+        }
+      ]
+    },
+    "0xee88c3e355e0072bcca014c84a1fb6f2b8a1622add576321ea3c4767a219c7b0": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "RON/USD"
+        }
+      ]
+    },
+    "0x48677be19c951ffa9d768862075b92afae75f2f348fada8084c6a57b815608e5": {
+      "endpointId": "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name",
+          "value": "SCR/USD"
+        }
+      ]
+    }
+  },
+  "endpoints": {
+    "0x9a0e0529ef37b243e4a2edb003752924546c8d813a98c8e89c8546543d3a6b27": {
+      "endpointName": "feed",
+      "oisTitle": "CoinDesk"
+    }
+  },
+  "triggers": {
+    "signedApiUpdates": [
+      {
+        "templateIds": [
+          "0x60583e2a94e61357a6067ffb378874e6f38de1e8d99827c32c0915449a9ec4df",
+          "0x6d45fc42c14cca85fb747e0945a6bce76196080424aacef2ab257c67a5122057",
+          "0xd192cb2682e2140d7d8284b728159c7decffdfbb3eedb2c7760f886a255de2ef",
+          "0xb3ccf2cda38eae3dc698141006d9861d7bdce567e7fa0b7c3c92c967939d92a4",
+          "0x925005ee12eb5807740ff0bd4d25d4a0439b946c1fd6c981c15a62bd2ff02c38",
+          "0xb7cf8fca645fa08e4dc7ef0d4c514952a52c83860ba27bdcf81834067bb08c7b",
+          "0xb5b50779f7035567af20dd55479a34d88f19e9095e8d604b799dd3814be017db",
+          "0xf78c057fd930c9fa2de20cec7251cf167c95cc0c13c1537e783fc0cea34b11f4",
+          "0x50c29fa18961b7054358c01bbc725215509a6f6905d1bc0fb39a790871ecb421",
+          "0xaee940e727c2f1961aeff95944177e0a9e998a2277dc741b487270fd0a42c49e",
+          "0x83d46f6c48e9f0588a301b25c25090522c631866a18e01041cd87eaff3d32bbf",
+          "0x6d8c6fec99b76eefab232a3ffbb735d34c7ff2f18324434f38db96c8387faa9e",
+          "0x5b4de8302ab0a0e95b04d193bb6da15a194eb9bf45c016f04e260c277e286e7e",
+          "0x2ef416450d02986b21d4c8eea52eb2f2f92a8ee4a2075c2711e0bda89d8f2a36",
+          "0x22f05fd3d0f87a3d3df77c3c46bcb20af5c57b721e7541e0634b11af366de875",
+          "0xc3cfc37e9d7ff82a64b79b2cbf846bce85cb36028fce27c38beea8881fc97966",
+          "0x2a9edc3b9722adf6dce35ef250924521966bf1e873e5652b9e4f4fb3beb2a951",
+          "0x42d795440b52c8b12675f17383e83dae7f353c3da6ff3bb40e2011a067f8b668",
+          "0x11c906aeeebbca880f675c6e03b45bfd5f45dd4bd3c7801ce114f1e2c0d3043b",
+          "0x41e6495eeab0d5214bef219d231ca1792382cbf539c50c93143ee4c9d9c0a343",
+          "0x68f9719bbd811d0884a739cef4f08cc55b2e1ae03b6e216181a95114591e8771",
+          "0x2991c5620ebe0333bcb90fe82c7d73a98094dd283213acfa0bab8c3841058a18",
+          "0xbe3110bf38fc9dea83ef3bd6dd1c1c745d52a1206c3a84496d32838e813d7f35",
+          "0x170bb98ec56586d5680d1c074c4c0f507629d6c5d0192d0a8fbbfd0b71c2fd3d",
+          "0x28f00ee18dd4b696dff0a9fa5792de8d047ce196a5136df78b620950aa58b059",
+          "0x93c78036f5069921f79fd5c8a6734fbf724c3cf2f317e84908b3dcae1717f874",
+          "0xd5770d64b40efc67695d01da92af13babdf5adf9c5f04ab27d05ff84b6e514b0",
+          "0x7143f0655c60c726ac07490e295bab80da27302603bdc4096acb6539618f4af0",
+          "0x929df61d3dc66453e9c090c8d359320af9bb28c20d28eff1d4ff5030aae92532",
+          "0xeed4854bbbc1c0f6da1905f0ff3573d76f73a5d654fe4e9450458d04cd9796da",
+          "0xeca169cae5f33ba6a57df39d88ad16ddec6d294cdc871784d157bfcc450719e4",
+          "0xd9bf6fc56a5f2bcf20fe4b0680101348ff7600a316782d9daf2c240d8a072f29",
+          "0xbe3b699887c0ab14e56033715707d4e8e49fac85cb11ec2bd428d77d88eca80a",
+          "0xfd15e59f262745a6208fb33b87c744e25c94080567f568cf787fca3ce8f6abc4",
+          "0x841da5daca86796b333a69a339bab9d64672e13d8ec519f183f17c8e0d799b67",
+          "0xd58564844de864345a439c61efbe459b1d73b505c2596d797d155411cdb40745",
+          "0xc96e9c0a9ae183e43caaf48166ad6aac4466835e17af0bac5f18bb54c45f8dc1",
+          "0x339a387de6acca40d75815900b52bac71f9446a1b748c2820bc8f328af6ebbba",
+          "0x1348a1bb0249525abfaa30f78c4330701dd05d3f1334a597af4a8b4489e29758",
+          "0x158e2e8c574d5dd3248e93767089fc0ae02b9e0852eadda38bb683634320b512",
+          "0x2110ee0030dde165b533965b1533c8cee8f45cc7ccd64d6da722ca0e82a9babd",
+          "0xdb978c65aba8855bb1f04ec7d9939d793753ea0b8d8d979ca1436075c242f424",
+          "0x1e137aa72ea7468ebf83438155cfdbff77a4a943d6ee1a88b7d68f35378db180",
+          "0xb1111d2c0de56846996fb492d6cb974dda42a396f9d35c38c8951da4dda55b44",
+          "0x8ce7116f0d7bb3d51215582fabda3673f9def30f4d698a0295e30739ed74c800"
+        ],
+        "fetchInterval": 5
+      },
+      {
+        "templateIds": [
+          "0xa8e935f69d9134e87e1fe2214ba2c451d12616a6764b58c7a4d1cc35d922bc09",
+          "0xbb6cba5ecdf0750b27b21d93175bd8ad56e005a1184bb1fbefea5d5529e38b35",
+          "0xfe819b1a3e7845c5fadd56e906768de482c1edb9093caa868709f30fbd77cbbb",
+          "0x565efa5b8808f0c719045dbfcb117c4225854557952564502ec72eaba7ffb0dc",
+          "0x7712fc4684c3ed458d554b16d701272f54bef4c87239415a2a04cb4b36a11b56",
+          "0xdb2b4164f3ed1197773d6b2bddefe8f01f79902edfd3e626466945327ab87163",
+          "0x573e47d32b7596690fe295346eaec3c58be8448a774f908930b19c1b2b69e84c",
+          "0x6d0398ec3dff130539d25d92aa16e5636b67232a93d39465d7c317e559f7086e",
+          "0x3d13ad645bf2d0f737e5d280e6fe37dcafdfbed9df87e9b6566d77a67b568c5e",
+          "0x33fa372240696ad783be093f4ef585ccb05c7c2fac9c2cc23b6a4871cc90b094",
+          "0xcb8e73926aa90f170240f86ced32b2182079898e3132201ab68983e45cbc27e8",
+          "0xedbdbc4ba41b4524153ad03787dea0d208e943733235b5a850a3da713b02b790",
+          "0x805db8ef6229527554002a8b6ffd9376fc545becc093e360376aeb29afefc3ec",
+          "0x5ea5658d99252e5ba58376e57b1cbf9fddbed5604f34a368e19b6644471cfc93",
+          "0x13612199f28405879f47134406f4dc7b6624867602267010d6ac7ed4e8362a5e",
+          "0x4af8ceec5dc4c8335eb1bb251ff17ee317477bdcb09fb45c08c5000dc6a269dd",
+          "0x538797b252cd313cd99c667eb1354fe1fe6dddc7c70e61aec868d8dee9a550a5",
+          "0x5f9a528bb61e22afb5833f9c4b4920203c37b4080d6f891b1ec5d48f1909e68f",
+          "0xa721185cb8065626b17664a5172dfd9e42ecb96293ed42e250dc889c8da05d82",
+          "0x60a7809c7ccdb5ccffdb5141108fdf2c59538748dfb6f5bc90e7a36d5d70f90e",
+          "0x51258d88b72333f1ed1bcf738854e5e87b18610083af1019990ef419b440dd54",
+          "0xf401e697b701264dac46ccf84107566af27af1c0902cac1ae2523e5beb5d60ee",
+          "0x717bf7f66df67e35b4803474a2d9432235b3d8d1145cdacdea0174bf2951314e",
+          "0x4b165aa0fe58ee41a08501bb84d365bd48723388a0a2585e84f8688b8863414d",
+          "0x340933af5b4a4732dd35a543c6d09d6eea3a4b9b221c75e38b6fce002501f505",
+          "0xb794c1db6da84da46c37876ada606e6bf4580d058992896b00ce42b71d18edce",
+          "0x3bb5cd6c8a110dcae22ef6997064ba77575fc8e0e23870f82d72145a58888a75",
+          "0x9b525860b5c94191f89ae11f62542ec5637ebe748fb0764f452eef4b2db95e71",
+          "0x5267d6e6a77158d0dab475a619343e6f4ba1a4c48997680d94e75fd59f277e92",
+          "0x5ad98d96839fd8cac0cd25cd7736b3e29314fd765e25f3d243305418ead6a4ff",
+          "0xeb65a4c95c4e11e640202bc39d7e1a69d1d9cabeb6c27a184c8f75f2d3ee7c2b",
+          "0x13df78e3a30baa454bf75b9ab07777d6bddf63ec105d81477a170d4d8c584ffd",
+          "0x0ad79ddb543eee0277298c1260a178c3c0ee44a56f7b441a7b770990df2a4251",
+          "0x73b410e12b8d0bb319369711acb32f8ca12606196b3886da1c40caa45d85140c",
+          "0x46eedbdd2f61c82aa9bc4929e7feda23b8c83cdb10e43933bc423d743377b367",
+          "0xe1ca8442a030b639a74d24da0202f7e287bf6531217147cad6d01b22874aaea0",
+          "0x464ee54932724ae113d04971e542d5677f5722fac23f46045e249d820192672f",
+          "0x4feddaf5dc3c9bdc5762797ca5cb17a007327cf9b9e9304d3f0eee2d6d129858",
+          "0x606ef85cec1b85f95817e7abef5601ef5f349ade5f3c9c97217b12a529c22d29",
+          "0x7c8cda7cc2a5e4673a65651e9e99f87c72a56a59f0bbcc8339a10f27c462a5b6",
+          "0x6feb5667aa783812f436387b243cb4ed9705492ded398cae423e598442888a3e",
+          "0xefc82fb0d8511699af59d10ebe11cea518e2a78436a9dbdbd486f7ad28f599fa",
+          "0x863e440b8ea24c0aca29c4f319befc5c1291c127fc63f827a2ff5b4f36814ca9",
+          "0x0475a9550d8ad07f900a891fbd93d3e49831e4ce1a272f30c08358ae6ea092d1",
+          "0xf46176e3bea20935e3eb69f2bd9d214a6c268ede423e9a1e21b8933f4618b796"
+        ],
+        "fetchInterval": 5
+      },
+      {
+        "templateIds": [
+          "0x84cdb38fdcda2a14bfe84d87602aed9daf1189e3773e7c07609c7ff20a2e53d7",
+          "0x6fe49b778d91cdbd6741e1deb8e3464b661f131ef1e80201cbba5322a3e5e588",
+          "0xa59c6fd971085968c09c2c810d8b04772ac282d14d09fa3ddd240e2933ec935b",
+          "0x09fcbe27b7f2cf5dcbcba20e55edee0b7dabd1eef86b2e23178f995366ddb820",
+          "0xc6f3804f39bfda5d6f74c7485c3cd62abc1a082f86d632d44998961693c30bf4",
+          "0xc48d43e05787d6e97095cb342db4a49c4be6d3cc8e373a6602e009b0a70b1eaa",
+          "0x12498cfecd02188aae5bed75c6e9ba6e15186ab8fa0f3660188d0e615a5425f1",
+          "0x504e231de64d7b7b9068202fff971c3d8fc0319ee197141f42e32e4c22cf66eb",
+          "0xc266dd0751278c7369b2e0e0b5f9e8b7a454dfe7d14efd42a9a74b982314e128",
+          "0xf7b56c42eb13c599e2a5a4a53b88ea3fe3fde46db270b44916afb7c5db85fc85",
+          "0xc6c19f636f0983f0af92a88619802cfb7cacd219cbff84c17408f31dfd463203",
+          "0x655a6626fc8d7526e0c0994228d1f06307044df4b041a05ca368c55717b4731a",
+          "0xe71d096ec62c4c943d78c56590ee596d11d76e953b936d12cbfa01faf50c9b60",
+          "0xe4439bdc087a9aadd6c6ea46f1ac7808754f3bd617245f50ea96b462e9c7349d",
+          "0xf9650949a58ee95adbc61bf399708ef06faa480bd893b00fecda487721f0d76d",
+          "0xfe9aad54d251d228836455f03221764caf4f63d1cda4d708bf48ac5cb4fe476c",
+          "0xbb04779d69e915b8e604ed90053a7118095d98ff72bfc9e079b101f490772c27",
+          "0x109f84c0902a5ba656d6c4f59331b97eedde3244d393d81f5b646cd40a878698",
+          "0xa51533ae814240352ed7b1f9393f3fb93581b88ab8a1eaf9ff33499d15a72f6e",
+          "0xc87b631d65a2b1c5ec26b46de1b4f55660130d056b67367281505d9e5a798ed3",
+          "0x0979b91d36b46f40a81cc5c0ce39ff8d946dce6c1fa36a20c7b1aed27ab9a507",
+          "0xdbee40dc54825405bb725626d505000709f3ce6397c06eb5a33471de3ae97c2e",
+          "0x1ff92db0757cbcb1d76fe506a91c41b03e9c6b50837ac67e7754dcca92273f43",
+          "0xa2d0a337748cf4397742eb96acd77a55ea633b4dca791e7acdc8445221df139d",
+          "0x6b1478aa50e0c14b4dfedce8f703d60be6d185b2304f2c0982a0daadb4563fd3",
+          "0x509c09114836e424f5c3da245df3eddf008e9a1eb46a05abc404612a0a710263",
+          "0x0e9e1c18a156468f088a800f72b472884e1a90bcebf9148f9589bb4adc0fbf5f",
+          "0x0afcce93ee5bf7790588a9bc6cac45a0cee4aa54f647e5f23c7c308ba9a59276",
+          "0x043a29a07a0667d99660a66fd8a750ffcb9a773c350fff5156860529a8472f2e",
+          "0x83d90146bef3998673c7616bb969ece19beb49805ed8ae683770e49cb499a238",
+          "0x7a21f5df931647103e7a7792151ad5d77344d31652410a3bc669ff0bd89a81dd",
+          "0x895ed7526ad1422a44e7943e1288c7f692c0a7e50578866a3e471168b23a62d1",
+          "0xed2c92f700879ef0e4af3aca516d7b5237ce6f838d02b0cd99c4fb82aa92d8d6",
+          "0xbf6cb90641aebba8295cb6fdebfb0ef8cff1a4dadbbae418e6dc0b408d905735",
+          "0x9dca2c0aa4323baca0e11fada0b0f1ec8240029ec563365c8ec5b2d2e771c014",
+          "0x74f3ba82142d2e89d38a51becfdfa2dc3e8f875f123e8746ddfac747b88fe1a6",
+          "0xc5bf094f427e22b47a514b2f0a32b4b612733353e8ca3521d30917e598c71fd7",
+          "0xa9e41797baf34e8ee47c2d899a756be83ed1242b3cffbb271af22df9e2af4636",
+          "0x3637d8e3d8894c097b14d4f6e393ae845f50f8d4891a0bb91773498898595198",
+          "0x13f1083675a6a808a03df86c658d5ac78d9d68bcabae7ba2303d48fd0cc43531",
+          "0x843cbd627edc12f419bce02e3041fb9b43a3895516e1ed7cbf0fbca2ca0a9603",
+          "0x6c0600d80c950e7eb6be14a856c84df6298e0cc3356754e8750f12dcb747b188",
+          "0x8201898b0102bcfbdfd3632db5e01fa65b4360249b60f8b7562b5e92324cda23",
+          "0xe4c7346df1dc183f87804dfc8bfd9bcca9a2bc3f64e1b88438fca657573b398a",
+          "0x42d5154296ab7add213cf4123a9eb20b28fc763e163a7d5c5d79c5dcb3bcc43e"
+        ],
+        "fetchInterval": 5
+      },
+      {
+        "templateIds": [
+          "0x41149802f2885d822b0827fa370fe3fae72df158924df6bde2d7d86c1dfb75d9",
+          "0xf221c8c29f5de8369dcc2a0975936a27e91cc807937b97e9981787d27e26d89a",
+          "0x2efc2cbfb8185e9b815c1118fc7a5374e228176024120f2a33aed25a379cf83a",
+          "0x2eff0dc17b3d2b344676ed621aa13a5b1457a4ea8b75dfb901e0bd5e77d84077",
+          "0xaac15e5f4c8d88dd54054fe7fa76783e179fde737d67f3032ba3d13feb7952dc",
+          "0xff82f6e4446cb7776a291d574bc9f899d1dfe75eaff758d714615770cbe6a5cf",
+          "0xbd011dc7bb0685028dcc89a11892c13f48a80d0893e6f523bece04fc809a81a7",
+          "0x909aeb198a73842a022acfcddef0b47a0212fd2fc398316ea68e77a2380a9766",
+          "0x75392a9c140d093e72c1cb6bca753a4f7728468fc4e46db353703f60d1bfe456",
+          "0x27c8af2d762458868cd02d493a127348a11edebc84ccdb6a2f341a5ce5590d24",
+          "0xe783b7764143abbad8018503d1be77fe7c0c894c3b08740ef197bdeb5f3e89e1",
+          "0x64f9b15c0b013e1314c837ae8058331111e70accf82041065e17b50c47f49139",
+          "0x1c6926515a127f49d09545df16a6f1def5b62a84dfa0331959191bfd72c0c24d",
+          "0xbfe18f67c6a23986e89385382c6f52b4993e925ee6bef751e6819cd94dccd501",
+          "0x07777cf10aa651fb80de5122e3889736b79004495d58c60c2be03ee073c2be62",
+          "0x6e847dad4c16e89e7bb72c926fd785ea7134880c4bf4ff7aa7c26dcd2497cda9",
+          "0x3f63eef15bfe1ed4c1a4f6667c399f8e0526a7f71fcd5d7a8d4e716143765e40",
+          "0x4ea9908826ef176095aaf32768f1a0fb9348b483a2404b08b76d995d60e8f6a2",
+          "0x0c0d14c866a931c2a753e661abe327eb0d0178ea12cf870054b0f35dd6f44a1b",
+          "0x2939b69e113a88c5e944c39d30a23c7d78597521d7c98a78d793ee36f517b99a",
+          "0xc621c49f0a5e65e7418ea3c954c965859f160c510c49d155c1d3770faf7b3caa",
+          "0x7bc024f4ea89744a3f08babae657631392c721826e4103e4a0174d63571055e2",
+          "0x635070b8f847391416f7a5cdf029659224612b817213919e869f3dcf61aa365c",
+          "0xee88c3e355e0072bcca014c84a1fb6f2b8a1622add576321ea3c4767a219c7b0",
+          "0x48677be19c951ffa9d768862075b92afae75f2f348fada8084c6a57b815608e5"
+        ],
+        "fetchInterval": 5
+      }
+    ]
+  },
+  "signedApis": [
+    {
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
+    }
+  ],
+  "ois": [
+    {
+      "oisFormat": "2.3.0",
+      "title": "CoinDesk",
+      "version": "1.0.0",
+      "apiSpecifications": {
+        "components": {
+          "securitySchemes": {
+            "CoinDeskSecurityScheme1ApiKey": {
+              "in": "query",
+              "name": "api_key",
+              "type": "apiKey"
+            }
+          }
+        },
+        "paths": {
+          "/{path}": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "path",
+                  "name": "path"
+                },
+                {
+                  "in": "query",
+                  "name": "market"
+                },
+                {
+                  "in": "query",
+                  "name": "instruments"
+                },
+                {
+                  "in": "query",
+                  "name": "groups"
+                }
+              ]
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://data-api.coindesk.com"
+          }
+        ],
+        "security": {
+          "CoinDeskSecurityScheme1ApiKey": []
+        }
+      },
+      "endpoints": [
+        {
+          "fixedOperationParameters": [],
+          "name": "feed",
+          "operation": {
+            "method": "get",
+            "path": "/{path}"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "required": true
+            },
+            {
+              "name": "path",
+              "operationParameter": {
+                "in": "path",
+                "name": "path"
+              },
+              "required": true
+            },
+            {
+              "name": "market",
+              "operationParameter": {
+                "in": "query",
+                "name": "market"
+              },
+              "required": true
+            },
+            {
+              "name": "instruments",
+              "operationParameter": {
+                "in": "query",
+                "name": "instruments"
+              },
+              "required": true
+            },
+            {
+              "name": "groups",
+              "operationParameter": {
+                "in": "query",
+                "name": "groups"
+              },
+              "required": true
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "int256"
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ],
+          "preProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ endpointParameters }) => {\n  const preProcessingObject = {\n    \"AAVE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ADA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ALGO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ANKR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"APE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"API3/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ARB/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ATOM/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"AVAX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"AXS/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BAL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BAT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BNB/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BTC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"CAKE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"CELO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"CHZ/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"COMP/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"CRO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"CRV/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"CVX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"DAI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"DOGE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"DOT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"DYDX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ETH/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"FIL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"FLOW/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"FXS/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"GLMR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"GMX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"GNO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"GRT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"HBAR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"HNT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ICP/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"IMX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"JOE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"KDA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"KSM/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"LDO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"LINK/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"LQTY/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"LTC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MANA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AAVE-USD,ADA-USD,ALGO-USD,ANKR-USD,APE-USD,API3-USD,ARB-USD,ATOM-USD,AVAX-USD,AXS-USD,BAL-USD,BAT-USD,BNB-USD,BTC-USD,CAKE-USD,CELO-USD,CHZ-USD,COMP-USD,CRO-USD,CRV-USD,CVX-USD,DAI-USD,DOGE-USD,DOT-USD,DYDX-USD,ETH-USD,FIL-USD,FLOW-USD,FXS-USD,GLMR-USD,GMX-USD,GNO-USD,GRT-USD,HBAR-USD,HNT-USD,ICP-USD,IMX-USD,JOE-USD,KDA-USD,KSM-USD,LDO-USD,LINK-USD,LQTY-USD,LTC-USD,MANA-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MKR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"METIS/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MOVR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"NEAR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"OKB/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"OP/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"PAXG/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"QUICK/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ROSE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RPL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RSR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RUNE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SAND/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SHIB/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SNX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SOL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"stETH/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"STG/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"STX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SUSHI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"TUSD/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"UNI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"USDT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"USDC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"USDP/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"WBTC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"XLM/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"XRP/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"XTZ/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"YFI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ZIL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ZRX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MASK/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ENS/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BLUR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BAND/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"UMA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"APT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"OSMO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SUI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"GNS/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"KAVA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RDNT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RIF/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"GHO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"MKR-USD,METIS-USD,MOVR-USD,NEAR-USD,OKB-USD,OP-USD,PAXG-USD,QUICK-USD,ROSE-USD,RPL-USD,RSR-USD,RUNE-USD,SAND-USD,SHIB-USD,SNX-USD,SOL-USD,STETH-USD,STG-USD,STX-USD,SUSHI-USD,TUSD-USD,UNI-USD,USDT-USD,USDC-USD,USDP-USD,WBTC-USD,XLM-USD,XRP-USD,XTZ-USD,YFI-USD,ZIL-USD,ZRX-USD,MASK-USD,ENS-USD,BLUR-USD,BAND-USD,UMA-USD,APT-USD,OSMO-USD,SUI-USD,GNS-USD,KAVA-USD,RDNT-USD,RIF-USD,GHO-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"crvUSD/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"EURe/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"FRAX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"LUSD/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"WOO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"PYTH/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"USDe/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ASTR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"TIA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"DYM/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SEI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"AR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"STRK/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"AXL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ONDO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MANTA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"XVS/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"PENDLE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"TWT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"AERO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"TAO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"PYUSD/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MERL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ORDI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SATS/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"INJ/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MODE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"NEON/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RARI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"CORE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"DEGEN/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ENA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"FDUSD/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"WLD/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"EURC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ZRO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ZK/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ETHFI/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SAFE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"TAIKO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"W/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BLAST/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"CFX/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RENDER/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"POL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"CRVUSD-USD,EURE-USD,FRAX-USD,LUSD-USD,WOO-USD,PYTH-USD,USDE-USD,ASTR-USD,TIA-USD,DYM-USD,SEI-USD,AR-USD,STRK-USD,AXL-USD,ONDO-USD,MANTA-USD,XVS-USD,PENDLE-USD,TWT-USD,AERO-USD,TAO-USD,PYUSD-USD,MERL-USD,ORDI-USD,SATS-USD,INJ-USD,MODE-USD,NEON-USD,RARI-USD,CORE-USD,DEGEN-USD,ENA-USD,FDUSD-USD,WLD-USD,EURC-USD,ZRO-USD,ZK-USD,ETHFI-USD,SAFE-USD,TAIKO-USD,W-USD,BLAST-USD,CFX-USD,RENDER-USD,POL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"AUSD/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"LUMIA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"COOK/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"cbBTC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BRETT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MORPHO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"ZRC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"LBTC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"S/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"VELO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MTL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"BERA/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"USDS/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"HYPE/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"VET/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"tBTC/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"VTHO/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MVL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"VIRTUAL/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SYRUP/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RESOLV/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"XAUt/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"MNT/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"RON/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n    \"SCR/USD\": {\n      path: \"index/cc/v1/latest/tick\",\n      parameters: {\n        instruments:\n          \"AUSD-USD,LUMIA-USD,COOK-USD,CBBTC-USD,BRETT-USD,MORPHO-USD,ZRC-USD,LBTC-USD,S-USD,VELO-USD,MTL-USD,BERA-USD,USDS-USD,HYPE-USD,VET-USD,TBTC-USD,VTHO-USD,MVL-USD,VIRTUAL-USD,SYRUP-USD,RESOLV-USD,XAUT-USD,MANTLE-USD,RONIN-USD,SCROLL-USD\",\n        market: \"cadli\",\n        groups: \"VALUE\",\n      },\n    },\n  }\n  return {\n    endpointParameters: {\n      path: preProcessingObject[endpointParameters.name].path,\n      ...preProcessingObject[endpointParameters.name].parameters,\n    },\n  }\n}\n",
+            "timeoutMs": 5000
+          },
+          "postProcessingSpecificationV2": {
+            "environment": "Node",
+            "value": "({ response, endpointParameters }) => {\n  const postProcessingObject = {\n    \"AAVE/USD\":\n      '(response) => {\\n              return response.Data[\"AAVE-USD\"].VALUE\\n            }',\n    \"ADA/USD\":\n      '(response) => {\\n              return response.Data[\"ADA-USD\"].VALUE\\n            }',\n    \"ALGO/USD\":\n      '(response) => {\\n              return response.Data[\"ALGO-USD\"].VALUE\\n            }',\n    \"ANKR/USD\":\n      '(response) => {\\n              return response.Data[\"ANKR-USD\"].VALUE\\n            }',\n    \"APE/USD\":\n      '(response) => {\\n              return response.Data[\"APE-USD\"].VALUE\\n            }',\n    \"API3/USD\":\n      '(response) => {\\n              return response.Data[\"API3-USD\"].VALUE\\n            }',\n    \"ARB/USD\":\n      '(response) => {\\n              return response.Data[\"ARB-USD\"].VALUE\\n            }',\n    \"ATOM/USD\":\n      '(response) => {\\n              return response.Data[\"ATOM-USD\"].VALUE\\n            }',\n    \"AVAX/USD\":\n      '(response) => {\\n              return response.Data[\"AVAX-USD\"].VALUE\\n            }',\n    \"AXS/USD\":\n      '(response) => {\\n              return response.Data[\"AXS-USD\"].VALUE\\n            }',\n    \"BAL/USD\":\n      '(response) => {\\n              return response.Data[\"BAL-USD\"].VALUE\\n            }',\n    \"BAT/USD\":\n      '(response) => {\\n              return response.Data[\"BAT-USD\"].VALUE\\n            }',\n    \"BNB/USD\":\n      '(response) => {\\n              return response.Data[\"BNB-USD\"].VALUE\\n            }',\n    \"BTC/USD\":\n      '(response) => {\\n              return response.Data[\"BTC-USD\"].VALUE\\n            }',\n    \"CAKE/USD\":\n      '(response) => {\\n              return response.Data[\"CAKE-USD\"].VALUE\\n            }',\n    \"CELO/USD\":\n      '(response) => {\\n              return response.Data[\"CELO-USD\"].VALUE\\n            }',\n    \"CHZ/USD\":\n      '(response) => {\\n              return response.Data[\"CHZ-USD\"].VALUE\\n            }',\n    \"COMP/USD\":\n      '(response) => {\\n              return response.Data[\"COMP-USD\"].VALUE\\n            }',\n    \"CRO/USD\":\n      '(response) => {\\n              return response.Data[\"CRO-USD\"].VALUE\\n            }',\n    \"CRV/USD\":\n      '(response) => {\\n              return response.Data[\"CRV-USD\"].VALUE\\n            }',\n    \"CVX/USD\":\n      '(response) => {\\n              return response.Data[\"CVX-USD\"].VALUE\\n            }',\n    \"DAI/USD\":\n      '(response) => {\\n              return response.Data[\"DAI-USD\"].VALUE\\n            }',\n    \"DOGE/USD\":\n      '(response) => {\\n              return response.Data[\"DOGE-USD\"].VALUE\\n            }',\n    \"DOT/USD\":\n      '(response) => {\\n              return response.Data[\"DOT-USD\"].VALUE\\n            }',\n    \"DYDX/USD\":\n      '(response) => {\\n              return response.Data[\"DYDX-USD\"].VALUE\\n            }',\n    \"ETH/USD\":\n      '(response) => {\\n              return response.Data[\"ETH-USD\"].VALUE\\n            }',\n    \"FIL/USD\":\n      '(response) => {\\n              return response.Data[\"FIL-USD\"].VALUE\\n            }',\n    \"FLOW/USD\":\n      '(response) => {\\n              return response.Data[\"FLOW-USD\"].VALUE\\n            }',\n    \"FXS/USD\":\n      '(response) => {\\n              return response.Data[\"FXS-USD\"].VALUE\\n            }',\n    \"GLMR/USD\":\n      '(response) => {\\n              return response.Data[\"GLMR-USD\"].VALUE\\n            }',\n    \"GMX/USD\":\n      '(response) => {\\n              return response.Data[\"GMX-USD\"].VALUE\\n            }',\n    \"GNO/USD\":\n      '(response) => {\\n              return response.Data[\"GNO-USD\"].VALUE\\n            }',\n    \"GRT/USD\":\n      '(response) => {\\n              return response.Data[\"GRT-USD\"].VALUE\\n            }',\n    \"HBAR/USD\":\n      '(response) => {\\n              return response.Data[\"HBAR-USD\"].VALUE\\n            }',\n    \"HNT/USD\":\n      '(response) => {\\n              return response.Data[\"HNT-USD\"].VALUE\\n            }',\n    \"ICP/USD\":\n      '(response) => {\\n              return response.Data[\"ICP-USD\"].VALUE\\n            }',\n    \"IMX/USD\":\n      '(response) => {\\n              return response.Data[\"IMX-USD\"].VALUE\\n            }',\n    \"JOE/USD\":\n      '(response) => {\\n              return response.Data[\"JOE-USD\"].VALUE\\n            }',\n    \"KDA/USD\":\n      '(response) => {\\n              return response.Data[\"KDA-USD\"].VALUE\\n            }',\n    \"KSM/USD\":\n      '(response) => {\\n              return response.Data[\"KSM-USD\"].VALUE\\n            }',\n    \"LDO/USD\":\n      '(response) => {\\n              return response.Data[\"LDO-USD\"].VALUE\\n            }',\n    \"LINK/USD\":\n      '(response) => {\\n              return response.Data[\"LINK-USD\"].VALUE\\n            }',\n    \"LQTY/USD\":\n      '(response) => {\\n              return response.Data[\"LQTY-USD\"].VALUE\\n            }',\n    \"LTC/USD\":\n      '(response) => {\\n              return response.Data[\"LTC-USD\"].VALUE\\n            }',\n    \"MANA/USD\":\n      '(response) => {\\n              return response.Data[\"MANA-USD\"].VALUE\\n            }',\n    \"MKR/USD\":\n      '(response) => {\\n              return response.Data[\"MKR-USD\"].VALUE\\n            }',\n    \"METIS/USD\":\n      '(response) => {\\n              return response.Data[\"METIS-USD\"].VALUE\\n            }',\n    \"MOVR/USD\":\n      '(response) => {\\n              return response.Data[\"MOVR-USD\"].VALUE\\n            }',\n    \"NEAR/USD\":\n      '(response) => {\\n              return response.Data[\"NEAR-USD\"].VALUE\\n            }',\n    \"OKB/USD\":\n      '(response) => {\\n              return response.Data[\"OKB-USD\"].VALUE\\n            }',\n    \"OP/USD\":\n      '(response) => {\\n              return response.Data[\"OP-USD\"].VALUE\\n            }',\n    \"PAXG/USD\":\n      '(response) => {\\n              return response.Data[\"PAXG-USD\"].VALUE\\n            }',\n    \"QUICK/USD\":\n      '(response) => {\\n              return response.Data[\"QUICK-USD\"].VALUE\\n            }',\n    \"ROSE/USD\":\n      '(response) => {\\n              return response.Data[\"ROSE-USD\"].VALUE\\n            }',\n    \"RPL/USD\":\n      '(response) => {\\n              return response.Data[\"RPL-USD\"].VALUE\\n            }',\n    \"RSR/USD\":\n      '(response) => {\\n              return response.Data[\"RSR-USD\"].VALUE\\n            }',\n    \"RUNE/USD\":\n      '(response) => {\\n              return response.Data[\"RUNE-USD\"].VALUE\\n            }',\n    \"SAND/USD\":\n      '(response) => {\\n              return response.Data[\"SAND-USD\"].VALUE\\n            }',\n    \"SHIB/USD\":\n      '(response) => {\\n              return response.Data[\"SHIB-USD\"].VALUE\\n            }',\n    \"SNX/USD\":\n      '(response) => {\\n              return response.Data[\"SNX-USD\"].VALUE\\n            }',\n    \"SOL/USD\":\n      '(response) => {\\n              return response.Data[\"SOL-USD\"].VALUE\\n            }',\n    \"stETH/USD\":\n      '(response) => {\\n              return response.Data[\"STETH-USD\"].VALUE\\n            }',\n    \"STG/USD\":\n      '(response) => {\\n              return response.Data[\"STG-USD\"].VALUE\\n            }',\n    \"STX/USD\":\n      '(response) => {\\n              return response.Data[\"STX-USD\"].VALUE\\n            }',\n    \"SUSHI/USD\":\n      '(response) => {\\n              return response.Data[\"SUSHI-USD\"].VALUE\\n            }',\n    \"TUSD/USD\":\n      '(response) => {\\n              return response.Data[\"TUSD-USD\"].VALUE\\n            }',\n    \"UNI/USD\":\n      '(response) => {\\n              return response.Data[\"UNI-USD\"].VALUE\\n            }',\n    \"USDT/USD\":\n      '(response) => {\\n              return response.Data[\"USDT-USD\"].VALUE\\n            }',\n    \"USDC/USD\":\n      '(response) => {\\n              return response.Data[\"USDC-USD\"].VALUE\\n            }',\n    \"USDP/USD\":\n      '(response) => {\\n              return response.Data[\"USDP-USD\"].VALUE\\n            }',\n    \"WBTC/USD\":\n      '(response) => {\\n              return response.Data[\"WBTC-USD\"].VALUE\\n            }',\n    \"XLM/USD\":\n      '(response) => {\\n              return response.Data[\"XLM-USD\"].VALUE\\n            }',\n    \"XRP/USD\":\n      '(response) => {\\n              return response.Data[\"XRP-USD\"].VALUE\\n            }',\n    \"XTZ/USD\":\n      '(response) => {\\n              return response.Data[\"XTZ-USD\"].VALUE\\n            }',\n    \"YFI/USD\":\n      '(response) => {\\n              return response.Data[\"YFI-USD\"].VALUE\\n            }',\n    \"ZIL/USD\":\n      '(response) => {\\n              return response.Data[\"ZIL-USD\"].VALUE\\n            }',\n    \"ZRX/USD\":\n      '(response) => {\\n              return response.Data[\"ZRX-USD\"].VALUE\\n            }',\n    \"MASK/USD\":\n      '(response) => {\\n              return response.Data[\"MASK-USD\"].VALUE\\n            }',\n    \"ENS/USD\":\n      '(response) => {\\n              return response.Data[\"ENS-USD\"].VALUE\\n            }',\n    \"BLUR/USD\":\n      '(response) => {\\n              return response.Data[\"BLUR-USD\"].VALUE\\n            }',\n    \"BAND/USD\":\n      '(response) => {\\n              return response.Data[\"BAND-USD\"].VALUE\\n            }',\n    \"UMA/USD\":\n      '(response) => {\\n              return response.Data[\"UMA-USD\"].VALUE\\n            }',\n    \"APT/USD\":\n      '(response) => {\\n              return response.Data[\"APT-USD\"].VALUE\\n            }',\n    \"OSMO/USD\":\n      '(response) => {\\n              return response.Data[\"OSMO-USD\"].VALUE\\n            }',\n    \"SUI/USD\":\n      '(response) => {\\n              return response.Data[\"SUI-USD\"].VALUE\\n            }',\n    \"GNS/USD\":\n      '(response) => {\\n              return response.Data[\"GNS-USD\"].VALUE\\n            }',\n    \"KAVA/USD\":\n      '(response) => {\\n              return response.Data[\"KAVA-USD\"].VALUE\\n            }',\n    \"RDNT/USD\":\n      '(response) => {\\n              return response.Data[\"RDNT-USD\"].VALUE\\n            }',\n    \"RIF/USD\":\n      '(response) => {\\n              return response.Data[\"RIF-USD\"].VALUE\\n            }',\n    \"GHO/USD\":\n      '(response) => {\\n              return response.Data[\"GHO-USD\"].VALUE\\n            }',\n    \"crvUSD/USD\":\n      '(response) => {\\n              return response.Data[\"CRVUSD-USD\"].VALUE\\n            }',\n    \"EURe/USD\":\n      '(response) => {\\n              return response.Data[\"EURE-USD\"].VALUE\\n            }',\n    \"FRAX/USD\":\n      '(response) => {\\n              return response.Data[\"FRAX-USD\"].VALUE\\n            }',\n    \"LUSD/USD\":\n      '(response) => {\\n              return response.Data[\"LUSD-USD\"].VALUE\\n            }',\n    \"WOO/USD\":\n      '(response) => {\\n              return response.Data[\"WOO-USD\"].VALUE\\n            }',\n    \"PYTH/USD\":\n      '(response) => {\\n              return response.Data[\"PYTH-USD\"].VALUE\\n            }',\n    \"USDe/USD\":\n      '(response) => {\\n              return response.Data[\"USDE-USD\"].VALUE\\n            }',\n    \"ASTR/USD\":\n      '(response) => {\\n              return response.Data[\"ASTR-USD\"].VALUE\\n            }',\n    \"TIA/USD\":\n      '(response) => {\\n              return response.Data[\"TIA-USD\"].VALUE\\n            }',\n    \"DYM/USD\":\n      '(response) => {\\n              return response.Data[\"DYM-USD\"].VALUE\\n            }',\n    \"SEI/USD\":\n      '(response) => {\\n              return response.Data[\"SEI-USD\"].VALUE\\n            }',\n    \"AR/USD\":\n      '(response) => {\\n              return response.Data[\"AR-USD\"].VALUE\\n            }',\n    \"STRK/USD\":\n      '(response) => {\\n              return response.Data[\"STRK-USD\"].VALUE\\n            }',\n    \"AXL/USD\":\n      '(response) => {\\n              return response.Data[\"AXL-USD\"].VALUE\\n            }',\n    \"ONDO/USD\":\n      '(response) => {\\n              return response.Data[\"ONDO-USD\"].VALUE\\n            }',\n    \"MANTA/USD\":\n      '(response) => {\\n              return response.Data[\"MANTA-USD\"].VALUE\\n            }',\n    \"XVS/USD\":\n      '(response) => {\\n              return response.Data[\"XVS-USD\"].VALUE\\n            }',\n    \"PENDLE/USD\":\n      '(response) => {\\n              return response.Data[\"PENDLE-USD\"].VALUE\\n            }',\n    \"TWT/USD\":\n      '(response) => {\\n              return response.Data[\"TWT-USD\"].VALUE\\n            }',\n    \"AERO/USD\":\n      '(response) => {\\n              return response.Data[\"AERO-USD\"].VALUE\\n            }',\n    \"TAO/USD\":\n      '(response) => {\\n              return response.Data[\"TAO-USD\"].VALUE\\n            }',\n    \"PYUSD/USD\":\n      '(response) => {\\n              return response.Data[\"PYUSD-USD\"].VALUE\\n            }',\n    \"MERL/USD\":\n      '(response) => {\\n              return response.Data[\"MERL-USD\"].VALUE\\n            }',\n    \"ORDI/USD\":\n      '(response) => {\\n              return response.Data[\"ORDI-USD\"].VALUE\\n            }',\n    \"SATS/USD\":\n      '(response) => {\\n              return response.Data[\"SATS-USD\"].VALUE\\n            }',\n    \"INJ/USD\":\n      '(response) => {\\n              return response.Data[\"INJ-USD\"].VALUE\\n            }',\n    \"MODE/USD\":\n      '(response) => {\\n              return response.Data[\"MODE-USD\"].VALUE\\n            }',\n    \"NEON/USD\":\n      '(response) => {\\n              return response.Data[\"NEON-USD\"].VALUE\\n            }',\n    \"RARI/USD\":\n      '(response) => {\\n              return response.Data[\"RARI-USD\"].VALUE\\n            }',\n    \"CORE/USD\":\n      '(response) => {\\n              return response.Data[\"CORE-USD\"].VALUE\\n            }',\n    \"DEGEN/USD\":\n      '(response) => {\\n              return response.Data[\"DEGEN-USD\"].VALUE\\n            }',\n    \"ENA/USD\":\n      '(response) => {\\n              return response.Data[\"ENA-USD\"].VALUE\\n            }',\n    \"FDUSD/USD\":\n      '(response) => {\\n              return response.Data[\"FDUSD-USD\"].VALUE\\n            }',\n    \"WLD/USD\":\n      '(response) => {\\n              return response.Data[\"WLD-USD\"].VALUE\\n            }',\n    \"EURC/USD\":\n      '(response) => {\\n              return response.Data[\"EURC-USD\"].VALUE\\n            }',\n    \"ZRO/USD\":\n      '(response) => {\\n              return response.Data[\"ZRO-USD\"].VALUE\\n            }',\n    \"ZK/USD\":\n      '(response) => {\\n              return response.Data[\"ZK-USD\"].VALUE\\n            }',\n    \"ETHFI/USD\":\n      '(response) => {\\n              return response.Data[\"ETHFI-USD\"].VALUE\\n            }',\n    \"SAFE/USD\":\n      '(response) => {\\n              return response.Data[\"SAFE-USD\"].VALUE\\n            }',\n    \"TAIKO/USD\":\n      '(response) => {\\n              return response.Data[\"TAIKO-USD\"].VALUE\\n            }',\n    \"W/USD\":\n      '(response) => {\\n              return response.Data[\"W-USD\"].VALUE\\n            }',\n    \"BLAST/USD\":\n      '(response) => {\\n              return response.Data[\"BLAST-USD\"].VALUE\\n            }',\n    \"CFX/USD\":\n      '(response) => {\\n              return response.Data[\"CFX-USD\"].VALUE\\n            }',\n    \"RENDER/USD\":\n      '(response) => {\\n              return response.Data[\"RENDER-USD\"].VALUE\\n            }',\n    \"POL/USD\":\n      '(response) => {\\n              return response.Data[\"POL-USD\"].VALUE\\n            }',\n    \"AUSD/USD\":\n      '(response) => {\\n              return response.Data[\"AUSD-USD\"].VALUE\\n            }',\n    \"LUMIA/USD\":\n      '(response) => {\\n              return response.Data[\"LUMIA-USD\"].VALUE\\n            }',\n    \"COOK/USD\":\n      '(response) => {\\n              return response.Data[\"COOK-USD\"].VALUE\\n            }',\n    \"cbBTC/USD\":\n      '(response) => {\\n              return response.Data[\"CBBTC-USD\"].VALUE\\n            }',\n    \"BRETT/USD\":\n      '(response) => {\\n              return response.Data[\"BRETT-USD\"].VALUE\\n            }',\n    \"MORPHO/USD\":\n      '(response) => {\\n              return response.Data[\"MORPHO-USD\"].VALUE\\n            }',\n    \"ZRC/USD\":\n      '(response) => {\\n              return response.Data[\"ZRC-USD\"].VALUE\\n            }',\n    \"LBTC/USD\":\n      '(response) => {\\n              return response.Data[\"LBTC-USD\"].VALUE\\n            }',\n    \"S/USD\":\n      '(response) => {\\n              return response.Data[\"S-USD\"].VALUE\\n            }',\n    \"VELO/USD\":\n      '(response) => {\\n              return response.Data[\"VELO-USD\"].VALUE\\n            }',\n    \"MTL/USD\":\n      '(response) => {\\n              return response.Data[\"MTL-USD\"].VALUE\\n            }',\n    \"BERA/USD\":\n      '(response) => {\\n              return response.Data[\"BERA-USD\"].VALUE\\n            }',\n    \"USDS/USD\":\n      '(response) => {\\n              return response.Data[\"USDS-USD\"].VALUE\\n            }',\n    \"HYPE/USD\":\n      '(response) => {\\n              return response.Data[\"HYPE-USD\"].VALUE\\n            }',\n    \"VET/USD\":\n      '(response) => {\\n              return response.Data[\"VET-USD\"].VALUE\\n            }',\n    \"tBTC/USD\":\n      '(response) => {\\n              return response.Data[\"TBTC-USD\"].VALUE\\n            }',\n    \"VTHO/USD\":\n      '(response) => {\\n              return response.Data[\"VTHO-USD\"].VALUE\\n            }',\n    \"MVL/USD\":\n      '(response) => {\\n              return response.Data[\"MVL-USD\"].VALUE\\n            }',\n    \"VIRTUAL/USD\":\n      '(response) => {\\n              return response.Data[\"VIRTUAL-USD\"].VALUE\\n            }',\n    \"SYRUP/USD\":\n      '(response) => {\\n              return response.Data[\"SYRUP-USD\"].VALUE\\n            }',\n    \"RESOLV/USD\":\n      '(response) => {\\n              return response.Data[\"RESOLV-USD\"].VALUE\\n            }',\n    \"XAUt/USD\":\n      '(response) => {\\n              return response.Data[\"XAUT-USD\"].VALUE\\n            }',\n    \"MNT/USD\":\n      \"(response) => {\\n          return response.Data['MANTLE-USD'].VALUE\\n        }\\n        \",\n    \"RON/USD\":\n      \"(response) => {\\n          return response.Data['RONIN-USD'].VALUE\\n        }\\n        \",\n    \"SCR/USD\":\n      \"(response) => {\\n          return response.Data['SCROLL-USD'].VALUE\\n        }\\n        \",\n  }\n  const parser = eval(postProcessingObject[endpointParameters.name])\n  return { response: parser(response) }\n}\n",
+            "timeoutMs": 5000
+          }
+        }
+      ]
+    }
+  ],
+  "apiCredentials": [
+    {
+      "oisTitle": "CoinDesk",
+      "securitySchemeName": "CoinDeskSecurityScheme1ApiKey",
+      "securitySchemeValue": "${COINDESKSECURITYSCHEME1APIKEY_VALUE}"
+    }
+  ]
+}

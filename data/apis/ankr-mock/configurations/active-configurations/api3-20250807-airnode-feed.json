@@ -462,7 +462,7 @@
           "0x3004319c9f0c6fd67dae27d4606a6f2324914fc131a806366ed9758f8345f008",
           "0x632f49bb86e7d373568e7e69c0cc29e59662a7617b65d6c2eb23404780dc96f1"
         ],
-        "fetchInterval": 60
+        "fetchInterval": 5
       },
       {
         "templateIds": [
@@ -470,19 +470,19 @@
           "0xbfa03a07d6f7dcb07afc39670fed3aeb3b47451573694754dc6d4dba99b01ebc",
           "0xe6fd60a2691923e78f0d8b3604ac6adf72d06fff1d50a822c9592d9da95631c2"
         ],
-        "fetchInterval": 60
+        "fetchInterval": 5
       },
       {
         "templateIds": ["0x8fa8e7cdf350757acb95e0eba2e4c97a3642b20bc769cae7c43cbc919aaae35c"],
-        "fetchInterval": 60
+        "fetchInterval": 5
       },
       {
         "templateIds": ["0xc7fd634fec8c055d85e3e1fc2ee53ba62f123e47734e6858e33d782f7442145c"],
-        "fetchInterval": 60
+        "fetchInterval": 5
       },
       {
         "templateIds": ["0x5772923d58d41674d07076014bc0f5fe9df8f1f3b5b6aa4f2a3c9bf7aa6ba0d8"],
-        "fetchInterval": 60
+        "fetchInterval": 5
       }
     ]
   },
