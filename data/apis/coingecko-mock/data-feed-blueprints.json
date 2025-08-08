@@ -1627,5 +1627,23 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['moonwell-artemis']['usd']\n            }"
+  },
+  {
+    "name": "ATH/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "aethir",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['aethir']['usd']\n            }"
+  },
+  {
+    "name": "SKY/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "sky",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['sky']['usd']\n            }"
   }
 ]

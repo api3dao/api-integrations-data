@@ -1446,5 +1446,21 @@
       "quotes": "USD"
     },
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "ATH/USD",
+    "path": "tickers/ath14-aethir",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "SKY/USD",
+    "path": "tickers/sky-sky",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   }
 ]

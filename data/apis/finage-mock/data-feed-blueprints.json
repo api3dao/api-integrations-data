@@ -1024,5 +1024,47 @@
     "path": "last/crypto/WELLUSD",
     "parameters": {},
     "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "USDX/USD",
+    "path": "last/crypto/USDXUSD",
+    "parameters": {},
+    "parser": "(response) => {\n          return response.price\n        }\n        "
+  },
+  {
+    "name": "USD0/USD",
+    "path": "last/crypto/USD0USD",
+    "parameters": {},
+    "parser": "(response) => {\n          return response.price\n        }\n        "
+  },
+  {
+    "name": "RLUSD/USD",
+    "path": "last/crypto/RLUSDUSD",
+    "parameters": {},
+    "parser": "(response) => {\n          return response.price\n        }\n        "
+  },
+  {
+    "name": "USDO/USD",
+    "path": "last/crypto/USDOUSD",
+    "parameters": {},
+    "parser": "(response) => {\n          return response.price\n        }\n        "
+  },
+  {
+    "name": "USR/USD",
+    "path": "last/crypto/USRUSD",
+    "parameters": {},
+    "parser": "(response) => {\n          return response.price\n        }\n        "
+  },
+  {
+    "name": "ATH/USD",
+    "path": "last/crypto/ATHUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "SKY/USD",
+    "path": "last/crypto/SKYUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
   }
 ]

@@ -1492,5 +1492,158 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['usd1-wlfi']['usd']\n            }"
+  },
+  {
+    "name": "sUSDS/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "nusd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['nusd']['usd']\n            }"
+  },
+  {
+    "name": "USDtb/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usdtb",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usdtb']['usd']\n            }"
+  },
+  {
+    "name": "syrupUSDC/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "syrupusdc",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['syrupusdc']['usd']\n            }"
+  },
+  {
+    "name": "USDX/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usdx-money-usdx",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usdx-money-usdx']['usd']\n            }"
+  },
+  {
+    "name": "USDY/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "ondo-us-dollar-yield",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['ondo-us-dollar-yield']['usd']\n            }"
+  },
+  {
+    "name": "USD0/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usual-usd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usual-usd']['usd']\n            }"
+  },
+  {
+    "name": "USDf/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "falcon-finance",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['falcon-finance']['usd']\n            }"
+  },
+  {
+    "name": "RLUSD/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "ripple-usd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['ripple-usd']['usd']\n            }"
+  },
+  {
+    "name": "USDD/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usdd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usdd']['usd']\n            }"
+  },
+  {
+    "name": "USDG/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "global-dollar",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['global-dollar']['usd']\n            }"
+  },
+  {
+    "name": "BUSD/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "binance-peg-busd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['binance-peg-busd']['usd']\n            }"
+  },
+  {
+    "name": "USDO/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "openeden-open-dollar",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['openeden-open-dollar']['usd']\n            }"
+  },
+  {
+    "name": "USR/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "resolv-usr",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['resolv-usr']['usd']\n            }"
+  },
+  {
+    "name": "USDa/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usda-2",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usda-2']['usd']\n            }"
+  },
+  {
+    "name": "WELL/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "moonwell-artemis",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['moonwell-artemis']['usd']\n            }"
+  },
+  {
+    "name": "ATH/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "aethir",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['aethir']['usd']\n            }"
+  },
+  {
+    "name": "SKY/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "sky",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['sky']['usd']\n            }"
   }
 ]

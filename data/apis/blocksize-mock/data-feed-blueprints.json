@@ -1078,5 +1078,17 @@
     "path": "getVWAP/WELLUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ATH/USD",
+    "path": "getVWAP/ATHUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SKY/USD",
+    "path": "getVWAP/SKYUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
   }
 ]

@@ -1406,5 +1406,45 @@
       "symbols": "AVALON.USDA/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'AVALON.USDA/USD').price\n        }\n        "
+  },
+  {
+    "name": "USDtb/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USDtb/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDtb/USD').price\n        }\n        "
+  },
+  {
+    "name": "syrupUSDC/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "syrupUSDC/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'syrupUSDC/USD').price\n        }\n        "
+  },
+  {
+    "name": "USDf/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USDf/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDf/USD').price\n        }\n        "
+  },
+  {
+    "name": "ATH/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "ATH/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ATH/USD').price\n        }"
+  },
+  {
+    "name": "SKY/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "SKY/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SKY/USD').price\n        }"
   }
 ]

@@ -177,7 +177,14 @@
       ["USDG/USD"],
       ["BUSD/USD"],
       ["EUR/USD"],
-      ["WELL/USD"]
+      ["WELL/USD"],
+      ["USDX/USD"],
+      ["USD0/USD"],
+      ["RLUSD/USD"],
+      ["USDO/USD"],
+      ["USR/USD"],
+      ["ATH/USD"],
+      ["SKY/USD"]
     ]
   },
   "homepageUrl": "",

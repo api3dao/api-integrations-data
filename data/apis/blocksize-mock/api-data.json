@@ -186,7 +186,9 @@
       ["USR/USD"],
       ["USDa/USD"],
       ["EUR/USD"],
-      ["WELL/USD"]
+      ["WELL/USD"],
+      ["ATH/USD"],
+      ["SKY/USD"]
     ]
   },
   "homepageUrl": "",

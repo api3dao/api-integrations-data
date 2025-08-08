@@ -183,7 +183,12 @@
         "USR/USD",
         "USDG/USD",
         "BUSD/USD",
-        "USDa/USD"
+        "USDa/USD",
+        "USDtb/USD",
+        "syrupUSDC/USD",
+        "USDf/USD",
+        "ATH/USD",
+        "SKY/USD"
       ]
     ]
   },

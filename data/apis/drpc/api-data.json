@@ -46,7 +46,8 @@
       ],
       ["wBETH/ETH Exchange Rate", "slisBNB/BNB Exchange Rate", "BNBx/BNB Exchange Rate"],
       ["sAVAX/AVAX Exchange Rate"],
-      ["USDY/USD Exchange Rate"]
+      ["USDY/USD Exchange Rate"],
+      ["wOS/OS Exchange Rate"]
     ]
   },
   "deploymentConfigurations": [

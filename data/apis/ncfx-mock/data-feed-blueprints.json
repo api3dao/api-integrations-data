@@ -1246,5 +1246,21 @@
       "pairs": "WELL-USD"
     },
     "parser": "(response) => {\n              return response.rates['WELL-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ATH/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "ATH-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['ATH-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SKY/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "SKY-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['SKY-USD'].rate\n            }\n            "
   }
 ]

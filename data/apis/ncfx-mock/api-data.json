@@ -163,7 +163,9 @@
         "RLUSD/USD",
         "USDD/USD",
         "USDG/USD",
-        "WELL/USD"
+        "WELL/USD",
+        "ATH/USD",
+        "SKY/USD"
       ]
     ]
   },

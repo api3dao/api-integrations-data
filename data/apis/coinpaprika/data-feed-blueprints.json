@@ -1326,5 +1326,141 @@
       "quotes": "USD"
     },
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "sUSDS/USD",
+    "path": "tickers/susd-susd",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USDtb/USD",
+    "path": "tickers/usdtb-usdtb",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "syrupUSDC/USD",
+    "path": "tickers/syrupusdc-syrupusdc",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USDX/USD",
+    "path": "tickers/usdx-usdxmoney-usdx",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USDY/USD",
+    "path": "tickers/usdy-ondo-us-dollar-yield",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USD0/USD",
+    "path": "tickers/usd0-usual-usd",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USDf/USD",
+    "path": "tickers/usdf-falcon-finance",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "RLUSD/USD",
+    "path": "tickers/rlusd-ripple-usd",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USDD/USD",
+    "path": "tickers/usdd-usdd",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USDG/USD",
+    "path": "tickers/usdg-global-dollar",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "BUSD/USD",
+    "path": "tickers/sol-binance-peg-sol",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USDO/USD",
+    "path": "tickers/usdo-usd-open-dollar",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USR/USD",
+    "path": "tickers/usr-resolv-usr",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USDa/USD",
+    "path": "tickers/usda-usda",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "WELL/USD",
+    "path": "tickers/well-moonwell",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "ATH/USD",
+    "path": "tickers/ath14-aethir",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "SKY/USD",
+    "path": "tickers/sky-sky",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   }
 ]
