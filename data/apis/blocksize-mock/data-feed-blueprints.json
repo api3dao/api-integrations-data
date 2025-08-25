@@ -1090,5 +1090,11 @@
     "path": "getVWAP/SKYUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SLP/USD",
+    "path": "getVWAP/SLPUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
   }
 ]

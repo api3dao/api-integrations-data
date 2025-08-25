@@ -1066,5 +1066,11 @@
     "path": "last/crypto/SKYUSD",
     "parameters": {},
     "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "SLP/USD",
+    "path": "last/crypto/SLPUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
   }
 ]

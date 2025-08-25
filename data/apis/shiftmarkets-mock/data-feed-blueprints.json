@@ -1446,5 +1446,13 @@
       "symbols": "SKY/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SKY/USD').price\n        }"
+  },
+  {
+    "name": "SLP/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "SLP/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SLP/USD').price\n        }"
   }
 ]
