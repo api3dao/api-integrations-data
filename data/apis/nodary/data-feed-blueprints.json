@@ -1662,5 +1662,21 @@
       "name": "USD1/USD"
     },
     "parser": "(response) => {\n              return response.value;\n            }\n            "
+  },
+  {
+    "name": "SLP/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "SLP/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "ATH/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "ATH/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
   }
 ]

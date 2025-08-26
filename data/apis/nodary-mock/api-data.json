@@ -214,7 +214,9 @@
       ["EUR/USD"],
       ["WELL/USD"],
       ["wOS/OS Exchange Rate"],
-      ["USD1/USD"]
+      ["USD1/USD"],
+      ["SLP/USD"],
+      ["ATH/USD"]
     ]
   },
   "homepageUrl": "",
