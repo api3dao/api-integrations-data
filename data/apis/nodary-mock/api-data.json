@@ -216,7 +216,9 @@
       ["wOS/OS Exchange Rate"],
       ["USD1/USD"],
       ["SLP/USD"],
-      ["ATH/USD"]
+      ["ATH/USD"],
+      ["RLP/USD"],
+      ["syrupUSDC/USDC Exchange Rate"]
     ]
   },
   "homepageUrl": "",

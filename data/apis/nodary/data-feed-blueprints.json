@@ -1678,5 +1678,21 @@
       "name": "ATH/USD"
     },
     "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "RLP/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "RLP/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "syrupUSDC/USDC Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "syrupUSDC/USDC Exchange Rate"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
   }
 ]
