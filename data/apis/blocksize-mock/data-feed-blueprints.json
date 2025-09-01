@@ -1096,5 +1096,11 @@
     "path": "getVWAP/SLPUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "RLP/USD",
+    "path": "getVWAP/RLPUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
   }
 ]

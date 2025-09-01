@@ -1654,5 +1654,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['smooth-love-potion']['usd']\n            }"
+  },
+  {
+    "name": "RLP/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "resolv-rlp",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['resolv-rlp']['usd']\n            }"
   }
 ]
