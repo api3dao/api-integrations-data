@@ -1262,5 +1262,13 @@
       "pairs": "SKY-USD"
     },
     "parser": "(response) => {\n              return response.rates['SKY-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "SLP/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "SLP-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['SLP-USD'].rate\n            }\n            "
   }
 ]

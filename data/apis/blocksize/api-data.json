@@ -193,7 +193,9 @@
       ["EUR/USD"],
       ["WELL/USD"],
       ["ATH/USD"],
-      ["SKY/USD"]
+      ["SKY/USD"],
+      ["SLP/USD"],
+      ["RLP/USD"]
     ]
   },
   "homepageUrl": "https://www.blocksize.info",
