@@ -218,7 +218,9 @@
       ["SLP/USD"],
       ["ATH/USD"],
       ["RLP/USD"],
-      ["syrupUSDC/USDC Exchange Rate"]
+      ["syrupUSDC/USDC Exchange Rate"],
+      ["SOMI/USD"],
+      ["wsrUSD/rUSD Exchange Rate"]
     ]
   },
   "homepageUrl": "https://nodary.io",
