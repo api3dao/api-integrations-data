@@ -195,7 +195,8 @@
       ["ATH/USD"],
       ["SKY/USD"],
       ["SLP/USD"],
-      ["RLP/USD"]
+      ["RLP/USD"],
+      ["SOMI/USD"]
     ]
   },
   "homepageUrl": "https://www.blocksize.info",

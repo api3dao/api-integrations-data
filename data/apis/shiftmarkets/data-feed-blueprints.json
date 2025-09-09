@@ -1462,5 +1462,13 @@
       "symbols": "RLP/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'RLP/USD').price\n        }"
+  },
+  {
+    "name": "SOMI/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "SOMI/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SOMI/USD').price\n        }"
   }
 ]

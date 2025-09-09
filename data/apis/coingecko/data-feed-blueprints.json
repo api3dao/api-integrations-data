@@ -1663,5 +1663,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['resolv-rlp']['usd']\n            }"
+  },
+  {
+    "name": "SOMI/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "somnia",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['somnia']['usd']\n            }"
   }
 ]

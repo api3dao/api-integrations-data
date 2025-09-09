@@ -1072,5 +1072,11 @@
     "path": "last/crypto/SLPUSD",
     "parameters": {},
     "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "SOMI/USD",
+    "path": "last/crypto/SOMIUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
   }
 ]

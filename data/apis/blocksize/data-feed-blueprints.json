@@ -1102,5 +1102,11 @@
     "path": "getVWAP/RLPUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "SOMI/USD",
+    "path": "getVWAP/SOMIUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
   }
 ]
