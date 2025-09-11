@@ -1270,13 +1270,5 @@
       "pairs": "SLP-USD"
     },
     "parser": "(response) => {\n              return response.rates['SLP-USD'].rate\n            }\n            "
-  },
-  {
-    "name": "SOMI/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "SOMI-USD"
-    },
-    "parser": "(response) => {\n              return response.rates['SOMI-USD'].rate\n            }\n            "
   }
 ]
