@@ -220,7 +220,8 @@
       ["RLP/USD"],
       ["syrupUSDC/USDC Exchange Rate"],
       ["SOMI/USD"],
-      ["wsrUSD/rUSD Exchange Rate"]
+      ["wsrUSD/rUSD Exchange Rate"],
+      ["SKY/USD"]
     ]
   },
   "homepageUrl": "",
