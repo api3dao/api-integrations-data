@@ -24,11 +24,6 @@
           "in": "query",
           "name": "",
           "type": "apiKey"
-        },
-        "RPC_SONIC_URL": {
-          "in": "query",
-          "name": "",
-          "type": "apiKey"
         }
       }
     },
@@ -69,8 +64,7 @@
       "RPC_ETHEREUM_URL": [],
       "RPC_BSC_URL": [],
       "RPC_MANTLE_URL": [],
-      "RPC_AVALANCHE_URL": [],
-      "RPC_SONIC_URL": []
+      "RPC_AVALANCHE_URL": []
     }
   },
   "endpoints": [
