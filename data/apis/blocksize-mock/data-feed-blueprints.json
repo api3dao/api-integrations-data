@@ -1108,5 +1108,17 @@
     "path": "getVWAP/SOMIUSD",
     "parameters": {},
     "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "LINEA/USD",
+    "path": "getVWAP/LINEAUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
+  },
+  {
+    "name": "ZKC/USD",
+    "path": "getVWAP/ZKCUSD",
+    "parameters": {},
+    "parser": "(response) => { return response.price; }"
   }
 ]

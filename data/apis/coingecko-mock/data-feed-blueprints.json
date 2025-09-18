@@ -1672,5 +1672,23 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['somnia']['usd']\n            }"
+  },
+  {
+    "name": "LINEA/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "linea",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['linea']['usd']\n            }"
+  },
+  {
+    "name": "ZKC/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "boundless",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['boundless']['usd']\n            }"
   }
 ]

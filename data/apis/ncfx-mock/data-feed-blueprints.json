@@ -1278,5 +1278,21 @@
       "pairs": "SOMI-USD"
     },
     "parser": "(response) => {\n              return response.rates['SOMI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "LINEA/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "LINEA-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['LINEA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ZKC/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "ZKC-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['ZKC-USD'].rate\n            }\n            "
   }
 ]

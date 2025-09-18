@@ -1470,5 +1470,21 @@
       "symbols": "SOMI/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SOMI/USD').price\n        }"
+  },
+  {
+    "name": "LINEA/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "LINEA/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'LINEA/USD').price\n        }"
+  },
+  {
+    "name": "ZKC/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "ZKC/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ZKC/USD').price\n        }"
   }
 ]

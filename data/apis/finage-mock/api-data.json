@@ -186,7 +186,9 @@
       ["ATH/USD"],
       ["SKY/USD"],
       ["SLP/USD"],
-      ["SOMI/USD"]
+      ["SOMI/USD"],
+      ["LINEA/USD"],
+      ["ZKC/USD"]
     ]
   },
   "homepageUrl": "",

@@ -1486,5 +1486,21 @@
       "quotes": "USD"
     },
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "LINEA/USD",
+    "path": "tickers/linea-linea",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "ZKC/USD",
+    "path": "tickers/zkc-boundless",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   }
 ]
