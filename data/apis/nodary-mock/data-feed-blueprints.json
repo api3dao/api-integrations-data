@@ -1718,5 +1718,21 @@
       "name": "SKY/USD"
     },
     "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "LINEA/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "LINEA/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "ZKC/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "ZKC/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
   }
 ]

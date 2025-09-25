@@ -221,7 +221,9 @@
       ["syrupUSDC/USDC Exchange Rate"],
       ["SOMI/USD"],
       ["wsrUSD/rUSD Exchange Rate"],
-      ["SKY/USD"]
+      ["SKY/USD"],
+      ["LINEA/USD"],
+      ["ZKC/USD"]
     ]
   },
   "homepageUrl": "https://nodary.io",
