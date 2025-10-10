@@ -648,14 +648,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'METIS/USD').price\n        }"
   },
   {
-    "name": "MKR/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "MKR/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MKR/USD').price\n        }"
-  },
-  {
     "name": "MNT/USD",
     "path": "v1/price",
     "parameters": {

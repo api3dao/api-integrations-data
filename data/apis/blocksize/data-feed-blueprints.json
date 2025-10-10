@@ -480,12 +480,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['METISUSD'].price; }"
   },
   {
-    "name": "MKR/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['MKRUSD'].price; }"
-  },
-  {
     "name": "MNT/USD",
     "path": "getBulkVWAP",
     "parameters": {},

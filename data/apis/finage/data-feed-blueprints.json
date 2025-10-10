@@ -486,12 +486,6 @@
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
-    "name": "MKR/USD",
-    "parameters": {},
-    "path": "last/crypto/MKRUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "MNT/USD",
     "parameters": {},
     "path": "last/crypto/MNTUSD",
