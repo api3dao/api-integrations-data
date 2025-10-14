@@ -1726,5 +1726,13 @@
       "name": "ZKC/USD"
     },
     "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "CLO/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "CLO/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
   }
 ]

@@ -222,7 +222,8 @@
       ["wsrUSD/rUSD Exchange Rate"],
       ["SKY/USD"],
       ["LINEA/USD"],
-      ["ZKC/USD"]
+      ["ZKC/USD"],
+      ["CLO/USD"]
     ]
   },
   "homepageUrl": "https://nodary.io",
