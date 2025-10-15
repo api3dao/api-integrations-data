@@ -1,0 +1,2054 @@
+[
+  {
+    "name": "AAVE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "aave",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'aave').ReferenceRate }"
+  },
+  {
+    "name": "ADA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ada",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ada').ReferenceRate }"
+  },
+  {
+    "name": "ALGO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "algo",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'algo').ReferenceRate }"
+  },
+  {
+    "name": "ANKR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ankr",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ankr').ReferenceRate }"
+  },
+  {
+    "name": "APE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ape",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ape').ReferenceRate }"
+  },
+  {
+    "name": "API3/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "api3",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'api3').ReferenceRate }"
+  },
+  {
+    "name": "ARB/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "arb",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'arb').ReferenceRate }"
+  },
+  {
+    "name": "ATOM/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "atom",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'atom').ReferenceRate }"
+  },
+  {
+    "name": "AVAX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "avax",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'avax').ReferenceRate }"
+  },
+  {
+    "name": "AXS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "axs",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'axs').ReferenceRate }"
+  },
+  {
+    "name": "BAL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "bal",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'bal').ReferenceRate }"
+  },
+  {
+    "name": "BAT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "bat",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'bat').ReferenceRate }"
+  },
+  {
+    "name": "BNB/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "bnb",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'bnb').ReferenceRate }"
+  },
+  {
+    "name": "BTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "btc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'btc').ReferenceRate }"
+  },
+  {
+    "name": "CAKE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "cake",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'cake').ReferenceRate }"
+  },
+  {
+    "name": "CELO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "celo",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'celo').ReferenceRate }"
+  },
+  {
+    "name": "CHZ/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "chz",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'chz').ReferenceRate }"
+  },
+  {
+    "name": "COMP/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "comp",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'comp').ReferenceRate }"
+  },
+  {
+    "name": "CRO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "cro",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'cro').ReferenceRate }"
+  },
+  {
+    "name": "CRV/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "crv",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'crv').ReferenceRate }"
+  },
+  {
+    "name": "CVX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "cvx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'cvx').ReferenceRate }"
+  },
+  {
+    "name": "DAI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "dai",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'dai').ReferenceRate }"
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "doge",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'doge').ReferenceRate }"
+  },
+  {
+    "name": "DOT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "dot",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'dot').ReferenceRate }"
+  },
+  {
+    "name": "DYDX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "dydx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'dydx').ReferenceRate }"
+  },
+  {
+    "name": "ETH/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "eth",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'eth').ReferenceRate }"
+  },
+  {
+    "name": "FIL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "fil",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'fil').ReferenceRate }"
+  },
+  {
+    "name": "FLOW/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "flow",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'flow').ReferenceRate }"
+  },
+  {
+    "name": "FXS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "fxs",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'fxs').ReferenceRate }"
+  },
+  {
+    "name": "GLMR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "glmr",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'glmr').ReferenceRate }"
+  },
+  {
+    "name": "GMX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "gmx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'gmx').ReferenceRate }"
+  },
+  {
+    "name": "GNO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "gno",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'gno').ReferenceRate }"
+  },
+  {
+    "name": "GRT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "grt",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'grt').ReferenceRate }"
+  },
+  {
+    "name": "HBAR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "hbar",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'hbar').ReferenceRate }"
+  },
+  {
+    "name": "HNT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "hnt",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'hnt').ReferenceRate }"
+  },
+  {
+    "name": "ICP/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "icp",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'icp').ReferenceRate }"
+  },
+  {
+    "name": "IMX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "imx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'imx').ReferenceRate }"
+  },
+  {
+    "name": "JOE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "joe",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'joe').ReferenceRate }"
+  },
+  {
+    "name": "KDA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "kda",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'kda').ReferenceRate }"
+  },
+  {
+    "name": "KSM/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ksm",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ksm').ReferenceRate }"
+  },
+  {
+    "name": "LDO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ldo",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ldo').ReferenceRate }"
+  },
+  {
+    "name": "LINK/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "link",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'link').ReferenceRate }"
+  },
+  {
+    "name": "LQTY/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "lqty",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'lqty').ReferenceRate }"
+  },
+  {
+    "name": "LTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ltc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ltc').ReferenceRate }"
+  },
+  {
+    "name": "MANA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "mana",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'mana').ReferenceRate }"
+  },
+  {
+    "name": "METIS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "metis",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'metis').ReferenceRate }"
+  },
+  {
+    "name": "MOVR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "movr",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'movr').ReferenceRate }"
+  },
+  {
+    "name": "NEAR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "near",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'near').ReferenceRate }"
+  },
+  {
+    "name": "OKB/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "okb",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'okb').ReferenceRate }"
+  },
+  {
+    "name": "OP/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "op",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'op').ReferenceRate }"
+  },
+  {
+    "name": "PAXG/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "paxg",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'paxg').ReferenceRate }"
+  },
+  {
+    "name": "QUICK/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "quick",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'quick').ReferenceRate }"
+  },
+  {
+    "name": "ROSE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rose",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'rose').ReferenceRate }"
+  },
+  {
+    "name": "RPL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rpl",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'rpl').ReferenceRate }"
+  },
+  {
+    "name": "RSR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rsr",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'rsr').ReferenceRate }"
+  },
+  {
+    "name": "RUNE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rune",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'rune').ReferenceRate }"
+  },
+  {
+    "name": "SAND/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "sand",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'sand').ReferenceRate }"
+  },
+  {
+    "name": "SHIB/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "shib",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'shib').ReferenceRate }"
+  },
+  {
+    "name": "SNX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "snx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'snx').ReferenceRate }"
+  },
+  {
+    "name": "SOL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "sol",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'sol').ReferenceRate }"
+  },
+  {
+    "name": "stETH/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "steth",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'steth').ReferenceRate }"
+  },
+  {
+    "name": "STG/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "stg",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'stg').ReferenceRate }"
+  },
+  {
+    "name": "STX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "stx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'stx').ReferenceRate }"
+  },
+  {
+    "name": "SUSHI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "sushi",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'sushi').ReferenceRate }"
+  },
+  {
+    "name": "TUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "tusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'tusd').ReferenceRate }"
+  },
+  {
+    "name": "UNI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "uni",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'uni').ReferenceRate }"
+  },
+  {
+    "name": "USDT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usdt",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usdt').ReferenceRate }"
+  },
+  {
+    "name": "USDC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usdc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usdc').ReferenceRate }"
+  },
+  {
+    "name": "USDP/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usdp",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usdp').ReferenceRate }"
+  },
+  {
+    "name": "WBTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "wbtc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'wbtc').ReferenceRate }"
+  },
+  {
+    "name": "XLM/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "xlm",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'xlm').ReferenceRate }"
+  },
+  {
+    "name": "XRP/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "xrp",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'xrp').ReferenceRate }"
+  },
+  {
+    "name": "XTZ/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "xtz",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'xtz').ReferenceRate }"
+  },
+  {
+    "name": "YFI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "yfi",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'yfi').ReferenceRate }"
+  },
+  {
+    "name": "ZIL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "zil",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'zil').ReferenceRate }"
+  },
+  {
+    "name": "ZRX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "zrx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'zrx').ReferenceRate }"
+  },
+  {
+    "name": "MASK/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "mask",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'mask').ReferenceRate }"
+  },
+  {
+    "name": "ENS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ens",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ens').ReferenceRate }"
+  },
+  {
+    "name": "BLUR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "blur",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'blur').ReferenceRate }"
+  },
+  {
+    "name": "BAND/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "band",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'band').ReferenceRate }"
+  },
+  {
+    "name": "UMA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "uma",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'uma').ReferenceRate }"
+  },
+  {
+    "name": "APT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "apt",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'apt').ReferenceRate }"
+  },
+  {
+    "name": "OSMO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "osmo",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'osmo').ReferenceRate }"
+  },
+  {
+    "name": "SUI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "sui",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'sui').ReferenceRate }"
+  },
+  {
+    "name": "GNS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "gns",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'gns').ReferenceRate }"
+  },
+  {
+    "name": "FRAX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "frax",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'frax').ReferenceRate }"
+  },
+  {
+    "name": "crvUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "crvusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'crvusd').ReferenceRate }"
+  },
+  {
+    "name": "LUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "lusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'lusd').ReferenceRate }"
+  },
+  {
+    "name": "GHO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "gho",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'gho').ReferenceRate }"
+  },
+  {
+    "name": "MNT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "mnt",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'mnt').ReferenceRate }"
+  },
+  {
+    "name": "ASTR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "astr",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'astr').ReferenceRate }"
+  },
+  {
+    "name": "KAVA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "kava",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'kava').ReferenceRate }"
+  },
+  {
+    "name": "PYTH/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "pyth",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'pyth').ReferenceRate }"
+  },
+  {
+    "name": "RDNT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rdnt",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'rdnt').ReferenceRate }"
+  },
+  {
+    "name": "RIF/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rif",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'rif').ReferenceRate }"
+  },
+  {
+    "name": "WOO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "woo",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'woo').ReferenceRate }"
+  },
+  {
+    "name": "TIA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "tia",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'tia').ReferenceRate }"
+  },
+  {
+    "name": "DYM/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "dym",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'dym').ReferenceRate }"
+  },
+  {
+    "name": "USDe/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usde",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usde').ReferenceRate }"
+  },
+  {
+    "name": "SEI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "sei",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'sei').ReferenceRate }"
+  },
+  {
+    "name": "AR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ar",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ar').ReferenceRate }"
+  },
+  {
+    "name": "STRK/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "strk",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'strk').ReferenceRate }"
+  },
+  {
+    "name": "AXL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "axl",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'axl').ReferenceRate }"
+  },
+  {
+    "name": "ONDO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ondo",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ondo').ReferenceRate }"
+  },
+  {
+    "name": "MANTA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "manta",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'manta').ReferenceRate }"
+  },
+  {
+    "name": "RON/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ron",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ron').ReferenceRate }"
+  },
+  {
+    "name": "XVS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "xvs",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'xvs').ReferenceRate }"
+  },
+  {
+    "name": "PENDLE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "pendle",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'pendle').ReferenceRate }"
+  },
+  {
+    "name": "TWT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "twt",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'twt').ReferenceRate }"
+  },
+  {
+    "name": "AERO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "aero",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'aero').ReferenceRate }"
+  },
+  {
+    "name": "PYUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "pyusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'pyusd').ReferenceRate }"
+  },
+  {
+    "name": "MERL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "merl",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'merl').ReferenceRate }"
+  },
+  {
+    "name": "ORDI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ordi",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ordi').ReferenceRate }"
+  },
+  {
+    "name": "SATS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "sats",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'sats').ReferenceRate }"
+  },
+  {
+    "name": "NEON/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "neon",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'neon').ReferenceRate }"
+  },
+  {
+    "name": "INJ/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "inj",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'inj').ReferenceRate }"
+  },
+  {
+    "name": "RARI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rari",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'rari').ReferenceRate }"
+  },
+  {
+    "name": "MODE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "mode",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'mode').ReferenceRate }"
+  },
+  {
+    "name": "CORE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "core",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'core').ReferenceRate }"
+  },
+  {
+    "name": "DEGEN/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "degen",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'degen').ReferenceRate }"
+  },
+  {
+    "name": "ENA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ena",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ena').ReferenceRate }"
+  },
+  {
+    "name": "FDUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "fdusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'fdusd').ReferenceRate }"
+  },
+  {
+    "name": "WLD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "wld",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'wld').ReferenceRate }"
+  },
+  {
+    "name": "ETHFI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ethfi",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ethfi').ReferenceRate }"
+  },
+  {
+    "name": "SAFE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "safe",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'safe').ReferenceRate }"
+  },
+  {
+    "name": "TAIKO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "taiko",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'taiko').ReferenceRate }"
+  },
+  {
+    "name": "W/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "w",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'w').ReferenceRate }"
+  },
+  {
+    "name": "BLAST/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "blast",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'blast').ReferenceRate }"
+  },
+  {
+    "name": "ZRO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "zro",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'zro').ReferenceRate }"
+  },
+  {
+    "name": "ZK/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "zk",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'zk').ReferenceRate }"
+  },
+  {
+    "name": "CFX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "cfx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'cfx').ReferenceRate }"
+  },
+  {
+    "name": "RENDER/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "render",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'render').ReferenceRate }"
+  },
+  {
+    "name": "POL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "pol",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'pol').ReferenceRate }"
+  },
+  {
+    "name": "EURC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "eurc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'eurc').ReferenceRate }"
+  },
+  {
+    "name": "AUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ausd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ausd').ReferenceRate }"
+  },
+  {
+    "name": "LUMIA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "lumia",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'lumia').ReferenceRate }"
+  },
+  {
+    "name": "BRETT/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "brett",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'brett').ReferenceRate }"
+  },
+  {
+    "name": "cbBTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "cbbtc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'cbbtc').ReferenceRate }"
+  },
+  {
+    "name": "COOK/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "cook",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'cook').ReferenceRate }"
+  },
+  {
+    "name": "SCR/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "scr",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'scr').ReferenceRate }"
+  },
+  {
+    "name": "SolvBTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "solvbtc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'solvbtc').ReferenceRate }"
+  },
+  {
+    "name": "ZRC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "zrc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'zrc').ReferenceRate }"
+  },
+  {
+    "name": "MORPHO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "morpho",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'morpho').ReferenceRate }"
+  },
+  {
+    "name": "LBTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "lbtc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'lbtc').ReferenceRate }"
+  },
+  {
+    "name": "S/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "s",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 's').ReferenceRate }"
+  },
+  {
+    "name": "VELO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "velo",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'velo').ReferenceRate }"
+  },
+  {
+    "name": "BERA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "bera",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'bera').ReferenceRate }"
+  },
+  {
+    "name": "USDS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usds",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usds').ReferenceRate }"
+  },
+  {
+    "name": "HYPE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "hype",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'hype').ReferenceRate }"
+  },
+  {
+    "name": "VET/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "vet",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'vet').ReferenceRate }"
+  },
+  {
+    "name": "tBTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "tbtc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'tbtc').ReferenceRate }"
+  },
+  {
+    "name": "VTHO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "vtho",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'vtho').ReferenceRate }"
+  },
+  {
+    "name": "MVL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "mvl",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'mvl').ReferenceRate }"
+  },
+  {
+    "name": "VIRTUAL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "virtual",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'virtual').ReferenceRate }"
+  },
+  {
+    "name": "SPK/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "spk",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'spk').ReferenceRate }"
+  },
+  {
+    "name": "SYRUP/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "syrup",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'syrup').ReferenceRate }"
+  },
+  {
+    "name": "RESOLV/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "resolv",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'resolv').ReferenceRate }"
+  },
+  {
+    "name": "XAUt/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "xaut",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'xaut').ReferenceRate }"
+  },
+  {
+    "name": "USD1/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usd1",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usd1').ReferenceRate }"
+  },
+  {
+    "name": "USDY/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usdy",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usdy').ReferenceRate }"
+  },
+  {
+    "name": "USD0/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usd0",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usd0').ReferenceRate }"
+  },
+  {
+    "name": "RLUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rlusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'rlusd').ReferenceRate }"
+  },
+  {
+    "name": "USDD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usdd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usdd').ReferenceRate }"
+  },
+  {
+    "name": "USDG/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "usdg",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'usdg').ReferenceRate }"
+  },
+  {
+    "name": "BUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "busd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'busd').ReferenceRate }"
+  },
+  {
+    "name": "WELL/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "well",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'well').ReferenceRate }"
+  },
+  {
+    "name": "ATH/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ath",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'ath').ReferenceRate }"
+  },
+  {
+    "name": "SLP/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "slp",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'slp').ReferenceRate }"
+  },
+  {
+    "name": "SOMI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "somi",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'somi').ReferenceRate }"
+  },
+  {
+    "name": "LINEA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "linea",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'linea').ReferenceRate }"
+  },
+  {
+    "name": "ZKC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "zkc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'zkc').ReferenceRate }"
+  }
+]
