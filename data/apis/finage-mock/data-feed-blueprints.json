@@ -1084,5 +1084,11 @@
     "path": "last/crypto/ZKCUSD",
     "parameters": {},
     "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "CLO/USD",
+    "path": "last/crypto/CLOUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
   }
 ]

@@ -1286,5 +1286,13 @@
       "pairs": "ZKC-USD"
     },
     "parser": "(response) => {\n              return response.rates['ZKC-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "CLO/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "CLO-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['CLO-USD'].rate\n            }\n            "
   }
 ]

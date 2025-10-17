@@ -1478,5 +1478,13 @@
       "symbols": "ZKC/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ZKC/USD').price\n        }"
+  },
+  {
+    "name": "CLO/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "CLO/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CLO/USD').price\n        }"
   }
 ]

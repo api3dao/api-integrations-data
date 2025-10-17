@@ -1494,5 +1494,13 @@
       "quotes": "USD"
     },
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "CLO/USD",
+    "path": "tickers/clo-yei-finance",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   }
 ]

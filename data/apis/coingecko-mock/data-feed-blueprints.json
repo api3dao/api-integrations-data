@@ -1681,5 +1681,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['boundless']['usd']\n            }"
+  },
+  {
+    "name": "CLO/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "yei-finance",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['yei-finance']['usd']\n            }"
   }
 ]
