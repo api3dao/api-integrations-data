@@ -112,14 +112,6 @@
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
-    "name": "AXL/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/ico-axelar",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "AXS/USD",
     "parameters": {
       "quotes": "USD"
@@ -214,14 +206,6 @@
     },
     "path": "tickers/celo-celo",
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
-    "name": "CFX/USD",
-    "path": "tickers/cfx-conflux-network",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
   },
   {
     "name": "CHZ/USD",
@@ -400,14 +384,6 @@
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
-    "name": "FLOW/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/flow-flow",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "FRAX/USD",
     "parameters": {
       "quotes": "USD"
@@ -520,14 +496,6 @@
     "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
   },
   {
-    "name": "JOE/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/joe-trader-joe",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "KAVA/USD",
     "parameters": {
       "quotes": "USD"
@@ -541,14 +509,6 @@
       "quotes": "USD"
     },
     "path": "tickers/kda-kadena",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
-    "name": "KSM/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/ksm-kusama",
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
@@ -598,14 +558,6 @@
       "quotes": "USD"
     },
     "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-  },
-  {
-    "name": "LUSD/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/lusd-liquity-usd",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
     "name": "MANA/USD",
@@ -704,14 +656,6 @@
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
-    "name": "NEON/USD",
-    "path": "tickers/neon-neon-evm",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-  },
-  {
     "name": "OKB/USD",
     "parameters": {
       "quotes": "USD"
@@ -744,14 +688,6 @@
     "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
   },
   {
-    "name": "OSMO/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/osmo-osmosis",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "PAXG/USD",
     "parameters": {
       "quotes": "USD"
@@ -776,14 +712,6 @@
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
-    "name": "PYTH/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/pyth-pyth-network",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "PYUSD/USD",
     "path": "tickers/pyusd-paypal-usd",
     "parameters": {
@@ -798,14 +726,6 @@
     },
     "path": "tickers/quick-quickswap-v2",
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
-    "name": "RARI/USD",
-    "path": "tickers/rari-rarible",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
   },
   {
     "name": "RDNT/USD",
@@ -824,27 +744,11 @@
     "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
   },
   {
-    "name": "RIF/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/rif-rif-token",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "RON/USD",
     "parameters": {
       "quotes": "USD"
     },
     "path": "tickers/ron-ronin-token",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
-    "name": "ROSE/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/rose-oasis-network",
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
@@ -861,14 +765,6 @@
       "quotes": "USD"
     },
     "path": "tickers/rsr-reserve-rights",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
-    "name": "RUNE/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/rune-thorchain",
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
@@ -894,14 +790,6 @@
     },
     "path": "tickers/sand-the-sandbox",
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
-    "name": "SATS/USD",
-    "path": "tickers/sats-sats-ordinals",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
   },
   {
     "name": "SCR/USD",
@@ -1112,14 +1000,6 @@
     "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
   },
   {
-    "name": "W/USD",
-    "path": "tickers/w-wormhole",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-  },
-  {
     "name": "WBTC/USD",
     "parameters": {
       "quotes": "USD"
@@ -1214,14 +1094,6 @@
       "quotes": "USD"
     },
     "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
-  },
-  {
-    "name": "ZRX/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/zrx-0x",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
     "name": "cbBTC/USD",

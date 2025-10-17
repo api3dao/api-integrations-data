@@ -84,12 +84,6 @@
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
-    "name": "AXL/USD",
-    "parameters": {},
-    "path": "last/crypto/AXLUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "AXS/USD",
     "parameters": {},
     "path": "last/crypto/AXSUSD",
@@ -160,12 +154,6 @@
     "parameters": {},
     "path": "last/crypto/CELOUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
-    "name": "CFX/USD",
-    "path": "last/crypto/CFXUSD",
-    "parameters": {},
-    "parser": "(response) => {\n          return response.price\n        }\n        "
   },
   {
     "name": "CHZ/USD",
@@ -300,12 +288,6 @@
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
-    "name": "FLOW/USD",
-    "parameters": {},
-    "path": "last/crypto/FLOWUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "FRAX/USD",
     "parameters": {},
     "path": "last/crypto/FRAXUSD",
@@ -390,12 +372,6 @@
     "parser": "(response) => {\n          return response.price\n        }\n        "
   },
   {
-    "name": "JOE/USD",
-    "parameters": {},
-    "path": "last/crypto/JOEUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "KAVA/USD",
     "parameters": {},
     "path": "last/crypto/KAVAUSD",
@@ -405,12 +381,6 @@
     "name": "KDA/USD",
     "parameters": {},
     "path": "last/crypto/KDAUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
-    "name": "KSM/USD",
-    "parameters": {},
-    "path": "last/crypto/KSMUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
@@ -448,12 +418,6 @@
     "path": "last/crypto/LUMIAUSD",
     "parameters": {},
     "parser": "(response) => {\n          return response.price\n        }\n        "
-  },
-  {
-    "name": "LUSD/USD",
-    "parameters": {},
-    "path": "last/crypto/LUSDUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
     "name": "MANA/USD",
@@ -516,12 +480,6 @@
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
-    "name": "NEON/USD",
-    "path": "last/crypto/NEONUSD",
-    "parameters": {},
-    "parser": "(response) => {\n          return response.price\n        }\n        "
-  },
-  {
     "name": "OKB/USD",
     "parameters": {},
     "path": "last/crypto/OKBUSD",
@@ -546,12 +504,6 @@
     "parser": "(response) => {\n          return response.price\n        }\n        "
   },
   {
-    "name": "OSMO/USD",
-    "parameters": {},
-    "path": "last/crypto/OSMOUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "PAXG/USD",
     "parameters": {},
     "path": "last/crypto/PAXGUSD",
@@ -570,12 +522,6 @@
     "parser": "(response) => {\n          return response.price\n        }\n        "
   },
   {
-    "name": "PYTH/USD",
-    "parameters": {},
-    "path": "last/crypto/PYTHUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "PYUSD/USD",
     "path": "last/crypto/PYUSDUSD",
     "parameters": {},
@@ -586,12 +532,6 @@
     "parameters": {},
     "path": "last/crypto/QUICKUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
-    "name": "RARI/USD",
-    "path": "last/crypto/RARIUSD",
-    "parameters": {},
-    "parser": "(response) => {\n          return response.price\n        }\n        "
   },
   {
     "name": "RDNT/USD",
@@ -606,21 +546,9 @@
     "parser": "(response) => {\n          return response.price\n        }\n        "
   },
   {
-    "name": "RIF/USD",
-    "parameters": {},
-    "path": "last/crypto/RIFUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "RON/USD",
     "parameters": {},
     "path": "last/crypto/RONUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
-    "name": "ROSE/USD",
-    "parameters": {},
-    "path": "last/crypto/ROSEUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
@@ -633,12 +561,6 @@
     "name": "RSR/USD",
     "parameters": {},
     "path": "last/crypto/RSRUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
-    "name": "RUNE/USD",
-    "parameters": {},
-    "path": "last/crypto/RUNEUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
@@ -658,12 +580,6 @@
     "parameters": {},
     "path": "last/crypto/SANDUSD",
     "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
-    "name": "SATS/USD",
-    "path": "last/crypto/SATSUSD",
-    "parameters": {},
-    "parser": "(response) => {\n          return response.price\n        }\n        "
   },
   {
     "name": "SCR/USD",
@@ -822,12 +738,6 @@
     "parser": "(response) => {\n          return response.price\n        }\n        "
   },
   {
-    "name": "W/USD",
-    "path": "last/crypto/WUSD",
-    "parameters": {},
-    "parser": "(response) => {\n          return response.price\n        }\n        "
-  },
-  {
     "name": "WBTC/USD",
     "parameters": {},
     "path": "last/crypto/WBTCUSD",
@@ -898,12 +808,6 @@
     "path": "last/crypto/ZROUSD",
     "parameters": {},
     "parser": "(response) => {\n          return response.price\n        }\n        "
-  },
-  {
-    "name": "ZRX/USD",
-    "parameters": {},
-    "path": "last/crypto/ZRXUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
     "name": "cbBTC/USD",

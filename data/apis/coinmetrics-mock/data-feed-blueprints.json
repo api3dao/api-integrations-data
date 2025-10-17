@@ -324,18 +324,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'fil').ReferenceRate }"
   },
   {
-    "name": "FLOW/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "flow",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'flow').ReferenceRate }"
-  },
-  {
     "name": "FXS/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -444,18 +432,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'imx').ReferenceRate }"
   },
   {
-    "name": "JOE/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "joe",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'joe').ReferenceRate }"
-  },
-  {
     "name": "KDA/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -466,18 +442,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'kda').ReferenceRate }"
-  },
-  {
-    "name": "KSM/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "ksm",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'ksm').ReferenceRate }"
   },
   {
     "name": "LDO/USD",
@@ -624,18 +588,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'quick').ReferenceRate }"
   },
   {
-    "name": "ROSE/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "rose",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'rose').ReferenceRate }"
-  },
-  {
     "name": "RPL/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -658,18 +610,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'rsr').ReferenceRate }"
-  },
-  {
-    "name": "RUNE/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "rune",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'rune').ReferenceRate }"
   },
   {
     "name": "SAND/USD",
@@ -900,18 +840,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'zil').ReferenceRate }"
   },
   {
-    "name": "ZRX/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "zrx",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'zrx').ReferenceRate }"
-  },
-  {
     "name": "MASK/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -984,18 +912,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'apt').ReferenceRate }"
   },
   {
-    "name": "OSMO/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "osmo",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'osmo').ReferenceRate }"
-  },
-  {
     "name": "SUI/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -1042,18 +958,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'crvusd').ReferenceRate }"
-  },
-  {
-    "name": "LUSD/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "lusd",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'lusd').ReferenceRate }"
   },
   {
     "name": "GHO/USD",
@@ -1104,18 +1008,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'kava').ReferenceRate }"
   },
   {
-    "name": "PYTH/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "pyth",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'pyth').ReferenceRate }"
-  },
-  {
     "name": "RDNT/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -1126,18 +1018,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'rdnt').ReferenceRate }"
-  },
-  {
-    "name": "RIF/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "rif",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'rif').ReferenceRate }"
   },
   {
     "name": "WOO/USD",
@@ -1222,18 +1102,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'strk').ReferenceRate }"
-  },
-  {
-    "name": "AXL/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "axl",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'axl').ReferenceRate }"
   },
   {
     "name": "ONDO/USD",
@@ -1356,30 +1224,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'ordi').ReferenceRate }"
   },
   {
-    "name": "SATS/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "sats",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'sats').ReferenceRate }"
-  },
-  {
-    "name": "NEON/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "neon",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'neon').ReferenceRate }"
-  },
-  {
     "name": "INJ/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -1390,18 +1234,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'inj').ReferenceRate }"
-  },
-  {
-    "name": "RARI/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "rari",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'rari').ReferenceRate }"
   },
   {
     "name": "MODE/USD",
@@ -1512,18 +1344,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'taiko').ReferenceRate }"
   },
   {
-    "name": "W/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "w",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'w').ReferenceRate }"
-  },
-  {
     "name": "BLAST/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -1558,18 +1378,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'zk').ReferenceRate }"
-  },
-  {
-    "name": "CFX/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "cfx",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'cfx').ReferenceRate }"
   },
   {
     "name": "RENDER/USD",

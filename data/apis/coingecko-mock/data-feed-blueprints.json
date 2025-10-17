@@ -126,15 +126,6 @@
     "parser": "(response) => {\n              return response['avalanche-2']['usd']\n            }"
   },
   {
-    "name": "AXL/USD",
-    "parameters": {
-      "ids": "axelar",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['axelar']['usd']\n            }"
-  },
-  {
     "name": "AXS/USD",
     "parameters": {
       "ids": "axie-infinity",
@@ -241,15 +232,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['celo']['usd']\n            }"
-  },
-  {
-    "name": "CFX/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "conflux-token",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['conflux-token']['usd']\n        }\n        "
   },
   {
     "name": "CHZ/USD",
@@ -450,15 +432,6 @@
     "parser": "(response) => {\n              return response['filecoin']['usd']\n            }"
   },
   {
-    "name": "FLOW/USD",
-    "parameters": {
-      "ids": "flow",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['flow']['usd']\n            }"
-  },
-  {
     "name": "FRAX/USD",
     "parameters": {
       "ids": "frax",
@@ -585,15 +558,6 @@
     "parser": "(response) => {\n          return response['injective-protocol']['usd']\n        }\n        "
   },
   {
-    "name": "JOE/USD",
-    "parameters": {
-      "ids": "joe",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['joe']['usd']\n            }"
-  },
-  {
     "name": "KAVA/USD",
     "parameters": {
       "ids": "kava",
@@ -610,15 +574,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['kadena']['usd']\n            }"
-  },
-  {
-    "name": "KSM/USD",
-    "parameters": {
-      "ids": "kusama",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['kusama']['usd']\n            }"
   },
   {
     "name": "LBTC/USD",
@@ -673,15 +628,6 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n          return response['lumia']['usd']\n        }\n        "
-  },
-  {
-    "name": "LUSD/USD",
-    "parameters": {
-      "ids": "liquity-usd",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['liquity-usd']['usd']\n            }"
   },
   {
     "name": "MANA/USD",
@@ -792,15 +738,6 @@
     "parser": "(response) => {\n              return response['near']['usd']\n            }"
   },
   {
-    "name": "NEON/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "neon",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['neon']['usd']\n        }\n        "
-  },
-  {
     "name": "OKB/USD",
     "parameters": {
       "ids": "okb",
@@ -837,15 +774,6 @@
     "parser": "(response) => {\n          return response['ordinals']['usd']\n        }\n        "
   },
   {
-    "name": "OSMO/USD",
-    "parameters": {
-      "ids": "osmosis",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['osmosis']['usd']\n            }"
-  },
-  {
     "name": "PAXG/USD",
     "parameters": {
       "ids": "pax-gold",
@@ -873,15 +801,6 @@
     "parser": "(response) => {\n          return response['polygon-ecosystem-token']['usd']\n        }\n        "
   },
   {
-    "name": "PYTH/USD",
-    "parameters": {
-      "ids": "pyth-network",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['pyth-network']['usd']\n            }"
-  },
-  {
     "name": "PYUSD/USD",
     "path": "simple/price",
     "parameters": {
@@ -898,15 +817,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['quickswap']['usd']\n            }"
-  },
-  {
-    "name": "RARI/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "rarible",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['rarible']['usd']\n        }\n        "
   },
   {
     "name": "RDNT/USD",
@@ -927,15 +837,6 @@
     "parser": "(response) => {\n          return response['render-token']['usd']\n        }\n        "
   },
   {
-    "name": "RIF/USD",
-    "parameters": {
-      "ids": "rif-token",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['rif-token']['usd']\n            }"
-  },
-  {
     "name": "RON/USD",
     "parameters": {
       "ids": "ronin",
@@ -943,15 +844,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['ronin']['usd']\n            }"
-  },
-  {
-    "name": "ROSE/USD",
-    "parameters": {
-      "ids": "oasis-network",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['oasis-network']['usd']\n            }"
   },
   {
     "name": "RPL/USD",
@@ -970,15 +862,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['reserve-rights-token']['usd']\n            }"
-  },
-  {
-    "name": "RUNE/USD",
-    "parameters": {
-      "ids": "thorchain",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['thorchain']['usd']\n            }"
   },
   {
     "name": "S/USD",
@@ -1006,15 +889,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['the-sandbox']['usd']\n            }"
-  },
-  {
-    "name": "SATS/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "sats-ordinals",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['sats-ordinals']['usd']\n        }\n        "
   },
   {
     "name": "SCR/USD",
@@ -1251,15 +1125,6 @@
     "parser": "(response) => {\n          return response['vethor-token']['usd']\n        }\n        "
   },
   {
-    "name": "W/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "wormhole",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['wormhole']['usd']\n        }\n        "
-  },
-  {
     "name": "WBTC/USD",
     "parameters": {
       "ids": "wrapped-bitcoin",
@@ -1366,15 +1231,6 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n          return response['layerzero']['usd']\n        }\n        "
-  },
-  {
-    "name": "ZRX/USD",
-    "parameters": {
-      "ids": "0x",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['0x']['usd']\n            }"
   },
   {
     "name": "cbBTC/USD",
