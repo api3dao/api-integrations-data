@@ -579,13 +579,13 @@
     "name": "QUICK/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
-      "assets": "quick",
+      "assets": "quick_new",
       "metrics": "ReferenceRate",
       "frequency": "1s",
       "limit_per_asset": "1",
       "page_size": "2000"
     },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'quick').ReferenceRate }"
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'quick_new').ReferenceRate }"
   },
   {
     "name": "RPL/USD",
@@ -1551,13 +1551,13 @@
     "name": "VELO/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
-      "assets": "velo",
+      "assets": "velo_velodromefinance",
       "metrics": "ReferenceRate",
       "frequency": "1s",
       "limit_per_asset": "1",
       "page_size": "2000"
     },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'velo').ReferenceRate }"
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'velo_velodromefinance').ReferenceRate }"
   },
   {
     "name": "BERA/USD",
