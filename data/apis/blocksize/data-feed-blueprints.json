@@ -1006,5 +1006,23 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['SOMIUSD'].price; }"
+  },
+  {
+    "name": "LINEA/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['LINEAUSD'].price; }"
+  },
+  {
+    "name": "ZKC/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['ZKCUSD'].price; }"
+  },
+  {
+    "name": "CLO/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['CLOUSD'].price; }"
   }
 ]

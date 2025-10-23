@@ -169,7 +169,10 @@
       ["ATH/USD"],
       ["SKY/USD"],
       ["SLP/USD"],
-      ["SOMI/USD"]
+      ["SOMI/USD"],
+      ["LINEA/USD"],
+      ["ZKC/USD"],
+      ["CLO/USD"]
     ]
   },
   "homepageUrl": "https://finage.co.uk",

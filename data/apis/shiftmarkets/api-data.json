@@ -181,7 +181,10 @@
         "SKY/USD",
         "SLP/USD",
         "RLP/USD",
-        "SOMI/USD"
+        "SOMI/USD",
+        "LINEA/USD",
+        "ZKC/USD",
+        "CLO/USD"
       ]
     ]
   },

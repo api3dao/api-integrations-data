@@ -151,7 +151,11 @@
         "WELL/USD",
         "ATH/USD",
         "SKY/USD",
-        "SLP/USD"
+        "SLP/USD",
+        "SOMI/USD",
+        "LINEA/USD",
+        "ZKC/USD",
+        "CLO/USD"
       ]
     ]
   },
