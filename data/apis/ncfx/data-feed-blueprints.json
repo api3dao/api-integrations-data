@@ -1182,5 +1182,13 @@
       "pairs": "CLO-USD"
     },
     "parser": "(response) => {\n              return response.rates['CLO-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "KSM/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "KSM-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['KSM-USD'].rate\n            }\n            "
   }
 ]

@@ -1606,5 +1606,13 @@
       "name": "CLO/USD"
     },
     "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "KSM/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "KSM/USD"
+    },
+    "parser": "(response) => {\n              return response.value;\n            }\n            "
   }
 ]

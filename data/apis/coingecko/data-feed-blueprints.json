@@ -1546,5 +1546,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['yei-finance']['usd']\n            }"
+  },
+  {
+    "name": "KSM/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "kusama",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['kusama']['usd']\n            }"
   }
 ]

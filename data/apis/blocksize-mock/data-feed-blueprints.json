@@ -1024,5 +1024,11 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['CLOUSD'].price; }"
+  },
+  {
+    "name": "KSM/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['KSMUSD'].price; }"
   }
 ]

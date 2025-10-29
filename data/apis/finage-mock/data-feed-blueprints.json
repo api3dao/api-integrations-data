@@ -994,5 +994,11 @@
     "path": "last/crypto/CLOUSD",
     "parameters": {},
     "parser": "(response) => {\n              return response.price\n            }\n            "
+  },
+  {
+    "name": "KSM/USD",
+    "path": "last/crypto/KSMUSD",
+    "parameters": {},
+    "parser": "(response) => {\n              return response.price\n            }\n            "
   }
 ]
