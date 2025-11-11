@@ -378,12 +378,6 @@
     "parser": "(response) => {\n              return response.price\n            }\n            "
   },
   {
-    "name": "KDA/USD",
-    "parameters": {},
-    "path": "last/crypto/KDAUSD",
-    "parser": "(response) => {\n              return response.price\n            }\n            "
-  },
-  {
     "name": "LBTC/USD",
     "path": "last/crypto/LBTCUSD",
     "parameters": {},

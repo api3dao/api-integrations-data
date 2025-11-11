@@ -464,14 +464,6 @@
     "parser": "(response) => {\n              return response.rates['KAVA-USD'].rate\n            }\n            "
   },
   {
-    "name": "KDA/USD",
-    "parameters": {
-      "pairs": "KDA-USD"
-    },
-    "path": "live/midrate/v1/rates",
-    "parser": "(response) => {\n              return response.rates['KDA-USD'].rate\n            }\n            "
-  },
-  {
     "name": "LDO/USD",
     "parameters": {
       "pairs": "LDO-USD"

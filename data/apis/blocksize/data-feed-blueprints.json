@@ -372,12 +372,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['KAVAUSD'].price; }"
   },
   {
-    "name": "KDA/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['KDAUSD'].price; }"
-  },
-  {
     "name": "LBTC/USD",
     "path": "getBulkVWAP",
     "parameters": {},

@@ -504,14 +504,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'KAVA/USD').price\n        }"
   },
   {
-    "name": "KDA/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "KDA/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'KDA/USD').price\n        }"
-  },
-  {
     "name": "LBTC/USD",
     "path": "v1/price",
     "parameters": {

@@ -504,14 +504,6 @@
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
-    "name": "KDA/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/kda-kadena",
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "LBTC/USD",
     "parameters": {
       "quotes": "USD"

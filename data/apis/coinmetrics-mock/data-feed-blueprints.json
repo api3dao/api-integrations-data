@@ -432,18 +432,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'imx').ReferenceRate }"
   },
   {
-    "name": "KDA/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "kda",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'kda').ReferenceRate }"
-  },
-  {
     "name": "LDO/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {

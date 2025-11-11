@@ -528,14 +528,6 @@
     "parser": "(response) => {\n              return response.value;\n            }\n            "
   },
   {
-    "name": "KDA/USD",
-    "parameters": {
-      "name": "KDA/USD"
-    },
-    "path": "feed/latest",
-    "parser": "(response) => {\n              return response.value;\n            }\n            "
-  },
-  {
     "name": "LBTC/USD",
     "path": "feed/latest",
     "parameters": {
