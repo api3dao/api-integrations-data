@@ -4,7 +4,13 @@
   "version": "1.0.0",
   "apiSpecifications": {
     "components": {
-      "securitySchemes": {}
+      "securitySchemes": {
+        "BlocksizeSecurityScheme1ApiKey": {
+          "in": "header",
+          "name": "X-API-Key",
+          "type": "apiKey"
+        }
+      }
     },
     "paths": {
       "/{path}": {
@@ -23,7 +29,9 @@
         "url": "https://realtime.blocksize.info"
       }
     ],
-    "security": {}
+    "security": {
+      "BlocksizeSecurityScheme1ApiKey": []
+    }
   },
   "endpoints": [
     {
