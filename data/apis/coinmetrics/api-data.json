@@ -1,10 +1,10 @@
 {
-  "alias": "coinmetrics-mock",
-  "name": "Coin Metrics-Mock",
+  "alias": "coinmetrics",
+  "name": "Coin Metrics",
   "providerType": "rest",
-  "airnode": "0xdc34ada68055EEa2221DdafaF4bcBB8ddBD6CC7d",
+  "airnode": "0xF871fb16191352E5Ad43183a996a9AA9Fd0d933b",
   "previousAirnodes": [],
-  "xpub": "",
+  "xpub": "xpub6BovcdUTfX95F76bAsxQaSCcaZBnC3AhTTdbNiYFuPA8Qfh29L9Rxwd33eFJuspABQPoh5WwN3brbcX7RFcedxA7a19gcjvhdgB5CXM3ojz",
   "supportedFeedsInBatches": {
     "CoinMetrics": [
       [
@@ -168,19 +168,37 @@
       ]
     ]
   },
-  "homepageUrl": "",
-  "verifiedBaseUrl": "",
-  "signedApiUrl": "",
-  "productionSignedApiUrls": [],
+  "homepageUrl": "https://coinmetrics.io",
+  "verifiedBaseUrl": "https://api.coinmetrics.io",
+  "signedApiUrl": "https://signed-api.coinmetrics.io",
+  "productionSignedApiUrls": [
+    {
+      "url": "https://signed-api.nodary.io",
+      "name": "Nodary"
+    },
+    {
+      "url": "https://signed-api.api3.org",
+      "name": "API3"
+    },
+    {
+      "url": "http://signed-api.self.internal",
+      "name": "Self"
+    }
+  ],
   "stagingSignedApiUrl": {
     "name": "Nodary",
     "url": "https://signed-api.nodary.io"
   },
   "deploymentConfigurations": [
     {
+      "signedApi": true,
+      "region": "us-east-2",
+      "provider": "aws"
+    },
+    {
       "signedApi": false,
-      "region": "",
-      "provider": "local"
+      "region": "eu-west-2",
+      "provider": "aws"
     }
   ]
 }
