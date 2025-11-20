@@ -1750,9 +1750,9 @@
   },
   "signedApis": [
     {
-      "name": "Nodary",
-      "url": "https://signed-api.nodary.io",
-      "authToken": "${AUTH_TOKEN_NODARY}"
+      "name": "Staging",
+      "url": "https://signed-api.stage.nodary.io",
+      "authToken": "${AUTH_TOKEN_STAGING}"
     }
   ],
   "ois": [

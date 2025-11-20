@@ -186,8 +186,8 @@
     }
   ],
   "stagingSignedApiUrl": {
-    "name": "Nodary",
-    "url": "https://signed-api.nodary.io"
+    "url": "https://signed-api.stage.nodary.io",
+    "name": "Staging"
   },
   "deploymentConfigurations": [
     {
