@@ -44,7 +44,8 @@
         "sfrxUSD/frxUSD Exchange Rate",
         "osETH/ETH Exchange Rate",
         "syrupUSDC/USDC Exchange Rate",
-        "wsrUSD/rUSD Exchange Rate"
+        "wsrUSD/rUSD Exchange Rate",
+        "tETH/wstETH Exchange Rate"
       ],
       ["wBETH/ETH Exchange Rate", "slisBNB/BNB Exchange Rate", "BNBx/BNB Exchange Rate"],
       ["sAVAX/AVAX Exchange Rate"],

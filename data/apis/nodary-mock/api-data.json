@@ -207,7 +207,8 @@
       ["LINEA/USD"],
       ["ZKC/USD"],
       ["CLO/USD"],
-      ["KSM/USD"]
+      ["KSM/USD"],
+      ["tETH/wstETH Exchange Rate"]
     ]
   },
   "homepageUrl": "",
