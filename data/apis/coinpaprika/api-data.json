@@ -2,9 +2,14 @@
   "alias": "coinpaprika",
   "name": "CoinPaprika",
   "providerType": "rest",
-  "airnode": "0xC9B494D3c6eA3fD42779Df9A136Db10374c98D80",
-  "previousAirnodes": [],
-  "xpub": "xpub6D5v1hEMboS7g4TPs6PUNvChbPof3yvmuTQtPgaVtdz6PorVwy8DfUvdowKWYbMRvvoq4Qt3L2WBGJQDwKevuyrHJVUJAGapo2FkatVG9Ch",
+  "airnode": "0x8131738b22aE987991c3C99a43e119456880B8eF",
+  "previousAirnodes": [
+    {
+      "expiryTimestamp": 1765260845,
+      "airnodeAddress": "0xC9B494D3c6eA3fD42779Df9A136Db10374c98D80"
+    }
+  ],
+  "xpub": "xpub6CGu3GHaYmRvDic7WsZhi52zc6Ceg6LzC8KqpPcU7dQbUZjCR9N4D3py8wPAJrHuGayVx7jKsN9XfRzeGNmhd7vA1ukXTsFZeutSqBJiTUY",
   "supportedFeedsInBatches": {
     "Coinpaprika": [
       ["AAVE/USD"],
