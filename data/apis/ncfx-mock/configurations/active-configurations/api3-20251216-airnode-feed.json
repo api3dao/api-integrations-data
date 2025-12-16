@@ -1,7 +1,7 @@
 {
   "nodeSettings": {
     "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
-    "nodeVersion": "3.3.0",
+    "nodeVersion": "4.0.1",
     "stage": "${STAGE}"
   },
   "templates": {
@@ -1097,7 +1097,7 @@
   ],
   "ois": [
     {
-      "oisFormat": "2.3.0",
+      "oisFormat": "3.0.0",
       "title": "NewChangeFX-Crypto",
       "version": "0.1.0",
       "apiSpecifications": {
