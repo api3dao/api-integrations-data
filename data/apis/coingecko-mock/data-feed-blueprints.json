@@ -1087,5 +1087,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['kusama']['usd']\n            }"
+  },
+  {
+    "name": "FLUID/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "instadapp",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['instadapp']['usd']\n            }"
   }
 ]

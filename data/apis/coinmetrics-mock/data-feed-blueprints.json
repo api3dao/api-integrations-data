@@ -1270,5 +1270,17 @@
       "page_size": "2000"
     },
     "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'usdf').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "FLUID/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "fluid",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'fluid').ReferenceRate\n        }\n        "
   }
 ]

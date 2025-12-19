@@ -718,5 +718,11 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['KSMUSD'].price; }"
+  },
+  {
+    "name": "FLUID/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['FLUIDUSD'].price; }"
   }
 ]

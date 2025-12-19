@@ -966,5 +966,13 @@
       "symbols": "KSM/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'KSM/USD').price\n        }"
+  },
+  {
+    "name": "FLUID/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "FLUID/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'FLUID/USD').price\n        }\n        "
   }
 ]

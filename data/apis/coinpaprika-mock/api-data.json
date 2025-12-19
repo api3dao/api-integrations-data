@@ -127,7 +127,8 @@
       ["LINEA/USD"],
       ["ZKC/USD"],
       ["CLO/USD"],
-      ["KSM/USD"]
+      ["KSM/USD"],
+      ["FLUID/USD"]
     ]
   },
   "homepageUrl": "",
