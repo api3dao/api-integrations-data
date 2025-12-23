@@ -774,5 +774,13 @@
       "pairs": "KSM-USD"
     },
     "parser": "(response) => {\n              return response.rates['KSM-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "FLUID/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "FLUID-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['FLUID-USD'].rate\n        }\n        "
   }
 ]
