@@ -1182,5 +1182,45 @@
       "name": "tETH/wstETH Exchange Rate"
     },
     "parser": "(response) => {\n          const result = response.value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
+  },
+  {
+    "name": "FLUID/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "FLUID/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "PEPE/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "PEPE/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "Mog/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "Mog/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "FLOKI/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "FLOKI/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "SPX/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "SPX/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
   }
 ]
