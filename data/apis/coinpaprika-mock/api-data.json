@@ -128,7 +128,11 @@
       ["ZKC/USD"],
       ["CLO/USD"],
       ["KSM/USD"],
-      ["FLUID/USD"]
+      ["FLUID/USD"],
+      ["PEPE/USD"],
+      ["Mog/USD"],
+      ["FLOKI/USD"],
+      ["SPX/USD"]
     ]
   },
   "homepageUrl": "",

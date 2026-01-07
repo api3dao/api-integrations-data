@@ -13,7 +13,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "APE/USD",
@@ -85,7 +85,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "BNB/USD",
@@ -149,7 +149,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "CRO/USD",
@@ -189,7 +189,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "DOT/USD",
@@ -213,7 +213,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "ETH/USD",
@@ -229,7 +229,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "EURC/USD",
@@ -237,7 +237,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "EURe/USD",
@@ -261,7 +261,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "FRAX/USD",
@@ -325,7 +325,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "KAVA/USD",
@@ -365,7 +365,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "MANTA/USD",
@@ -381,7 +381,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "MNT/USD",
@@ -397,7 +397,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "MORPHO/USD",
@@ -421,7 +421,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "MVL/USD",
@@ -429,7 +429,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "OKB/USD",
@@ -485,7 +485,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "QUICK/USD",
@@ -517,7 +517,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "SAFE/USD",
@@ -525,7 +525,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "SCR/USD",
@@ -573,7 +573,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "TUSD/USD",
@@ -637,7 +637,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "WBTC/USD",
@@ -653,7 +653,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "XRP/USD",
@@ -677,7 +677,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "ZRC/USD",
@@ -693,7 +693,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   },
   {
     "name": "cbBTC/USD",
@@ -974,5 +974,37 @@
       "quotes": "USD"
     },
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "PEPE/USD",
+    "path": "tickers/pepe-pepe",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
+  },
+  {
+    "name": "Mog/USD",
+    "path": "tickers/mog-mog-coin",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
+  },
+  {
+    "name": "FLOKI/USD",
+    "path": "tickers/floki-floki-inu",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
+  },
+  {
+    "name": "SPX/USD",
+    "path": "tickers/spx-spx6900",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n        }"
   }
 ]

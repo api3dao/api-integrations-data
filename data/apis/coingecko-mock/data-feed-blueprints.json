@@ -1096,5 +1096,41 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['instadapp']['usd']\n            }"
+  },
+  {
+    "name": "PEPE/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "pepe",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n          return response['pepe']['usd']\n        }\n        "
+  },
+  {
+    "name": "Mog/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "mog-coin",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n          return response['mog-coin']['usd']\n        }\n        "
+  },
+  {
+    "name": "FLOKI/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "floki",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n          return response['floki']['usd']\n        }\n        "
+  },
+  {
+    "name": "SPX/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "spx6900",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n          return response['spx6900']['usd']\n        }\n        "
   }
 ]
