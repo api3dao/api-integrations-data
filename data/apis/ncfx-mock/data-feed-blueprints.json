@@ -814,5 +814,13 @@
       "pairs": "SPX-USD"
     },
     "parser": "(response) => {\n          return response.rates['SPX-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "AXS/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "AXS-USD"
+    },
+    "parser": "(response) => {\n          return response.rates['AXS-USD'].rate\n        }\n        "
   }
 ]

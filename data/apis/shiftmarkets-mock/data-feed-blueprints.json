@@ -1006,5 +1006,13 @@
       "symbols": "SPX6900/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SPX6900/USD').price\n        }\n        "
+  },
+  {
+    "name": "AXS/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "AXS/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'AXS/USD').price\n        }\n        "
   }
 ]

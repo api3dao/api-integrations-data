@@ -1132,5 +1132,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n          return response['spx6900']['usd']\n        }\n        "
+  },
+  {
+    "name": "AXS/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "axie-infinity",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n          return response['axie-infinity']['usd']\n        }\n        "
   }
 ]

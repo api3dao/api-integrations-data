@@ -1222,5 +1222,13 @@
       "name": "SPX/USD"
     },
     "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "AXS/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "AXS/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
   }
 ]

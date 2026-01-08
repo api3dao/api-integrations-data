@@ -748,5 +748,11 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['SPX6900USD'].price\n        }\n        "
+  },
+  {
+    "name": "AXS/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['AXSUSD'].price\n        }\n        "
   }
 ]
