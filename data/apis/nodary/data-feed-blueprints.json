@@ -1230,5 +1230,13 @@
       "name": "AXS/USD"
     },
     "parser": "(response) => {\n          return response.value\n        }\n        "
+  },
+  {
+    "name": "EIGEN/USD",
+    "path": "feed/latest",
+    "parameters": {
+      "name": "EIGEN/USD"
+    },
+    "parser": "(response) => {\n          return response.value\n        }\n        "
   }
 ]
