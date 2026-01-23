@@ -718,5 +718,47 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['KSMUSD'].price; }"
+  },
+  {
+    "name": "FLUID/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['FLUIDUSD'].price; }"
+  },
+  {
+    "name": "PEPE/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['PEPEUSD'].price\n        }\n        "
+  },
+  {
+    "name": "Mog/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['MOGUSD'].price\n        }\n        "
+  },
+  {
+    "name": "FLOKI/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['FLOKIUSD'].price\n        }\n        "
+  },
+  {
+    "name": "SPX/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['SPX6900USD'].price\n        }\n        "
+  },
+  {
+    "name": "AXS/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['AXSUSD'].price\n        }\n        "
+  },
+  {
+    "name": "EIGEN/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['EIGENUSD'].price; }"
   }
 ]

@@ -1270,5 +1270,89 @@
       "page_size": "2000"
     },
     "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'usdf').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "FLUID/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "fluid",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'fluid').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "PEPE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "pepe",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'pepe').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "Mog/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "mog",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'mog').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "FLOKI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "floki",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'floki').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "SPX/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "spx",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'spx').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "AXS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "axs",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'axs').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "EIGEN/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "eigen",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'eigen').ReferenceRate\n }"
   }
 ]

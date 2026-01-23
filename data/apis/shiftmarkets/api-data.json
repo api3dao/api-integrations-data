@@ -133,7 +133,14 @@
         "LINEA/USD",
         "ZKC/USD",
         "CLO/USD",
-        "KSM/USD"
+        "KSM/USD",
+        "FLUID/USD",
+        "PEPE/USD",
+        "Mog/USD",
+        "FLOKI/USD",
+        "SPX/USD",
+        "AXS/USD",
+        "EIGEN/USD"
       ]
     ]
   },
