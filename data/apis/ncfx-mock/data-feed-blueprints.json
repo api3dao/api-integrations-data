@@ -822,5 +822,13 @@
       "pairs": "AXS-USD"
     },
     "parser": "(response) => {\n          return response.rates['AXS-USD'].rate\n        }\n        "
+  },
+  {
+    "name": "EIGEN/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "EIGEN-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['EIGEN-USD'].rate\n            }\n            "
   }
 ]

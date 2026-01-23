@@ -1014,5 +1014,13 @@
       "symbols": "AXS/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'AXS/USD').price\n        }\n        "
+  },
+  {
+    "name": "EIGEN/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "EIGEN/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'EIGEN/USD').price\n        }"
   }
 ]

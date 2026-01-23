@@ -1141,5 +1141,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n          return response['axie-infinity']['usd']\n        }\n        "
+  },
+  {
+    "name": "EIGEN/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "eigenlayer",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['eigenlayer']['usd']\n            }"
   }
 ]

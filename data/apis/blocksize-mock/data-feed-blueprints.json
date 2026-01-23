@@ -754,5 +754,11 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['AXSUSD'].price\n        }\n        "
+  },
+  {
+    "name": "EIGEN/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['EIGENUSD'].price; }"
   }
 ]

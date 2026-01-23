@@ -1014,5 +1014,13 @@
       "quotes": "USD"
     },
     "parser": "(response) => {\n          return response.quotes.USD.price\n        }\n        "
+  },
+  {
+    "name": "EIGEN/USD",
+    "path": "tickers/eigen-eigenlayer",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   }
 ]
