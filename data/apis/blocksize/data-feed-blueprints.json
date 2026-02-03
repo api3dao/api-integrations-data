@@ -654,12 +654,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USRUSD'].price; }"
   },
   {
-    "name": "USDa/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USDAUSD'].price; }"
-  },
-  {
     "name": "EUR/USD",
     "path": "getBulkVWAP",
     "parameters": {},

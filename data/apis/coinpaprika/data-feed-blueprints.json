@@ -888,14 +888,6 @@
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
-    "name": "USDa/USD",
-    "path": "tickers/usda-usda",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "WELL/USD",
     "path": "tickers/well-moonwell",
     "parameters": {

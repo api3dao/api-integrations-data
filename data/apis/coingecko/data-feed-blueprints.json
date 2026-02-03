@@ -999,15 +999,6 @@
     "parser": "(response) => {\n              return response['resolv-usr']['usd']\n            }"
   },
   {
-    "name": "USDa/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "usda-2",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['usda-2']['usd']\n            }"
-  },
-  {
     "name": "WELL/USD",
     "path": "simple/price",
     "parameters": {

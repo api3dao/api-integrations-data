@@ -872,14 +872,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'BUSD/USD').price\n        }\n        "
   },
   {
-    "name": "USDa/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "AVALON.USDA/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'AVALON.USDA/USD').price\n        }\n        "
-  },
-  {
     "name": "USDtb/USD",
     "path": "v1/price",
     "parameters": {
