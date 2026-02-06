@@ -207,13 +207,13 @@
     "name": "FXS/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
-      "assets": "fxs",
+      "assets": "frax_frax",
       "metrics": "ReferenceRate",
       "frequency": "1s",
       "limit_per_asset": "1",
       "page_size": "2000"
     },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'fxs').ReferenceRate }"
+    "parser": "(response) => { return response.data.find((d) => d.asset === 'frax_frax').ReferenceRate }"
   },
   {
     "name": "GLMR/USD",
@@ -1354,5 +1354,77 @@
       "page_size": "2000"
     },
     "parser": "(response) => {\n return response.data.find((d) => d.asset === 'eigen').ReferenceRate\n }"
+  },
+  {
+    "name": "CLO/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "clo",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'clo').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "FBTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "fbtc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'fbtc').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "frxUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "frxusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'frxusd').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "RLP/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "rlp",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'rlp').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "BFUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "bfusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'bfusd').ReferenceRate\n        }\n        "
+  },
+  {
+    "name": "CUSD/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "cusd",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'cusd').ReferenceRate\n        }\n        "
   }
 ]

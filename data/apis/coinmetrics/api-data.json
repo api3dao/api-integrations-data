@@ -120,7 +120,13 @@
         "FLOKI/USD",
         "SPX/USD",
         "AXS/USD",
-        "EIGEN/USD"
+        "EIGEN/USD",
+        "CLO/USD",
+        "FBTC/USD",
+        "frxUSD/USD",
+        "RLP/USD",
+        "BFUSD/USD",
+        "CUSD/USD"
       ]
     ]
   },
