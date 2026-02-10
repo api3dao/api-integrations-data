@@ -546,12 +546,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['VIRTUALUSD'].price; }"
   },
   {
-    "name": "DOLA/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['DOLAUSD'].price; }"
-  },
-  {
     "name": "SPK/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -592,12 +586,6 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['SYRUPUSDCUSD'].price; }"
-  },
-  {
-    "name": "USDX/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USDXUSD'].price; }"
   },
   {
     "name": "USDY/USD",

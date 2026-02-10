@@ -837,15 +837,6 @@
     "parser": "(response) => {\n              return response['virtual-protocol']['usd']\n            }"
   },
   {
-    "name": "DOLA/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "dola-usd",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['dola-usd']['usd']\n            }"
-  },
-  {
     "name": "SPK/USD",
     "path": "simple/price",
     "parameters": {
@@ -907,15 +898,6 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['syrupusdc']['usd']\n            }"
-  },
-  {
-    "name": "USDX/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "usdx-money-usdx",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['usdx-money-usdx']['usd']\n            }"
   },
   {
     "name": "USDY/USD",

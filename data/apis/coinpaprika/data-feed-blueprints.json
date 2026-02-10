@@ -744,14 +744,6 @@
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
-    "name": "DOLA/USD",
-    "path": "tickers/dola-dola",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "SPK/USD",
     "path": "tickers/spk-spark",
     "parameters": {
@@ -802,14 +794,6 @@
   {
     "name": "syrupUSDC/USD",
     "path": "tickers/syrupusdc-syrupusdc",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
-    "name": "USDX/USD",
-    "path": "tickers/usdx-usdxmoney-usdx",
     "parameters": {
       "quotes": "USD"
     },

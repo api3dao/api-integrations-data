@@ -837,15 +837,6 @@
     "parser": "(response) => {\n              return response['virtual-protocol']['usd']\n            }"
   },
   {
-    "name": "DOLA/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "dola-usd",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['dola-usd']['usd']\n            }"
-  },
-  {
     "name": "SPK/USD",
     "path": "simple/price",
     "parameters": {
@@ -907,15 +898,6 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['syrupusdc']['usd']\n            }"
-  },
-  {
-    "name": "USDX/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "usdx-money-usdx",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['usdx-money-usdx']['usd']\n            }"
   },
   {
     "name": "USDY/USD",
@@ -1141,5 +1123,59 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['eigenlayer']['usd']\n            }"
+  },
+  {
+    "name": "BFUSD/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "bfusd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['bfusd']['usd']\n            }"
+  },
+  {
+    "name": "A7A5/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "a7a5",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['a7a5']['usd']\n            }"
+  },
+  {
+    "name": "KAU/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "kinesis-gold",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['kinesis-gold']['usd']\n            }"
+  },
+  {
+    "name": "USX/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usx",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usx']['usd']\n            }"
+  },
+  {
+    "name": "KAG/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "kinesis-silver",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['kinesis-silver']['usd']\n            }"
+  },
+  {
+    "name": "CUSD/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "cap-usd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['cap-usd']['usd']\n            }"
   }
 ]

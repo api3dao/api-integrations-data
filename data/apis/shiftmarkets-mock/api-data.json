@@ -100,7 +100,6 @@
         "INJ/USD",
         "MVL/USD",
         "VIRTUAL/USD",
-        "DOLA/USD",
         "SPK/USD",
         "SYRUP/USD",
         "XAUt/USD",
@@ -111,7 +110,6 @@
         "EUR/USD",
         "WELL/USD",
         "sUSDS/USD",
-        "USDX/USD",
         "RLUSD/USD",
         "USDO/USD",
         "USR/USD",
@@ -134,7 +132,11 @@
         "FLOKI/USD",
         "SPX/USD",
         "AXS/USD",
-        "EIGEN/USD"
+        "EIGEN/USD",
+        "BFUSD/USD",
+        "A7A5/USD",
+        "USX/USD",
+        "CUSD/USD"
       ]
     ]
   },

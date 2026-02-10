@@ -744,14 +744,6 @@
     "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
   },
   {
-    "name": "DOLA/USD",
-    "path": "tickers/dola-dola",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
     "name": "SPK/USD",
     "path": "tickers/spk-spark",
     "parameters": {
@@ -802,14 +794,6 @@
   {
     "name": "syrupUSDC/USD",
     "path": "tickers/syrupusdc-syrupusdc",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
-  },
-  {
-    "name": "USDX/USD",
-    "path": "tickers/usdx-usdxmoney-usdx",
     "parameters": {
       "quotes": "USD"
     },
@@ -1010,6 +994,46 @@
   {
     "name": "EIGEN/USD",
     "path": "tickers/eigen-eigenlayer",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "BFUSD/USD",
+    "path": "tickers/bfusd-bfusd",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "A7A5/USD",
+    "path": "tickers/a7a5-a7a5",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "USX/USD",
+    "path": "tickers/usx-usx",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "KAG/USD",
+    "path": "tickers/kag-kinesis-silver",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => {\n              return response.quotes.USD.price\n            }"
+  },
+  {
+    "name": "CUSD/USD",
+    "path": "tickers/cusd-cap-usd",
     "parameters": {
       "quotes": "USD"
     },

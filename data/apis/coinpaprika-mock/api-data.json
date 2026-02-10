@@ -100,7 +100,6 @@
       ["tBTC/USD"],
       ["MVL/USD"],
       ["VIRTUAL/USD"],
-      ["DOLA/USD"],
       ["SPK/USD"],
       ["SYRUP/USD"],
       ["XAUt/USD"],
@@ -108,7 +107,6 @@
       ["sUSDS/USD"],
       ["USDtb/USD"],
       ["syrupUSDC/USD"],
-      ["USDX/USD"],
       ["USDY/USD"],
       ["USD0/USD"],
       ["USDf/USD"],
@@ -133,7 +131,12 @@
       ["FLOKI/USD"],
       ["SPX/USD"],
       ["AXS/USD"],
-      ["EIGEN/USD"]
+      ["EIGEN/USD"],
+      ["BFUSD/USD"],
+      ["A7A5/USD"],
+      ["USX/USD"],
+      ["KAG/USD"],
+      ["CUSD/USD"]
     ]
   },
   "homepageUrl": "",
