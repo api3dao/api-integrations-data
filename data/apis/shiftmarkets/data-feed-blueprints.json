@@ -998,5 +998,37 @@
       "symbols": "EIGEN/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'EIGEN/USD').price\n        }"
+  },
+  {
+    "name": "BFUSD/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "BFUSD/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'BFUSD/USD').price\n        }"
+  },
+  {
+    "name": "A7A5/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "A7A5/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'A7A5/USD').price\n        }"
+  },
+  {
+    "name": "USX/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "USX/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USX/USD').price\n        }"
+  },
+  {
+    "name": "CUSD/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "CUSD/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CUSD/USD').price\n        }"
   }
 ]

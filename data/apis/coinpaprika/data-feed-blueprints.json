@@ -998,5 +998,45 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'eigen-eigenlayer').quotes.USD.price; }"
+  },
+  {
+    "name": "BFUSD/USD",
+    "path": "tickers",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'bfusd-bfusd').quotes.USD.price; }"
+  },
+  {
+    "name": "A7A5/USD",
+    "path": "tickers",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'a7a5-a7a5').quotes.USD.price; }"
+  },
+  {
+    "name": "USX/USD",
+    "path": "tickers",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'usx-usx').quotes.USD.price; }"
+  },
+  {
+    "name": "KAG/USD",
+    "path": "tickers",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'kag-kinesis-silver').quotes.USD.price; }"
+  },
+  {
+    "name": "CUSD/USD",
+    "path": "tickers",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'cusd-cap-usd').quotes.USD.price; }"
   }
 ]

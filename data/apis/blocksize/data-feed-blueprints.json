@@ -742,5 +742,29 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['EIGENUSD'].price; }"
+  },
+  {
+    "name": "BFUSD/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['BFUSDUSD'].price; }"
+  },
+  {
+    "name": "A7A5/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['A7A5USD'].price; }"
+  },
+  {
+    "name": "USX/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USXUSD'].price; }"
+  },
+  {
+    "name": "CUSD/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['CUSDUSD'].price; }"
   }
 ]

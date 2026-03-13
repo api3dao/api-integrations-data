@@ -830,5 +830,13 @@
       "pairs": "EIGEN-USD"
     },
     "parser": "(response) => {\n              return response.rates['EIGEN-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "BFUSD/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "BFUSD-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['BFUSD-USD'].rate\n            }\n            "
   }
 ]

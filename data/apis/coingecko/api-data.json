@@ -137,7 +137,13 @@
         "FLOKI/USD",
         "SPX/USD",
         "AXS/USD",
-        "EIGEN/USD"
+        "EIGEN/USD",
+        "BFUSD/USD",
+        "A7A5/USD",
+        "KAU/USD",
+        "USX/USD",
+        "KAG/USD",
+        "CUSD/USD"
       ]
     ]
   },
