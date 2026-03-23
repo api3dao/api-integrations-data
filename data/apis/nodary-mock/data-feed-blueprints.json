@@ -928,5 +928,11 @@
     "path": "feed/latest",
     "parameters": {},
     "parser": "(response) => {\n          return response[endpointParameters.name].value\n        }\n        "
+  },
+  {
+    "name": "siUSD/iUSD Exchange Rate",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n          const result = response[endpointParameters.name].value\n          if (result <= 0) {\n            throw Error(\n              '[NonPositiveError] - Exchange rate values should not be non-positive. The received value: ',\n              result,\n            )\n          }\n          return result\n        }\n        "
   }
 ]
