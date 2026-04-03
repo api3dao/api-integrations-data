@@ -4,12 +4,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'aave-new').quotes.USD.price; }"
   },
   {
     "name": "AERO/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -20,7 +20,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'ape-apecoin').quotes.USD.price; }"
   },
   {
@@ -28,7 +28,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'api3-api3').quotes.USD.price; }"
   },
   {
@@ -36,7 +36,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'arb-arbitrum').quotes.USD.price; }"
   },
   {
@@ -44,7 +44,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'astr-astar').quotes.USD.price; }"
   },
   {
@@ -52,7 +52,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'ausd-agora-dollar').quotes.USD.price; }"
   },
   {
@@ -60,7 +60,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'avax-avalanche').quotes.USD.price; }"
   },
   {
@@ -68,7 +68,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'bal-balancer').quotes.USD.price; }"
   },
   {
@@ -76,12 +76,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'bera-berachain').quotes.USD.price; }"
   },
   {
     "name": "BLAST/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -92,7 +92,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'bnb-binance-coin').quotes.USD.price; }"
   },
   {
@@ -100,7 +100,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'brett-brett-base').quotes.USD.price; }"
   },
   {
@@ -108,7 +108,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'btc-bitcoin').quotes.USD.price; }"
   },
   {
@@ -116,7 +116,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'cake-pancakeswap').quotes.USD.price; }"
   },
   {
@@ -124,7 +124,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'celo-celo').quotes.USD.price; }"
   },
   {
@@ -132,7 +132,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'comp-compoundd').quotes.USD.price; }"
   },
   {
@@ -140,12 +140,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'cook-meth-protocol').quotes.USD.price; }"
   },
   {
     "name": "CORE/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -156,7 +156,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'cro-cryptocom-chain').quotes.USD.price; }"
   },
   {
@@ -164,7 +164,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'crv-curve-dao-token').quotes.USD.price; }"
   },
   {
@@ -172,7 +172,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'cvx-convex-finance').quotes.USD.price; }"
   },
   {
@@ -180,12 +180,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'dai-dai').quotes.USD.price; }"
   },
   {
     "name": "DEGEN/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -196,7 +196,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'dot-polkadot').quotes.USD.price; }"
   },
   {
@@ -204,12 +204,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'dym-dymension-iou').quotes.USD.price; }"
   },
   {
     "name": "ENA/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -220,12 +220,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'eth-ethereum').quotes.USD.price; }"
   },
   {
     "name": "ETHFI/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -233,7 +233,7 @@
   },
   {
     "name": "EURC/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -244,7 +244,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'eure-monerium-eur-emoney').quotes.USD.price; }"
   },
   {
@@ -252,12 +252,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'fbtc-ignition-fbtc').quotes.USD.price; }"
   },
   {
     "name": "FDUSD/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -268,7 +268,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'frax-frax').quotes.USD.price; }"
   },
   {
@@ -276,7 +276,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'fxs-frax-share').quotes.USD.price; }"
   },
   {
@@ -284,7 +284,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'gho-gho').quotes.USD.price; }"
   },
   {
@@ -292,7 +292,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'glmr-moonbeam').quotes.USD.price; }"
   },
   {
@@ -300,7 +300,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'gmx-gmx').quotes.USD.price; }"
   },
   {
@@ -308,7 +308,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'gno-gnosis').quotes.USD.price; }"
   },
   {
@@ -316,12 +316,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'hype-hyperliquid').quotes.USD.price; }"
   },
   {
     "name": "INJ/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -332,7 +332,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'kava-kava').quotes.USD.price; }"
   },
   {
@@ -340,7 +340,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'lbtc-lombard-staked-btc').quotes.USD.price; }"
   },
   {
@@ -348,7 +348,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'ldo-lido-dao').quotes.USD.price; }"
   },
   {
@@ -356,12 +356,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'lqty-liquity').quotes.USD.price; }"
   },
   {
     "name": "LUMIA/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -372,12 +372,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'manta-manta-network').quotes.USD.price; }"
   },
   {
     "name": "MERL/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -388,12 +388,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'mnt-mantle').quotes.USD.price; }"
   },
   {
     "name": "MODE/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -404,7 +404,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'morpho-morpho').quotes.USD.price; }"
   },
   {
@@ -412,12 +412,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'movr-moonriver').quotes.USD.price; }"
   },
   {
     "name": "MTL/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -425,7 +425,7 @@
   },
   {
     "name": "MVL/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -436,7 +436,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'okb-okb').quotes.USD.price; }"
   },
   {
@@ -444,7 +444,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'ondo-ondo').quotes.USD.price; }"
   },
   {
@@ -452,7 +452,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'op-optimism').quotes.USD.price; }"
   },
   {
@@ -460,7 +460,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'paxg-pax-gold').quotes.USD.price; }"
   },
   {
@@ -468,7 +468,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'pendle-pendle').quotes.USD.price; }"
   },
   {
@@ -476,12 +476,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'pol-polygon-ecosystem-token').quotes.USD.price; }"
   },
   {
     "name": "PYUSD/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -492,7 +492,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'quick-quickswap-v2').quotes.USD.price; }"
   },
   {
@@ -500,7 +500,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'rdnt-radiant-capital').quotes.USD.price; }"
   },
   {
@@ -508,12 +508,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'ron-ronin-token').quotes.USD.price; }"
   },
   {
     "name": "S/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -521,7 +521,7 @@
   },
   {
     "name": "SAFE/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -532,7 +532,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'scr-scroll').quotes.USD.price; }"
   },
   {
@@ -540,7 +540,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'sei-sei').quotes.USD.price; }"
   },
   {
@@ -548,7 +548,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'shib-shiba-inu').quotes.USD.price; }"
   },
   {
@@ -556,7 +556,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'sol-solana').quotes.USD.price; }"
   },
   {
@@ -564,12 +564,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'solvbtc-solv-protocol-solvbtc').quotes.USD.price; }"
   },
   {
     "name": "TAIKO/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -580,7 +580,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'tusd-trueusd').quotes.USD.price; }"
   },
   {
@@ -588,7 +588,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'uni-uniswap').quotes.USD.price; }"
   },
   {
@@ -596,7 +596,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'usdc-usd-coin').quotes.USD.price; }"
   },
   {
@@ -604,7 +604,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'usdp-paxos-standard-token').quotes.USD.price; }"
   },
   {
@@ -612,7 +612,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'usds-usds').quotes.USD.price; }"
   },
   {
@@ -620,7 +620,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'usdt-tether').quotes.USD.price; }"
   },
   {
@@ -628,12 +628,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'usde-ethena-usde').quotes.USD.price; }"
   },
   {
     "name": "VELO/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -644,12 +644,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'wbtc-wrapped-bitcoin').quotes.USD.price; }"
   },
   {
     "name": "WLD/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -660,7 +660,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'xrp-xrp').quotes.USD.price; }"
   },
   {
@@ -668,12 +668,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'yfi-yearnfinance').quotes.USD.price; }"
   },
   {
     "name": "ZK/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -684,12 +684,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'zrc-zircuit').quotes.USD.price; }"
   },
   {
     "name": "ZRO/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -700,7 +700,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'cbbtc-coinbase-wrapped-btc').quotes.USD.price; }"
   },
   {
@@ -708,7 +708,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'crvusd-curvefi-usd-stablecoin').quotes.USD.price; }"
   },
   {
@@ -716,7 +716,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'frxusd-frax-usd').quotes.USD.price; }"
   },
   {
@@ -724,7 +724,7 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'steth-lido-staked-ether').quotes.USD.price; }"
   },
   {
@@ -732,12 +732,12 @@
     "parameters": {
       "quotes": "USD"
     },
-    "path": "tickers",
+    "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'tbtc-tbtc').quotes.USD.price; }"
   },
   {
     "name": "VIRTUAL/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -745,7 +745,7 @@
   },
   {
     "name": "SPK/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -753,7 +753,7 @@
   },
   {
     "name": "SYRUP/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -761,7 +761,7 @@
   },
   {
     "name": "XAUt/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -769,7 +769,7 @@
   },
   {
     "name": "USD1/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -777,7 +777,7 @@
   },
   {
     "name": "sUSDS/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -785,7 +785,7 @@
   },
   {
     "name": "USDtb/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -793,7 +793,7 @@
   },
   {
     "name": "syrupUSDC/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -801,7 +801,7 @@
   },
   {
     "name": "USDY/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -809,7 +809,7 @@
   },
   {
     "name": "USD0/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -817,7 +817,7 @@
   },
   {
     "name": "USDf/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -825,7 +825,7 @@
   },
   {
     "name": "RLUSD/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -833,7 +833,7 @@
   },
   {
     "name": "USDD/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -841,7 +841,7 @@
   },
   {
     "name": "USDG/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -849,7 +849,7 @@
   },
   {
     "name": "BUSD/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -857,7 +857,7 @@
   },
   {
     "name": "USDO/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -865,7 +865,7 @@
   },
   {
     "name": "USR/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -873,7 +873,7 @@
   },
   {
     "name": "WELL/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -881,7 +881,7 @@
   },
   {
     "name": "ATH/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -889,7 +889,7 @@
   },
   {
     "name": "SKY/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -897,7 +897,7 @@
   },
   {
     "name": "RLP/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -905,7 +905,7 @@
   },
   {
     "name": "SOMI/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -913,7 +913,7 @@
   },
   {
     "name": "LINEA/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -921,7 +921,7 @@
   },
   {
     "name": "ZKC/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -929,7 +929,7 @@
   },
   {
     "name": "CLO/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -937,7 +937,7 @@
   },
   {
     "name": "KSM/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -945,7 +945,7 @@
   },
   {
     "name": "FLUID/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -953,7 +953,7 @@
   },
   {
     "name": "PEPE/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -961,7 +961,7 @@
   },
   {
     "name": "Mog/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -969,7 +969,7 @@
   },
   {
     "name": "FLOKI/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -977,7 +977,7 @@
   },
   {
     "name": "SPX/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -985,7 +985,7 @@
   },
   {
     "name": "AXS/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -993,7 +993,7 @@
   },
   {
     "name": "EIGEN/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -1001,7 +1001,7 @@
   },
   {
     "name": "BFUSD/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -1009,7 +1009,7 @@
   },
   {
     "name": "A7A5/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -1017,7 +1017,7 @@
   },
   {
     "name": "USX/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -1025,7 +1025,7 @@
   },
   {
     "name": "KAG/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
@@ -1033,7 +1033,7 @@
   },
   {
     "name": "CUSD/USD",
-    "path": "tickers",
+    "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
