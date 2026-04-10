@@ -240,14 +240,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'EURC/USD').price\n        }"
   },
   {
-    "name": "EURe/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "EURE/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'EURE/USD').price\n        }\n        "
-  },
-  {
     "name": "FBTC/USD",
     "path": "v1/price",
     "parameters": {
@@ -414,14 +406,6 @@
       "symbols": "MOVR/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MOVR/USD').price\n        }"
-  },
-  {
-    "name": "MTL/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "MTL/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MTL/USD').price\n        }"
   },
   {
     "name": "MVL/USD",
@@ -894,14 +878,6 @@
       "symbols": "SKY/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SKY/USD').price\n        }"
-  },
-  {
-    "name": "RLP/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "RLP/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'RLP/USD').price\n        }"
   },
   {
     "name": "SOMI/USD",

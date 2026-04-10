@@ -240,14 +240,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'euroc-euro-coin').quotes.USD.price; }"
   },
   {
-    "name": "EURe/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'eure-monerium-eur-emoney').quotes.USD.price; }"
-  },
-  {
     "name": "FBTC/USD",
     "parameters": {
       "quotes": "USD"
@@ -416,14 +408,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'movr-moonriver').quotes.USD.price; }"
   },
   {
-    "name": "MTL/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'mtl-metal').quotes.USD.price; }"
-  },
-  {
     "name": "MVL/USD",
     "path": "tickers/simple",
     "parameters": {
@@ -486,14 +470,6 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'pyusd-paypal-usd').quotes.USD.price; }"
-  },
-  {
-    "name": "QUICK/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'quick-quickswap-v2').quotes.USD.price; }"
   },
   {
     "name": "RDNT/USD",
@@ -894,14 +870,6 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'sky-sky').quotes.USD.price; }"
-  },
-  {
-    "name": "RLP/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'rlp-resolv-rlp').quotes.USD.price; }"
   },
   {
     "name": "SOMI/USD",

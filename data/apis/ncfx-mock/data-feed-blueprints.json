@@ -368,14 +368,6 @@
     "parser": "(response) => {\n              return response.rates['MOVR-USD'].rate\n            }\n            "
   },
   {
-    "name": "MTL/USD",
-    "parameters": {
-      "pairs": "MTL-USD"
-    },
-    "path": "live/midrate/v1/rates",
-    "parser": "(response) => {\n              return response.rates['MTL-USD'].rate\n            }\n            "
-  },
-  {
     "name": "OKB/USD",
     "parameters": {
       "pairs": "OKB-USD"
@@ -430,14 +422,6 @@
       "pairs": "PYUSD-USD"
     },
     "parser": "(response) => {\n          return response.rates['PYUSD-USD'].rate\n        }\n        "
-  },
-  {
-    "name": "QUICK/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "QUICK-USD"
-    },
-    "parser": "(response) => {\n          return response.rates['QUICK-USD'].rate\n        }\n        "
   },
   {
     "name": "RDNT/USD",

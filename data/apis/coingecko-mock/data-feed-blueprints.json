@@ -270,15 +270,6 @@
     "parser": "(response) => {\n          return response['euro-coin']['usd']\n        }\n        "
   },
   {
-    "name": "EURe/USD",
-    "parameters": {
-      "ids": "monerium-eur-money",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['monerium-eur-money']['usd']\n            }"
-  },
-  {
     "name": "FBTC/USD",
     "parameters": {
       "ids": "ignition-fbtc",
@@ -468,15 +459,6 @@
     "parser": "(response) => {\n              return response['moonriver']['usd']\n            }"
   },
   {
-    "name": "MTL/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "metal",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['metal']['usd']\n        }\n        "
-  },
-  {
     "name": "MVL/USD",
     "path": "simple/price",
     "parameters": {
@@ -547,15 +529,6 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n          return response['paypal-usd']['usd']\n        }\n        "
-  },
-  {
-    "name": "QUICK/USD",
-    "parameters": {
-      "ids": "quickswap",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['quickswap']['usd']\n            }"
   },
   {
     "name": "RDNT/USD",
@@ -1006,15 +979,6 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['sky']['usd']\n            }"
-  },
-  {
-    "name": "RLP/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "resolv-rlp",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['resolv-rlp']['usd']\n            }"
   },
   {
     "name": "SOMI/USD",
