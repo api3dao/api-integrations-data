@@ -1,0 +1,323 @@
+{
+  "info": {
+    "_postman_id": "fbdc6da6-a400-42aa-851b-9f6a5ff31836",
+    "name": "API3 Partner API Providers",
+    "description": "This collection enables anyone to make API calls to API3's partner APIs. Included endpoints are the ones that are used in Managed dAPIs, not all endpoints are included.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "16672727"
+  },
+  "item": [
+    {
+      "name": "Blocksize",
+      "item": [
+        {
+          "name": "Crypto",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{blocksize_apiKey}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "https://realtime.blocksize.info/getVWAP/ADAUSD",
+              "protocol": "https",
+              "host": ["realtime", "blocksize", "info"],
+              "path": ["getVWAP", "ADAUSD"]
+            }
+          },
+          "description": "Note that /getBulkVWAP endpoint used in the Airnode feed but /getVWAP is included here as it's response is more human readable.",
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Coinpaprika",
+      "item": [
+        {
+          "name": "Crypto",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{coinpaprika_apiKey}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "https://api-pro.coinpaprika.com/v1/tickers/:coin_id?quotes=usd",
+              "protocol": "https",
+              "host": ["api-pro", "coinpaprika", "com"],
+              "path": ["v1", "tickers", ":coin_id"],
+              "query": [
+                {
+                  "key": "quotes",
+                  "value": "usd",
+                  "description": "Target currency."
+                }
+              ],
+              "variable": [
+                {
+                  "key": "coin_id",
+                  "value": "btc-bitcoin",
+                  "description": "Coinpaprika specific id for the currency."
+                }
+              ]
+            },
+            "description": "Extracted path: `quotes.USD.price`\n\nUse `Coin IDs` request to find `coin_id` for a currency."
+          },
+          "response": []
+        },
+        {
+          "name": "Coin IDs",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{coinpaprika_apiKey}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "https://api-pro.coinpaprika.com/v1/coins",
+              "protocol": "https",
+              "host": ["api-pro", "coinpaprika", "com"],
+              "path": ["v1", "coins"]
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "NOTE: Coin ID must be determined using the `Coin IDs` request before testing."
+    },
+    {
+      "name": "NewChangeFX",
+      "item": [
+        {
+          "name": "Crypto",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "{{ncfx_crypto_apiKey}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "https://cryptofeed.api.newchangefx.com/live/midrate/v1/rates?pairs=ETH-USD",
+              "protocol": "https",
+              "host": ["cryptofeed", "api", "newchangefx", "com"],
+              "path": ["live", "midrate", "v1", "rates"],
+              "query": [
+                {
+                  "key": "pairs",
+                  "value": "ETH-USD",
+                  "description": "Symbol for the pair."
+                }
+              ]
+            },
+            "description": "Extracted path: `rates.|pair|.rate`"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Nodary",
+      "item": [
+        {
+          "name": "All categories",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "x-nodary-api-key",
+                "value": "{{nodary_apiKey}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "https://api.nodary.io/feed/latest?name=JPY/USD",
+              "protocol": "https",
+              "host": ["api", "nodary", "io"],
+              "path": ["feed", "latest"],
+              "query": [
+                {
+                  "key": "name",
+                  "value": "JPY/USD"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Coingecko",
+      "item": [
+        {
+          "name": "Crypto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://pro-api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=eurc&x_cg_pro_api_key=CG-b4sjHWAQhToDZVQu4VoeuGKL",
+              "protocol": "https",
+              "host": ["pro-api", "coingecko", "com"],
+              "path": ["api", "v3", "simple", "price"],
+              "query": [
+                {
+                  "key": "vs_currencies",
+                  "value": "usd"
+                },
+                {
+                  "key": "ids",
+                  "value": "eurc"
+                },
+                {
+                  "key": "x_cg_pro_api_key",
+                  "value": "CG-b4sjHWAQhToDZVQu4VoeuGKL"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "NOTE: Coin ID must be determined from target data feeds Coingecko page."
+    },
+    {
+      "name": "ShiftMarkets",
+      "item": [
+        {
+          "name": "Crypto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://oracle-price-feeds.cryptosrvc-dev.com/v1/price?symbols=EURE/USD&x-api-key={{shiftmarkets_api_key}}",
+              "protocol": "https",
+              "host": ["oracle-price-feeds", "cryptosrvc-dev", "com"],
+              "path": ["v1", "price"],
+              "query": [
+                {
+                  "key": "symbols",
+                  "value": "EURE/USD"
+                },
+                {
+                  "key": "x-api-key",
+                  "value": "{{shiftmarkets_api_key}}"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "CoinMetrics",
+      "item": [
+        {
+          "name": "Crypto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.coinmetrics.io/v4/timeseries/asset-metrics?api_key={{coinmetrics_apiKey}}&assets=aave,btc&metrics=ReferenceRate&frequency=1s&limit_per_asset=1&page_size=200",
+              "protocol": "https",
+              "host": ["api", "coinmetrics", "io"],
+              "path": ["v4", "timeseries", "asset-metrics"],
+              "query": [
+                {
+                  "key": "api_key",
+                  "value": "{{coinmetrics_apiKey}}"
+                },
+                {
+                  "key": "assets",
+                  "value": "aave,btc"
+                },
+                {
+                  "key": "metrics",
+                  "value": "ReferenceRate"
+                },
+                {
+                  "key": "frequency",
+                  "value": "1s"
+                },
+                {
+                  "key": "limit_per_asset",
+                  "value": "1"
+                },
+                {
+                  "key": "page_size",
+                  "value": "200"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "coinpaprika_apiKey",
+      "value": "<API-KEY>",
+      "type": "string"
+    },
+    {
+      "key": "ncfx_crypto_apiKey",
+      "value": "<API-KEY>",
+      "type": "string"
+    },
+    {
+      "key": "nodary_apiKey",
+      "value": "<API-KEY>",
+      "type": "string"
+    },
+    {
+      "key": "coingecko_apiKey",
+      "value": "<API-KEY>",
+      "type": "string"
+    },
+    {
+      "key": "blocksize_apiKey",
+      "value": "<API-KEY>",
+      "type": "string"
+    },
+    {
+      "key": "shiftmarkets_api_key",
+      "value": "<API-KEY>",
+      "type": "string"
+    },
+    {
+      "key": "coinmetrics_apiKey",
+      "value": "<API-KEY>",
+      "type": "string"
+    }
+  ]
+}
