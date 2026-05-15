@@ -742,5 +742,11 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['CUSDUSD'].price; }"
+  },
+  {
+    "name": "TRX/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['TRXUSD'].price; }"
   }
 ]

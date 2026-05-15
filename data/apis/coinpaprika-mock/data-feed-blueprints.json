@@ -1006,5 +1006,13 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'cusd-cap-usd').quotes.USD.price; }"
+  },
+  {
+    "name": "TRX/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'trx-tron').quotes.USD.price; }"
   }
 ]

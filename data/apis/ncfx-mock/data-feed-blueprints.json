@@ -822,5 +822,13 @@
       "pairs": "BFUSD-USD"
     },
     "parser": "(response) => {\n              return response.rates['BFUSD-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "TRX/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "TRX-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['TRX-USD'].rate\n            }\n            "
   }
 ]

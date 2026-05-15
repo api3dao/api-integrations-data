@@ -1006,5 +1006,13 @@
       "symbols": "CUSD/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CUSD/USD').price\n        }"
+  },
+  {
+    "name": "TRX/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "TRX/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'TRX/USD').price\n        }"
   }
 ]

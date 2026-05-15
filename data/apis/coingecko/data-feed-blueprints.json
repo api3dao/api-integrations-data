@@ -1141,5 +1141,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['cap-usd']['usd']\n            }"
+  },
+  {
+    "name": "TRX/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "tron",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['tron']['usd']\n            }"
   }
 ]
