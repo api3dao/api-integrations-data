@@ -1,0 +1,29 @@
+{
+  "endpoints": [
+    {
+      "urlPath": "/public-oev",
+      "authTokens": null,
+      "delaySeconds": 0,
+      "isOev": true
+    },
+    {
+      "urlPath": "/public",
+      "authTokens": null,
+      "delaySeconds": 20,
+      "isOev": false
+    }
+  ],
+  "allowedAirnodes": [
+    {
+      "address": "0xBA910Eb2867977A0a651FE3D2607237ff4116B1C",
+      "authTokens": ["${AIRNODE_FEED_AUTH_TOKEN}"],
+      "isCertified": true
+    }
+  ],
+  "stage": "production",
+  "version": "4.5.0",
+  "cache": {
+    "type": "cdn",
+    "maxAgeSeconds": 1
+  }
+}
