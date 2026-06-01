@@ -2,14 +2,18 @@
   "alias": "ankr",
   "name": "Ankr",
   "providerType": "rpc",
-  "airnode": "0xD4e37ce12078DC4e7abDB7D470Eab5278FC31492",
+  "airnode": "0x780e6b470bA996fA1eb6FcCfE8EB64F6208a55fa",
   "previousAirnodes": [
+    {
+      "expiryTimestamp": 1780307587,
+      "airnodeAddress": "0xD4e37ce12078DC4e7abDB7D470Eab5278FC31492"
+    },
     {
       "expiryTimestamp": 1758716112,
       "airnodeAddress": "0xAaA5fdF8189C6344bA17De6C1a877beb416990AC"
     }
   ],
-  "xpub": "xpub6BgyEreJ5zz28nravoq1Gr15HLL4PWFnLxFZ4bGDunzeex4iyCXMypLdRVyiRofGRvEKedSH4EUofRZox3ibeWvsApKZBm1cCsGfrgjZknD",
+  "xpub": "xpub6BxQSFDxxfmfnLQTwAWRanviaorB34mtTb4CSo7d2sBLa6pCg3XmYYVT9zifbDgPjmxh9dQwDKXehcvqkRozewKxTiDLnAyVCRuNpzs4xZn",
   "supportedFeedsInBatches": {
     "Ankr": [
       [
