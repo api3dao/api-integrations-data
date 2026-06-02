@@ -2,14 +2,18 @@
   "alias": "alchemy",
   "name": "Alchemy",
   "providerType": "rpc",
-  "airnode": "0x4DC137F7A90EB83774D644fdb756ea0Ddbbaf368",
+  "airnode": "0x7fE93423D08b5e55000d7762F47f80e07A8F389c",
   "previousAirnodes": [
+    {
+      "expiryTimestamp": 1780387900,
+      "airnodeAddress": "0x4DC137F7A90EB83774D644fdb756ea0Ddbbaf368"
+    },
     {
       "expiryTimestamp": 1758522181,
       "airnodeAddress": "0x886AD79b463B1BCa97C0fbF4D5e9782542e5EE40"
     }
   ],
-  "xpub": "xpub6CuD6w75PmRKEvyeriJbUCHtNoiGy9wS4uxW2Fc793m9F5cG5TzDKJVeTqaesG2syznjdTFVe1CPRxBpK5M8f68aPmhzTUYFck5GeFpFunV",
+  "xpub": "xpub6CpYtYajNM2egwf1FapA77nbLLysBaJKj3F1xmN5HjVprAAjVEvaZCRmzKJ4N29Wvo4iDcpx9dejnMj3nhY7mdYS1WHdWhchwLWtKNp36Pg",
   "supportedFeedsInBatches": {
     "Alchemy": [
       [
