@@ -2,14 +2,18 @@
   "alias": "blocksize",
   "name": "BLOCKSIZE",
   "providerType": "rest",
-  "airnode": "0xabfbeE00151A4Dc99548341F2e3e75f7abB37B61",
+  "airnode": "0xBA910Eb2867977A0a651FE3D2607237ff4116B1C",
   "previousAirnodes": [
+    {
+      "expiryTimestamp": 1780472785,
+      "airnodeAddress": "0xabfbeE00151A4Dc99548341F2e3e75f7abB37B61"
+    },
     {
       "expiryTimestamp": 1749628891,
       "airnodeAddress": "0x1Fb13E33B505d359b734F02A95E392284A205895"
     }
   ],
-  "xpub": "xpub6DFZFbJ2UStN4rqyTAvTUV97XLsvFQPiM54HDU2hhn4QLxUFHTtjKRfKVswzxecCmqWjxtmXTjGJUXFNRwore8eW6tzCRFuSJD3HVj4WeLr",
+  "xpub": "xpub6C9C823p1aK3JJD36mQ3vAGLEwFWPjvqoJY1Q5dzi2dSvjpQpByhSc393wWoKMnRxEKSnhoAQYh4rx6bfUarohASvrR5KouCRv59Zsnj2Eh",
   "supportedFeedsInBatches": {
     "Blocksize": [
       [
