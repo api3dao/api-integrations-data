@@ -136,14 +136,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'comp-compoundd').quotes.USD.price; }"
   },
   {
-    "name": "COOK/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'cook-meth-protocol').quotes.USD.price; }"
-  },
-  {
     "name": "CORE/USD",
     "path": "tickers/simple",
     "parameters": {
@@ -328,14 +320,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'kava-kava').quotes.USD.price; }"
   },
   {
-    "name": "LBTC/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'lbtc-lombard-staked-btc').quotes.USD.price; }"
-  },
-  {
     "name": "LDO/USD",
     "parameters": {
       "quotes": "USD"
@@ -384,14 +368,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'mnt-mantle').quotes.USD.price; }"
   },
   {
-    "name": "MODE/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'mode-mode').quotes.USD.price; }"
-  },
-  {
     "name": "MORPHO/USD",
     "parameters": {
       "quotes": "USD"
@@ -406,14 +382,6 @@
     },
     "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'movr-moonriver').quotes.USD.price; }"
-  },
-  {
-    "name": "MVL/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'mvl-mass-vehicle-ledger').quotes.USD.price; }"
   },
   {
     "name": "OKB/USD",
@@ -472,14 +440,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'pyusd-paypal-usd').quotes.USD.price; }"
   },
   {
-    "name": "RDNT/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'rdnt-radiant-capital').quotes.USD.price; }"
-  },
-  {
     "name": "RON/USD",
     "parameters": {
       "quotes": "USD"
@@ -502,14 +462,6 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'safe-safe').quotes.USD.price; }"
-  },
-  {
-    "name": "SCR/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'scr-scroll').quotes.USD.price; }"
   },
   {
     "name": "SEI/USD",

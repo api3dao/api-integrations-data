@@ -102,12 +102,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['COMPUSD'].price; }"
   },
   {
-    "name": "COOK/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['COOKUSD'].price; }"
-  },
-  {
     "name": "CORE/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -240,12 +234,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['KAVAUSD'].price; }"
   },
   {
-    "name": "LBTC/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['LBTCUSD'].price; }"
-  },
-  {
     "name": "LDO/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -280,12 +268,6 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['MNTUSD'].price; }"
-  },
-  {
-    "name": "MODE/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['MODEUSD'].price; }"
   },
   {
     "name": "MORPHO/USD",
@@ -336,12 +318,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['POLUSD'].price; }"
   },
   {
-    "name": "RDNT/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['RDNTUSD'].price; }"
-  },
-  {
     "name": "RON/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -358,12 +334,6 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['SAFEUSD'].price; }"
-  },
-  {
-    "name": "SCR/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['SCRUSD'].price; }"
   },
   {
     "name": "SEI/USD",
@@ -514,12 +484,6 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['TBTCUSD'].price; }"
-  },
-  {
-    "name": "MVL/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['MVLUSD'].price; }"
   },
   {
     "name": "VIRTUAL/USD",

@@ -528,18 +528,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'kava').ReferenceRate }"
   },
   {
-    "name": "RDNT/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "rdnt",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'rdnt').ReferenceRate }"
-  },
-  {
     "name": "DYM/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -670,18 +658,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'inj').ReferenceRate }"
-  },
-  {
-    "name": "MODE/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "mode",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'mode').ReferenceRate }"
   },
   {
     "name": "CORE/USD",
@@ -888,30 +864,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'cbbtc').ReferenceRate }"
   },
   {
-    "name": "COOK/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "cook",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'cook').ReferenceRate }"
-  },
-  {
-    "name": "SCR/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "scr",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'scr').ReferenceRate }"
-  },
-  {
     "name": "SolvBTC/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -946,18 +898,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'morpho').ReferenceRate }"
-  },
-  {
-    "name": "LBTC/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "lbtc",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'lbtc').ReferenceRate }"
   },
   {
     "name": "S/USD",
@@ -1030,18 +970,6 @@
       "page_size": "2000"
     },
     "parser": "(response) => { return response.data.find((d) => d.asset === 'tbtc').ReferenceRate }"
-  },
-  {
-    "name": "MVL/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "mvl",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'mvl').ReferenceRate }"
   },
   {
     "name": "VIRTUAL/USD",

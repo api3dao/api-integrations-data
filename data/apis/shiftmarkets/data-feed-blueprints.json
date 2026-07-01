@@ -136,14 +136,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'COMP/USD').price\n        }"
   },
   {
-    "name": "COOK/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "COOK/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'COOK/USD').price\n        }"
-  },
-  {
     "name": "CORE/USD",
     "path": "v1/price",
     "parameters": {
@@ -328,14 +320,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'KAVA/USD').price\n        }"
   },
   {
-    "name": "LBTC/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "LBTC/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'LBTC/USD').price\n        }\n        "
-  },
-  {
     "name": "LDO/USD",
     "path": "v1/price",
     "parameters": {
@@ -384,14 +368,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MNT/USD').price\n        }"
   },
   {
-    "name": "MODE/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "MODE/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MODE/USD').price\n        }"
-  },
-  {
     "name": "MORPHO/USD",
     "path": "v1/price",
     "parameters": {
@@ -406,14 +382,6 @@
       "symbols": "MOVR/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MOVR/USD').price\n        }"
-  },
-  {
-    "name": "MVL/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "MVL/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'MVL/USD').price\n        }\n        "
   },
   {
     "name": "OKB/USD",
@@ -472,14 +440,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'PYUSD/USD').price\n        }"
   },
   {
-    "name": "RDNT/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "RDNT/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'RDNT/USD').price\n        }"
-  },
-  {
     "name": "RON/USD",
     "path": "v1/price",
     "parameters": {
@@ -502,14 +462,6 @@
       "symbols": "SAFE/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SAFE/USD').price\n        }"
-  },
-  {
-    "name": "SCR/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "SCR/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'SCR/USD').price\n        }"
   },
   {
     "name": "SEI/USD",

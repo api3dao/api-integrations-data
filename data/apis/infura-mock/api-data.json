@@ -15,7 +15,6 @@
         "wstETH/stETH Exchange Rate",
         "mETH/ETH Exchange Rate",
         "MATICx/MATIC Exchange Rate",
-        "ETHx/ETH Exchange Rate",
         "uniETH/ETH Exchange Rate",
         "weETH/ETH Exchange Rate",
         "STONE/ETH Exchange Rate",
@@ -29,7 +28,6 @@
         "stTAO/TAO Exchange Rate",
         "sFRAX/FRAX Exchange Rate",
         "ankrETH/ETH Exchange Rate",
-        "ultraETHs/wstETH Exchange Rate",
         "agETH/rsETH Exchange Rate",
         "eBTC/WBTC Exchange Rate",
         "cmETH/mETH Exchange Rate",
@@ -46,8 +44,7 @@
         "siUSD/iUSD Exchange Rate"
       ],
       ["wBETH/ETH Exchange Rate", "slisBNB/BNB Exchange Rate", "BNBx/BNB Exchange Rate"],
-      ["sAVAX/AVAX Exchange Rate"],
-      ["USDY/USD Exchange Rate"]
+      ["sAVAX/AVAX Exchange Rate"]
     ]
   },
   "deploymentConfigurations": [

@@ -153,15 +153,6 @@
     "parser": "(response) => {\n              return response['compound-governance-token']['usd']\n            }"
   },
   {
-    "name": "COOK/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "meth-protocol",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['meth-protocol']['usd']\n        }\n        "
-  },
-  {
     "name": "CORE/USD",
     "path": "simple/price",
     "parameters": {
@@ -369,15 +360,6 @@
     "parser": "(response) => {\n              return response['kava']['usd']\n            }"
   },
   {
-    "name": "LBTC/USD",
-    "parameters": {
-      "ids": "lombard-staked-btc",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['lombard-staked-btc']['usd']\n            }"
-  },
-  {
     "name": "LDO/USD",
     "parameters": {
       "ids": "lido-dao",
@@ -432,15 +414,6 @@
     "parser": "(response) => {\n              return response['mantle']['usd']\n            }"
   },
   {
-    "name": "MODE/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "mode",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['mode']['usd']\n        }\n        "
-  },
-  {
     "name": "MORPHO/USD",
     "parameters": {
       "ids": "morpho",
@@ -457,15 +430,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['moonriver']['usd']\n            }"
-  },
-  {
-    "name": "MVL/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "mass-vehicle-ledger",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['mass-vehicle-ledger']['usd']\n        }\n        "
   },
   {
     "name": "OKB/USD",
@@ -531,15 +495,6 @@
     "parser": "(response) => {\n          return response['paypal-usd']['usd']\n        }\n        "
   },
   {
-    "name": "RDNT/USD",
-    "parameters": {
-      "ids": "radiant-capital",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['radiant-capital']['usd']\n            }"
-  },
-  {
     "name": "RON/USD",
     "parameters": {
       "ids": "ronin",
@@ -565,15 +520,6 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n          return response['safe']['usd']\n        }\n        "
-  },
-  {
-    "name": "SCR/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "scroll",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['scroll']['usd']\n        }\n        "
   },
   {
     "name": "SEI/USD",
