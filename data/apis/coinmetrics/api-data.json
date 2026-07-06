@@ -2,9 +2,14 @@
   "alias": "coinmetrics",
   "name": "Coin Metrics",
   "providerType": "rest",
-  "airnode": "0xF871fb16191352E5Ad43183a996a9AA9Fd0d933b",
-  "previousAirnodes": [],
-  "xpub": "xpub6BovcdUTfX95F76bAsxQaSCcaZBnC3AhTTdbNiYFuPA8Qfh29L9Rxwd33eFJuspABQPoh5WwN3brbcX7RFcedxA7a19gcjvhdgB5CXM3ojz",
+  "airnode": "0x2D652E95524c4b6D09FA149F66e2168222cd27a5",
+  "previousAirnodes": [
+    {
+      "expiryTimestamp": 1783320907,
+      "airnodeAddress": "0xF871fb16191352E5Ad43183a996a9AA9Fd0d933b"
+    }
+  ],
+  "xpub": "xpub6C4fQfF3umtP4g2K3ULD9HiSAn1QygY4CNiyb72R8UZeaeyXFc7B1LHCYhLXT2ksMV8XrrEDs5Ts2VLxLMBGWhJveTVa2S9RVgNeU1ze1wA",
   "supportedFeedsInBatches": {
     "CoinMetrics": [
       [
