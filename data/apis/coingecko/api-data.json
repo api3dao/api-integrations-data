@@ -2,14 +2,18 @@
   "alias": "coingecko",
   "name": "CoinGecko",
   "providerType": "rest",
-  "airnode": "0xf19572194e6aD6d84666906D5287e2c9427655C2",
+  "airnode": "0x9dB03a07bE313B3C08261B1d1606D511f3560D9e",
   "previousAirnodes": [
+    {
+      "expiryTimestamp": 1783404244,
+      "airnodeAddress": "0xf19572194e6aD6d84666906D5287e2c9427655C2"
+    },
     {
       "expiryTimestamp": 1765170744,
       "airnodeAddress": "0x6b56E47DccFbC82D63Df3da417d26e8B1B877f0f"
     }
   ],
-  "xpub": "xpub6BuKimzXUZgj8LjqGWqaxm9az3D4MaaSuKb57rVzCN1R6p7p3cWTEnAZdJFnvbDDkKpnJUx511iEHqY4DdvXk4SBfUuTu4vHskbZthVUuJj",
+  "xpub": "xpub6BvxhiAekuJKJvVToWpb99YkNDFokPm2CdxBBJvNuEXJ8VMAnKiDNDaSAmSeDq3Mc8hrV6qvoyqMnni5WMDcRdkqi9fMWZ1wZ5J6YQHf3Fy",
   "supportedFeedsInBatches": {
     "CoinGecko": [
       [
