@@ -1096,5 +1096,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['tron']['usd']\n            }"
+  },
+  {
+    "name": "CASHCAT/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "cash-cat",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['cash-cat']['usd']\n            }"
   }
 ]
