@@ -966,5 +966,13 @@
       "symbols": "TRX/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'TRX/USD').price\n        }"
+  },
+  {
+    "name": "CASHCAT/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "CASHCAT/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CASHCAT/USD').price\n        }"
   }
 ]

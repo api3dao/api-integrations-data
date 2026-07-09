@@ -712,5 +712,11 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['TRXUSD'].price; }"
+  },
+  {
+    "name": "CASHCAT/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['CASHCATUSD'].price; }"
   }
 ]
