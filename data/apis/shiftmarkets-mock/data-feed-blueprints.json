@@ -974,5 +974,13 @@
       "symbols": "CASHCAT/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CASHCAT/USD').price\n        }"
+  },
+  {
+    "name": "VVV/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "VVV/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'VVV/USD').price\n        }"
   }
 ]

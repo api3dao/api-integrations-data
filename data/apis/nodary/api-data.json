@@ -152,7 +152,9 @@
         "EIGEN/USD",
         "siUSD/iUSD Exchange Rate",
         "TRX/USD",
-        "CASHCAT/USD"
+        "CASHCAT/USD",
+        "VVV/USD",
+        "USDG/USD"
       ]
     ]
   },

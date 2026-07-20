@@ -868,5 +868,17 @@
     "path": "feed/latest",
     "parameters": {},
     "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "VVV/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "USDG/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
   }
 ]

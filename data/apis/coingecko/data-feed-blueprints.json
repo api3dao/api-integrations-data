@@ -1105,5 +1105,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['cash-cat']['usd']\n            }"
+  },
+  {
+    "name": "VVV/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "venice-token",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['venice-token']['usd']\n            }"
   }
 ]
