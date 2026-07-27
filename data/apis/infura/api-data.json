@@ -2,14 +2,18 @@
   "alias": "infura",
   "name": "Infura",
   "providerType": "rpc",
-  "airnode": "0x6B0Cf14Be1766fE17566C5295462E21B288071A8",
+  "airnode": "0xb43698033233427a21AA1f0863c5C2852b6C8b5E",
   "previousAirnodes": [
+    {
+      "expiryTimestamp": 1785140581,
+      "airnodeAddress": "0x6B0Cf14Be1766fE17566C5295462E21B288071A8"
+    },
     {
       "expiryTimestamp": 1776667371,
       "airnodeAddress": "0x72bFf91fc62E03f917D5c1202225f92f74cBe67e"
     }
   ],
-  "xpub": "xpub6DNS6pMMVz1G76P1ykyEjhQZu8stMQEyJJwJNdJFxkkFBayMN3Qc7gXNgkPpcS1BX6UuuSNPg1tVAoNUTcVcAnGz8VZXFuU4njuRFr1jbYL",
+  "xpub": "xpub6By3sfbhRhGj8Z99jEpCvwJnRK1E8jwNQk7ESHCky6H79UFupm4v8EVwVwAvm7GVhej3EWywKNxDNi11L13owzmqw26MpMBBpBafzn4Ee5P",
   "supportedFeedsInBatches": {
     "Infura": [
       [
