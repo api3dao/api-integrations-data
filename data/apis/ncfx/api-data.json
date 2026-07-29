@@ -112,7 +112,8 @@
         "EIGEN/USD",
         "BFUSD/USD",
         "TRX/USD",
-        "VVV/USD"
+        "VVV/USD",
+        "FIL/USD"
       ]
     ]
   },

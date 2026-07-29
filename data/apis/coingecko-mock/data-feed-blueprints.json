@@ -1114,5 +1114,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['venice-token']['usd']\n            }"
+  },
+  {
+    "name": "FIL/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "filecoin",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['filecoin']['usd']\n            }"
   }
 ]

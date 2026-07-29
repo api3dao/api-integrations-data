@@ -982,5 +982,13 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'vvv-venice-token').quotes.USD.price; }"
+  },
+  {
+    "name": "FIL/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'fil-filecoin').quotes.USD.price; }"
   }
 ]

@@ -724,5 +724,11 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['VVVUSD'].price; }"
+  },
+  {
+    "name": "FIL/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['FILUSD'].price; }"
   }
 ]

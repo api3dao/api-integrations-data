@@ -798,5 +798,13 @@
       "pairs": "VVV-USD"
     },
     "parser": "(response) => {\n              return response.rates['VVV-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "FIL/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "FIL-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['FIL-USD'].rate\n            }\n            "
   }
 ]
