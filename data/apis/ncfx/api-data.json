@@ -2,14 +2,18 @@
   "alias": "ncfx",
   "name": "NCFX",
   "providerType": "rest",
-  "airnode": "0x03d932A39Ee94F1D5Fdf3434f8ca651E5Dc479D0",
+  "airnode": "0x68ec391b38A66A4B19543dc031f2659e2224a781",
   "previousAirnodes": [
+    {
+      "expiryTimestamp": 1785738567,
+      "airnodeAddress": "0x03d932A39Ee94F1D5Fdf3434f8ca651E5Dc479D0"
+    },
     {
       "expiryTimestamp": 1776752531,
       "airnodeAddress": "0xbC6471E88d8aFe936A45bEB8bd20a210EBEF6822"
     }
   ],
-  "xpub": "xpub6DAAFH6JJRXfhhR8duhGY1AdnHb7SiC1pkLNxDCPAZz7MafLe4Hq9ESAxWYUPFCFAKCU6HxF8rFx6FVj9vGwsCDqbLorGx5hm36oVdoDJ4b",
+  "xpub": "xpub6CdvH1SoiMB4mQZVnPgDPBzNDh4u34cB9Saws3jnaVmKDsRRnNnbTrppdd4scpaJYYwsjoEprADEszAmyEEfLtFZGkhi6f9yqZ8TGRn5PGB",
   "supportedFeedsInBatches": {
     "NewChangeFX-Crypto": [
       [
