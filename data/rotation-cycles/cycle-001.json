@@ -1,0 +1,25 @@
+{
+  "cycle": 1,
+  "group-1": {
+    "start": "2026-11-23",
+    "end": "2026-11-25",
+    "dates": {
+      "alchemy": null,
+      "ankr": null,
+      "blocksize": null,
+      "coingecko": null,
+      "coinmetrics": null
+    }
+  },
+  "group-2": {
+    "start": "2026-12-21",
+    "end": "2026-12-23",
+    "dates": {
+      "drpc": null,
+      "infura": null,
+      "coinpaprika": null,
+      "ncfx": null,
+      "shiftmarkets": null
+    }
+  }
+}
