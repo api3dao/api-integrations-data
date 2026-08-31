@@ -105,7 +105,6 @@
         "SYRUP/USD",
         "XAUt/USD",
         "USD1/USD",
-        "sUSDS/USD",
         "USDtb/USD",
         "syrupUSDC/USD",
         "USDY/USD",
@@ -114,9 +113,6 @@
         "RLUSD/USD",
         "USDD/USD",
         "USDG/USD",
-        "BUSD/USD",
-        "USDO/USD",
-        "USR/USD",
         "WELL/USD",
         "ATH/USD",
         "SKY/USD",
@@ -136,11 +132,15 @@
         "A7A5/USD",
         "USX/USD",
         "KAG/USD",
-        "CUSD/USD",
         "TRX/USD",
         "CASHCAT/USD",
         "VVV/USD",
-        "FIL/USD"
+        "U/USD",
+        "USDGO/USD",
+        "APXUSD/USD",
+        "REUSD/USD",
+        "USAT/USD",
+        "EURCV/USD"
       ]
     ]
   },

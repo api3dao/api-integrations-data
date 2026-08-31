@@ -704,14 +704,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'usd1-usd1').quotes.USD.price; }"
   },
   {
-    "name": "sUSDS/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'susd-susd').quotes.USD.price; }"
-  },
-  {
     "name": "USDtb/USD",
     "path": "tickers/simple",
     "parameters": {
@@ -774,30 +766,6 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'usdg-global-dollar').quotes.USD.price; }"
-  },
-  {
-    "name": "BUSD/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'sol-binance-peg-sol').quotes.USD.price; }"
-  },
-  {
-    "name": "USDO/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'usdo-usd-open-dollar').quotes.USD.price; }"
-  },
-  {
-    "name": "USR/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'usr-resolv-usr').quotes.USD.price; }"
   },
   {
     "name": "WELL/USD",
@@ -952,14 +920,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'kag-kinesis-silver').quotes.USD.price; }"
   },
   {
-    "name": "CUSD/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'cusd-cap-usd').quotes.USD.price; }"
-  },
-  {
     "name": "TRX/USD",
     "path": "tickers/simple",
     "parameters": {
@@ -984,11 +944,51 @@
     "parser": "(response) => { return response.find((item) => item.id === 'vvv-venice-token').quotes.USD.price; }"
   },
   {
-    "name": "FIL/USD",
+    "name": "U/USD",
     "path": "tickers/simple",
     "parameters": {
       "quotes": "USD"
     },
-    "parser": "(response) => { return response.find((item) => item.id === 'fil-filecoin').quotes.USD.price; }"
+    "parser": "(response) => { return response.find((item) => item.id === 'u-united-stables').quotes.USD.price; }"
+  },
+  {
+    "name": "USDGO/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'usdgo-usdgo').quotes.USD.price; }"
+  },
+  {
+    "name": "APXUSD/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'apxusd-apxusd').quotes.USD.price; }"
+  },
+  {
+    "name": "REUSD/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'reusd-re-protocol-reusd').quotes.USD.price; }"
+  },
+  {
+    "name": "USAT/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'usat').quotes.USD.price; }"
+  },
+  {
+    "name": "EURCV/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'eurcv-eur-coinvertible').quotes.USD.price; }"
   }
 ]

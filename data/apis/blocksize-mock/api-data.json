@@ -103,9 +103,6 @@
         "RLUSD/USD",
         "USDD/USD",
         "USDG/USD",
-        "BUSD/USD",
-        "USDO/USD",
-        "USR/USD",
         "EUR/USD",
         "WELL/USD",
         "ATH/USD",
@@ -125,11 +122,13 @@
         "BFUSD/USD",
         "A7A5/USD",
         "USX/USD",
-        "CUSD/USD",
         "TRX/USD",
         "CASHCAT/USD",
         "VVV/USD",
-        "FIL/USD"
+        "U/USD",
+        "REUSD/USD",
+        "USAT/USD",
+        "EURCV/USD"
       ]
     ]
   },

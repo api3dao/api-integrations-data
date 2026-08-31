@@ -760,36 +760,12 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'RLUSD/USD').price\n        }\n        "
   },
   {
-    "name": "USDO/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "USDO/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDO/USD').price\n        }\n        "
-  },
-  {
-    "name": "USR/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "USR/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USR/USD').price\n        }\n        "
-  },
-  {
     "name": "USDG/USD",
     "path": "v1/price",
     "parameters": {
       "symbols": "USDG/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USDG/USD').price\n        }\n        "
-  },
-  {
-    "name": "BUSD/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "BUSD/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'BUSD/USD').price\n        }\n        "
   },
   {
     "name": "USDtb/USD",
@@ -952,14 +928,6 @@
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'USX/USD').price\n        }"
   },
   {
-    "name": "CUSD/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "CUSD/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'CUSD/USD').price\n        }"
-  },
-  {
     "name": "TRX/USD",
     "path": "v1/price",
     "parameters": {
@@ -982,13 +950,5 @@
       "symbols": "VVV/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'VVV/USD').price\n        }"
-  },
-  {
-    "name": "FIL/USD",
-    "path": "v1/price",
-    "parameters": {
-      "symbols": "FIL/USD"
-    },
-    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'FIL/USD').price\n        }"
   }
 ]

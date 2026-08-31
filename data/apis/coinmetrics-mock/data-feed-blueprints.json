@@ -1092,18 +1092,6 @@
     "parser": "(response) => { return response.data.find((d) => d.asset === 'usdg').ReferenceRate }"
   },
   {
-    "name": "BUSD/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "busd",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => { return response.data.find((d) => d.asset === 'busd').ReferenceRate }"
-  },
-  {
     "name": "WELL/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -1320,18 +1308,6 @@
     "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'bfusd').ReferenceRate\n        }\n        "
   },
   {
-    "name": "CUSD/USD",
-    "path": "v4/timeseries/asset-metrics",
-    "parameters": {
-      "assets": "cusd",
-      "metrics": "ReferenceRate",
-      "frequency": "1s",
-      "limit_per_asset": "1",
-      "page_size": "2000"
-    },
-    "parser": "(response) => {\n          return response.data.find((d) => d.asset === 'cusd').ReferenceRate\n        }\n        "
-  },
-  {
     "name": "TRX/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
@@ -1356,15 +1332,27 @@
     "parser": "(response) => {\n return response.data.find((d) => d.asset === 'vvv').ReferenceRate\n }"
   },
   {
-    "name": "FIL/USD",
+    "name": "USAT/USD",
     "path": "v4/timeseries/asset-metrics",
     "parameters": {
-      "assets": "fil",
+      "assets": "usat",
       "metrics": "ReferenceRate",
       "frequency": "1s",
       "limit_per_asset": "1",
       "page_size": "2000"
     },
-    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'fil').ReferenceRate\n }"
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'usat').ReferenceRate\n }"
+  },
+  {
+    "name": "EURCV/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "eurcv",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'eurcv').ReferenceRate\n }"
   }
 ]

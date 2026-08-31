@@ -99,7 +99,6 @@
         "RLUSD/USD",
         "USDD/USD",
         "USDG/USD",
-        "BUSD/USD",
         "WELL/USD",
         "ATH/USD",
         "SOMI/USD",
@@ -118,10 +117,10 @@
         "FBTC/USD",
         "frxUSD/USD",
         "BFUSD/USD",
-        "CUSD/USD",
         "TRX/USD",
         "VVV/USD",
-        "FIL/USD"
+        "USAT/USD",
+        "EURCV/USD"
       ]
     ]
   },

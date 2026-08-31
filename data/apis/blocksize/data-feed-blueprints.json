@@ -570,24 +570,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USDGUSD'].price; }"
   },
   {
-    "name": "BUSD/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['BUSDUSD'].price; }"
-  },
-  {
-    "name": "USDO/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USDOUSD'].price; }"
-  },
-  {
-    "name": "USR/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USRUSD'].price; }"
-  },
-  {
     "name": "EUR/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -702,12 +684,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USXUSD'].price; }"
   },
   {
-    "name": "CUSD/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['CUSDUSD'].price; }"
-  },
-  {
     "name": "TRX/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -726,9 +702,27 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['VVVUSD'].price; }"
   },
   {
-    "name": "FIL/USD",
+    "name": "U/USD",
     "path": "getBulkVWAP",
     "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['FILUSD'].price; }"
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['UUSD'].price; }"
+  },
+  {
+    "name": "REUSD/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['REUSDUSD'].price; }"
+  },
+  {
+    "name": "USAT/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USATUSD'].price; }"
+  },
+  {
+    "name": "EURCV/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['EURCVUSD'].price; }"
   }
 ]

@@ -873,33 +873,6 @@
     "parser": "(response) => {\n              return response['global-dollar']['usd']\n            }"
   },
   {
-    "name": "BUSD/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "binance-peg-busd",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['binance-peg-busd']['usd']\n            }"
-  },
-  {
-    "name": "USDO/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "openeden-open-dollar",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['openeden-open-dollar']['usd']\n            }"
-  },
-  {
-    "name": "USR/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "resolv-usr",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['resolv-usr']['usd']\n            }"
-  },
-  {
     "name": "WELL/USD",
     "path": "simple/price",
     "parameters": {
@@ -1080,15 +1053,6 @@
     "parser": "(response) => {\n              return response['kinesis-silver']['usd']\n            }"
   },
   {
-    "name": "CUSD/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "cap-usd",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['cap-usd']['usd']\n            }"
-  },
-  {
     "name": "TRX/USD",
     "path": "simple/price",
     "parameters": {
@@ -1116,12 +1080,75 @@
     "parser": "(response) => {\n              return response['venice-token']['usd']\n            }"
   },
   {
-    "name": "FIL/USD",
+    "name": "U/USD",
     "path": "simple/price",
     "parameters": {
-      "ids": "filecoin",
+      "ids": "united-stables",
       "vs_currencies": "usd"
     },
-    "parser": "(response) => {\n              return response['filecoin']['usd']\n            }"
+    "parser": "(response) => {\n              return response['united-stables']['usd']\n            }"
+  },
+  {
+    "name": "USDGO/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usdgo",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usdgo']['usd']\n            }"
+  },
+  {
+    "name": "YLDS/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "ylds",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['ylds']['usd']\n            }"
+  },
+  {
+    "name": "APXUSD/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "apxusd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['apxusd']['usd']\n            }"
+  },
+  {
+    "name": "SOFID/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "sofiusd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['sofiusd']['usd']\n            }"
+  },
+  {
+    "name": "REUSD/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "re-protocol-reusd",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['re-protocol-reusd']['usd']\n            }"
+  },
+  {
+    "name": "USAT/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "usa",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['usa']['usd']\n            }"
+  },
+  {
+    "name": "EURCV/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "societe-generale-forge-eurcv",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['societe-generale-forge-eurcv']['usd']\n            }"
   }
 ]

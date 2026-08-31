@@ -800,11 +800,27 @@
     "parser": "(response) => {\n              return response.rates['VVV-USD'].rate\n            }\n            "
   },
   {
-    "name": "FIL/USD",
+    "name": "U/USD",
     "path": "live/midrate/v1/rates",
     "parameters": {
-      "pairs": "FIL-USD"
+      "pairs": "U-USD"
     },
-    "parser": "(response) => {\n              return response.rates['FIL-USD'].rate\n            }\n            "
+    "parser": "(response) => {\n              return response.rates['U-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "USAT/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "USAT-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['USAT-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "EURCV/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "EURCV-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['EURCV-USD'].rate\n            }\n            "
   }
 ]

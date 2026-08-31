@@ -112,10 +112,7 @@
         "WELL/USD",
         "sUSDS/USD",
         "RLUSD/USD",
-        "USDO/USD",
-        "USR/USD",
         "USDG/USD",
-        "BUSD/USD",
         "USDtb/USD",
         "syrupUSDC/USD",
         "USDf/USD",
@@ -136,11 +133,9 @@
         "BFUSD/USD",
         "A7A5/USD",
         "USX/USD",
-        "CUSD/USD",
         "TRX/USD",
         "CASHCAT/USD",
-        "VVV/USD",
-        "FIL/USD"
+        "VVV/USD"
       ]
     ]
   },

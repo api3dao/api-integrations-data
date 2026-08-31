@@ -880,11 +880,5 @@
     "path": "feed/latest",
     "parameters": {},
     "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
-  },
-  {
-    "name": "FIL/USD",
-    "path": "feed/latest",
-    "parameters": {},
-    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
   }
 ]
