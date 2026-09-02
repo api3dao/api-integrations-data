@@ -880,5 +880,35 @@
     "path": "feed/latest",
     "parameters": {},
     "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "ADA/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "LTC/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "NPC/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "ZEC/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
   }
 ]
