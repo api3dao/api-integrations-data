@@ -1150,5 +1150,50 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['societe-generale-forge-eurcv']['usd']\n            }"
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "dogecoin",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['dogecoin']['usd']\n            }"
+  },
+  {
+    "name": "ADA/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "cardano",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['cardano']['usd']\n            }"
+  },
+  {
+    "name": "LTC/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "litecoin",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['litecoin']['usd']\n            }"
+  },
+  {
+    "name": "NPC/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "non-playable-coin",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['non-playable-coin']['usd']\n            }"
+  },
+  {
+    "name": "ZEC/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "zcash",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['zcash']['usd']\n            }"
   }
 ]

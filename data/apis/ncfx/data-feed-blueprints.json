@@ -822,5 +822,37 @@
       "pairs": "EURCV-USD"
     },
     "parser": "(response) => {\n              return response.rates['EURCV-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "DOGE-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['DOGE-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ADA/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "ADA-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['ADA-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "LTC/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "LTC-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['LTC-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "ZEC/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "ZEC-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['ZEC-USD'].rate\n            }\n            "
   }
 ]

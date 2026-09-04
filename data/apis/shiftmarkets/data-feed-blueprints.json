@@ -950,5 +950,45 @@
       "symbols": "VVV/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'VVV/USD').price\n        }"
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "DOGE/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'DOGE/USD').price\n        }"
+  },
+  {
+    "name": "ADA/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "ADA/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ADA/USD').price\n        }"
+  },
+  {
+    "name": "LTC/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "LTC/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'LTC/USD').price\n        }"
+  },
+  {
+    "name": "NPC/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "NPC/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'NPC/USD').price\n        }"
+  },
+  {
+    "name": "ZEC/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "ZEC/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ZEC/USD').price\n        }"
   }
 ]

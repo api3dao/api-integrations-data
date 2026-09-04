@@ -990,5 +990,35 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'eurcv-eur-coinvertible').quotes.USD.price; }"
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "tickers/simple",
+    "parameters": { "quotes": "USD" },
+    "parser": "(response) => { return response.find((item) => item.id === 'doge-dogecoin').quotes.USD.price; }"
+  },
+  {
+    "name": "ADA/USD",
+    "path": "tickers/simple",
+    "parameters": { "quotes": "USD" },
+    "parser": "(response) => { return response.find((item) => item.id === 'ada-cardano').quotes.USD.price; }"
+  },
+  {
+    "name": "LTC/USD",
+    "path": "tickers/simple",
+    "parameters": { "quotes": "USD" },
+    "parser": "(response) => { return response.find((item) => item.id === 'ltc-litecoin').quotes.USD.price; }"
+  },
+  {
+    "name": "NPC/USD",
+    "path": "tickers/simple",
+    "parameters": { "quotes": "USD" },
+    "parser": "(response) => { return response.find((item) => item.id === 'npc-non-playable-coin').quotes.USD.price; }"
+  },
+  {
+    "name": "ZEC/USD",
+    "path": "tickers/simple",
+    "parameters": { "quotes": "USD" },
+    "parser": "(response) => { return response.find((item) => item.id === 'zec-zcash').quotes.USD.price; }"
   }
 ]

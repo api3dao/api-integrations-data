@@ -135,7 +135,12 @@
         "SOFID/USD",
         "REUSD/USD",
         "USAT/USD",
-        "EURCV/USD"
+        "EURCV/USD",
+        "DOGE/USD",
+        "ADA/USD",
+        "LTC/USD",
+        "NPC/USD",
+        "ZEC/USD"
       ]
     ]
   },

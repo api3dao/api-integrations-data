@@ -724,5 +724,35 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['EURCVUSD'].price; }"
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['DOGEUSD'].price; }"
+  },
+  {
+    "name": "ADA/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['ADAUSD'].price; }"
+  },
+  {
+    "name": "LTC/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['LTCUSD'].price; }"
+  },
+  {
+    "name": "NPC/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['NPCUSD'].price; }"
+  },
+  {
+    "name": "ZEC/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['ZECUSD'].price; }"
   }
 ]

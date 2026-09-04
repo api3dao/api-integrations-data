@@ -110,7 +110,11 @@
         "VVV/USD",
         "U/USD",
         "USAT/USD",
-        "EURCV/USD"
+        "EURCV/USD",
+        "DOGE/USD",
+        "ADA/USD",
+        "LTC/USD",
+        "ZEC/USD"
       ]
     ]
   },

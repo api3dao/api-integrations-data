@@ -1354,5 +1354,65 @@
       "page_size": "2000"
     },
     "parser": "(response) => {\n return response.data.find((d) => d.asset === 'eurcv').ReferenceRate\n }"
+  },
+  {
+    "name": "DOGE/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "doge",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'doge').ReferenceRate\n }"
+  },
+  {
+    "name": "ADA/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ada",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'ada').ReferenceRate\n }"
+  },
+  {
+    "name": "LTC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ltc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'ltc').ReferenceRate\n }"
+  },
+  {
+    "name": "NPC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "npc",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'npc').ReferenceRate\n }"
+  },
+  {
+    "name": "ZEC/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "zec",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'zec').ReferenceRate\n }"
   }
 ]
