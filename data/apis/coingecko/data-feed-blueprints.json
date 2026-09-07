@@ -1195,5 +1195,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['zcash']['usd']\n            }"
+  },
+  {
+    "name": "PONS/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "pons",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['pons']['usd']\n            }"
   }
 ]

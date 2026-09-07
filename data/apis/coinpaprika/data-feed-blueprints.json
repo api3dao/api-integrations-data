@@ -1030,5 +1030,13 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'zec-zcash').quotes.USD.price; }"
+  },
+  {
+    "name": "PONS/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'pons-pons').quotes.USD.price; }"
   }
 ]
