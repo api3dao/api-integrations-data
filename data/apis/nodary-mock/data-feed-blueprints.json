@@ -910,5 +910,17 @@
     "path": "feed/latest",
     "parameters": {},
     "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "PONS/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
+  },
+  {
+    "name": "AI/USD",
+    "path": "feed/latest",
+    "parameters": {},
+    "parser": "(response) => {\n              return response[endpointParameters.name].value;\n            }\n            "
   }
 ]
