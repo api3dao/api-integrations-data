@@ -1204,5 +1204,14 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n              return response['pons']['usd']\n            }"
+  },
+  {
+    "name": "AI/USD",
+    "path": "simple/price",
+    "parameters": {
+      "ids": "artificial-inu-3",
+      "vs_currencies": "usd"
+    },
+    "parser": "(response) => {\n              return response['artificial-inu-3']['usd']\n            }"
   }
 ]

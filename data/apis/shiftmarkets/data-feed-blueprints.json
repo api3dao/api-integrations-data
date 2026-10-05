@@ -990,5 +990,21 @@
       "symbols": "ZEC/USD"
     },
     "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'ZEC/USD').price\n        }"
+  },
+  {
+    "name": "AI/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "AI/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'AI/USD').price\n        }"
+  },
+  {
+    "name": "PONS/USD",
+    "path": "v1/price",
+    "parameters": {
+      "symbols": "PONS/USD"
+    },
+    "parser": "(response) => {\n          return response.find((item) => item.symbol_id === 'PONS/USD').price\n        }"
   }
 ]

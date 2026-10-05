@@ -123,7 +123,10 @@
         "DOGE/USD",
         "ADA/USD",
         "LTC/USD",
-        "ZEC/USD"
+        "ZEC/USD",
+        "AI/USD",
+        "PONS/USD",
+        "NPC/USD"
       ]
     ]
   },
