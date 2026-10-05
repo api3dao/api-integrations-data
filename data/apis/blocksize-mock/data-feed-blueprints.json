@@ -754,5 +754,17 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['ZECUSD'].price; }"
+  },
+  {
+    "name": "AI/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['AINUUSD'].price; }"
+  },
+  {
+    "name": "PONS/USD",
+    "path": "getBulkVWAP",
+    "parameters": {},
+    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['PONSUSD'].price; }"
   }
 ]

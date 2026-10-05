@@ -854,5 +854,29 @@
       "pairs": "ZEC-USD"
     },
     "parser": "(response) => {\n              return response.rates['ZEC-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "AI/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "AI-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['AI-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "PONS/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "PONS-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['PONS-USD'].rate\n            }\n            "
+  },
+  {
+    "name": "NPC/USD",
+    "path": "live/midrate/v1/rates",
+    "parameters": {
+      "pairs": "NPC-USD"
+    },
+    "parser": "(response) => {\n              return response.rates['NPC-USD'].rate\n            }\n            "
   }
 ]

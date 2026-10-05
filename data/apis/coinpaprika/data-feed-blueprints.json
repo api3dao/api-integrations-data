@@ -1038,5 +1038,13 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'pons-pons').quotes.USD.price; }"
+  },
+  {
+    "name": "AI/USD",
+    "path": "tickers/simple",
+    "parameters": {
+      "quotes": "USD"
+    },
+    "parser": "(response) => { return response.find((item) => item.id === 'ai-artificial-inu-2').quotes.USD.price; }"
   }
 ]
