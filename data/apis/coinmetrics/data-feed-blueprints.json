@@ -1414,5 +1414,29 @@
       "page_size": "2000"
     },
     "parser": "(response) => {\n return response.data.find((d) => d.asset === 'zec').ReferenceRate\n }"
+  },
+  {
+    "name": "AI/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "ai_artificialinu",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'ai_artificialinu').ReferenceRate\n }"
+  },
+  {
+    "name": "PONS/USD",
+    "path": "v4/timeseries/asset-metrics",
+    "parameters": {
+      "assets": "pons",
+      "metrics": "ReferenceRate",
+      "frequency": "1s",
+      "limit_per_asset": "1",
+      "page_size": "2000"
+    },
+    "parser": "(response) => {\n return response.data.find((d) => d.asset === 'pons').ReferenceRate\n }"
   }
 ]
