@@ -15,13 +15,13 @@
   ],
   "allowedAirnodes": [
     {
-      "address": "0xE79B702c477127c18A0e1b47Fb008b725035c826",
+      "address": "0x2D652E95524c4b6D09FA149F66e2168222cd27a5",
       "authTokens": ["${AIRNODE_FEED_AUTH_TOKEN}"],
       "isCertified": true
     }
   ],
   "stage": "production",
-  "version": "4.7.0",
+  "version": "4.8.0",
   "cache": {
     "type": "cdn",
     "maxAgeSeconds": 1
