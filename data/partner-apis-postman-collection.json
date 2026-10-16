@@ -190,7 +190,7 @@
           "response": []
         }
       ],
-      "description": "NOTE: Coin ID must be determined from target data feeds Coingecko page."
+      "description": "NOTE: Coin ID must be determined from target data feeds CoinGecko web page."
     },
     {
       "name": "ShiftMarkets",
