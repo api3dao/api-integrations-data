@@ -22,9 +22,9 @@
               }
             ],
             "url": {
-              "raw": "https://realtime.blocksize.info/getVWAP/ADAUSD",
+              "raw": "https://realtime.blocksize.capital/getVWAP/ADAUSD",
               "protocol": "https",
-              "host": ["realtime", "blocksize", "info"],
+              "host": ["realtime", "blocksize", "capital"],
               "path": ["getVWAP", "ADAUSD"]
             }
           },

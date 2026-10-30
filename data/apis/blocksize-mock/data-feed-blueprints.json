@@ -708,12 +708,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['UUSD'].price; }"
   },
   {
-    "name": "REUSD/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['REUSDUSD'].price; }"
-  },
-  {
     "name": "USAT/USD",
     "path": "getBulkVWAP",
     "parameters": {},
