@@ -81,24 +81,6 @@
     "parser": "(response) => {\n              return response['balancer']['usd']\n            }"
   },
   {
-    "name": "BERA/USD",
-    "parameters": {
-      "ids": "berachain-bera",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['berachain-bera']['usd']\n            }"
-  },
-  {
-    "name": "BLAST/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "blast",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['blast']['usd']\n        }\n        "
-  },
-  {
     "name": "BNB/USD",
     "parameters": {
       "ids": "binancecoin",
@@ -106,15 +88,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['binancecoin']['usd']\n            }"
-  },
-  {
-    "name": "BRETT/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "based-brett",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['based-brett']['usd']\n        }\n        "
   },
   {
     "name": "BTC/USD",
@@ -198,15 +171,6 @@
     "parser": "(response) => {\n              return response['dai']['usd']\n            }"
   },
   {
-    "name": "DEGEN/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "degen-base",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['degen-base']['usd']\n        }\n        "
-  },
-  {
     "name": "DOT/USD",
     "parameters": {
       "ids": "polkadot",
@@ -214,15 +178,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['polkadot']['usd']\n            }"
-  },
-  {
-    "name": "DYM/USD",
-    "parameters": {
-      "ids": "dymension",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['dymension']['usd']\n            }"
   },
   {
     "name": "ENA/USD",
@@ -297,24 +252,6 @@
     "parser": "(response) => {\n              return response['frax-share']['usd']\n            }"
   },
   {
-    "name": "GHO/USD",
-    "parameters": {
-      "ids": "gho",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['gho']['usd']\n            }"
-  },
-  {
-    "name": "GLMR/USD",
-    "parameters": {
-      "ids": "moonbeam",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['moonbeam']['usd']\n            }"
-  },
-  {
     "name": "GMX/USD",
     "parameters": {
       "ids": "gmx",
@@ -369,24 +306,6 @@
     "parser": "(response) => {\n              return response['lido-dao']['usd']\n            }"
   },
   {
-    "name": "LQTY/USD",
-    "parameters": {
-      "ids": "liquity",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['liquity']['usd']\n            }"
-  },
-  {
-    "name": "LUMIA/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "lumia",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['lumia']['usd']\n        }\n        "
-  },
-  {
     "name": "MANTA/USD",
     "parameters": {
       "ids": "manta-network",
@@ -421,15 +340,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['morpho']['usd']\n            }"
-  },
-  {
-    "name": "MOVR/USD",
-    "parameters": {
-      "ids": "moonriver",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['moonriver']['usd']\n            }"
   },
   {
     "name": "OKB/USD",
@@ -594,15 +504,6 @@
     "parser": "(response) => {\n              return response['usd-coin']['usd']\n            }"
   },
   {
-    "name": "USDP/USD",
-    "parameters": {
-      "ids": "paxos-standard",
-      "vs_currencies": "usd"
-    },
-    "path": "simple/price",
-    "parser": "(response) => {\n              return response['paxos-standard']['usd']\n            }"
-  },
-  {
     "name": "USDS/USD",
     "parameters": {
       "ids": "usds",
@@ -628,15 +529,6 @@
     },
     "path": "simple/price",
     "parser": "(response) => {\n              return response['ethena-usde']['usd']\n            }"
-  },
-  {
-    "name": "VELO/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "velodrome-finance",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['velodrome-finance']['usd']\n        }\n        "
   },
   {
     "name": "WBTC/USD",
@@ -873,15 +765,6 @@
     "parser": "(response) => {\n              return response['global-dollar']['usd']\n            }"
   },
   {
-    "name": "WELL/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "moonwell-artemis",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['moonwell-artemis']['usd']\n            }"
-  },
-  {
     "name": "ATH/USD",
     "path": "simple/price",
     "parameters": {
@@ -918,15 +801,6 @@
     "parser": "(response) => {\n              return response['linea']['usd']\n            }"
   },
   {
-    "name": "ZKC/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "boundless",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n              return response['boundless']['usd']\n            }"
-  },
-  {
     "name": "CLO/USD",
     "path": "simple/price",
     "parameters": {
@@ -961,15 +835,6 @@
       "vs_currencies": "usd"
     },
     "parser": "(response) => {\n          return response['pepe']['usd']\n        }\n        "
-  },
-  {
-    "name": "Mog/USD",
-    "path": "simple/price",
-    "parameters": {
-      "ids": "mog-coin",
-      "vs_currencies": "usd"
-    },
-    "parser": "(response) => {\n          return response['mog-coin']['usd']\n        }\n        "
   },
   {
     "name": "FLOKI/USD",
