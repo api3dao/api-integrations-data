@@ -23,7 +23,6 @@
         "swETH/ETH Exchange Rate",
         "wstETH/stETH Exchange Rate",
         "mETH/ETH Exchange Rate",
-        "MATICx/MATIC Exchange Rate",
         "uniETH/ETH Exchange Rate",
         "weETH/ETH Exchange Rate",
         "STONE/ETH Exchange Rate",
@@ -51,10 +50,7 @@
         "wsrUSD/rUSD Exchange Rate",
         "tETH/wstETH Exchange Rate",
         "siUSD/iUSD Exchange Rate"
-      ],
-      ["wBETH/ETH Exchange Rate", "slisBNB/BNB Exchange Rate", "BNBx/BNB Exchange Rate"],
-      ["sAVAX/AVAX Exchange Rate"],
-      ["wOS/OS Exchange Rate"]
+      ]
     ]
   },
   "deploymentConfigurations": [

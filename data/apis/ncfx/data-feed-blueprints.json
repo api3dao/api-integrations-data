@@ -64,36 +64,12 @@
     "parser": "(response) => {\n              return response.rates['BAL-USD'].rate\n            }\n            "
   },
   {
-    "name": "BERA/USD",
-    "parameters": {
-      "pairs": "BERA-USD"
-    },
-    "path": "live/midrate/v1/rates",
-    "parser": "(response) => {\n              return response.rates['BERA-USD'].rate\n            }\n            "
-  },
-  {
-    "name": "BLAST/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "BLAST-USD"
-    },
-    "parser": "(response) => {\n          return response.rates['BLAST-USD'].rate\n        }\n        "
-  },
-  {
     "name": "BNB/USD",
     "parameters": {
       "pairs": "BNB-USD"
     },
     "path": "live/midrate/v1/rates",
     "parser": "(response) => {\n              return response.rates['BNB-USD'].rate\n            }\n            "
-  },
-  {
-    "name": "BRETT/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "BRETT-USD"
-    },
-    "parser": "(response) => {\n          return response.rates['BRETT-USD'].rate\n        }\n        "
   },
   {
     "name": "BTC/USD",
@@ -168,28 +144,12 @@
     "parser": "(response) => {\n              return response.rates['DAI-USD'].rate\n            }\n            "
   },
   {
-    "name": "DEGEN/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "DEGEN-USD"
-    },
-    "parser": "(response) => {\n          return response.rates['DEGEN-USD'].rate\n        }\n        "
-  },
-  {
     "name": "DOT/USD",
     "parameters": {
       "pairs": "DOT-USD"
     },
     "path": "live/midrate/v1/rates",
     "parser": "(response) => {\n              return response.rates['DOT-USD'].rate\n            }\n            "
-  },
-  {
-    "name": "DYM/USD",
-    "parameters": {
-      "pairs": "DYM-USD"
-    },
-    "path": "live/midrate/v1/rates",
-    "parser": "(response) => {\n              return response.rates['DYM-USD'].rate\n            }\n            "
   },
   {
     "name": "ENA/USD",
@@ -240,14 +200,6 @@
     "parser": "(response) => {\n              return response.rates['FXS-USD'].rate\n            }\n            "
   },
   {
-    "name": "GLMR/USD",
-    "parameters": {
-      "pairs": "GLMR-USD"
-    },
-    "path": "live/midrate/v1/rates",
-    "parser": "(response) => {\n              return response.rates['GLMR-USD'].rate\n            }\n            "
-  },
-  {
     "name": "GMX/USD",
     "parameters": {
       "pairs": "GMX-USD"
@@ -296,22 +248,6 @@
     "parser": "(response) => {\n              return response.rates['LDO-USD'].rate\n            }\n            "
   },
   {
-    "name": "LQTY/USD",
-    "parameters": {
-      "pairs": "LQTY-USD"
-    },
-    "path": "live/midrate/v1/rates",
-    "parser": "(response) => {\n              return response.rates['LQTY-USD'].rate\n            }\n            "
-  },
-  {
-    "name": "LUMIA/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "LUMIA-USD"
-    },
-    "parser": "(response) => {\n          return response.rates['LUMIA-USD'].rate\n        }\n        "
-  },
-  {
     "name": "MANTA/USD",
     "parameters": {
       "pairs": "MANTA-USD"
@@ -342,14 +278,6 @@
     },
     "path": "live/midrate/v1/rates",
     "parser": "(response) => {\n              return response.rates['MORPHO-USD'].rate\n            }\n            "
-  },
-  {
-    "name": "MOVR/USD",
-    "parameters": {
-      "pairs": "MOVR-USD"
-    },
-    "path": "live/midrate/v1/rates",
-    "parser": "(response) => {\n              return response.rates['MOVR-USD'].rate\n            }\n            "
   },
   {
     "name": "OKB/USD",
@@ -488,14 +416,6 @@
     "parser": "(response) => {\n              return response.rates['USDC-USD'].rate\n            }\n            "
   },
   {
-    "name": "USDP/USD",
-    "parameters": {
-      "pairs": "USDP-USD"
-    },
-    "path": "live/midrate/v1/rates",
-    "parser": "(response) => {\n              return response.rates['USDP-USD'].rate\n            }\n            "
-  },
-  {
     "name": "USDS/USD",
     "parameters": {
       "pairs": "USDS-USD"
@@ -518,14 +438,6 @@
     },
     "path": "live/midrate/v1/rates",
     "parser": "(response) => {\n              return response.rates['USDE-USD'].rate\n            }\n            "
-  },
-  {
-    "name": "VELO/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "VELO-USD"
-    },
-    "parser": "(response) => {\n          return response.rates['VELO-USD'].rate\n        }\n        "
   },
   {
     "name": "WBTC/USD",
@@ -656,14 +568,6 @@
     "parser": "(response) => {\n              return response.rates['USDG-USD'].rate\n            }\n            "
   },
   {
-    "name": "WELL/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "WELL-USD"
-    },
-    "parser": "(response) => {\n              return response.rates['WELL-USD'].rate\n            }\n            "
-  },
-  {
     "name": "ATH/USD",
     "path": "live/midrate/v1/rates",
     "parameters": {
@@ -696,14 +600,6 @@
     "parser": "(response) => {\n              return response.rates['LINEA-USD'].rate\n            }\n            "
   },
   {
-    "name": "ZKC/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "ZKC-USD"
-    },
-    "parser": "(response) => {\n              return response.rates['ZKC-USD'].rate\n            }\n            "
-  },
-  {
     "name": "CLO/USD",
     "path": "live/midrate/v1/rates",
     "parameters": {
@@ -734,14 +630,6 @@
       "pairs": "PEPE-USD"
     },
     "parser": "(response) => {\n          return response.rates['PEPE-USD'].rate\n        }\n        "
-  },
-  {
-    "name": "Mog/USD",
-    "path": "live/midrate/v1/rates",
-    "parameters": {
-      "pairs": "MOG-USD"
-    },
-    "parser": "(response) => {\n          return response.rates['MOG-USD'].rate\n        }\n        "
   },
   {
     "name": "FLOKI/USD",

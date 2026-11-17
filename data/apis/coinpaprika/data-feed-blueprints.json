@@ -72,36 +72,12 @@
     "parser": "(response) => { return response.find((item) => item.id === 'bal-balancer').quotes.USD.price; }"
   },
   {
-    "name": "BERA/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'bera-berachain').quotes.USD.price; }"
-  },
-  {
-    "name": "BLAST/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'blast-blast-token').quotes.USD.price; }"
-  },
-  {
     "name": "BNB/USD",
     "parameters": {
       "quotes": "USD"
     },
     "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'bnb-binance-coin').quotes.USD.price; }"
-  },
-  {
-    "name": "BRETT/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'brett-brett-base').quotes.USD.price; }"
   },
   {
     "name": "BTC/USD",
@@ -176,28 +152,12 @@
     "parser": "(response) => { return response.find((item) => item.id === 'dai-dai').quotes.USD.price; }"
   },
   {
-    "name": "DEGEN/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'degen-degen-base').quotes.USD.price; }"
-  },
-  {
     "name": "DOT/USD",
     "parameters": {
       "quotes": "USD"
     },
     "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'dot-polkadot').quotes.USD.price; }"
-  },
-  {
-    "name": "DYM/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'dym-dymension-iou').quotes.USD.price; }"
   },
   {
     "name": "ENA/USD",
@@ -264,22 +224,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'fxs-frax-share').quotes.USD.price; }"
   },
   {
-    "name": "GHO/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'gho-gho').quotes.USD.price; }"
-  },
-  {
-    "name": "GLMR/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'glmr-moonbeam').quotes.USD.price; }"
-  },
-  {
     "name": "GMX/USD",
     "parameters": {
       "quotes": "USD"
@@ -328,22 +272,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'ldo-lido-dao').quotes.USD.price; }"
   },
   {
-    "name": "LQTY/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'lqty-liquity').quotes.USD.price; }"
-  },
-  {
-    "name": "LUMIA/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'lumia-lumia').quotes.USD.price; }"
-  },
-  {
     "name": "MANTA/USD",
     "parameters": {
       "quotes": "USD"
@@ -374,14 +302,6 @@
     },
     "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'morpho-morpho').quotes.USD.price; }"
-  },
-  {
-    "name": "MOVR/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'movr-moonriver').quotes.USD.price; }"
   },
   {
     "name": "OKB/USD",
@@ -528,14 +448,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'usdc-usd-coin').quotes.USD.price; }"
   },
   {
-    "name": "USDP/USD",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "path": "tickers/simple",
-    "parser": "(response) => { return response.find((item) => item.id === 'usdp-paxos-standard-token').quotes.USD.price; }"
-  },
-  {
     "name": "USDS/USD",
     "parameters": {
       "quotes": "USD"
@@ -558,14 +470,6 @@
     },
     "path": "tickers/simple",
     "parser": "(response) => { return response.find((item) => item.id === 'usde-ethena-usde').quotes.USD.price; }"
-  },
-  {
-    "name": "VELO/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'velo-velodrome-finance').quotes.USD.price; }"
   },
   {
     "name": "WBTC/USD",
@@ -768,14 +672,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'usdg-global-dollar').quotes.USD.price; }"
   },
   {
-    "name": "WELL/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'well-moonwell').quotes.USD.price; }"
-  },
-  {
     "name": "ATH/USD",
     "path": "tickers/simple",
     "parameters": {
@@ -808,14 +704,6 @@
     "parser": "(response) => { return response.find((item) => item.id === 'linea-linea').quotes.USD.price; }"
   },
   {
-    "name": "ZKC/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'zkc-boundless').quotes.USD.price; }"
-  },
-  {
     "name": "CLO/USD",
     "path": "tickers/simple",
     "parameters": {
@@ -846,14 +734,6 @@
       "quotes": "USD"
     },
     "parser": "(response) => { return response.find((item) => item.id === 'pepe-pepe').quotes.USD.price; }"
-  },
-  {
-    "name": "Mog/USD",
-    "path": "tickers/simple",
-    "parameters": {
-      "quotes": "USD"
-    },
-    "parser": "(response) => { return response.find((item) => item.id === 'mog-mog-coin').quotes.USD.price; }"
   },
   {
     "name": "FLOKI/USD",

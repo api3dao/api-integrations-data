@@ -54,28 +54,10 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['BALUSD'].price; }"
   },
   {
-    "name": "BERA/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['BERAUSD'].price; }"
-  },
-  {
-    "name": "BLAST/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['BLASTUSD'].price; }"
-  },
-  {
     "name": "BNB/USD",
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['BNBUSD'].price; }"
-  },
-  {
-    "name": "BRETT/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['BRETTUSD'].price; }"
   },
   {
     "name": "BTC/USD",
@@ -132,22 +114,10 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['DAIUSD'].price; }"
   },
   {
-    "name": "DEGEN/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['DEGENUSD'].price; }"
-  },
-  {
     "name": "DOT/USD",
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['DOTUSD'].price; }"
-  },
-  {
-    "name": "DYM/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['DYMUSD'].price; }"
   },
   {
     "name": "ENA/USD",
@@ -192,18 +162,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['FXSUSD'].price; }"
   },
   {
-    "name": "GHO/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['GHOUSD'].price; }"
-  },
-  {
-    "name": "GLMR/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['GLMRUSD'].price; }"
-  },
-  {
     "name": "GMX/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -240,18 +198,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['LDOUSD'].price; }"
   },
   {
-    "name": "LQTY/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['LQTYUSD'].price; }"
-  },
-  {
-    "name": "LUMIA/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['LUMIAUSD'].price; }"
-  },
-  {
     "name": "MANTA/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -274,12 +220,6 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['MORPHOUSD'].price; }"
-  },
-  {
-    "name": "MOVR/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['MOVRUSD'].price; }"
   },
   {
     "name": "OKB/USD",
@@ -384,12 +324,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USDCUSD'].price; }"
   },
   {
-    "name": "USDP/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USDPUSD'].price; }"
-  },
-  {
     "name": "USDS/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -406,12 +340,6 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['USDEUSD'].price; }"
-  },
-  {
-    "name": "VELO/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['VELOUSD'].price; }"
   },
   {
     "name": "WBTC/USD",
@@ -576,12 +504,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['EURUSD'].price; }"
   },
   {
-    "name": "WELL/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['WELLUSD'].price; }"
-  },
-  {
     "name": "ATH/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -606,12 +528,6 @@
     "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['LINEAUSD'].price; }"
   },
   {
-    "name": "ZKC/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => { const parsedResponse = JSON.parse(response); return parsedResponse['ZKCUSD'].price; }"
-  },
-  {
     "name": "CLO/USD",
     "path": "getBulkVWAP",
     "parameters": {},
@@ -634,12 +550,6 @@
     "path": "getBulkVWAP",
     "parameters": {},
     "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['PEPEUSD'].price\n        }\n        "
-  },
-  {
-    "name": "Mog/USD",
-    "path": "getBulkVWAP",
-    "parameters": {},
-    "parser": "(response) => {\n          const parsedResponse = JSON.parse(response)\n          return parsedResponse['MOGUSD'].price\n        }\n        "
   },
   {
     "name": "FLOKI/USD",
